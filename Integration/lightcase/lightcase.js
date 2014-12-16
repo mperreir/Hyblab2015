@@ -86,8 +86,8 @@
 					data : {}
 				},
 				iframe : {
-					width : 800,
-					height : 500,
+					width : 960,
+					height : 600,
 					frameborder : 0
 				},
 				flash : {
