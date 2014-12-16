@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'> 
+<html xmlns='http://www.w3.org/1999/xhtml' lang='EN'> 
+<head> 
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' /> 
+<!-- Important : pour que l'affichage soit ok sur mobile! -->
+<meta name="viewport" content="width=device-width" />
+<title>Test d'intégration des contenus Hyblab</title> 
+</head> 
+<body> 
+<p>Solution 1 : <a href='test1.html'>La solution iFrame dans une page existante. Marche, mais présence de double barre de scroll.</a></p>
+<p>Solution 2 : <a href='test2.html'>La solution iFrame sans scroll dans une page existante. Ok en théorie, mais pose des soucis de redimentionnement de la page parent en fonction du contenu de l'iFrame car le cross site scripting n'est pas autorisé dans les navigateurs.</a></p>
+<p>Solution 3 : <a href='test3.html'>La solution iFrame toute seule sur une page (solution la plus simple et efficace si c'est autorisé par le média)</a></p>
+<p>Solution 4 : <a data-rel="lightcase" href='http://getbootstrap.com/' title='La datavisualisation interactive'>La solution iFrame dans une lightcase. Marche bien, même sur mobile.</a></p>
+<br/>
+<a href='source.zip'>Télécharger le source de ces exemples</a>
+</body>
+
+<!-- jQuery library -->
+<script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
+
+<!-- Lightbox -->
+<script type="text/javascript" src="lightcase/lightcase.js"></script>
+<script type="text/javascript" src="lightcase/jquery.events.touch.js"></script>
+<link rel="stylesheet" type="text/css" href="lightcase/css/lightcase.css" media="screen">
+<script type="text/javascript"> 
+	jQuery(document).ready(function($) { 
+		$('a[data-rel^=lightcase]').lightcase(); 
+	}); 
+</script> 
+
+</html>
