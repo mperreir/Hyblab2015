@@ -17,7 +17,7 @@ The ten projects where proposed by different local and national media:
  - [La lettre API](http://www.agence-api.fr/)
  - [Le journal des entreprises](http://www.lejournaldesentreprises.com/)
  - [Nantes.fr](http://www.nantes.fr/)
- - [Obob.fr](http://www.obob.fr)
+ - [The place to bio.fr](http://www.placetobio.fr/)
  - [Ouest-France.fr](http://www.ouest-france.fr/)
  - [PaysdelaLoire.fr](http://www.paysdelaloire.fr/)
  - [We demain](http://www.wedemain.fr/)
