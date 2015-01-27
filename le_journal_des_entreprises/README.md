@@ -1,5 +1,6 @@
 # Descriptif du projet
 ##Média : 
+Le journal des Entreprises 
 
 ##Sujet : 
 Faire une datavisualisation permettant de répondre à la question : *Quelle est la deuxième ville numérique de France ?*
