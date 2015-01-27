@@ -1,17 +1,18 @@
 # Descriptif du projet
+##Média : 
 
-Média : notre de votre média
+##Sujet : 
+Faire une datavisualisation permettant de répondre à la question : *Quelle est la deuxième ville numérique de France ?*
+La dataviz utilisera les données de l'URSSAF et de RégionJobs.
 
-Sujet : description du sujet
-
-Equipe : nom de votre équipe
+##Equipe : Breaking Blab
 
 Patricipants : 
-- AGR : 
-- Polytech :
-- SciencesCom :
+- AGR : Zoé Levasseur, Marion Videlain Roy, Johann
+- Polytech : Benjamin Mouden, Claire Remy, Quentin Gros
+- SciencesCom : Capucine Gilbert, Amaury Vauquelin
 
-# Installation
+##Installation
 
-# Informations complémentaires
+##Informations complémentaires
   
