@@ -14,6 +14,9 @@ Patricipants :
 - SciencesCom : Capucine Gilbert, Amaury Vauquelin
 
 ##Installation
-
+taper : 
+    git clone
+    npm install
+    run server-api.js
 ##Informations complémentaires
   
