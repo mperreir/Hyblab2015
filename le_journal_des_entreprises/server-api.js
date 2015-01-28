@@ -25,7 +25,7 @@ app.get('/', function(req,res){
       res.send(body);
     }
   })*/
-    res.render('index', {test: 'coucou'});
+    res.render('layout', {test: 'coucou'});
 })
 
 // launch the server
