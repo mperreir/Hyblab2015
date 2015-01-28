@@ -8,7 +8,8 @@
     "d3": "^3.4.13",
     "express": "^4.10.2",
     "jquery": "^2.1.1",
-    "request": "^2.48.0"
+    "request": "^2.48.0",
+    "swig": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {
