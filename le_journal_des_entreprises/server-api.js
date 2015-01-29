@@ -10,7 +10,8 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/html');
 
 // serve static content from the html directory
-//app.use(express.static(path.join(__dirname, 'html')));
+app.use(express.static(path.join(__dirname, 'html')));
+
 // also add the path of the libs that are stored in our node_modules directory 
 app.use('/angular',express.static(path.join(__dirname, 'node_modules/angular')));
 app.use('/bootstrap',express.static(path.join(__dirname, 'node_modules/bootstrap')));
