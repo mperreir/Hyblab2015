@@ -1,15 +1,15 @@
 # Descriptif du projet
 
-Média : notre de votre média
+Média : OuestFrance
 
-Sujet : description du sujet
+Sujet : L'accessibilité des malades aux soins en France
 
-Equipe : nom de votre équipe
+Equipe : Les Créactus
 
 Patricipants : 
-- AGR : 
-- Polytech :
-- SciencesCom :
+- AGR : Chloé AUTISSIER, Angélique COUSSEAU
+- Polytech : Florian BONNIEC, Antoine PASQUIER, Marvin DRION
+- SciencesCom : David RETIERE, Sofia BOUDMAGH
 
 # Installation
 
