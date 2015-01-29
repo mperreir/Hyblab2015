@@ -5,6 +5,7 @@ var request = require('request');
 var swig = require('swig');
 var app = express();
 
+
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/html');
@@ -12,7 +13,7 @@ app.set('views', __dirname + '/html');
 // serve static content from the html directory
 app.use(express.static(path.join(__dirname, 'html')));
 
-// also add the path of the libs that are stored in our node_modules directory 
+// also add the path of hte libs that are stored in our node_modules directory 
 app.use('/angular',express.static(path.join(__dirname, 'node_modules/angular')));
 app.use('/bootstrap',express.static(path.join(__dirname, 'node_modules/bootstrap')));
 app.use('/jquery',express.static(path.join(__dirname, 'node_modules/jquery')));
@@ -35,4 +36,8 @@ var server = app.listen(process.env.PORT, function () {
   var port = server.address().port;
 
   console.log('JDEHyblab app listening at http://%s:%s', host, port)
+  
+  var href = "http://"+ host + request.url;
+  console.log("href " + href + "\r\n");
 })
+
