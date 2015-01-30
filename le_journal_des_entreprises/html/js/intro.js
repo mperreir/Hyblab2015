@@ -13,13 +13,14 @@ $(document).ready(function () {
 	});
 
 	parallax.add($("#intropage1"))
-			.add($("#intropage2"));
+			.add($("#intropage2"))
+			.add($("#comparison"));
 
 	parallax.background = $("body");
 
 	//Clears each page navigation on load
 	parallax.preload = function(){
-		rightKey = leftKey = topKey = bottomKey = "";
+		topKey = bottomKey = "";
 		$(".control").hide();
 	};
 
@@ -76,7 +77,7 @@ $(document).ready(function () {
 
 
 	$(".control").hide();
-	parallax.intropage1.show();
+	parallax.comparison.show();
 
 });
 
