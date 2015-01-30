@@ -27,8 +27,25 @@ app.get('/', function(req,res){
       res.send(body);
     }
   })*/
+    
     res.render('layout', {test: 'coucou'});
-})
+});
+
+app.get('/tableau', function(req, res){
+  var params = req.query;
+  var datas = require("./data/data.json");
+  
+  if('nom' in params) {
+    for(var city in datas) {
+      if(datas[city].nom === params.nom) {
+        console.log(datas[city]);
+      }
+    }
+  }
+  // Faire une methode en front pour sérialiser les critères cochés (NAF et années) pour relancer une requete Ajax avec tous les critères et re-remplir le tableau
+  res.json(datas);
+  //res.end();
+});
 
 // launch the server
 var server = app.listen(process.env.PORT, function () {
@@ -36,8 +53,5 @@ var server = app.listen(process.env.PORT, function () {
   var port = server.address().port;
 
   console.log('JDEHyblab app listening at http://%s:%s', host, port)
-  
-  var href = "http://"+ host + request.url;
-  console.log("href " + href + "\r\n");
-})
+});
 
