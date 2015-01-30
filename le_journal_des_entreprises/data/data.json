@@ -1,0 +1,14 @@
+[{
+    "nom" : "Grenoble",
+    "NAF" : "trouduc", 
+    "annee" : "2008",
+    "effectifs" : 200,
+    "etabs" : 150
+},
+{
+    "nom" : "Marseille",
+    "NAF" : "jambon", 
+    "annee" : "2008",
+    "effectifs" : 250,
+    "etabs" : 156
+}]
