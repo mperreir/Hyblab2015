@@ -1,0 +1,158 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    /*background: #000;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+#menu-toggle {
+    margin-bottom: 20px;
+}
+
+.criteria label {
+    margin : 10px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav div {
+    text-indent: 5px;
+    line-height: 20px;
+}
+
+.sidebar-nav div a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav div a:hover {
+    text-decoration: none;
+    color: #fff;
+    /*background: rgba(255,255,255,0.2);*/
+}
+
+.sidebar-nav div a:active,
+.sidebar-nav div a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.townChoice , .townChoice div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel {
+    padding: 0px;
+}
+
+/*
+ * A décommenter pour enlever la mise en forme des titres de panels
+  .panel-body, .panel, .panel-group,  .panel-default > .panel-heading, .panel-title, .collapse, .collapsed{
+    padding: 0px;
+    background: none;
+    border: none;
+}*/
+
+.panel-group {
+    margin-top: 70px;
+}
+
+#sl1 .slider-selection {
+    background: #000;
+    width : 100px;
+}
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
