@@ -13,19 +13,36 @@
 			    </div>
 			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 			      <div class="panel-body townChoice">
-			      	<div class=" col-xs-4">
-			      		<ul class="list-unstyled">
-				       		<li class="townLabel1">Marseille</li>
-	                    	<li class="townLabel1">Grenoble</li>
-	                    	<li class="townLabel1">Montpellier</li>
-	                    	<li class="townLabel1">Lille</li>
-	                    	<li class="townLabel1">Lyon</li>
-	                    	<li class="townLabel1">Rennes</li>
-	                    	<li class="townLabel1">Nantes</li>
-	                    	<li class="townLabel1">Bordeaux</li>
-	                    	<li class="townLabel1">Toulouse</li>
-	                    </ul>
+			      	<div class="towns" data-toggle="buttons">
+			      		<label id="Marseille" class="btn btn-default active">
+			        		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off" checked> Marseille 
+			        	</label>
+                    	<label id="Grenoble" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Grenoble
+                    	</label>
+                    	<label id="Montpellier" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Montpellier
+                    	</label>
+                    	<label id"Lille" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Lille	
+                    	</label>
+                    	<label id"Lyon" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Lyon
+                    	</label>
+                    	<label id="Rennes" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Rennes
+                    	</label>
+                    	<label id="Nantes" class="btn btn-default active">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Nantes	
+                    	</label>
+                    	<label id="Bordeaux" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Bordeaux
+                    	</label>
+                    	<label id="Toulouse" class="btn btn-default">
+                    		<input class="townLabel" name="townLabel" type="checkbox" autocomplete="off"> Toulouse
+                    	</label>
                     </div>
+                    <!--
                     <div class="col-xs-4 col-xs-offset-2">
                     	<ul class="list-unstyled">
 				       		<li class="townLabel2">Marseille</li>
@@ -39,6 +56,7 @@
 	                    	<li class="townLabel2">Toulouse</li>
 	                    </ul>
                     </div>
+                    -->
 			      </div>
 			    </div>
 			  </div>
@@ -50,7 +68,7 @@
 			        </a>
 			      </h5>
 			    </div>
-			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			    <div id="collapseTwo" class="panel-collapse collapsing" role="tabpanel" aria-labelledby="headingTwo">
 			      <div class="panel-body">
 				    <input type="text" class="span2" value="" data-slider-min="2008" data-slider-max="2014" data-slider-step="1" data-slider-value="2008"  id="sl1" >
 			      </div>
@@ -64,17 +82,32 @@
 			        </a>
 			      </h5>
 			    </div>
-			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-			      <div class="panel-body" role="group">
-			        	<button class="btn btn-default">NAF 1</button>
-                    	<button class="btn btn-default">NAF 2</button>
-                    	<button class="btn btn-default">NAF 3</button>
-                    	<button class="btn btn-default">NAF 4</button>
-                    	<button class="btn btn-default">NAF 5</button>
-                    	<button class="btn btn-default">NAF 6</button>
-                    	<button class="btn btn-default">NAF 7</button>
-                    	<button class="btn btn-default">NAF 8</button>
-                    	<button class="btn btn-default">NAF 9</button>
+			    <div id="collapseThree" class="panel-collapse collapsing" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body criteria" role="group" data-toggle="buttons">
+			        	<label class="btn btn-default active">
+			        		<input class="NAF" type="checkbox" autocomplete="off" checked> NAF1 
+			        	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF2
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF3
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF4	
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF5
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF6
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF7	
+                    	</label>
+                    	<label class="btn btn-default">
+                    		<input class="NAF" type="checkbox" autocomplete="off"> NAF8
+                    	</label>
 			      </div>
 			    </div>
 			  </div>
@@ -88,12 +121,12 @@
 	    	<div class="row">
 		        <div class="city col-xs-6 col-md-6 col-lg-6">
 		            <div class="well col-md-offset-1 col-md-10">
-		            	<h4 id="city1">Ville 1</h4>
+		            	<h4 id="city1">Marseille</h4>
 		            </div>
 		        </div>
 		        <div class="city col-xs-6 col-md-6 col-lg-6">
 		            <div class="well col-md-offset-1 col-md-10">
-		           		<h4 id="city2">Ville 2</h4>
+		           		<h4 id="city2">Nantes</h4>
 		           	</div>
 		        </div>
 		    </div>

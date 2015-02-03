@@ -52,6 +52,10 @@
     margin-bottom: 20px;
 }
 
+.criteria label {
+    margin : 10px;
+}
+
 /* Sidebar Styles */
 
 .sidebar-nav {
