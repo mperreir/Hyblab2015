@@ -14,44 +14,68 @@ app.set('views', __dirname + '/html');
 app.use(express.static(path.join(__dirname, 'html')));
 
 // also add the path of hte libs that are stored in our node_modules directory 
-app.use('/angular',express.static(path.join(__dirname, 'node_modules/angular')));
-app.use('/bootstrap',express.static(path.join(__dirname, 'node_modules/bootstrap')));
-app.use('/jquery',express.static(path.join(__dirname, 'node_modules/jquery')));
-app.use('/d3',express.static(path.join(__dirname, 'node_modules/d3')));
+app.use('/angular', express.static(path.join(__dirname, 'node_modules/angular')));
+app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap')));
+app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery')));
+app.use('/d3', express.static(path.join(__dirname, 'node_modules/d3')));
 
 // if the server is asked for some data, request it from data.nantes.fr and send it back to the browser
-app.get('/', function(req,res){
-  // request object come from the 'request' module for nodejs. It simplifies requests programming.  See its documentation for more details
-/*  request('http://data.nantes.fr/api/getDisponibiliteParkingsPublics/1.0/39W9VSNCSASEOGV/?output=json', function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      res.send(body);
-    }
-  })*/
-    
-    res.render('layout', {test: 'coucou'});
+app.get('/', function(req, res) {
+    // request object come from the 'request' module for nodejs. It simplifies requests programming.  See its documentation for more details
+    /*  request('http://data.nantes.fr/api/getDisponibiliteParkingsPublics/1.0/39W9VSNCSASEOGV/?output=json', function (error, response, body) {
+      if (!error && response.statusCode == 200) {
+          res.send(body);
+        }
+      })*/
+
+    res.render('layout', {
+        test: 'coucou'
+    });
 });
 
-app.get('/tableau', function(req, res){
-  var params = req.query;
-  var datas = require("./data/data.json");
-  
-  if('nom' in params) {
-    for(var city in datas) {
-      if(datas[city].nom === params.nom) {
-        console.log(datas[city]);
-      }
+app.get('/tableau', function(req, res) {
+    var params = req.query;
+    var datas = require("./data/data.json");
+    
+    if ('nom' in params && 'annee' in params && 'codeNAF' in params) {
+    
+        var townData = [];
+        var codesArray = params.codeNAF.split('-');
+        var selectedNafArray = [];
+        var selectedData = [];
+        
+        //Get objects corresponding to the city queried
+        for (var city in datas) {
+            if (datas[city].nom === params.nom) {
+                townData.push(datas[city]);
+            }
+        }
+
+        //Get objects with corresponding NAF code
+        for(var nafObject in townData){
+            for(var code in codesArray) {
+
+                if(townData[nafObject].codeNAF === codesArray[code]){
+                    selectedNafArray.push(townData[nafObject]);
+                }
+            }
+        }
+        
+        //Get queried year
+        for(var i in selectedNafArray) {
+            selectedData.push(selectedNafArray[i][params.annee]);
+        }
+        
     }
-  }
-  // Faire une methode en front pour sérialiser les critères cochés (NAF et années) pour relancer une requete Ajax avec tous les critères et re-remplir le tableau
-  res.json(datas);
-  //res.end();
+
+    res.json(selectedData);
+    //res.end();
 });
 
 // launch the server
-var server = app.listen(process.env.PORT, function () {
-  var host = server.address().address;
-  var port = server.address().port;
+var server = app.listen(process.env.PORT, function() {
+    var host = server.address().address;
+    var port = server.address().port;
 
-  console.log('JDEHyblab app listening at http://%s:%s', host, port)
+    console.log('JDEHyblab app listening at http://%s:%s', host, port)
 });
-
