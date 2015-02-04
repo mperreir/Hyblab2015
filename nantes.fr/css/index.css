@@ -1,0 +1,224 @@
+/*Font spécial ajouté*/
+@font-face
+{
+	font-family: 'AvenirLTStd';
+	src: url('../fonts/AvenirLTStd-Roman.otf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+/*Options de style de base*/
+html
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.main
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+img, object, embed, canvas, video, audio, picture {
+       max-width: 100%;
+       height: auto;
+}
+
+section
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+/*CSS concernant le premier slide*/
+section#slide1
+{
+	background: url('../img/img13/accueil.jpg') no-repeat center ;
+	background-size: cover;
+}
+/*CSS concernant le deuxième slide*/
+section#slide2
+{
+	background: url('../img/img1/background_avec_nuages.jpg') no-repeat center ;
+	background-size: cover;
+}
+#slide2 #text_choix
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'AvenirLTStd';
+	font-size: xx-large;
+	text-align: center;
+	color: gray;
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	left: 33.33%;
+	width: 33.33%;
+	height: 10%;
+}
+
+#div_bouton
+{
+	position: absolute;
+	top: 70%;
+	left: 33.33%;
+	width: 33.33%;
+	height: auto;
+}
+
+#div_bouton #bouton1 
+{
+	float: left;
+	width: 25%;
+	height: auto;
+}
+
+#div_bouton #bouton2 
+{
+	float: right;
+	width: 25%;
+	height: auto;
+}
+
+/*CSS concernant le troisième slide*/
+
+section#slide3, section#slide4
+{
+	background-color: #F7ECE6;
+	background-size: cover;
+}
+
+section#slide3 #slider
+{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+}
+
+section#slide3 p
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'AvenirLTStd';
+	font-size: 2.5em;
+	color: gray;
+	text-align: center;
+}
+
+section#slide3 #text_choix2
+{
+	margin-bottom: 10%;
+}
+
+/*CSS concernant le quatrième slide*/
+section#slide4 #age
+{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+}
+
+section#slide4 .bxviewport
+{
+	width: 50%;
+}
+
+/*CSS concernant le cinquième slide*/
+section#slide5
+{
+	background-color: #393535;
+}
+
+section#slide5 .conteneur
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#div_stats
+{
+	padding: 0px;
+	margin: 0px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.conteneur .stats
+{
+	width: 100%;
+	height: 50%;
+}
+
+#s1
+{
+	background: url('../img/img5/carré_orange_haut.png') repeat bottom;
+	background-size: 100%;
+	margin-bottom: 4%;
+}
+
+#s2
+{
+	background: url('../img/img5/carré_orange_bas.png') repeat top;
+	background-size: 100%;
+	margin-top: 4%; 
+}
+
+.dataviz
+{
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+#dataviz_text, #dataviz_graph
+{
+	width: 100%;
+	height: 40%;
+}
+
+#bu
+{
+	width: 50%;
+	height: 100%;
+	padding-left: 25%;
+}
+
+#dataviz_legend
+{
+	width: 100%;
+	height: 20%;
+}
+/*CSS concernant le slide "crédits"*/
+section#credits
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/img12/background.jpg') no-repeat center ;
+	background-size: cover;
+}
