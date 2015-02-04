@@ -36,13 +36,15 @@ app.get('/', function(req, res) {
 app.get('/tableau', function(req, res) {
     var params = req.query;
     var datas = require("./data/data.json");
-    
+    console.log(params);
     if ('nom' in params && 'annee' in params && 'codeNAF' in params) {
     
-        var townData = [];
-        var codesArray = params.codeNAF.split('-');
+        var nafParams = params.codeNAF.replace(/_/g, '.');
+        var codesArray = nafParams.split('-');
+        console.log(codesArray);
         var selectedNafArray = [];
-        var selectedData = [];
+        var townData = [];
+        
         
         //Get objects corresponding to the city queried
         for (var city in datas) {
@@ -56,19 +58,19 @@ app.get('/tableau', function(req, res) {
             for(var code in codesArray) {
 
                 if(townData[nafObject].codeNAF === codesArray[code]){
-                    selectedNafArray.push(townData[nafObject]);
+                    var selectedData = {};
+                        selectedData.nom = townData[nafObject].nom;
+                        selectedData.codeNAF = townData[nafObject].codeNAF;
+                        selectedData.libelleNAF = townData[nafObject].libelleNAF;
+                        selectedData.nb = townData[nafObject][params.annee];
+                    
+                    selectedNafArray.push(selectedData);
                 }
             }
         }
-        
-        //Get queried year
-        for(var i in selectedNafArray) {
-            selectedData.push(selectedNafArray[i][params.annee]);
-        }
-        
     }
-
-    res.json(selectedData);
+    //console.log(selectedNafArray);
+    res.json(selectedNafArray);
     //res.end();
 });
 
