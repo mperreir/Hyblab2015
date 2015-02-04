@@ -76,23 +76,16 @@ var nafCodes = ["26_20Z","26_30Z","46_18Z"];
 var requestedNAF, id, yearSliderValue;
 //Build naf codes tab on each click
 $('.criteria > label').on('click', function(e){
-//    e.preventDefault();
+    //e.preventDefault();
     id = makeId($(e.target).text()).replace(/\./, '_');
-    console.log(id);
-    if(nafCodes.length >= 9) {
+  
+    if( (nafCodes.indexOf(id) >= 0)) {
+        nafCodes.splice(nafCodes.indexOf(id), 1);
+    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length >= 9)) {
         $('#' + id).toggleClass('active');
-    } else {
-        if( !($('#'+id).hasClass('active')) && (nafCodes.indexOf(id) === -1) ) {
-            nafCodes.push(id);
-            console.log(nafCodes.length);
-        } else {
-            if( $('#'+id).hasClass('active') || nafCodes.indexOf(id) >= 0 ) {
-                nafCodes.splice(nafCodes.indexOf(id), 1);
-            } 
-            
-        }
+    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length < 9)) {
+        nafCodes.push(id);
     }
-    
 });
 
 
