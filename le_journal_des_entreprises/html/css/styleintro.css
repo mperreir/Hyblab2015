@@ -1,45 +1,122 @@
 /***************
  * Intro Panel *
  ***************/
- .page
- {
-     
-    width: 100%;
-    height: 900px;
- }
+html, body
+{
+ height: 100%;
+ min-height: 100%;
+ margin: 0;
+ width: 100%; 
+ 
+ font-size:12px;
+ font-family: 'Helvetica', sans-serif;
+}
+
+h1
+{
+ font-size: 23px
+}
+
+
+body{
+ /*overflow:hidden;*/
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.inline-block
+{
+ display:inline-block;
+}
+
+#logo
+{
+ margin-top: 21px;
+}
+ 
+.page
+{
+ width: 100%;
+ height: 100%;
+ min-height:100%;
+ display: block; 
+ position: relative;
+}
 
 
 #slide1
- { 
-    background-color: #223148;  
-    background-attachment:fixed;
- }
+{ 
+ background-color: #223148;  
+ text-align:center;
+}
  
 #slide2
- {
-    background-image: url(/images/Slide-2.png);     
-    background-attachment:fixed;
- }
- 
- .slide_inside {
-	width: 980px;
-	margin: 0 auto;
-}
-
-.bottomArrow{
-    height:60px;
-	opacity:1;
-}
-
-.bottomControl{
-    width:145px;
-    left:45%;
-    bottom:0px;
-	width:170px;
-	cursor:pointer;
-}
-
-#nav1
 {
-     
+ text-align:center;
+}
+
+#inside1
+{
+ height: inherit;
+ background-image: url(/images/ring.png);   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;  
+}
+
+#inside2 h1
+{
+ margin-top: 370px;
+}
+
+#texteIntro 
+{
+ max-width : 340px;
+ color:white;
+ margin-top:235px;
+ padding-left: 30px;
+ text-align:left;
+}
+
+#inside2 p
+{
+ text-align:left;
+ max-width : 340px;
+ padding-left: 30px;
+}
+
+#nav1 img
+{
+ width:25px;
+}
+
+#inside2
+{
+ height: inherit;
+ background-image: url(/images/Gants.png);  
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center; 
+ color: #223148;
+}
+
+.baspage
+{
+ bottom: 20px;
+ position:absolute;
+}
+
+/***************
+ * Dataviz1 Panel *
+ ***************/
+ 
+ #dataviz1
+{ 
+ background-color: #223247;  
+ text-align:center;
 }
