@@ -102,7 +102,7 @@ function loadData(indexOfTown) {
         $.getJSON(host + '/tableau?nom=' + clicks[indexOfTown] + '&annee=' + yearSliderValue + '&codeNAF=' + requestedNAF, function(data) {
             var tabCell = "";
             for(var i in data) {
-                tabCell += "<div class=\"well col-md-4\"><ul class=\"list-unstyled\"><li>"+data[i].libelleNAF+"</li><li>"+data[i].nb+"</li></ul></div>";
+                tabCell += "<div class=\"well col-xs-12 col-md-offset-1 col-md-10 col-lg-3\"><ul class=\"list-unstyled\"><li>"+data[i].libelleNAF+"</li><li>"+data[i].nb+"</li></ul></div>";
             }
             $('.city .tab' + indexOfTown).html(
                 tabCell
