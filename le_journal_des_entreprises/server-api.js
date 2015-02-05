@@ -83,9 +83,11 @@ app.get('/dataviz1', function(req, res) {
         var selectedData = [];
         
         //Get objects corresponding to the city queried
-        for (var city in datas) {       
-            selectedData.push(datas[city].nom);
-            selectedData.push(datas[city][params.annee]);     
+        for (var city in datas) {  
+            var tmpJson = {};
+            tmpJson.nom = datas[city].nom;
+            tmpJson.nb = datas[city][params.annee];
+            selectedData.push(tmpJson);
         }       
     }
     console.log(selectedData);

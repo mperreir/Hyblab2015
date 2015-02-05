@@ -8,7 +8,7 @@ html, body
  margin: 0;
  width: 100%; 
  
- font-size:12px;
+ font-size:11px;
  font-family: 'Helvetica', sans-serif;
 }
 
@@ -76,17 +76,17 @@ body{
 
 #texteIntro 
 {
- max-width : 340px;
- color:white;
- margin-top:235px;
+ max-width : 650px;
+ color: white;
+ margin-top: 235px;
  padding-left: 30px;
- text-align:left;
+ text-align: left;
 }
 
 #inside2 p
 {
  text-align:left;
- max-width : 340px;
+ max-width : 650px;
  padding-left: 30px;
 }
 
