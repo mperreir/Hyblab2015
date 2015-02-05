@@ -88,7 +88,7 @@ app.get('/dataviz1', function(req, res) {
             selectedData.push(datas[city][params.annee]);     
         }       
     }
-
+    console.log(selectedData);
     res.json(selectedData);
     //res.end();
 });

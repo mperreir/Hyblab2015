@@ -1,35 +1,52 @@
+var hostays="https://hyblab2015-ayssti-3.c9.io";
+
 function whichYear(year)
 {
+ console.log(year);
 if(year === 2008)
     {
-     $('.ca3').text('0')   
-     $('.ca4').text('8');   
+     $('.ca3').html('0')   
+     $('.ca4').html('8');   
     }
     else if(year === 2009)
     {
-     $('.ca3').text('0');   
-     $('.ca4').text('9');   
+     $('.ca3').html('0');   
+     $('.ca4').html('9');   
     }
     else if(year === 2010)
     {
-     $('.ca3').text('1');   
-     $('.ca4').text('0');   
+     $('.ca3').html('1');   
+     $('.ca4').html('0');   
     }
     else if(year === 2011)
     {
-     $('.ca3').text('1');   
-     $('.ca4').text('1');   
+     $('.ca3').html('1');   
+     $('.ca4').html('1');   
     }
     else if(year === 2012)
     {
-     $('.ca3').text('1');   
-     $('.ca4').text('2');   
+     $('.ca3').html('1');   
+     $('.ca4').html('2');   
     }
     if(year === 2013)
     {
-     $('.ca3').text('1');   
-     $('.ca4').text('3');   
+     $('.ca3').html('1');   
+     $('.ca4').html('3');   
     }
+}
+
+function datasD1 (year)
+{
+ 
+    $.getJSON(hostays + '/dataviz1?annee=' + year, function(data) {
+            var donnees = "";
+            for(var i in data) {
+                donnees += "<div>"+data[i]+"</div>";
+            }
+            $('#affichD1').html(
+                donnees
+                );      
+        });
 }
 
 (function yearD1(){
@@ -41,14 +58,14 @@ if(year === 2008)
        year++;
        $('.yearless').show();
        whichYear(year);
-       
-
             
        if(year > 2013 )
        {
            year--;
            $('.yearplus').hide();
        }
+       
+       datasD1(year);
     });
     
      $('.yearless').on('click', function(e){
@@ -62,5 +79,5 @@ if(year === 2008)
        }
     });
     
-    
+    datasD1(year);
 })();
