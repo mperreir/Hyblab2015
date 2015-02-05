@@ -15,8 +15,6 @@ function setpos(element, factor) {
     var posy = (offset.top - w.scrollTop()) / factor;
     
     $(element).css('background-position', '50% '+posy+'px');
-
-
 }
 
 $(document).ready(function () {

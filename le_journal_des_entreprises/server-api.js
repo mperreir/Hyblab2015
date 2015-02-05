@@ -72,6 +72,25 @@ app.get('/tableau', function(req, res) {
     //res.end();
 });
 
+app.get('/dataviz1', function(req, res) {
+    var params = req.query;
+    var datas = require("./data/entreprises.json");
+    
+    if ('annee' in params) {
+    
+        var selectedData = [];
+        
+        //Get objects corresponding to the city queried
+        for (var city in datas) {       
+            selectedData.push(datas[city].nom);
+            selectedData.push(datas[city][params.annee]);     
+        }       
+    }
+
+    res.json(selectedData);
+    //res.end();
+});
+
 // launch the server
 var server = app.listen(process.env.PORT, function() {
     var host = server.address().address;
