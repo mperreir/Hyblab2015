@@ -25,12 +25,12 @@
 	"nom" : "Lille",
 	"codeNAF" : "61.30Z",
 	"libelleNAF" : "Télécommunications par satellite",
-	"2008" : "non renseigné",
-	"2009" : "non renseigné",
-	"2010" : "non renseigné",
-	"2011" : "non renseigné",
-	"2012" : "non renseigné",
-	"2013" : "non renseigné"
+	"2008" : "NA",
+	"2009" : "NA",
+	"2010" : "NA",
+	"2011" : "NA",
+	"2012" : "NA",
+	"2013" : "NA"
 },
 {
 	"nom" : "Lille",
@@ -430,23 +430,23 @@
 	"nom" : "Montpellier",
 	"codeNAF" : "95.12Z",
 	"libelleNAF" : "Réparation d'équipements de communication",
-	"2008": "non renseigné",
-	"2009": "non renseigné",
-	"2010": "non renseigné",
-	"2011": "non renseigné",
-	"2012": "non renseigné",
-	"2013": "non renseigné"
+	"2008": "NA",
+	"2009": "NA",
+	"2010": "NA",
+	"2011": "NA",
+	"2012": "NA",
+	"2013": "NA"
 },
 {
 	"nom" : "Montpellier",
 	"codeNAF" : "58.21Z",
 	"libelleNAF" : "Édition de jeux électroniques",
-	"2008" : "non renseigné",
-	"2009" : "non renseigné",
-	"2010" : "non renseigné",
-	"2011" : "non renseigné",
-	"2012" : "non renseigné",
-	"2013" : "non renseigné"
+	"2008" : "NA",
+	"2009" : "NA",
+	"2010" : "NA",
+	"2011" : "NA",
+	"2012" : "NA",
+	"2013" : "NA"
 },
 {
 	"nom" : "Montpellier",
@@ -859,12 +859,12 @@
 	"nom" : "Nantes",
 	"codeNAF" : "62.02B",
 	"libelleNAF" : "Tierce maintenance de systèmes et d'applications informatiques",
-	"2008": "non renseigné",
-	"2009": "non renseigné",
-	"2010": "non renseigné",
-	"2011": "non renseigné",
-	"2012": "non renseigné",
-	"2013": "non renseigné"
+	"2008": "NA",
+	"2009": "NA",
+	"2010": "NA",
+	"2011": "NA",
+	"2012": "NA",
+	"2013": "NA"
 },
 {
 	"nom" : "Nantes",
@@ -881,12 +881,12 @@
 	"nom" : "Nantes",
 	"codeNAF" : "61.30Z",
 	"libelleNAF" : "Télécommunications par satellite",
-	"2008" : "non renseigné",
-	"2009" : "non renseigné",
-	"2010" : "non renseigné",
-	"2011" : "non renseigné",
-	"2012" : "non renseigné",
-	"2013" : "non renseigné"
+	"2008" : "NA",
+	"2009" : "NA",
+	"2010" : "NA",
+	"2011" : "NA",
+	"2012" : "NA",
+	"2013" : "NA"
 },
 {
 	"nom" : "Nantes",
@@ -1851,12 +1851,12 @@
     "nom" : "Toulouse",
     "codeNAF" : "58.29B",
     "libelleNAF" : "Edition de logiciels outils de développement et de langages",
-    "2008": "non renseigné",
-    "2009": "non renseigné",
-    "2010": "non renseigné",
-    "2011": "non renseigné",
-    "2012": "non renseigné",
-    "2013": "non renseigné"
+    "2008": "NA",
+    "2009": "NA",
+    "2010": "NA",
+    "2011": "NA",
+    "2012": "NA",
+    "2013": "NA"
 },
 
 {
@@ -2150,12 +2150,12 @@
 	"nom" : "Grenoble",
 	"codeNAF" : "58.21Z",
 	"libelleNAF" : "Édition de jeux électroniques",
-	"2008" : "non renseigné",
-	"2009" : "non renseigné",
-	"2010" : "non renseigné",
-	"2011" : "non renseigné",
-	"2012" : "non renseigné",
-	"2013" : "non renseigné"
+	"2008" : "NA",
+	"2009" : "NA",
+	"2010" : "NA",
+	"2011" : "NA",
+	"2012" : "NA",
+	"2013" : "NA"
 },
 {
     "nom" : "Grenoble",
@@ -2172,12 +2172,12 @@
 	"nom" : "Grenoble",
 	"codeNAF" : "61.30Z",
 	"libelleNAF" : "Télécommunications par satellite",
-	"2008" : "non renseigné",
-	"2009" : "non renseigné",
-	"2010" : "non renseigné",
-	"2011" : "non renseigné",
-	"2012" : "non renseigné",
-	"2013" : "non renseigné"
+	"2008" : "NA",
+	"2009" : "NA",
+	"2010" : "NA",
+	"2011" : "NA",
+	"2012" : "NA",
+	"2013" : "NA"
 },
 {
     "nom" : "Grenoble",
@@ -2818,12 +2818,12 @@
     "nom" : "Aix-Marseille",
     "codeNAF" : "61.30Z",
     "libelleNAF" : "Télécommunications par satellite",
-    "2008": "non renseigné",
-    "2009": "non renseigné",
-    "2010": "non renseigné",
-    "2011": "non renseigné",
-    "2012": "non renseigné",
-    "2013": "non renseigné"
+    "2008": "NA",
+    "2009": "NA",
+    "2010": "NA",
+    "2011": "NA",
+    "2012": "NA",
+    "2013": "NA"
 },
 
 {
