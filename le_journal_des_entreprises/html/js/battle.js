@@ -47,7 +47,7 @@ function makeId(string) {
  */
 var clicks = ['Aix-Marseille','Nantes'];
 
-$('.towns').on('click', function(e){
+$('.towns > label').on('click', function(e){
     if(clicks.indexOf(makeId($(e.target).text())) === -1) {
         if(clicks.length < 2) {
             clicks.push(makeId($(e.target).text()));
@@ -101,9 +101,24 @@ function loadData(indexOfTown) {
     }else{
         $.getJSON(host + '/tableau?nom=' + clicks[indexOfTown] + '&annee=' + yearSliderValue + '&codeNAF=' + requestedNAF, function(data) {
             var tabCell = "";
+            var tabNoRow;
+            
+            
+            tabCell = "<div class=\"row\">";
             for(var i in data) {
-                tabCell += "<div class=\"well col-xs-12 col-md-offset-1 col-md-10 col-lg-3\"><ul class=\"list-unstyled\"><li>"+data[i].libelleNAF+"</li><li>"+data[i].nb+"</li></ul></div>";
+                if(i==0) {
+                    tabNoRow = "<div class=\" col-xs-12 col-md-10 col-lg-3\"><div class=\"number bebas col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
+                }else{
+                    tabNoRow = "<div class=\" col-xs-12 col-md-10 col-lg-3\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
+                }
+                if(  ((i+1)%3 === 0 ) && ( i !== 0 ) ) {
+                    tabCell += tabNoRow;
+                    tabCell += "</div><div class=\"row\">";
+                }else{
+                    tabCell += tabNoRow;
+                }
             }
+            tabCell += "</div>";
             $('.city .tab' + indexOfTown).html(
                 tabCell
                 );
@@ -131,5 +146,6 @@ $('.criteria, .towns').on('click', function(e){
 $('#sl1').on('slideStop', function(e){
     loadData(0);
     loadData(1);
+    $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
 

@@ -26,21 +26,43 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    /*background: #000;*/
+    background-color: #132539;
+    padding-left: 7px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
+#sidebar-wrapper .panel-collapse {
+    text-align : center;
+}
+
+#sidebar-wrapper .panel-collapse label.btn-default {
+    width : 90px;
+    margin : 10px;
+    padding : 2px;
+} 
+
+.panel-body .criteria label.btn-default  {
+    width : 42px !important;
+    margin : 10px !important;
+    padding : 2px !important;
+} 
+
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }
 
 #page-content-wrapper {
-    width: 100%;
+    width: 99%;
     position: absolute;
     padding: 15px;
+}
+
+#page-content-wrapper .btn-default {
+    padding : 0px;
+    border-color : transparent;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -53,7 +75,12 @@
 }
 
 .criteria label {
-    margin : 10px;
+    margin : 2px;
+    width : 20%;
+    font-size : 80%;
+    text-align : center;
+    text-indent : 0px;
+    padding-left : 3px;
 }
 
 /* Sidebar Styles */
@@ -70,12 +97,22 @@
 .sidebar-nav div {
     text-indent: 5px;
     line-height: 20px;
+    background-color: #213146;
+    border: none;
+}
+
+.sidebar-nav .panel-heading  {
+    background-color : #CD8B3D;
+    color : #132539 !important;
+}
+
+.panel-heading > a{
+    color : #132539 !important;
 }
 
 .sidebar-nav div a {
     display: block;
     text-decoration: none;
-    color: #999999;
 }
 
 .sidebar-nav div a:hover {
@@ -101,7 +138,6 @@
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
     background: black;
 }
 
@@ -114,13 +150,10 @@
     padding: 0px;
 }
 
-/*
- * A décommenter pour enlever la mise en forme des titres de panels
-  .panel-body, .panel, .panel-group,  .panel-default > .panel-heading, .panel-title, .collapse, .collapsed{
-    padding: 0px;
-    background: none;
-    border: none;
-}*/
+
+.panel-body, .panel, .panel-group,  .panel-default > .panel-heading, .panel-title, .collapse, .collapsed{
+    border-top-color: transparent !important;
+}
 
 .panel-group {
     margin-top: 70px;
@@ -140,15 +173,22 @@
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: 280px;
     }
 
+    #sidebar-wrapper h2 {
+        font-family : bebasregular;
+        text-align : center;
+        padding-right : 10px;
+        color : white;
+    }
+    
     #wrapper.toggled #sidebar-wrapper {
         width: 0;
     }
 
     #page-content-wrapper {
-        padding: 20px;
+        padding: 10px;
         position: relative;
     }
 
