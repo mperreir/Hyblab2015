@@ -1,0 +1,111 @@
+@font-face {
+font-family: 'Myriad Pro Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Condensed'), url('/fonts/MYRIADPRO-COND.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Condensed Italic'), url('/fonts/MYRIADPRO-CONDIT.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('/fonts/BebasNeue.otf') format('otf');
+}
+
+#dataviz1
+{
+ color: white;   
+}
+
+#dataviz1 .chiffreAnnee
+{
+    width:24px;
+    height:35px;
+    background-image: url('/images/backYear.png');
+    background-size: 24px 35px;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+#headD1
+{
+    font-family:'Myriad Pro Condensed', sans-serif;
+    height: 97px;
+}
+
+
+#headD1 h1
+{
+ color: #EBAC44;    
+ font-size: 15pt;
+}
+
+#titleD1
+{
+ display: inline-block;
+ float:left;
+}
+
+#titleD1 p
+{
+ margin-top:-10px;
+ font-family:'Myriad Pro Condensed Italic', sans-serif;
+ font-size: 11pt;
+ text-align: left;
+}
+
+#cliquezIciD1 p
+{
+ font-family:'Myriad Pro Condensed', sans-serif;
+ font-size: 14pt;
+}
+
+#selectionAnneeD1
+{
+ display:inline-block;
+ float:right;
+ font-family: Bebas Neue, sans-serif;
+ color: #EBAC44;  
+ font-size:19pt;
+ width: 195px;
+ margin-top: 22px;
+}
+
+#selectionAnneeD1 .plusmoins
+{
+ display: inline-block;
+ font-size: 16pt;
+ width: 26px;
+ height: 32px;
+ 
+ -o-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ -ms-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ -moz-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ -webkit-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ /* ...and now for the proper property */
+ transition: font-size 0.4s ease-out,font-size 0.4s ease-in;
+}
+#selectionAnneeD1 .plusmoins:hover
+{
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+#selectionAnneeD1 .yearless
+{
+ margin-right: 5px;
+}
+
+#cliquezIciD1 p
+{
+ color: #F9F9FA;
+ font-family: Myriad Pro Condensed, sans-serif;
+ font-size: 14pt;
+}
