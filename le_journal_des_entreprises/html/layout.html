@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Le journal des entreprises</title>
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/styleintro.css" />
+    <link rel="stylesheet" href="/css/dataviz1.css" type="text/css" />
     <link rel="stylesheet" href="/css/sidebar.css" type="text/css" />
     <link rel="stylesheet" href="/css/slider.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/css/styleintro.css" />
     <link rel="stylesheet" type="text/css" href="/css/interactiveTab.css" />
-
+    
 </head>
 <body>
     <!--<div class="container-fluid">-->
         {% include "./intro.html" %}
         {% include "./dataviz1.html" %}
-        {% include "./comparatif.html" %}
+     <!--   {% include "./comparatif.html" %}-->
         {% include "./outro.html" %}
     <!--</div>-->
     <script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/parallax.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/dist/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/js/scroll.js"></script>
+     <script type="text/javascript" src="/js/dataviz1.js"></script>
     <script type="text/javascript" src="/js/bootstrap-slider.js"></script>
-    <script type="text/javascript" src="/js/intro.js"></script>
     <script type="text/javascript" src="/js/battle.js"></script>
 
 </body>
