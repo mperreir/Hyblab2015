@@ -1,4 +1,4 @@
-var host="https://hyblab2015bis-anhaflint.c9.io";
+var host="https://hyblab2015-ayssti-3.c9.io";
 
 /**
  * Sidebar
@@ -95,7 +95,7 @@ $('.criteria > label').on('click', function(e){
  */
 function loadData(indexOfTown) {
     requestedNAF = nafCodes.join('-');
-    yearSliderValue = $('#sl1').data('slider').getValue();
+    //yearSliderValue = $('#sl1').data('slider').getValue();
     if(clicks.length === 0) {
         $('#city1, #city2').text('Choisissez deux villes pour commencer l\'expérience !');
     }else{
@@ -134,18 +134,20 @@ function loadData(indexOfTown) {
  * @event on add or removing search criterias
  */
 $('document').ready(function(){
+        yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
 });
 
 $('.criteria, .towns').on('click', function(e){
+        yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
 });
 
 $('#sl1').on('slideStop', function(e){
+        yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
     $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
-

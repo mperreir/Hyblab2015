@@ -12,7 +12,6 @@ app.set('views', __dirname + '/html');
 
 // serve static content from the html directory
 app.use(express.static(path.join(__dirname, 'html')));
-
 // also add the path of hte libs that are stored in our node_modules directory 
 app.use('/angular', express.static(path.join(__dirname, 'node_modules/angular')));
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap')));
@@ -41,7 +40,7 @@ app.get('/tableau', function(req, res) {
     
         var nafParams = params.codeNAF.replace(/_/g, '.');
         var codesArray = nafParams.split('-');
-        console.log(codesArray);
+  
         var selectedNafArray = [];
         var townData = [];
         
@@ -69,29 +68,29 @@ app.get('/tableau', function(req, res) {
             }
         }
     }
-    //console.log(selectedNafArray);
+    console.log(selectedNafArray);
     res.json(selectedNafArray);
     //res.end();
 });
 
 app.get('/dataviz1', function(req, res) {
-    var params = req.query;
-    var datas = require("./data/entreprises.json");
+    var paramsD1 = req.query;
+    var datasD1 = require("./data/entreprises.json");
     
-    if ('annee' in params) {
+    if ('annee' in paramsD1) {
     
-        var selectedData = [];
+        var selectedDataD1 = [];
         
         //Get objects corresponding to the city queried
-        for (var city in datas) {  
+        for (var city in datasD1) {  
             var tmpJson = {};
-            tmpJson.nom = datas[city].nom;
-            tmpJson.nb = datas[city][params.annee];
-            selectedData.push(tmpJson);
+            tmpJson.nom = datasD1[city].nom;
+            tmpJson.nb = datasD1[city][paramsD1.annee];
+            selectedDataD1.push(tmpJson);
         }       
     }
-    console.log(selectedData);
-    res.json(selectedData);
+    console.log(selectedDataD1);
+    res.json(selectedDataD1);
     //res.end();
 });
 

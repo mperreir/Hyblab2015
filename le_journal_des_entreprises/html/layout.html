@@ -6,28 +6,36 @@
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/css/styleintro.css" />
     <link rel="stylesheet" href="/css/dataviz1.css" type="text/css" />
-    <link rel="stylesheet" href="/css/sidebar.css" type="text/css" />
-    <link rel="stylesheet" href="/css/slider.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/css/interactiveTab.css" />
+
     
 </head>
 <body>
     <!--<div class="container-fluid">-->
         {% include "./intro.html" %}
         {% include "./dataviz1.html" %}
-     <!--   {% include "./comparatif.html" %}-->
         {% include "./outro.html" %}
+        
+        <div id="comparison" class="page">
+        <iframe
+        src="https://hyblab2015-ayssti-3.c9.io/comparatif.html"
+        width="100%"
+        height="100%"
+        scrolling="auto"
+        frameborder="0" >
+        </iframe>
+        </div>
+
     <!--</div>-->
     <script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/bootstrap/dist/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-slider.js"></script>
 
     <script type="text/javascript" src="/js/scroll.js"></script>
-    
+
     <script type="text/javascript" src="js/highcharts-min.js"></script>
+  
+  
     <script type="text/javascript" src="/js/dataviz1.js"></script>
-     
-    <script type="text/javascript" src="/js/bootstrap-slider.js"></script>
-    <script type="text/javascript" src="/js/battle.js"></script>
 
 </body>
 </html>

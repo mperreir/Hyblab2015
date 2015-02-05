@@ -1,5 +1,5 @@
 var hostays = "https://hyblab2015-ayssti-3.c9.io";
-var chart1 = "";
+var chart1 = '';
 
 function whichYear(year) {
     console.log(year);

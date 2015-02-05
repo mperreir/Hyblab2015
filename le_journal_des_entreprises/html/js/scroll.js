@@ -1,7 +1,6 @@
 function parallax() {
 	    setpos("#inside2");
-    setpos("#inside1");
-
+        setpos("#inside1");
 }
 
 
