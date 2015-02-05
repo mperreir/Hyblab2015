@@ -77,7 +77,8 @@ function datasD1 (year)
            year++;
            $('.yearless').hide();   
        }
-    });
-    
+           
     datasD1(year);
+    });
+
 })();
