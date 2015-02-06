@@ -1,0 +1,35 @@
+/***************
+ * Outro Panel *
+ ***************/
+ 
+#over
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align: center;
+    background-color:#EAAC42;
+}
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#casierl
+{
+    vertical-align:middle;
+    position: relative;
+}
+
+#casierr
+{
+    vertical-align:middle;
+    position: relative;
+}

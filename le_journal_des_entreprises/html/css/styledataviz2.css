@@ -1,0 +1,143 @@
+/***************
+ * Dataviz2 Panel *
+ ***************/
+
+.cell1
+{
+    width:60%;
+    margin-top:40%;
+    margin-left:20%;
+    text-align:center;
+}
+
+.cell2
+{
+    width:60%;
+    margin-top:50%;
+    margin-left:20%;
+    text-align:center;
+}
+
+.cell3
+{
+    margin-left:20%;
+    width:60%;
+    margin-top:50%;
+    text-align:center;
+}
+
+.nopad
+{
+    padding:0px;
+}
+
+body
+{
+    height:100%;   
+    width:100%; 
+}
+
+html
+{
+    height:100%;    
+    width:100%; 
+}
+
+.undertitle
+{
+    font-family:Helvetica, sans-serif;
+    font-size:7pt;
+    color:#9FC0C7;
+    text-align:center;
+}
+
+.titlecell
+{
+    font-family:'bebasregular', Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:25pt;
+    margin-right:5%;
+}
+
+ .arrow{
+	opacity:0.2;
+}
+
+.control{
+	position:fixed;
+	width:170px;
+	cursor:pointer;
+}
+
+#dataviz2
+{
+	background:url("../images/Font des villes.png");
+ 	width:100%;
+ 	height:100%;
+ 	margin-right:0px;
+ 	margin-left:0px; 
+}
+
+#col1
+{
+    float:left;
+    width:45%;
+    position:relative;
+}
+
+#col2
+{
+    float:right;
+    width:50%;
+    position:relative;
+}
+
+#subcol1
+{
+    position:relative;
+    float:left;
+    width:50%;
+}
+
+#subcol2
+{
+    position:relative;
+    float:right;
+    width:50%;
+}
+
+#DV2TownName {
+    font-family:'bebasregular', Arial, Helvetica, sans-serif;
+    font-size:30pt;
+    color:#EBAD44;
+    height:25%;
+    position:relative;
+    margin-left:5%;
+    margin-top:5%;
+    text-transform: uppercase;
+}
+
+#DV2Description {
+    font-family:Helvetica, sans-serif;
+    font-size:7.5pt;
+    height:75%;
+    color:#6C8789;
+    position:relative;
+    margin-left:5%;
+    text-align:justify;
+}
+
+#DV2big {
+    height:100%;
+    position:relative;
+}
+
+#DV2badges {
+    height:50%;
+    position:relative;
+}
+
+#DV2pic {
+    text-align:center;
+}
+
