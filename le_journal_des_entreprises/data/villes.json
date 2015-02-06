@@ -24,13 +24,13 @@
 	"desc" : "Lyon est la deuxième ville de France, mais est-elle aussi la deuxième ville du numérique ? La ville des lumières obtient certes la médaille d’or pour le nombre d’entreprises et de salariés du numérique. Elle a créé 300 entreprises en 6 ans et 4000 emplois dans ce secteur. Mais attention à ne pas la mettre trop vite sur la première marche du podium. Dans une ville à l’économie aussi diversifiée que Lyon, le numérique est dilué puisque les entreprises des TIC ne pèsent que 6%.Ce qui fait le succès de Lyon : l’édition de logiciel et les plates-formes web. Parmi les grandes entreprises numériques : LDLC, vendeur de matériel informatique ou Cegid, Esker et Visiativ, des éditeurs de logiciels.<br />Le pôle de compétitivité Imaginove est un des soutiens des entreprises numériques de la métropole lyonnaise. Il en réunit 1.200. Autre appui, le cluster Edit qui rassemble 460 entreprises. En 2012, il a ouvert une pépinière pour les start-up. Comme toutes les autres villes, Lyon dispose d’un fablab.",
 	"image" : "Lyon.png",
 	"medaille1" : "Medaille+de3000entreprises.png",
-	"medaille2" : "Medaille+de4000effectifs.png"
+	"medaille2" : "Medaille+de40000effectifs.png"
 },
 {
 	"nom"  : "Bordeaux",
 	"desc" : "Bordeaux a assurément une place de choix dans le paysage du numérique français. Effectivement, la métropole girondine est première sur le taux de pénétration par effectifs et par entreprises dédiés au numérique. A Bordeaux, se trouvent différents acteurs dynamisant fortement le territoire. Aux côtés du spécialiste des données Cartégie, de l’agence spécialisée dans la santé Health Care et de la start-up de paris sportifs gratuits Triplefun, ainsi que de l’application de gestion de projets Azendoo, la métropole se développe autour de lieux comme La Cité numérique, accueillant l’Innovaday, consacré aux innovations.<br />Citons également le campement Darwin, où se retrouvent les spécialistes du web, l’espace de coworking Le Node, ainsi que le campus numérique E-artsup. Bordeaux est aussi organisatrice de la semaine du digital SDBX qui rassemble près de 70 événements, et de CitéNum, un regroupement d’acteurs nationaux sur les préoccupations du numérique. En revanche, à Bordeaux, si le numérique est bien représenté, en six ans, on observe une stagnation de ses effectifs. ",
 	"image" : "Brest.png",
-	"medaille1" : "Medaille+1000entreprises.png",
+	"medaille1" : "Medaille+de1000entreprises.png",
 	"medaille2" : "Medaille+de15000effectifs.png"
 },
 {
