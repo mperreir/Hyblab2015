@@ -25,7 +25,7 @@
     keyboard: true,
     beforeMove: null,
     afterMove: null,
-    loop: true,
+    loop: false,
     responsiveFallback: false,
     direction : 'vertical'
 	};
@@ -121,7 +121,7 @@
         if (typeof settings.afterMove == 'function') settings.afterMove(index);
       });
     }
-
+    
     $.fn.moveDown = function() {
       var el = $(this)
       index = $(settings.sectionContainer +".active").data("index");
@@ -421,6 +421,5 @@
     }
     return false;
   }
-
 
 }(window.jQuery);

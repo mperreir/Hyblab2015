@@ -5,28 +5,7 @@
 		<meta charset="utf-8" />
 		<!-- CSS stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
-		<link rel="stylesheet" type="text/css" href="css/twentytwenty.css" />
-		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
-
-		<!--Javascripts -->
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
-		<script type="text/javascript" src="js/jquery.event.move.js"></script>
-    	<script type="text/javascript" src="js/jquery.twentytwenty.js"></script>
-    	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
-    	<script type="text/javascript" src="workspace/dist/snap.svg-min.js"></script>
-    	<script type="text/javascript" src="workspace/dataviz.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('.main').onepage_scroll();
-				$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
-				$('.bxslider').bxSlider();
-				bulle(50, 50, '%', '#bu');
-			});
-
-		</script>
 
 		<title>Egalité Femme-Homme</title>
 	</head>
@@ -35,66 +14,51 @@
 		<div class="main">
 
 			<!-- écran Accueil -->
-			<section id="slide1"></section>
+			<section id="slide1">
+				<div id="getDown">
+					<img src="img/img1/fleche_accueil.png"></img>
+				</div>
+			</section>
 			<!-- écran choix -->
 			<section id="slide2">
 				<p id="text_choix">Faites Votre Choix !</p>
 				<div id="div_bouton">
 					<div id="bouton1">
-						<a href="#3"><img class="img_bouton" src="img/img1/bouton1et2.png"/></a>
+						<a href="data.html"><img class="img_bouton" src="img/img14/bouton_accedez_aux_données.png"/></a>
 					</div>
 					<div id="bouton2">
-						<a href="#4"><img class="img_bouton" src="img/img1/bouton1et2.png"/></a>
+						<a href="stats.html"><img class="img_bouton" src="img/img14/bouton_testez_vous.png"/></a>
 					</div>
 					<!-- revoir les href pour transitions animés -->
 				</div>
 			</section>
-
-			<!--écran selection-->
-			<section id="slide3">
-				<div id="slider">
-					<p id="text_choix1">Vous êtes plutôt</p>
-					<p id="text_choix2">Guy / Josie ?</p>
-					<div class="twentytwenty-container">
-			        	<img src="img/img2/femme_slideshow_2.png" />
-			          	<img src="img/img2/homme_slideshow_2.png" />
-			        </div>
-			    </div>
-			    <!-- Fichier jquery.twentytwenty.js, ligne 83, récup sexe choisi-->
-			</section>
-
-			<!-- Écran choix tranche âge -->
-			<section id="slide4">
-				<div id="age">
-					<ul class="bxslider">
-						<li><center><img src="img/img3/femme-age2.png" /></center></li>
-						<li><center><img src="img/img3/femme-age3.png" /></center></li>
-						<li><center><img src="img/img3/femme-age4.png" /></center></li>
-						<li><center><img src="img/img3/femme-age5.png" /></center></li>
-						<li><center><img src="img/img3/femme-age1.png" /></center></li>
-					</ul>
+			
+			<section id="credits">
+				<div class="logo_container">
+					<a href="http://www.nantes.fr/home.html"><div class="logos" id="nantesfr"></div></a>
+					<a href="http://www.agrnantes.fr"><div class="logos" id="AGR"></div></a>
+					<a href="http://web.polytech.univ-nantes.fr"><div class="logos" id="Polytech"></div></a>
+					<a href="http://www.sciencescom.org"><div class="logos" id="SciencesCom"></div></a>
 				</div>
 			</section>
+			
+			<section id="creditsBis"></section>
 
-			<section id="slide5">
-				<div class="conteneur">
-					<div id="div_stats">
-						<div class="stats" id="s1"></div>
-						<div class="stats" id="s2"></div>
-					</div>
-
-					<div class="dataviz">
-						<div id="dataviz_text"></div>
-						<div id="dataviz_graph">
-							<svg id="bu"></svg>
-						</div>
-						<div id="dataviz_legend"></div>
-					</div>
-				</div>
-			</section>
-
-			<section id="credits"></section>
 		</div>
+
+		<!--Javascripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    	<script type="text/javascript" src="js/jquery.fittext.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.main').onepage_scroll();
+				$('p').fitText();
+				$('#getDown').click(function() {
+					$('.main').moveDown();	
+				});
+			});
+		</script>
 
 	</body>
 </html>

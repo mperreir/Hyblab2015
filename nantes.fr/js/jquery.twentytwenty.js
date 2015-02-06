@@ -1,4 +1,4 @@
-var sexe;
+var sexe = "femme";
 (function($){
 
   $.fn.twentytwenty = function(options) {
@@ -103,5 +103,5 @@ var sexe;
       $(window).trigger("resize.twentytwenty");
     });
   };
-
+  return sexe;
 })(jQuery);

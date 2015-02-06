@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+		<link rel="stylesheet" type="text/css" href="css/twentytwenty.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+		
+		
+        <title>Egalité Femme-Homme</title>
+	</head>
+	
+	<body>
+		<div class="main">
+		<section id="slide3">
+			<div id="slider">
+				<p id="text_choix1">Vous êtes plutôt</p>
+				<p id="text_choix2">Guy / Josie ?</p>
+				<div class="twentytwenty-container">
+			       		<img src="img/img2/femme_slideshow_2.png" />
+			       		<img src="img/img2/homme_slideshow_2.png" />
+				</div>
+			<center><img class="bouton_valider" src="img/img14/bouton_valider.png" /></center>
+			</div>
+			<!-- Fichier jquery.twentytwenty.js, ligne 83, récup sexe choisi-->
+		</section>
+
+		<!-- Écran choix tranche âge -->
+		<section id="slide4">
+			<div id="age_container">
+				<div id="age">
+					<center><img id="img1" src="img/img3/femme-age1.png" /><P>15-25ans</P></br/></center>
+					<center><img id="img2" src="img/img3/femme-age2.png" /><P>26-40ans</P></br/></center>
+					<center><img id="img3" src="img/img3/femme-age3.png" /><P>41-60ans</P></br/></center>
+					<center><img id="img4" src="img/img3/femme-age4.png" /><P>61 ou plus</P></br/></center>
+					<center><img id="img5" src="img/img3/femme-age5.png" /><P>Très Drôle</P></br/></center>
+				</div>
+			</div>
+		<!--	<center><img class="bouton_valider" src="img/img14/bouton_valider.png" /></center>-->
+		</section>
+		
+		<!-- Écran question études -->
+		<section id="slide5">
+			<div class="container">
+				<div class="bouton_container">
+					<img class="bouton_guy question1" alt="guy" src="img/img14/bouton_guy.png" />
+					<img class="bouton_josie question1" alt="josie" src="img/img14/bouton_josie.png" />
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran dataviz études -->
+		<section class="datavizs" id="slide6">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+					<div class="dataviz_text">
+						<p class="synopsis">Les <b style="color: #ffe0a1;">nantaises</b> sont en général <b>plus diplômées</b> que les hommes. Mais elles se dirigent souvent vers des filières moins porteuses sur le marché du travail.</p>
+					</div>
+					<div class="dataviz_graph">
+						<div class="graph_slide6">
+							<div class="box_slide6" id="box1_graph_slide6">
+								<p class=box_titre>Sans diplôme</p>
+								<svg id=sans_diplome viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet" ></svg>
+							</div>
+							<div class="box_slide6" id="box2_graph_slide6">
+								<p class=box_titre>Bep/Cap</p>
+								<svg id=bep_cap viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet" ></svg>
+							</div>	
+							<div class="box_slide6" id="box3_graph_slide6">
+								<p class=box_titre>Bac Technologique</p>
+								<svg id=bac_techno viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>	
+						</div>
+						<div class ="graph_slide6bis">
+							<div class="box_slide6" id="box4_graph_slide6">
+								<p class=box_titre>Bac Général</p>
+								<svg id=bac_general viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>	
+							<div class="box_slide6" id="box5_graph_slide6">
+								<p class=box_titre>Premier cycle universitaire</p>
+								<svg id=cycle1 viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>	
+							<div class="box_slide6" id="box6_graph_slide6">
+								<p class=box_titre>Deuxième cycle universitaire</p>
+								<svg id=cycle2 viewBox="0 0 200 290" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>	
+						</div>
+					</div>
+					<div class="dataviz_legend">
+						<div id="bouton_slide6">
+							 <img id="slide6_h" src="img/img13/bouton_h.png"/> 
+							 <img id="slide6_f" src="img/img13/bouton_f.png"/> 
+							
+						</div>
+						<div class="source">Source : Insee - recensement 2010</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran Question Écart de salaire -->
+		<section id="slide7">
+			<span class="valeurs" id="min">0</span></span></span><div id="slider_1"></div><span class="valeurs" id="max">10</span>
+			<span class="valeurs" id="current_value">0</span>
+		</section>
+		
+		<!-- Écran Dataviz Écart de salaire -->
+		<section class="datavizs" id="slide8">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+					<div class="dataviz_text">
+						<p class="synopsis">En moyenne, à poste équivalent, les <b style="color: #a2ddab;">Nantais</b> touchent un salaire plus élevé que leurs collègues féminines.</p>
+					</div>
+					<div class="dataviz_graph">
+						<div class="graph_slide6">
+								<div class="box_slide6" id="box1_graph_slide8">
+									<p class=box_titre>Ouvriers non qualifiés</p>
+									<svg id=non_qualif viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet" ></svg>
+								</div>
+								<div class="box_slide6" id="box2_graph_slide8">
+									<p class=box_titre>Ouvriers qualifiés</p>
+									<svg id=qualif viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet" ></svg>
+								</div>	
+								<div class="box_slide6" id="box3_graph_slide8">
+									<p class=box_titre>Employés</p>
+									<svg id=employes viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet"></svg>
+								</div>	
+							</div>
+							<div class ="graph_slide6bis">
+								<div class="box_slide6" id="box4_graph_slide8">
+									<p class=box_titre>Professions intermédiaires</p>
+									<svg id=prof_inter viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet"></svg>
+								</div>	
+								<div class="box_slide6" id="box5_graph_slide8">
+									<p class=box_titre>Cadres</p>
+									<svg id=cadres viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet"></svg>
+								</div>	
+								<div class="box_slide6" id="box6_graph_slide8">
+									<p class=box_titre>Moyenne</p>
+									<svg id=moyenne viewBox="0 0 130 300" preserveAspectRatio="xMidYMid meet"></svg>
+								</div>	
+							</div>	
+						</div>
+						<div class="dataviz_legend">
+						<div id="bouton_slide8">
+							 <img id="slide8_h" src="img/img13/bouton_h.png"/> 
+							 <img id="slide8_f" src="img/img13/bouton_f.png"/> 
+							
+						</div>
+						<div class="source">Source :  Insee, Dads, Fichier Salariés au lieu de résidence 2010.</div>
+					</div>
+					</div>
+			</div>
+		</section>
+		
+		<!-- Écran Question Taux D'activité -->
+		<section id="slide9">
+			<div class="container">
+				<div class="bouton_container">
+					<img class="bouton_guy question3" alt="guy" src="img/img14/bouton_guy.png" />
+					<img class="bouton_josie question3" alt="josie" src="img/img14/bouton_josie.png" />
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran Dataviz Taux d'activité -->
+		<section class="datavizs" id="slide10">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+					<div class="dataviz_text">
+						<p class="synopsis">Nantes figure parmi les villes où le taux d'emploi est le plus élevé. Cependant, les femmes restent minoritaires dans la part des actifs occupés.</p>
+					</div>
+					<div class="dataviz_graph" id="dataviz_graph10">
+						<svg  id="graph_slide10" viewBox="0 0 450 290" preserveAspectRatio="xMidYMid meet"></svg>
+						<center><p><b style="color: #a2ddab; margin-right: 5%;">Homme</b><b style="color: #ffe0a1; margin-left: 5%;">Femme</b></p></center>
+					</div>
+					<div class="dataviz_legend">
+						<div class="source">Source : Insee - recensement 2010</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran Question Temps partiel -->
+		<section id="slide11">
+			<div class="container">
+				<div class="bouton_container">
+					<img class="bouton_guy question4" alt="guy" src="img/img14/bouton_guy.png" />
+					<img class="bouton_josie question4" alt="josie" src="img/img14/bouton_josie.png" />
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran dataviz Temps partiel -->
+		<section class="datavizs" id="slide12">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+					<div class="dataviz_text">
+						<p class="synopsis">les <b style="color: #ffe0a1;">Nantaises</b> sont plus touchées par les <b>temps partiels</b> et les <b>CDD</b>. la preuve: 1/3 des femmes actives travaillent à temps partiel. <a class="fancybox" id="enSavoirPlus1" href="#synopsis_temps_partiel" /><img src="imgs/png/logo-plus.png"/></a></p>
+					</div>
+					<div class="dataviz_graph" id="dataviz_graph12">
+						<div id="box12">
+							
+							<svg id="compteur12" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet"></svg>
+							<div id="pourcent12" ></div>
+						</div>
+						
+						<div id="box12bis">
+							<div id=box1titre12bis></div>
+							<svg id="compteur12bis" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet"></svg>
+							<div id="pourcent12bis"></div>
+						</div>
+						
+						
+						
+						<center><p><b style="color: #a2ddab; margin-right: 19%;">Homme</b><b style="color: #ffe0a1; margin-left: 19%;">Femme</b></p></center>
+					</div>
+					<div class="dataviz_legend">
+						<div class="source">Source : Insee - recensement 2010</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran Question Vie Sociale -->
+		<section id="slide13">
+			<div class="container">
+				<div class="bouton_container">
+					<img class="bouton_guy question5" alt="guy" src="img/img14/bouton_guy.png" />
+					<img class="bouton_josie question5" alt="josie" src="img/img14/bouton_josie.png" />
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran dataviz Vie Sociale -->
+		<section class="datavizs" id="slide14">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+						<div class="dataviz_text">
+						<p class="synopsis">A Nantes, les <b style="color: #ffe0a1;">FEMMES</b> s'impliquent davantage dans les <b>CONSEILS</b> citoyens liés à la jeunesse et à la petite enfance. 2/3 des personnes inscrites dans les conseils des écoles sont des femmes. <a class="fancybox" id="enSavoirPlus2" href="#synopsis_vie_asso"><img src="imgs/png/logo-plus.png" /></a></p>
+					</div>
+					<div class="dataviz_graph" id="dataviz_graph14">
+						<div id="allbox14">
+							<div class="box14" id="box1_slide14">
+								<div class="box_titre">Conseil des jeunes</div>
+								<svg id="conseil_jeunes" viewBox="0 0 110 230" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>
+							
+							<div class="box14" id="box2_slide14">
+								<div class="box_titre">Conseil des étrangers</div>
+								<svg id="conseil_etrangers" viewBox="0 0 110 230" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>
+							
+							<div class="box14" id="box3_slide14">
+								<div class="box_titre">Conseil pour les personnes handicapées</div>
+								<svg id="conseil_handi" viewBox="0 0 110 230" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>
+							
+							<div class="box14" id="box4_slide14">
+								<div class="box_titre">Conseil des écoles</div>
+								<svg id="conseil_ecoles" viewBox="0 0 110 230" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>
+							
+							<div class="box14" id="box5_slide14">
+								<div class="box_titre">Conseil des crèches</div>
+								<svg id="conseil_creches" viewBox="0 0 110 230" preserveAspectRatio="xMidYMid meet"></svg>
+							</div>
+						</div>
+						
+					
+					</div>
+					<div class="dataviz_legend">
+						<div id="bouton_slide14">
+							 <img id="slide14_h" src="img/img13/bouton_h.png"/> 
+							 <img id="slide14_f" src="img/img13/bouton_f.png"/> 
+							
+						</div>
+						<div class="source">Source : Ville de Nantes</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran Question Associations -->
+		<section id="slide15">
+			<div class="container">
+				<div class="bouton_container">
+					<img class="bouton_guy question6" alt="guy" src="img/img14/bouton_guy.png" />
+					<img class="bouton_josie question6" alt="josie" src="img/img14/bouton_josie.png" />
+				</div>
+			</div>
+		</section>
+		
+		<!-- Écran dataviz Associations -->
+		<section class="datavizs" id="slide16">
+			<div class="conteneur">
+				<div class="div_stats">
+					<div class="s1">
+						<img class="selonvous" src=""/>
+						<p>SELON<br/> <span>VOUS</span></p>
+					</div>
+					<div class="s2">
+						<img src="img/img5/selonlesinternautes.png"/>
+						<p>SELON<br/>LES<br/> <span>AUTRES</span></p>
+					</div>
+				</div>
+				<div class="dataviz">
+					<div class="dataviz_text">
+						<p class="synopsis">À Nantes, sur l'ensemble des associattions, <b>LES PRÉSIDENCES D'ASSOCIATIONS</b> sont majoritairement tenues par des <b style="color: green;">HOMMES</b>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--Crédits -->
+		<section id="credits">
+				<div class="logo_container">
+					<a href="http://www.nantes.fr/home.html"><div class="logos" id="nantesfr"></div></a>
+					<a href="http://www.agrnantes.fr"><div class="logos" id="AGR"></div></a>
+					<a href="http://web.polytech.univ-nantes.fr"><div class="logos" id="Polytech"></div></a>
+					<a href="http://www.sciencescom.org"><div class="logos" id="SciencesCom"></div></a>
+				</div>
+			</section>
+		
+		<!--Crédits Bis -->
+		<section id="creditsBis"></section>
+	</div>
+	
+	<div id="retour_accueil">
+		<a href="index.html"><img src="imgs/png/rond-home.png"/></a>
+	</div>
+	
+	<div id="synopsis_temps_partiel" style="padding: 20px; display: none; font-family: 'Sofia'; font-size: 20px;">
+
+
+<strong>Intro: ZOOM SUR LE CAS DES TEMPS PARTIELS</strong><br/>
+S’il y a un domaine où la parité n’est pas respectée, c’est bien celui des temps partiels. En effet, les 3/4 des actifs travaillant à temps partiels à Nantes sont des femmes. Comment les chiffres peuvent ils expliquer cette disparité ?<br/>
+
+<strong>Contenu: DES SECTEURS PLUS PROPICES AUX TEMPS PARTIELS ?</strong><br/>
+Aujourd’hui, 2/3 des personnes travaillant dans l’administration, l’enseignement, la santé ou l’action sociale sont des femmes. Or, les temps partiels ont un poids plus important dans les services, les secteurs sociaux et les métiers du « Care », des métiers vers lesquels les femmes sont beaucoup plus nombreuses à s’orienter.<br/>
+
+<strong>ET LES ENFANTS DANS TOUT CA ?</strong><br/>
+Parmi les femmes travaillant à temps partiels, 34% y ont recours pour s’occuper de leurs enfants (contre seulement 7% chez les hommes).
+Avec l’arrivée de leurs enfants, les femmes sont donc plus nombreuses que leur compagnon à recourir aux temps partiels. Et la tendance se confirme puisque plus les enfants sont nombreux, plus les femmes choisissent de travailler à mi-temps. En effet plus de la moitié des Nantaises ayant 3 enfants ou plus sont aujourd’hui dans cette situation. On note également que le taux d’activité des femmes varie selon l’âge de leurs enfants tandis que celui des hommes reste presque inchangé.<br/>
+
+<strong>CHEZ LES FAMILLES MONOPARENTALES</strong><br/>
+On observe autant d’inégalités face à l’emploi chez les familles monoparentales que chez les familles avec deux parents.. Cependant, la variable « famille monoparentale » a davantage d’impact sur le taux d’emploi des hommes. Ainsi 89% des pères de famille en couple travaillent contre 80% des pères de famille monoparentale, tandis que le taux d’emploi des femmes reste quasiment le même quelque soit leur situation familiale.<br/>
+Toutefois, les familles monoparentales restent représentées en grande majorité par des femmes puisque 2/3 d’entre elles conservent la garde de leur(s) enfant(s) après une séparation.
+
+	</div>
+	<div id="synopsis_vie_asso" style=" padding: 20px; display: none; font-family: 'Sofia'; font-size: 20px;">
+		<img src="imgs/jpg/a_bassal.png" style="float: right; margin: 10px;" />
+		<strong style="color: red;">L’égalité femmes-hommes au coeur duprogramme de la ville</strong><br/>
+Rencontre avec Aicha Bassal, adjointe au Maire de Nantes en charge de la vie associative, de l’égalité et de la lutte contre les discriminations.<br/>
+<strong>« Nous souhaitons une égalité réelle »</strong><br/>
+Parmi les 170 collectivités ayant signé la Charte Européenne pour l’égalité femmes-hommes dans la ville, Nantes sera la vingt-et-unième ville à mettre un plan d’action en place et s’inscrit donc dans une démarche volontariste.</br>
+En effet, Nantes place la question de l’égalité au coeur de son programme, afin que chacun puisse profiter de la ville dans les mêmes conditions et présentera son premier plan d’action pour l’égalité femmes-hommes le 6 mars.<br/>
+L’ambition de ce plan d’action est de durer dans le temps, mais également d’avoir des résultats à court terme.
+<strong>« Pour pouvoir parler d’égalité, il faut déjà être exemplaire »</strong><br/>
+souligne Aicha Bassal. En effet, Nantes est une ville employeur avec plus de 4 000 agents à la ville, qui nécessite donc une politique interne égalitaire entre les femmes et les hommes.<br/>
+Elle prend pour exemple la question des salaires, mais aussi celle des tenues professionnelles, pas toujours adaptées à la morphologie féminine et qui peuvent donc dissuader les femmes de s’orienter vers des emplois considérés comme plus masculins.
+<strong>« Ce sont des détails qui font l’égalité entre les femmes et les hommes »</strong><br/>
+Nantes doit donc être un exemple mais aussi mobiliser ses partenaires économiques, sociaux et associatifs afin que chacun puisse être acteur de cette égalité. En charge de la vie associative, Aicha Bassal souligne le paradoxe entre l’implication des femmes dans la vie locale de leur ville et les présidences d’associations, majoritairement tenues
+par des hommes.<strong>« Il y a un vrai travail de sensibilisation à mener »</strong>. Après avoir interrogé des femmes et des hommes impliqués dans le milieu associatif, elle constate que même si l’envie est là mais peu de femmes se présentent aux postes de président parce qu’elles se mettent des freins, souvent en lien avec leur vie familiale.<br/>
+<strong>« Nous avons besoin de travailler sur les représentations »</strong><br/>
+En effet, elle rappelle que les questions d’égalité et les stéréotypes commencent dès le plus jeune âge.<strong>« Nous avons un vrai travail à faire avec l’éducation nationale sur ces questions garçons-filles »</strong>
+Ainsi, la ville de Nantes a fait le choix de conserver un service municipal de santé scolaire qui travaille sur les représentations en lien avec l’éducation nationale.<br/>
+Si Aicha Bassal est confiante pour l’avenir, elle souligne tout de même qu’il s’agit d’un phénomène sociétal et que la responsabilité des pouvoirs publics est d’accompagner les changements de mentalité en amenant les citoyens à prendre conscience de ces inégalités.
+	
+	</div>
+	
+	<!--Javascripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!-- JQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> <!-- JQuery UI -->
+		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script> <!-- Scrolling -->
+		<script type="text/javascript" src="js/jquery.twentytwenty.js"></script> <!-- Image comparaison Container -->
+		<script type="text/javascript" src="js/jquery.event.move.js"></script> <!-- Move Handler -->
+    		<script type="text/javascript" src="js/jquery.bxslider.js"></script> <!-- Image Slider -->
+    		<script type="text/javascript" src="js/jquery.fittext.js"></script> <!-- Text Adjust -->
+    		<script type="text/javascript" src="js/jquery.fancybox.js"></script> <!-- FancyBox -->
+    		<script type="text/javascript" src="snap_svg/dist/snap.svg-min.js"></script> <!-- Graphs -->
+    		<script type="text/javascript" src="snap_svg/dataviz.js"></script> <!-- Dataviz's -->
+    		
+		<script type="text/javascript">
+			var valider = false, question1 = false, question2 = false, question3 = false, question4 = false, question5 = false , question6 = false;
+			var rep = "";
+			sexe = 'femme';
+			var img_age = 'img/img3/' + sexe + '-age1.png';
+			$('.selonvous').attr('src', img_age);
+			
+			$(document).ready(function() {
+				
+				var slider = $('#age').bxSlider({
+					hideControlOnEnd: true	
+				});
+				
+				$('.main').onepage_scroll({
+					beforeMove: function(index)
+					{
+						if(valider)
+						{
+							if(index == '2')
+							{
+								switch(sexe)
+								{
+									case "homme":
+									{
+										$('#img1').attr('src', 'img/img3/homme-age1.png');
+										$('#img2').attr('src', 'img/img3/homme-age2.png');
+										$('#img3').attr('src', 'img/img3/homme-age3.png');
+										$('#img4').attr('src', 'img/img3/homme-age4.png');
+										$('#img5').attr('src', 'img/img3/homme-age5.png');
+										break;
+									}
+									case "femme":
+									{
+										$('#img1').attr('src', 'img/img3/femme-age1.png');
+										$('#img2').attr('src', 'img/img3/femme-age2.png');
+										$('#img3').attr('src', 'img/img3/femme-age3.png');
+										$('#img4').attr('src', 'img/img3/femme-age4.png');
+										$('#img5').attr('src', 'img/img3/femme-age5.png');
+										break;
+									}
+								}
+							}
+						}
+						else
+						{
+							$('.main').moveTo(1);
+						}
+						
+						if(index == '3')
+						{
+							img_age = 'img/img3/' + sexe + '-age' + (slider.getCurrentSlide() + 1) + '.png';
+							$('.selonvous').attr('src', img_age);	
+						}
+						
+						if(index == '4')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question1) {}
+							else $('.main').moveTo(3);
+						}
+						
+						if(index == '6')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question2) {}
+							else $('.main').moveTo(5);
+						}
+						
+						if(index == '8')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question3) {}
+							else $('.main').moveTo(7);
+						}
+						
+						if(index == '10')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question4) {}
+							else $('.main').moveTo(9);
+						}
+						
+						if(index == '12')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question5) {}
+							else $('.main').moveTo(11);
+						}
+						
+						if(index == '14')
+						{
+							$('.selonvous').attr('src', img_age);
+							if(question6) {}
+							else $('.main').moveTo(13);
+						}
+					},
+					afterMove: function(index)
+					{
+						if(index == '8')
+						{
+							$.getJSON('snap_svg/hyblab.json', function(data) {
+                   					bulle(data.taux_emploi.homme,data.taux_emploi.femme,'%','#graph_slide10');
+               						});
+						}
+						
+						if(index == '10')
+						{
+							$.getJSON('snap_svg/hyblab.json', function(data) {
+                   					compteurHomme(data.tempsPartiel.homme/100,'#compteur12','pourcent12');
+                   					compteurFemme(data.tempsPartiel.femme/100,'#compteur12bis','pourcent12bis');
+               						});
+						}
+					}
+				});
+				$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+				
+				$('.bouton_valider').click(function() {
+					valider = true;
+					$('.main').moveDown();
+				});
+				$('.question1').click(function() {
+					question1 = true;
+					rep = $(this).attr('alt');
+					$('.main').moveDown();
+				});
+				$('.question3').click(function() {
+					question3 = true;
+					rep = $(this).attr('alt');
+					$('.main').moveDown();
+				});
+				$('.question4').click(function() {
+					question4 = true;
+					rep = $(this).attr('alt');
+					$('.main').moveDown();
+				});
+				$('.question5').click(function() {
+					question5 = true;
+					rep = $(this).attr('alt');
+					$('.main').moveDown();
+				});
+				$('.question6').click(function() {
+					question6 = true;
+					rep = $(this).attr('alt');
+					$('.main').moveDown();
+				});
+				
+				$('p').fitText(1, {maxFontSize:'40px', minFontSize: '2px'});
+				$('.box_titre').fitText(1, {maxFontSize: '20px', minFontSize: '2px'});
+				$('#pourcent12').fitText(1, {maxFontSize: '80px', minFontSize: '2px'});
+				$('#pourcent12bis').fitText(1, {maxFontSize: '80px', minFontSize: '2px'});
+				$('.synopsis').fitText(1, {maxFontSize: '20px', minFontSize: '2px'});
+				$('.source').fitText(1, {maxFontSize: '15px', minFontSize: '2px'});
+				$('#slider_1').slider(
+					{
+						min:'0',
+						max:'10',
+						value: '0',
+						animate: 'slow',
+						slide: function(event, ui)
+						{
+							$('#current_value').text(ui.value);
+							question2 = true;
+							
+						}
+						
+					});
+					
+				/* appel des differents dataviz's */
+				
+				$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			glaconHomme(data.sansDiplome.homme,'#sans_diplome');
+                   			glaconHomme(data.bepCap.homme,'#bep_cap');
+                   			glaconHomme(data.bacTechno.homme,'#bac_techno');
+                   			glaconHomme(data.bac.homme,'#bac_general');
+                   			glaconHomme(data.CycleUniv1.homme,'#cycle1');
+                   			glaconHomme(data.CycleUniv2.homme,'#cycle2');
+                   			colonneHomme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
+                   			colonneHomme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
+                   			colonneHomme(data.employe.homme,data.employe.femme,'€','#employes');
+                   			colonneHomme(data.professionInter.homme,data.professionInter.femme,'€','#prof_inter');
+                   			colonneHomme(data.cadre.homme,data.cadre.femme,'€','#cadres');
+                   			colonneHomme(data.moyen.homme,data.moyen.femme,'€','#moyenne');
+                   			pyramideHomme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
+                   			pyramideHomme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
+                   			pyramideHomme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
+                   			pyramideHomme(data.conseilEcole.homme,data.conseilHandicap.femme,'%','#conseil_ecoles');
+                   			pyramideHomme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
+                   		
+               			 });
+               			 
+               			 $('.fancybox').fancybox();
+               			 $('#slide6_h').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			glaconHomme(data.sansDiplome.homme,'#sans_diplome');
+                   			glaconHomme(data.bepCap.homme,'#bep_cap');
+                   			glaconHomme(data.bacTechno.homme,'#bac_techno');
+                   			glaconHomme(data.bac.homme,'#bac_general');
+                   			glaconHomme(data.CycleUniv1.homme,'#cycle1');
+                   			glaconHomme(data.CycleUniv2.homme,'#cycle2');
+               				});
+               			 });
+               			 
+               			 $('#slide6_f').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			glaconFemme(data.sansDiplome.femme,'#sans_diplome');
+                   			glaconFemme(data.bepCap.femme,'#bep_cap');
+                   			glaconFemme(data.bacTechno.femme,'#bac_techno');
+                   			glaconFemme(data.bac.femme,'#bac_general');
+                   			glaconFemme(data.CycleUniv1.femme,'#cycle1');
+                   			glaconFemme(data.CycleUniv2.femme,'#cycle2');
+               				 });
+               			} );
+               			
+               			
+               			$('#slide8_h').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			colonneHomme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
+                   			colonneHomme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
+                   			colonneHomme(data.employe.homme,data.employe.femme,'€','#employes');
+                   			colonneHomme(data.professionInter.homme,data.professionInter.femme,'€','#prof_inter');
+                   			colonneHomme(data.cadre.homme,data.cadre.femme,'€','#cadres');
+                   			colonneHomme(data.moyen.homme,data.moyen.femme,'€','#moyenne');
+               				 });
+               			} );
+               			
+               			$('#slide8_f').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			colonneFemme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
+                   			colonneFemme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
+                   			colonneFemme(data.employe.homme,data.employe.femme,'€','#employes');
+                   			colonneFemme(data.professionInter.homme,data.professionInter.femme,'€','#prof_inter');
+                   			colonneFemme(data.cadre.homme,data.cadre.femme,'€','#cadres');
+                   			colonneFemme(data.moyen.homme,data.moyen.femme,'€','#moyenne');
+               				 });
+               			} );
+               			
+               			$('#slide14_h').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			pyramideHomme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
+                   			pyramideHomme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
+                   			pyramideHomme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
+                   			pyramideHomme(data.conseilEcole.homme,data.conseilHandicap.femme,'%','#conseil_ecoles');
+                   			pyramideHomme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
+               				 });
+               			} );
+               			
+               			$('#slide14_f').click(function() {
+               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+                   			pyramideFemme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
+                   			pyramideFemme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
+                   			pyramideFemme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
+                   			pyramideFemme(data.conseilEcole.homme,data.conseilHandicap.femme,'%','#conseil_ecoles');
+                   			pyramideFemme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
+               				 });
+               			});
+				
+			});
+		</script>	
+		
+	</body>
+</html>
+	

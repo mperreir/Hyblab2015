@@ -23,7 +23,6 @@
 .twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
   position: absolute;
   top: 0;
-  width: 100%;
   height: 100%; }
 
 .twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
@@ -73,6 +72,10 @@
 .twentytwenty-up-arrow, .twentytwenty-down-arrow {
   left: 50%;
   margin-left: -6px; }
+.twentytwenty-before, .twentytwenty-after
+{
+  width: 100%;
+}
 
 .twentytwenty-container {
   -webkit-box-sizing: content-box;

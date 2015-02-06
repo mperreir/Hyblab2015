@@ -1,0 +1,140 @@
+/*Font spécial ajouté*/
+
+
+@font-face
+{
+	font-family: 'Bellota';
+	src: url('../fonts/Bellota-Bold.otf') format('truetype');
+	src: url('../fonts/Bellota-BoldItalic.otf') format('truetype');
+	src: url('../fonts/Bellota-Italic.otf') format('truetype');
+	src: url('../fonts/Bellota-Light.otf') format('truetype');
+	src: url('../fonts/Bellota-LightItalic.otf') format('truetype');
+	src: url('../fonts/Bellota-Regular.otf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Sofia';
+	src: url('../fonts/SofiaProLight.otf') format('truetype');
+	font-weight: normal;
+}
+
+/*Options de style de base*/
+p
+{
+    font-family: 'Sofia';
+	padding: 0px;
+	margin: 0px;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5, #slide6
+{
+    width: 100%;
+	height: 100%;
+    background-color: #393535;
+}
+
+.datavizs
+{
+	width: 100%;
+	height: 100%;
+	background-color: #393535;
+}
+
+.conteneur
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.box_titre
+{
+	font-family: Sofia;
+	color:white;
+	padding-bottom:3%;
+}
+
+.div_stats
+{
+	padding: 0px;
+	margin: 0px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.s1
+{
+	width: 100%;
+	height: 50%;
+	background: url('../img/img5/carré_orange_haut.png') repeat bottom;
+	background-size: 100%;
+	margin-bottom: 4%;
+}
+
+.s2
+{
+	width: 100%;
+	height: 50%;
+	background: url('../img/img5/carré_orange_bas.png') repeat top;
+	background-size: cover;
+	margin-top: 4%;
+	overflow: hidden;
+}
+
+.s2 img
+{
+	position: absolute;
+	width: 12.5%;
+	top: 60%;
+	left: 1%;
+}
+
+.s2 p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Sofia';
+	font-weight: bolder;
+	color: white;
+	position: absolute;
+	width: 20%;
+	top: 60%;
+	left: 14.5%;
+}
+
+.s2 span
+{
+	border-bottom: 4px dotted white;
+}
+.dataviz
+{
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+
+.dataviz_text
+{
+	width: 100%;
+	height: 30%;
+
+}
+
+.dataviz_graph
+{
+	width: 100%;
+	height: 50%;
+
+}
+
+.dataviz_legend
+{
+	width: 100%;
+	height: 20%;
+}
