@@ -119,3 +119,8 @@ label {
     text-transform: uppercase;
 }
 
+h5 {
+    margin-top: -14px;
+    text-align: center;
+    color : white;
+}
