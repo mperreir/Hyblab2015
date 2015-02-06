@@ -9,8 +9,9 @@
     font-style: normal;
 }
 
-#comparison {
-    background-color : #213146;
+body, html, #comparison {
+    background-color : #213146 ;
+    height : 100% ;
 }
 
 .tab0 .row div.number, .tab1 .row div.number {
