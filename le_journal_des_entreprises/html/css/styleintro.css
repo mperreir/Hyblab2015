@@ -1,6 +1,17 @@
 /***************
  * Intro Panel *
  ***************/
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/BEBAS___-webfont.eot');
+    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BEBAS___-webfont.woff') format('woff'),
+    url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
+    url('../fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body
 {
  height: 100%;
@@ -76,11 +87,13 @@ body{
 
 #texteIntro 
 {
+ font-size:15px;
+ 
  max-width : 650px;
  color: white;
  margin-top: 235px;
  padding-left: 30px;
- text-align: left;
+ text-align: justify;
 }
 
 #inside2 p
@@ -105,6 +118,12 @@ body{
  color: #223148;
 }
 
+#question
+{
+ text-transform: uppercase;
+ font-family:'bebasregular', Arial, Helvetica, sans-serif;
+ font-size:25px;
+}
 .baspage
 {
  bottom: 20px;
