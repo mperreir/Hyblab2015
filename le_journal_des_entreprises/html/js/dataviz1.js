@@ -1,4 +1,4 @@
-var hostays ="https://hyblab2015-ayssti-3.c9.io";
+var hostays ="https://hyblab2015bis-anhaflint.c9.io";
 var chart1 = '';
 
 function whichYear(year) {
@@ -181,17 +181,17 @@ function datasD1(year) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
                     $('#DV2TownName').html(id);
-                    $('#DV2pic').html("<img src=/images/\""+data.medaille1+"\")>");
+                    $('#DV2pic').html("<img src=/images/"+data.medaille1+"\")>");
                     
                     if(data.medaille1) {
                         $('#med1').html("<img src=/images/"+data.medaille1+"\")>");
                     }
                     if(data.medaille2) {
-                         $('#med2').html("<img src=\""+data.medaille2+"\")>");
+                         $('#med2').html("<img src=/images/"+data.medaille2+"\")>");
                     }
                 }
            });
-          $.getJSON(hostays + 'townNumbers?nom=' + id + '&annee=' + year, function(data) {
+          $.getJSON(hostays + '/townNumbers?nom=' + id + '&annee=' + year, function(data) {
              if(data)  {
                  $('#ch1').html(data.ch1);
                  $('#ch2').html(data.ch2);
