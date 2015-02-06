@@ -130,3 +130,8 @@ label {
 {
  width:25px;
 }
+h5 {
+    margin-top: -14px;
+    text-align: center;
+    color : white;
+}
