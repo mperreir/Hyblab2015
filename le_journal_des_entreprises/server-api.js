@@ -94,6 +94,27 @@ app.get('/dataviz1', function(req, res) {
     //res.end();
 });
 
+app.get('/matchfinal', function(req, res) {
+    var paramsD3 = req.query;
+    var datasD3 = require("./data/matchfinal.json");
+    console.log(paramsD3);
+    if ('methode' in paramsD3) {
+        
+        var methodResults = [];
+        
+        
+        //Get objects corresponding to the city queried
+        for (var podium in datasD3) {
+            if (datasD3[podium].method === paramsD3.method) {
+                methodResults.push(datasD3[podium]);
+            }
+        }
+    }
+    console.log(methodResults);
+    res.json(methodResults);
+    //res.end();
+});
+
 // launch the server
 var server = app.listen(process.env.PORT, function() {
     var host = server.address().address;
