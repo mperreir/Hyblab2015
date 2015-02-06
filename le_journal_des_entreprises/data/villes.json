@@ -1,79 +1,60 @@
 [
 {
 	"nom"  : "Rennes",
-	"desc" : "Rennes est certes celle qui a le moins d’entreprises du numérique dans notre classement, mais elle se distingue par un autre critère : le taux d’entreprises des TIC dans son tissu économique. Sur ce point, elle arrive 4ème.<br />
-          Ce n’est donc pas un hasard si le ministère de la Défense a décidé d’y implanter son nouveau pôle d’excellence sur la cyber-défense. Ce n’est pas un hasard non plus si OVH, l’hébergeur de sites web dont le siège social est à Lille, a choisi Rennes pour y implanter un établissement.<br />
-          Mais il y aussi des start-up rennaises, comme Cocourses, un concurrent d’Alloresto, Eliga, qui propose une technologie multi-écrans pour animer les conférences vidéos ou encore Jaivu, concepteur d’applications mobiles pour « réconcilier les hommes et le shopping ».<br />
-          Côté évènement, le forum « Opportunités digitales » réunit sur deux jours des acteurs français et québécois. D’autres acteurs animent la ville comme le pôle de compétitivité « Images et réseaux », un fablab et une cantine numérique, qui compte 166 adhérents.",
-	"image" : "/images/Rennes.png",
-	"medaille1" : "/images/",
-	"medaille2" : "/images/Médaille+de15000effectifs.png"
+	"desc" : "Rennes est certes celle qui a le moins d’entreprises du numérique dans notre classement, mais elle se distingue par un autre critère : le taux d’entreprises des TIC dans son tissu économique. Sur ce point, elle arrive 4ème.<br /> Ce n’est donc pas un hasard si le ministère de la Défense a décidé d’y implanter son nouveau pôle d’excellence sur la cyber-défense. Ce n’est pas un hasard non plus si OVH, l’hébergeur de sites web dont le siège social est à Lille, a choisi Rennes pour y implanter un établissement.<br />        Mais il y aussi des start-up rennaises, comme Cocourses, un concurrent d’Alloresto, Eliga, qui propose une technologie multi-écrans pour animer les conférences vidéos ou encore Jaivu, concepteur d’applications mobiles pour « réconcilier les hommes et le shopping ».<br />Côté évènement, le forum « Opportunités digitales » réunit sur deux jours des acteurs français et québécois. D’autres acteurs animent la ville comme le pôle de compétitivité « Images et réseaux », un fablab et une cantine numérique, qui compte 166 adhérents.",
+	"image" : "Rennes.png",
+	"medaille2" : "Médaille+de15000effectifs.png"
 },
 {
 	"nom"  : "Aix-Marseille",
-	"desc" : "Quel bilan pour Marseille-Aix? Mitigé. En six ans, les deux villes ont perdu 10% d’effectifs numériques, ce qui les place en dernière position du classement. Point positif toutefois, des entreprises du numérique de petite taille continuent de voir le jour sur le territoire. Un territoire où l’on trouve des acteurs tels que le spécialiste des solutions marketing HighCo ou le pôle de compétitivité mondial SCS, couvrant l’ensemble de la chaîne de valeurs des métiers des TIC.<br />
- Le territoire accueille également le pôle média Belle de Mai, une pépinière d’entreprises multimédia et audiovisuelles, ainsi que l’Hôtel Technologique dédié aux sciences de l’ingénieur et aux TIC. Enfin, Marseille-Aix s’est fait l’hôte de la première conférence Shake, centrée autour des tendances et de l’émergence des nouvelles formes d’e-commerce.",
-	"image" : "/images/Marseille.png",
-	"medaille1" : "/images/Médaille+de2000entreprises.png",
-	"medaille2" : "/images/Médailleentre25000et30000.png"
+	"desc" : "Quel bilan pour Marseille-Aix? Mitigé. En six ans, les deux villes ont perdu 10% d’effectifs numériques, ce qui les place en dernière position du classement. Point positif toutefois, des entreprises du numérique de petite taille continuent de voir le jour sur le territoire. Un territoire où l’on trouve des acteurs tels que le spécialiste des solutions marketing HighCo ou le pôle de compétitivité mondial SCS, couvrant l’ensemble de la chaîne de valeurs des métiers des TIC.<br />Le territoire accueille également le pôle média Belle de Mai, une pépinière d’entreprises multimédia et audiovisuelles, ainsi que l’Hôtel Technologique dédié aux sciences de l’ingénieur et aux TIC. Enfin, Marseille-Aix s’est fait l’hôte de la première conférence Shake, centrée autour des tendances et de l’émergence des nouvelles formes d’e-commerce.",
+	"image" : "Marseille.png",
+	"medaille1" : "Médaille+de2000entreprises.png",
+	"medaille2" : "Médailleentre25000et30000.png"
 },
 {
 	"nom"  : "Lille",
-	"desc" : "Cap au Nord. Lille est un adversaire sérieux. Dans nos classements, la capitale des Flandres est souvent sur la troisième marche du podium. En six ans, 1.547 emplois dans le numérique y ont été créés.<br />
- Les domaines de prédilection : l’e-business, l’édition de logiciels, les télécoms et les industries de contenus. Parmi les entreprises lilloises : Amazon, l’hébergeur de sites web OVH, IBM ou encore Addictiz, le concepteur du jeu « Paf le Chien ». <br />
-Grâce à la proximité de Paris, Bruxelles et Londres, Lille est aussi une terre de start-up. S’y développent, par exemple, Frizbiz, réseau social de services à proximité, Critizr, concepteur d’applications mobiles de remarques sur les commerces ou encore Pumpkin, concepteur d’applications mobiles de transferts d’argent. Mais il y a d’autres atouts. Euratechnologies, aussi appelé la Ch'tillicon Valley, est un incubateur qui accueille de nombreuses entreprises : 140 en 2014. Les villes de la métropole sont elles aussi dynamiques. À Villeneuve d’Ascq, s’est implanté un fablab. Et pour finir, à Tourcoing, des entreprises innovent au sein de la Plaine Image, le site d’excellence des images numériques.",
-	"image" : "/images/Lille.png",
-	"medaille1" : "/images/Médaille+de2000entreprises.png",
-	"medaille2" : "/images/Médailleentre25000et30000.png"
+	"desc" : "Cap au Nord. Lille est un adversaire sérieux. Dans nos classements, la capitale des Flandres est souvent sur la troisième marche du podium. En six ans, 1.547 emplois dans le numérique y ont été créés.<br />Les domaines de prédilection : l’e-business, l’édition de logiciels, les télécoms et les industries de contenus. Parmi les entreprises lilloises : Amazon, l’hébergeur de sites web OVH, IBM ou encore Addictiz, le concepteur du jeu « Paf le Chien ». <br />Grâce à la proximité de Paris, Bruxelles et Londres, Lille est aussi une terre de start-up. S’y développent, par exemple, Frizbiz, réseau social de services à proximité, Critizr, concepteur d’applications mobiles de remarques sur les commerces ou encore Pumpkin, concepteur d’applications mobiles de transferts d’argent. Mais il y a d’autres atouts. Euratechnologies, aussi appelé la Ch'tillicon Valley, est un incubateur qui accueille de nombreuses entreprises : 140 en 2014. Les villes de la métropole sont elles aussi dynamiques. À Villeneuve d’Ascq, s’est implanté un fablab. Et pour finir, à Tourcoing, des entreprises innovent au sein de la Plaine Image, le site d’excellence des images numériques.",
+	"image" : "Lille.png",
+	"medaille1" : "Médaille+de2000entreprises.png",
+	"medaille2" : "Médailleentre25000et30000.png"
 },
 {
 	"nom"  : "Lyon",
-	"desc" : "Lyon est la deuxième ville de France, mais est-elle aussi la deuxième ville du numérique ? La ville des lumières obtient certes la médaille d’or pour le nombre d’entreprises et de salariés du numérique. Elle a créé 300 entreprises en 6 ans et 4000 emplois dans ce secteur. Mais attention à ne pas la mettre trop vite sur la première marche du podium. Dans une ville à l’économie aussi diversifiée que Lyon, le numérique est dilué puisque les entreprises des TIC ne pèsent que 6%.
-Ce qui fait le succès de Lyon : l’édition de logiciel et les plates-formes web. Parmi les grandes entreprises numériques : LDLC, vendeur de matériel informatique ou Cegid, Esker et Visiativ, des éditeurs de logiciels.<br />
-Le pôle de compétitivité Imaginove est un des soutiens des entreprises numériques de la métropole lyonnaise. Il en réunit 1.200. Autre appui, le cluster Edit qui rassemble 460 entreprises. En 2012, il a ouvert une pépinière pour les start-up. Comme toutes les autres villes, Lyon dispose d’un fablab.",
-	"image" : "/images/Lyon.png",
-	"medaille1" : "/images/Médaille+de3000entreprises.png",
-	"medaille2" : "/images/Médaille+de40000effectifs.png"
+	"desc" : "Lyon est la deuxième ville de France, mais est-elle aussi la deuxième ville du numérique ? La ville des lumières obtient certes la médaille d’or pour le nombre d’entreprises et de salariés du numérique. Elle a créé 300 entreprises en 6 ans et 4000 emplois dans ce secteur. Mais attention à ne pas la mettre trop vite sur la première marche du podium. Dans une ville à l’économie aussi diversifiée que Lyon, le numérique est dilué puisque les entreprises des TIC ne pèsent que 6%.Ce qui fait le succès de Lyon : l’édition de logiciel et les plates-formes web. Parmi les grandes entreprises numériques : LDLC, vendeur de matériel informatique ou Cegid, Esker et Visiativ, des éditeurs de logiciels.<br />Le pôle de compétitivité Imaginove est un des soutiens des entreprises numériques de la métropole lyonnaise. Il en réunit 1.200. Autre appui, le cluster Edit qui rassemble 460 entreprises. En 2012, il a ouvert une pépinière pour les start-up. Comme toutes les autres villes, Lyon dispose d’un fablab.",
+	"image" : "Lyon.png",
+	"medaille1" : "Médaille+de3000entreprises.png",
+	"medaille2" : "Médaille+de40000effectifs.png"
 },
 {
 	"nom"  : "Bordeaux",
-	"desc" : "Bordeaux a assurément une place de choix dans le paysage du numérique français. Effectivement, la métropole girondine est première sur le taux de pénétration par effectifs et par entreprises dédiés au numérique. A Bordeaux, se trouvent différents acteurs dynamisant fortement le territoire. Aux côtés du spécialiste des données Cartégie, de l’agence spécialisée dans la santé Health Care et de la start-up de paris sportifs gratuits Triplefun, ainsi que de l’application de gestion de projets Azendoo, la métropole se développe autour de lieux comme La Cité numérique, accueillant l’Innovaday, consacré aux innovations.<br />
-Citons également le campement Darwin, où se retrouvent les spécialistes du web, l’espace de coworking Le Node, ainsi que le campus numérique E-artsup. Bordeaux est aussi organisatrice de la semaine du digital SDBX qui rassemble près de 70 événements, et de CitéNum, un regroupement d’acteurs nationaux sur les préoccupations du numérique. En revanche, à Bordeaux, si le numérique est bien représenté, en six ans, on observe une stagnation de ses effectifs. ",
-	"image" : "/images/Brest.png",
-	"medaille1" : "/images/Médaille+de1000entreprises.png",
-	"medaille2" : "/images/Médaille+de15000effectifs.png"
+	"desc" : "Bordeaux a assurément une place de choix dans le paysage du numérique français. Effectivement, la métropole girondine est première sur le taux de pénétration par effectifs et par entreprises dédiés au numérique. A Bordeaux, se trouvent différents acteurs dynamisant fortement le territoire. Aux côtés du spécialiste des données Cartégie, de l’agence spécialisée dans la santé Health Care et de la start-up de paris sportifs gratuits Triplefun, ainsi que de l’application de gestion de projets Azendoo, la métropole se développe autour de lieux comme La Cité numérique, accueillant l’Innovaday, consacré aux innovations.<br />Citons également le campement Darwin, où se retrouvent les spécialistes du web, l’espace de coworking Le Node, ainsi que le campus numérique E-artsup. Bordeaux est aussi organisatrice de la semaine du digital SDBX qui rassemble près de 70 événements, et de CitéNum, un regroupement d’acteurs nationaux sur les préoccupations du numérique. En revanche, à Bordeaux, si le numérique est bien représenté, en six ans, on observe une stagnation de ses effectifs. ",
+	"image" : "Brest.png",
+	"medaille1" : "Médaille+de1000entreprises.png",
+	"medaille2" : "Médaille+de15000effectifs.png"
 },
 {
 	"nom"  : "Grenoble",
-	"desc" : "Parmi les grandes villes du numérique françaises, Grenoble fait la course en queue de peloton. La métropole a perdu plus 4% de ses effectifs dans le secteur des TIC en six ans, qui accompagne la baisse globale des effectifs salariés. Cependant, la ville a été citée dans le magazine Forbes comme étant la cinquième ville la plus innovante du monde grâce au secteur porteur des nanotechnologies et son pôle de compétitivité Mina Logic. Malgré cette diminution, la ville défend sa progression dans le numérique en se faisant l’organisatrice du Failcon, un événement mettant en scène des conférences traitant des innovations et des technologies futures. Le GEM Digital Day, créant des rencontres entre étudiants et professionnels du digital accompagne également cette volonté.<br />
-Parmi les acteurs dynamisant la métropole iséroise, on trouve Avalun, lecteur portable d’analyse biologique ainsi que le spécialiste de reciblage par e-mail Tedemis (racheté par Criteo, spécialiste de la publicité numérique). On compte également de nombreux acteurs tels que Casemate, un Fablab centré sur la diffusion de la culture scientifique et le parc technologique Innovallée. ",
-	"image" : "/images/Grenoble.png",
-	"medaille1" : "/images/",
-	"medaille2" : "/images/"
+	"desc" : "Parmi les grandes villes du numérique françaises, Grenoble fait la course en queue de peloton. La métropole a perdu plus 4% de ses effectifs dans le secteur des TIC en six ans, qui accompagne la baisse globale des effectifs salariés. Cependant, la ville a été citée dans le magazine Forbes comme étant la cinquième ville la plus innovante du monde grâce au secteur porteur des nanotechnologies et son pôle de compétitivité Mina Logic. Malgré cette diminution, la ville défend sa progression dans le numérique en se faisant l’organisatrice du Failcon, un événement mettant en scène des conférences traitant des innovations et des technologies futures. Le GEM Digital Day, créant des rencontres entre étudiants et professionnels du digital accompagne également cette volonté.<br />Parmi les acteurs dynamisant la métropole iséroise, on trouve Avalun, lecteur portable d’analyse biologique ainsi que le spécialiste de reciblage par e-mail Tedemis (racheté par Criteo, spécialiste de la publicité numérique). On compte également de nombreux acteurs tels que Casemate, un Fablab centré sur la diffusion de la culture scientifique et le parc technologique Innovallée. ",
+	"image" : "Grenoble.png",
 },
 {
 	"nom"  : "Montpellier",
-	"desc" : "Montpellier est une vitrine du numérique et de ses innovations. Malgré un classement moyen parmi les grosses villes du numérique françaises, elle s’affiche comme une des métropoles les plus influentes en France. Montpellier est spécialisée en conception de jeux vidéo, avec Ubisoft notamment, et en objets connectés, Matooma est une start-up innovatrice en la matière, elle permet aux machines de se connecter via des cartes Sim. La ville accueille de grandes industries numériques comme Dell, Intel ou encore IBM. Mais les grands n’empêchent pas les petits de s’installer. Le BIC (Business et Innovation Center), incubateur montpelliérain, a aidé 545 start-up en 25 ans.<br />
-Le Digiworld Summit est l’évènement numérique le plus marquant de la ville. Il réunit 1.200 personnes sur 3 jours avec des intervenants de grandes entreprises (par exemple : Facebook, Orange, Accenture, IBM en 2014). Le Media Cloud Cluster dynamise l’industrie numérique en réunissant 20 entreprises autour du cloud et de sa migration. Montpellier possède aussi un fablab, intitulé Labsud. ",
-	"image" : "/images/Montpellier.png",
-	"medaille1" : "/images/",
-	"medaille2" : "/images/"
+	"desc" : "Montpellier est une vitrine du numérique et de ses innovations. Malgré un classement moyen parmi les grosses villes du numérique françaises, elle s’affiche comme une des métropoles les plus influentes en France. Montpellier est spécialisée en conception de jeux vidéo, avec Ubisoft notamment, et en objets connectés, Matooma est une start-up innovatrice en la matière, elle permet aux machines de se connecter via des cartes Sim. La ville accueille de grandes industries numériques comme Dell, Intel ou encore IBM. Mais les grands n’empêchent pas les petits de s’installer. Le BIC (Business et Innovation Center), incubateur montpelliérain, a aidé 545 start-up en 25 ans.<br />Le Digiworld Summit est l’évènement numérique le plus marquant de la ville. Il réunit 1.200 personnes sur 3 jours avec des intervenants de grandes entreprises (par exemple : Facebook, Orange, Accenture, IBM en 2014). Le Media Cloud Cluster dynamise l’industrie numérique en réunissant 20 entreprises autour du cloud et de sa migration. Montpellier possède aussi un fablab, intitulé Labsud. ",
+	"image" : "Montpellier.png",
 },
 {
 	"nom"  : "Nantes",
-	"desc" : "Nantes est une ville du numérique et cela se confirme : la Cité des Ducs obtient la 1ère place en ce qui concerne l’évolution du nombre d’employés entre 2008 et 2013, un bond de 16,5%. Concernant le nombre d’entreprises du numérique, il a évolué de 14%. <br />
-Concernant le nombre d’entreprises du numérique, il a évolué de 14%. Parmi les entreprises phares, citons IAdvize, qui offre des solutions de chats, 10vins, une plateforme de vente de vins en ligne, Qivivo, concepteur de thermostats intelligents ou Doyoubuzz, éditeur de CV sur internet. <br />
-Le dynamisme numérique de Nantes se concrétise par la présence de nombreux évènements comme, par exemple, le Web2day. Pendant trois jours, le rendez-vous regroupe environ 1.800 personnes pour discuter des innovations numériques. Un autre évènement, la Digital Week, réunit 67.500 personnes sur dix jours autour de la culture et du numérique. A Nantes, on trouve aussi des clusters tels qu’Atlantic 2.0 ou Ouestmedialab, un fablab et une cantine numérique de 250 adhérents.",
-	"image" : "/images/Nantes.png",
-	"medaille1" : "/images/Médaille+de1000entreprises.png",
-	"medaille2" : "/images/Médailleentre25000et30000.png"
+	"desc" : "Nantes est une ville du numérique et cela se confirme : la Cité des Ducs obtient la 1ère place en ce qui concerne l’évolution du nombre d’employés entre 2008 et 2013, un bond de 16,5%. Concernant le nombre d’entreprises du numérique, il a évolué de 14%. <br />Concernant le nombre d’entreprises du numérique, il a évolué de 14%. Parmi les entreprises phares, citons IAdvize, qui offre des solutions de chats, 10vins, une plateforme de vente de vins en ligne, Qivivo, concepteur de thermostats intelligents ou Doyoubuzz, éditeur de CV sur internet. <br />Le dynamisme numérique de Nantes se concrétise par la présence de nombreux évènements comme, par exemple, le Web2day. Pendant trois jours, le rendez-vous regroupe environ 1.800 personnes pour discuter des innovations numériques. Un autre évènement, la Digital Week, réunit 67.500 personnes sur dix jours autour de la culture et du numérique. A Nantes, on trouve aussi des clusters tels qu’Atlantic 2.0 ou Ouestmedialab, un fablab et une cantine numérique de 250 adhérents.",
+	"image" : "Nantes.png",
+	"medaille1" : "Médaille+de1000entreprises.png",
+	"medaille2" : "Médailleentre25000et30000.png"
 },
 {
 	"nom"  : "Toulouse",
-	"desc" : "En six ans, les effectifs et les entreprises dédiés au secteur du numérique toulousain ont progressé de plus de 10%, lui accordant ainsi la deuxième place du classement. Cela s’explique par la forte présence des secteurs du spatial et de l’aéronautique, de l’édition de logiciels applicatifs, de programmation informatique et des télécoms. On trouve en effet des entreprises telles que Thales Alenia Space, Aramis Télécom, mais aussi des start-up comme Overblog, plateforme de création de blog ou du curateur de contenus ScoopIt. Toulouse est aussi une terre de réseaux, avec des acteurs tels que la Cantine Numérique (600 adhérents), la Mêlée Numérique, le cluster Digital Place et quatre pôles de compétitivité. C’est aussi à Toulouse que l’on s’interroge sur le développement de technologies du futur, drones, impression 3D, robots, à travers l’événement Futurapolis (26 et 27 novembre 2015).<br />
-Notons cependant que si la ville se développe fortement, la pénétration du numérique (6%) demeure relativement faible par rapport aux autres, ce qui classe Toulouse en avant dernière position. La ville rose a donc encore une marge de progression. ",
-	"image" : "/images/Toulouse.png",
-	"medaille1" : "/images/Médaille+de1000entreprises.png",
-	"medaille2" : "/images/Médailleentre25000et30000.png"
+	"desc" : "En six ans, les effectifs et les entreprises dédiés au secteur du numérique toulousain ont progressé de plus de 10%, lui accordant ainsi la deuxième place du classement. Cela s’explique par la forte présence des secteurs du spatial et de l’aéronautique, de l’édition de logiciels applicatifs, de programmation informatique et des télécoms. On trouve en effet des entreprises telles que Thales Alenia Space, Aramis Télécom, mais aussi des start-up comme Overblog, plateforme de création de blog ou du curateur de contenus ScoopIt. Toulouse est aussi une terre de réseaux, avec des acteurs tels que la Cantine Numérique (600 adhérents), la Mêlée Numérique, le cluster Digital Place et quatre pôles de compétitivité. C’est aussi à Toulouse que l’on s’interroge sur le développement de technologies du futur, drones, impression 3D, robots, à travers l’événement Futurapolis (26 et 27 novembre 2015).<br />Notons cependant que si la ville se développe fortement, la pénétration du numérique (6%) demeure relativement faible par rapport aux autres, ce qui classe Toulouse en avant dernière position. La ville rose a donc encore une marge de progression. ",
+	"image" : "Toulouse.png",
+	"medaille1" : "Médaille+de1000entreprises.png",
+	"medaille2" : "Médailleentre25000et30000.png"
 }
 ]

@@ -62,7 +62,7 @@ body{
 
 #slide1
 { 
- background-color: #223148;  
+ background-color: #213146;  
  text-align:center;
 }
  
@@ -115,7 +115,7 @@ body{
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center; 
- color: #223148;
+ color: #213146;
 }
 
 #question
@@ -124,18 +124,10 @@ body{
  font-family:'bebasregular', Arial, Helvetica, sans-serif;
  font-size:25px;
 }
+
 .baspage
 {
  bottom: 20px;
  position:absolute;
 }
 
-/***************
- * Dataviz1 Panel *
- ***************/
- 
- #dataviz1
-{ 
- background-color: #223247;  
- text-align:center;
-}

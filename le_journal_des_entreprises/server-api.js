@@ -115,6 +115,40 @@ app.get('/matchfinal', function(req, res) {
     //res.end();
 });
 
+app.get('/townInfo', function(req, res) {
+    var params = req.query;
+    var datas = require("./data/villes.json");
+    
+    if('nom' in params) {
+        var result = null;
+        for(var i in datas) {
+            if(datas[i].nom === params.nom) {
+                result = datas[i];
+            }
+        }
+    }
+    res.json(result);
+});
+
+app.get('/townNumbers', function(req, res) {
+    var params = req.query;
+    var datas = require("./data/yearsNb.json");
+    
+    if('nom' in params && 'annee' in params) {
+        var result = {};
+        
+        for(var i in datas) {
+            if(datas[i].nom === params.nom && datas[i].annee === params.annee) {
+                result.ch1 = datas[i].chiffre1;
+                result.ch2 = datas[i].chiffre2;
+                result.ch3 = datas[i].chiffre3;
+                result.ch4 = datas[i].chiffre4;
+            }
+        }
+    }
+    res.json(result);
+});
+
 // launch the server
 var server = app.listen(process.env.PORT, function() {
     var host = server.address().address;

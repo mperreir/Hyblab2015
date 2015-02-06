@@ -119,3 +119,14 @@ label {
     text-transform: uppercase;
 }
 
+.baspage
+{
+ bottom: 20px;
+ position:absolute;
+ left: 50%;
+}
+
+#nav1 img
+{
+ width:25px;
+}
