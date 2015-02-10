@@ -2,8 +2,8 @@ var express = require('express')
 var app = express()
 
 // create sub apps
-var test_file = require('./test-file/server'); // test
-var test_api = require('./test-api/server');   // test
+//var test_file = require('./test-file/server'); // test
+//var test_api = require('./test-api/server');   // test
 var citizen_press = require('./citizen_press/server'); 
 var geo = require('./geo/server'); 
 var l_express = require('./l_express/server'); 
@@ -16,8 +16,8 @@ var the_place_to_bio = require('./the_place_to_bio/server');
 var we_demain = require('./we_demain/server'); 
 
 // register sub-apps 
-app.use('/test-file',test_file);  // test
-app.use('/test-api',test_api);    // test
+//app.use('/test-file',test_file);  // test
+//app.use('/test-api',test_api);    // test
 app.use('/citizen_press',citizen_press);
 app.use('/geo',geo);
 app.use('/l_express',l_express);
