@@ -81,7 +81,7 @@ section
 /*CSS concernant le premier slide*/
 #slide1
 {
-	background: url('../img/img1/page_accueil.png') no-repeat center ;
+	background: url('../img/index/background_index_1.jpg') no-repeat center ;
 	background-size: cover;
 }
 
@@ -96,7 +96,7 @@ section
 /*CSS concernant le deuxième slide*/
 #slide2
 {
-	background: url('../img/img1/background_avec_nuages.jpg') no-repeat center ;
+	background: url('../img/index/background_index_2.jpg') no-repeat center ;
 	background-size: cover;
 }
 
@@ -119,22 +119,22 @@ section
 {
 	position: absolute;
 	top: 70%;
-	left: 33.33%;
-	width: 33.33%;
+	left: 35%;
+	width: 30%;
 	height: auto;
 }
 
 #div_bouton #bouton1 
 {
 	float: left;
-	width: 25%;
+	width: 30%;
 	height: auto;
 }
 
 #div_bouton #bouton2 
 {
 	float: right;
-	width: 25%;
+	width: 30%;
 	height: auto;
 }
 
@@ -202,7 +202,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-bus.jpg') no-repeat;
+	background: url('../img/stats/bg/fond-bus.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -273,7 +273,7 @@ section
 {
 	width: 100%;
 	height: 50%;
-	background: url('../img/img5/carré_orange_haut.png')  bottom;
+	background: url('../img/stats/dataviz/carré_orange_haut.png')  bottom;
 	background-size: 100%;
 	margin-bottom: 4%;
 }
@@ -290,7 +290,7 @@ section
 {
 	width: 100%;
 	height: 50%;
-	background: url('../img/img5/carré_orange_bas.png')  top;
+	background: url('../img/stats/dataviz/carré_orange_bas.png')  top;
 	background-size: 100%;
 	margin-top: 4%;
 	overflow: hidden;
@@ -460,7 +460,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-tram.jpg') no-repeat;
+	background: url('../img/stats/bg/fond-tram.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -567,7 +567,7 @@ section
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-activité.jpg') no-repeat center;
+	background: url('../img/stats/bg/fond-activité.jpg') no-repeat center;
 	background-size: cover;
 }
 /*CSS Concernant le 10ème slide */
@@ -593,7 +593,7 @@ section
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-carroussel.jpg') no-repeat center;
+	background: url('../img/stats/bg/fond-carroussel.jpg') no-repeat center;
 	background-size: cover;
 }
 
@@ -642,7 +642,7 @@ section
 	width:38%;
 	height:100%;
 	color: #a2ddab;
-	font-family:Sofia;
+	font-family: 'Sofia';
 	
 }
 
@@ -652,7 +652,7 @@ section
 	width:38%;
 	height:100%;
 	color:#ffe0a1;
-	font-family:Sofia;
+	font-family: 'Sofia';
 
 	
 }
@@ -664,7 +664,7 @@ section
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-royale.jpg') no-repeat center;
+	background: url('../img/stats/bg/fond-royale.jpg') no-repeat center;
 	background-size: cover;
 }
 
@@ -711,7 +711,7 @@ section
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/bgs/fond-asso.jpg') no-repeat center;
+	background: url('../img/stats/bg/fond-asso.jpg') no-repeat center;
 	background-size: cover;
 }
 
@@ -733,13 +733,13 @@ section
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: url('../imgs/jpg/CREDIT.jpg') no-repeat center;
+	background: url('../img/credits/credits_1.jpg') no-repeat center;
 	background-size: cover;
 }
 
 #creditsBis
 {
-	background: url('../imgs/jpg/hyblab final9 imac-29.jpg') no-repeat center ;
+	background: url('../img/credits/credits_2.jpg') no-repeat center ;
 	background-size: cover;
 }
 
@@ -764,50 +764,39 @@ section
 	height: 100%;
 }
 
-#enSavoirPlus1
+.enSavoirPlus
 {
-
 	position: absolute;
-	width: 2.8%;
-	right:3.2%;
-	height: 100%;
-	
-}
-
-#enSavoirPlus2
-{
-
-	position: absolute;
-	width: 2.8%;
-	right:3.2%;
-	height: 100%;
-	
+	left: 60%;
+	width: 3%;
+	height: auto;
+	margin-top: 1%;
 }
 
 #nantesfr
 {
-	background: url('../imgs/png/NANTESFR.png') no-repeat center;
+	background: url('../img/credits/NANTESFR.png') no-repeat center;
 	background-size: contain;
 	left: 0%;
 }
 
 #AGR
 {
-	background: url('../imgs/png/AGR.png') no-repeat center;
+	background: url('../img/credits/AGR.png') no-repeat center;
 	background-size: contain;
 	left: 25%;
 }
 
 #Polytech
 {
-	background: url('../imgs/png/POLYTECH.png') no-repeat center;
+	background: url('../img/credits/POLYTECH.png') no-repeat center;
 	background-size: contain;
 	left: 50%;
 }
 
 #SciencesCom
 {
-	background: url('../imgs/png/logo-sciencecom.png') no-repeat center;
+	background: url('../img/credits/logo-sciencecom.png') no-repeat center;
 	background-size: contain;
 	left: 75%;
 }

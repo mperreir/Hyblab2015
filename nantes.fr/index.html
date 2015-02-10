@@ -16,7 +16,7 @@
 			<!-- écran Accueil -->
 			<section id="slide1">
 				<div id="getDown">
-					<img src="img/img1/fleche_accueil.png"></img>
+					<img src="img/index/fleche_accueil.png"></img>
 				</div>
 			</section>
 			<!-- écran choix -->
@@ -24,12 +24,11 @@
 				<p id="text_choix">Faites Votre Choix !</p>
 				<div id="div_bouton">
 					<div id="bouton1">
-						<a href="data.html"><img class="img_bouton" src="img/img14/bouton_accedez_aux_données.png"/></a>
+						<a href="data.html"><img class="img_bouton" src="img/index/bouton_accedez_aux_stats.png"/></a>
 					</div>
 					<div id="bouton2">
-						<a href="stats.html"><img class="img_bouton" src="img/img14/bouton_testez_vous.png"/></a>
+						<a href="stats.html"><img class="img_bouton" src="img/index/bouton_faites_le_quizz.png"/></a>
 					</div>
-					<!-- revoir les href pour transitions animés -->
 				</div>
 			</section>
 			
@@ -53,7 +52,7 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('.main').onepage_scroll();
-				$('p').fitText();
+				$('p').fitText(1.2, {maxFontSize: '32px', minFontSize: '2px'});
 				$('#getDown').click(function() {
 					$('.main').moveDown();	
 				});
