@@ -1,0 +1,17 @@
+{
+  "name": "hyblab-geokiwi",
+  "version": "0.1.0",
+  "description": "Hyblab2015 - Geo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.1",
+    "highcharts": "0.0.8",
+    "jquery": "^2.1.3",
+    "jquery-ui": "^1.10.5"
+  }
+}

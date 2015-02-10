@@ -1,0 +1,36 @@
+[
+   { "pays":"france",
+      "donnees":
+        [    
+            {"energie":"Nucléaire","valeur":41},
+            {"energie":"Géothermique","valeur":0},
+            {"energie":"Biomasse","valeur":23},
+            {"energie":"Solaire","valeur":0},
+            {"energie":"Eolien","valeur":27},
+            {"energie":"Hydraulique","valeur":9}
+        ]
+    },
+    { "pays":"allemagne",
+      "donnees":
+        [    
+            {"energie":"Nucléaire","valeur":20},
+            {"energie":"Géothermique","valeur":0},
+            {"energie":"Biomasse","valeur":10},
+            {"energie":"Solaire","valeur":0},
+            {"energie":"Eolien","valeur":51},
+            {"energie":"Hydraulique","valeur":18}
+        ]
+    },
+   { "pays":"royaume-unis",
+      "donnees":
+        [    
+            {"energie":"Nucléaire","valeur":41},
+            {"energie":"Géothermique","valeur":0},
+            {"energie":"Biomasse","valeur":23},
+            {"energie":"Solaire","valeur":0},
+            {"energie":"Eolien","valeur":27},
+            {"energie":"Hydraulique","valeur":9}
+        ]
+    }
+
+]
