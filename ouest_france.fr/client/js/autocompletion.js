@@ -3,7 +3,7 @@
 $(function() {
                
         $.ajax({
-          url: "/communes",
+          url: "communes",
           type: "get",
           dataType: "json",
           success: function( data ) {
@@ -25,7 +25,7 @@ $(function() {
                //chargementData(ui.item.label);
                var commune=ui.item.label;
                           $.ajax({
-                              url: "/data",
+                              url: "data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
@@ -157,7 +157,7 @@ $(function() {
                   var commune=ui.item.label;
                   document.getElementById('VilleNomChx1').innerHTML=commune;
                   $.ajax({
-                              url: "/data",
+                              url: "data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
@@ -194,7 +194,7 @@ $(function() {
                document.getElementById('VilleNomChx2').innerHTML=commune;
                  
                           $.ajax({
-                              url: "/data",
+                              url: "data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
