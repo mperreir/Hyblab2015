@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<!-- CSS stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+		<title>Egalité Femme-Homme</title>
+	</head>
+
+	<body>
+		<div class="main">
+
+			<!-- écran Accueil -->
+			<section id="slide1">
+				<div id="getDown">
+					<img src="img/index/fleche_accueil.png"></img>
+				</div>
+			</section>
+			<!-- écran choix -->
+			<section id="slide2">
+				<p id="text_choix">Faites Votre Choix !</p>
+				<div id="div_bouton">
+					<div id="bouton1">
+						<a href="data.html"><img class="img_bouton" src="img/index/bouton_accedez_aux_stats.png"/></a>
+					</div>
+					<div id="bouton2">
+						<a href="stats.html"><img class="img_bouton" src="img/index/bouton_faites_le_quizz.png"/></a>
+					</div>
+				</div>
+			</section>
+			
+			<section id="credits">
+				<div class="logo_container">
+					<a href="http://www.nantes.fr/home.html"><div class="logos" id="nantesfr"></div></a>
+					<a href="http://www.agrnantes.fr"><div class="logos" id="AGR"></div></a>
+					<a href="http://web.polytech.univ-nantes.fr"><div class="logos" id="Polytech"></div></a>
+					<a href="http://www.sciencescom.org"><div class="logos" id="SciencesCom"></div></a>
+				</div>
+			</section>
+			
+			<section id="creditsBis"></section>
+
+		</div>
+
+		<!--Javascripts -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    	<script type="text/javascript" src="js/jquery.fittext.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.main').onepage_scroll();
+				$('p').fitText(1.2, {maxFontSize: '32px', minFontSize: '2px'});
+				$('#getDown').click(function() {
+					$('.main').moveDown();	
+				});
+			});
+		</script>
+
+	</body>
+</html>
