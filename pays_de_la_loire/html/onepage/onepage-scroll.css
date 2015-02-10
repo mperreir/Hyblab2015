@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition: all 500ms; /* For Firefox et Chrome 3.1 to 6.0 */
+  -o-transition: all 500ms; /* For Opera 3.1 to 6.0 */
+  transition: all 500ms;
+  overflow-y: hidden;
+}
+
+body, .onepage-wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  height: 100%;
+}
+
+.onepage-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper .section {
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-pagination {
+  position: absolute;
+  right: -20px;
+  top: 45%;
+  z-index: 999;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+}
+.onepage-pagination li {
+  padding: 0;
+  text-align: center;
+}
+.onepage-pagination li a{
+  width: 30px;
+  height: 6px;
+  display: block;
+  margin-bottom: 5px;
+  -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition: all 500ms; /* For Firefox et Chrome 3.1 to 6.0 */
+  -o-transition: all 500ms; /* For Opera 3.1 to 6.0 */
+  transition: all 500ms;
+}
+.onepage-pagination li a:before{
+  content: '';
+  position: absolute;
+  background: #bc4572;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  width: 30px;
+  height: 6px;
+  right: -2px;
+  -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition: all 500ms; /* For Firefox et Chrome 3.1 to 6.0 */
+  -o-transition: all 500ms; /* For Opera 3.1 to 6.0 */
+  transition: all 500ms;
+}
+
+.onepage-pagination li a.active:before{
+  width: 30px;
+  height: 6px;
+  right: 16px;
+  -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition: all 500ms; /* For Firefox et Chrome 3.1 to 6.0 */
+  -o-transition: all 500ms; /* For Opera 3.1 to 6.0 */
+  transition: all 500ms;
+}
+
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .section {
+  position: relative !important;
+  top: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100%;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
+}

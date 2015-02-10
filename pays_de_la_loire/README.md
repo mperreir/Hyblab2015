@@ -1,17 +1,12 @@
 # Descriptif du projet
 
-Média : notre de votre média
+Média : paysdelaloire.fr (Nicolas Dumez)
 
-Sujet : description du sujet
+Sujet : Les Olympiades des métiers
 
-Equipe : nom de votre équipe
+Equipe : Les Gnakés
 
-Patricipants : 
-- AGR : 
-- Polytech :
-- SciencesCom :
-
-# Installation
-
-# Informations complémentaires
-  
+Patricipants :
+- AGR : Anne-Laure Bellamy, Christelle Fitan, Nicolas Guillaud
+- Polytech : Christophe Hubert, Emmanuel Le Bris, Thomas Mainguy
+- SciencesCom : Florence du Boÿs, Gabriel Prévost
