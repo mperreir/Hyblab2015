@@ -1,0 +1,275 @@
+{
+		1:{
+			name:"Miel",
+			texte_prod:"La moitié des régions métroppolitaine produisent plus de 10 % de leur miel en bio. C’est dans le Sud que les apiculteurs bio sont les plus nombreux.",
+			le_saviez_vous:"La production de miel bio progresse alors que le nombre total de ruches (bio et non bio) chute d'année en année : 789 000 en 2013 contre 820 000 deux ans plus tôt.",
+			prix:46,
+			
+			production:{
+				fichier:"ProdMiel.json",
+				attributCpt:"ruchesbio"
+			}
+			
+		},
+		2:{
+			name:"Pomme",
+			texte_prod:"La région Paca est championne de la production de pommes de table bio avec 650 hectares de surfaces agricoles en 2013.", 
+			le_saviez_vous:"La production de pommes bio a augmenté de 48 % entre 2011 et 2013 (en surfaces). C’est l’une des progressions les plus importantes dans le paysage agricole français.",
+			prix:49,
+			
+			production:{
+				fichier:"ProdPommes.json",
+				attributCpt:"surfbio"
+			}
+		},
+		0:{
+			name:"Vin",
+			texte_prod:"Le Languedoc-Roussillon, l’Aquitaine et la région Paca sont à la pointe de la viticulture bio. A elles trois, elles représentent 70 % des vignes bio de l’Hexagone en 2013.",
+			le_saviez_vous:"Le bio a du mal à pétiller ! Parmi les grandes régions viticoles, la Champagne-Ardenne est la moins investie en bio : seulement 1,2 % des surfaces en 2013. D’après la <a href=\"http://www.biochampagneardenne.org/\">Fédération Régionale des Agrobiologistes de Champagne-Ardenne</a>, la très mauvaise année 2012 aurait découragé beaucoup de viticulteurs prêts à se convertir au bio.",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[19.7,19.4,19.9,20.1,18.5],
+					[13,13.4,16.5,15.6,17.9],
+					[33.9,33.1,30.8,30.9,25.2],
+					[33.5,34.1,32.7,33.4,38.4]
+				],
+				texte_distri:"Un tiers des ventes de vins biologiques sont effectuées en vente directe en 2013. C’est le seul produit de notre sélection pour lequel la vente directe est le premier circuit de distribution."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[3,2,2,1,2],
+				texte_import:"L‘importation dans le secteur du vin bio est faible. Attention toutefois : le chiffre fourni par l’Agence Bio agrège le vin et d’autres secteurs (oeufs et viandes)."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[2.4,3,3,3.4,3.6,3.9,4.5,6],
+				texte_partM:"La part de marché du vin biologique reste faible. Mais sa progression est spectaculaire : elle a doublé entre 2008 et 2013."
+			},
+			
+			production:{
+				fichier:"ProdVin.json",
+				attributCpt:"surfbio"
+			}
+		},
+		5:{
+			name:"Lait",
+			texte_prod:"La production de lait bio en France augmente nettement : + 14% de vaches laitières entre 2011 et 2013.",
+			le_saviez_vous:"En France, une bouteille de lait sur dix est bio. “Acheter du lait bio rassure les parents et c’est un produit que les distributeurs mettent bien en avant”, constate Patrice Lefeuvre, président de <a href=\"http://www.gab85.org/actualites/creation-de-lait-bio-de-france\">l’Association fédérative des organisations d’éleveurs laitiers bio</a>.",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[78.8,80.4,80.7,82.9,81],
+					[0,0,0,0,0],
+					[16.7,15.8,15.7,14.9,15.8],
+					[4.5,3.8,3.6,2.2,3.3]
+				],
+				texte_distri:"En bio, dans la grande distribution, le produit qui génère le chiffre d’affaires le plus important est le lait : 221 millions d’euros en 2012."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[25,25,13,8,2],
+				texte_import:"Les importations de lait et de produits laitiers bio (l’Agence bio agrège ces deux catégories) ont fortement chuté : 25 % en 2009, 2 % en 2013."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[3.8,5.1,6.3,7.9,8.3,9,8.9,10.1],
+				texte_partM:"Un consommateur sur dix achète son lait en bio, deux fois plus qu’en 2007."
+			},
+			prix:34,
+			
+			production:{
+				fichier:"ProdLait.json",
+				attributCpt:"tetesbio"
+			}
+		},
+		4:{
+			name:"Jus de Fruits",
+			texte_prod:"La Basse-Normandie est, de très loin, la région de France produisant le plus de pommes à jus bio (carte ci-contre).",
+			le_saviez_vous:"A elles deux, la Basse-Normandie et la Bretagne représentent deux tiers de la production de pommes à jus bio en France. ",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[60,66.7,70.6,72.1,74.8],
+					[0,0,0,0,0],
+					[40,33.3,29.4,26.9,24.4],
+					[0,0,0,1,0.8]
+				],
+				texte_distri:"Les ventes de jus de fruits bio dans les grandes surfaces progressent très fortement : + 227 % (en valeur) entre 2008 et 2012."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[76,76,80,68,66],
+				texte_import:"Malgré une baisse tendancielle, 66 % des jus de fruits bio sont toujours importés en 2013. Logique : le jus d’orange est le plus consommé."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[1.9,2.1,2.6,3.4,3.9,4.5,4.9,5.8],
+				texte_partM:"La part de marché des jus de fruits bio est plutôt élevée (5,8 %), et elle progresse rapidement : elle n’était que de 2,60 % en 2008"
+			},
+			prix:21,
+			
+			production:{
+				fichier:"ProdJusFruits.json",
+				attributCpt:"surfbio"
+			}
+		},
+		
+			7:{
+			name:"Œufs",
+			texte_prod:"La Bretagne est la championne de la production d’œufs bio (plus d’un million de poules pondeuses), loin devant les Pays de la Loire.",
+			le_saviez_vous:"L’œuf est le produit le plus consommé en bio (20,60 % de part de marché). Selon le <a href=\"http://synalaf.com\">Synalaf</a> (Syndicat national des labels avicoles de France), cette tendance s’explique par le désir des Français d’avoir une alimentation “saine, sans OGM ni produits chimiques de synthèse”.",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[57.1,59.5,60.8,63,63.1],
+					[1.2,1,1,0.9,0.8],
+					[36.5,34.9,33.5,31.7,31.7],
+					[5.3,4.6,4.8,4.4,4.4]
+				],
+				texte_distri:"Les œufs bio sont principalement vendus en grandes surfaces avec un chiffre d’affaires élevé : 159 millions d’euros en 2012 contre 11 millions en vente directe."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[3,2,2,1,2],
+				texte_import:"Les œufs bio sont presque toujours d’origine française. Attention toutefois : le chiffre fourni par l’Agence bio agrège les œufs et d’autres secteurs (vin et viande)"
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[7.6,10.8,11.9,13.2,13.6,14.4,13.8,20.6],
+				texte_partM:"L’œuf est le produit le plus consommé en bio : la part de marché a doublé en six ans pour atteindre 20,60 % en 2013."
+			},
+			prix:27,
+			
+			production:{
+				fichier:"ProdOeufs.json",
+				attributCpt:"tetesbio"
+			}
+		},
+		
+			6:{
+			name:"Volaille",
+			texte_prod:"La région Pays de la Loire est championne de la production de poulets de chair (carte ci-contre) avec 152 exploitations en 2013, soit plus de 2 millions de têtes.",
+			le_saviez_vous:"La volaille est beaucoup plus chère en bio (+ 125 % pour des filets de poulet lors de nos relevés). Un surcoût qui s’explique par “des exploitations aux densités moins élevées, des races rustiques et une alimentation végétale bio”, rappelle le <a href=\"http://synalaf.com\">Synalaf</a>, Syndicat national des labels avicoles de France. ",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[45.6,48.9,53.7,54.6,51.9],
+					[2.5,2.2,1.9,2.5,2.3],
+					[31.6,30.4,28.7,28.6,29],
+					[20.3,18.5,15.7,14.3,16.8]
+				],
+				texte_distri:"La volaille bio est un produit phare en vente directe avec un chiffre d’affaires de 22 millions d’euros en 2012."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[3,2,2,1,2],
+				texte_import:"La volaille bio est le plus souvent d’origine française. Attention toutefois : le chiffre fourni par l’Agence bio agrège le vin et d’autres secteurs (oeufs et viande)."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[1.2,1.4,1.4,1.6,1.8,1.9,1.9,2.3],
+				texte_partM:"La volaille bio reste peu consommée par les Français : la part de marché n’est que de 2,30% en 2013."
+			},
+			prix:125,
+			
+			production:{
+				fichier:"ProdPoulets.json",
+				attributCpt:"tetesbio"
+			}
+		},
+		
+			9:{
+			name:"Fruits et Légumes",
+			texte_prod:"Les plus gros producteurs de fruits et légumes de l’Hexagone - Champagne-Ardenne, Picardie et Nord-Pas-De-Calais - sont aussi les plus mauvais élèves de la production bio de fruits et légumes (moins de 1 %).",
+			le_saviez_vous:"La production de fruits et légumes bio se développe, avec des percées spectaculaires : entre 2011 et 2013, la Basse-Normandie a agrandi sa surface agricole bio de 69%.",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[27.3,32.9,32.4,31.5,29.8],
+					[0.9,1,1.1,1.2,1.1],
+					[47.5,44.2,41.9,42.2,42.3],
+					[24.4,22,24.6,25.1,26.8]
+				],
+				texte_distri:"Les Français achètent le plus souvent leurs fruits et légumes bio dans les magasins spécialisés. Mais les parts de marché des grandes surfaces et de la vente directe progressent.  "
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[65,50,48,34,32],
+				texte_import:"Même si l’importation a diminué de moitié entre 2009 et 2013, de nombreux fruits et légumes proviennent toujours de l’étranger, notamment  les variétés exotiques qui ne sont pas cultivées en France."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[1.7,2.3,2.7,3.2,3.3,3.5,3.7,3.8],
+				texte_partM:"Après une nette progression entre 2005 et 2009, la part de marché des fruits et légumes se stabilise."
+			},
+			
+			production:{
+				fichier:"ProdFL.json",
+				attributCpt:"surfbio"
+			}
+		},
+
+			8:{
+			name:"Surgelés et traiteur",
+			le_saviez_vous:"En 2013, plus de deux tiers des produits traiteurs et surgelés bio (en valeur) ont été achetés dans les grandes surfaces. Le chiffre d’affaires des artisans s’est écroulé de 69 % entre 2008 et 2012.",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[38.9,39.5,40.8,64.5,62.3],
+					[14.8,20.2,24.6,3,2.6],
+					[46.3,40.4,34.5,32.5,35.1],
+					[0,0,0,0,0]
+				],
+				texte_distri:"Entre 2008 et 2013, le chiffre d’affaires des produits traiteurs et surgelés a progressé de 183 % en grandes surfaces, quand les magasins spécialisés n’ont gagné que 34%."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[51,41,42,39,42],
+				texte_import:"En 2013, 42% des produits traiteurs et surgelés bio restent importés. Cette part a même augmenté entre 2012 et 2013."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[0.5,0.8,1.1,1.5,1.8,2.1,2.2,2.7],
+				texte_partM:"Les produits traiteurs et surgelés bio progressent : + 440 % entre 2008 et 2013. Mais la part de marché reste faible."
+			},
+			prix:46
+		},
+
+			3:{
+			name:"Épicerie Sucrée)",
+			le_saviez_vous:"Plus de 50% des produits de l’épicerie sucrée sont importés de l’étranger. Mais selon <a href=\"http://www.agencebio.org/\">l’Agence Bio</a>, « la majorité des importations concerne des denrées qui ne peuvent être produites en France », telle que le thé, le sucre, le caco et le café ; produits appartenant à cette filière. ",
+			distribution:{
+				annees:[2008,2009,2010,2011,2012],
+				values:[
+					[34.8,36.5,40.4,40.6,39.2],
+					[0,0,0,0.7,0.6],
+					[65.2,63.5,59.6,57,58.5],
+					[0,0,0,1.7,1.6]
+				],
+				texte_distri:"Les produits de l’épicerie sucrée sont essentiellement vendus en grandes surfaces et dans les magasins spécialisés. Les autres distributeurs ne représentent que 3 % du chiffre d’affaires."
+			},
+			importation:{
+				annees:[2009,2010,2011,2012,2013],
+				values:[68,70,70,54,54],
+				texte_import:"Près de moitié des produits bio du rayon épicerie sucrée restent importés. Ce chiffre atteignait 70 % en 2011."
+			},
+			bio:{
+				annees:[2005,2007,2008,2009,2010,2011,2012,2013],
+				values:[0.8,0.9,1.1,1.4,1.5,1.6,1.7,1.9],
+				texte_partM:"Les produits de l’épicerie sucrée sont, de notre liste, ceux qui ont la plus faible part de marché en bio (1,90 % en 2013), bien qu’elle ait grimpé de 138% entre 2005 et 2012."
+			},
+			prix:47
+		},
+
+			10:{
+			name:"La France du Bio",
+			texte_prod:"La région Paca domine avec 15,21 % de ses surfaces agricoles en bio, loin devant e Languedoc-Roussillon (11,14 %) et les Rhône-Alpes (6,70 %).",
+			le_saviez_vous:"Le marché bio hexagonal est en plein boom, avec une progression des ventes de près de 15% par an depuis 2008 (en valeur). Mais la production biologique végétale ne suit pas, avec une croissance d’à peine 3 % dans notre pays entre 2012 et 2013. Quelles sont les régions championnes du bio ? Dans quels magasins les consommateurs achètent-ils bio ? Découvrez, produit par produit, la France du bio.",
+			production:{
+				fichier:"ProdTtesSurf.json",
+				attributCpt:"surfbio"
+			}
+		}
+	
+}
