@@ -27,11 +27,17 @@ app.get('/', function(req, res) {
         }
       })*/
 
-    res.render('layout', {
-        test: 'coucou'
-    });
+    res.render('layout');
 });
 
+/**
+ * @author Claire REMY
+ * returns the queried town for the selected year and selected naf codes
+ * 
+ * @param nom name of the city
+ * @param annee selected year
+ * @param codeNAF string of selected nafcodes
+ */
 app.get('/tableau', function(req, res) {
     var params = req.query;
     var datas = require("./data/data.json");
@@ -68,11 +74,14 @@ app.get('/tableau', function(req, res) {
             }
         }
     }
-    console.log(selectedNafArray);
     res.json(selectedNafArray);
-    //res.end();
 });
 
+/**
+ * @author Benjamin MOUDEN
+ * 
+ * returns the data for the first dataviz 
+ */
 app.get('/dataviz1', function(req, res) {
     var paramsD1 = req.query;
     var datasD1 = require("./data/entreprises.json");
@@ -81,7 +90,6 @@ app.get('/dataviz1', function(req, res) {
     
         var selectedDataD1 = [];
         
-        //Get objects corresponding to the city queried
         for (var city in datasD1) {  
             var tmpJson = {};
             tmpJson.nom = datasD1[city].nom;
@@ -89,11 +97,14 @@ app.get('/dataviz1', function(req, res) {
             selectedDataD1.push(tmpJson);
         }       
     }
-    console.log(selectedDataD1);
     res.json(selectedDataD1);
-    //res.end();
 });
 
+/**
+ * @author Quentin GROS
+ * 
+ * returns the data needed to display the podiums
+ */
 app.get('/matchfinal', function(req, res) {
     var paramsD3 = req.query;
     var datasD3 = require("./data/matchfinal.json");
@@ -102,19 +113,22 @@ app.get('/matchfinal', function(req, res) {
         
         var methodResults = [];
         
-        
-        //Get objects corresponding to the city queried
         for (var podium in datasD3) {
             if (datasD3[podium].method === paramsD3.method) {
                 methodResults.push(datasD3[podium]);
             }
         }
     }
-    console.log(methodResults);
     res.json(methodResults);
-    //res.end();
 });
 
+/**
+ * @author Claire REMY
+ * 
+ * returns the informations needed to display popups in dataviz 1
+ * 
+ * @param nom : the name of city queried
+ */
 app.get('/townInfo', function(req, res) {
     var params = req.query;
     var datas = require("./data/villes.json");
@@ -130,6 +144,14 @@ app.get('/townInfo', function(req, res) {
     res.json(result);
 });
 
+/**
+ * @author Claire REMY
+ * 
+ * returns the numbers to display in popups of dataviz 1
+ * 
+ * @param nom : the name of the city the user has clicked
+ * @param year : the year currently being displayed on the page
+ */
 app.get('/townNumbers', function(req, res) {
     var params = req.query;
     var datas = require("./data/yearsNb.json");
