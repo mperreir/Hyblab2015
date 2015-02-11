@@ -1,4 +1,8 @@
-var hostays ="https://hyblab2015bis-anhaflint.c9.io";
+/**
+ * @author Benjamin MOUDEN (main)
+ * @author Claire REMY 
+ */
+
 var chart1 = '';
 
 function whichYear(year) {
@@ -102,7 +106,7 @@ function whichYear(year) {
 
 function datasD1(year) {
 
-    $.getJSON(hostays + '/dataviz1?annee=' + year, function(data) {
+    $.getJSON('dataviz1?annee=' + year, function(data) {
         var villesD1 = [];  
         var valeursD1 = [];    
 
@@ -177,24 +181,24 @@ function datasD1(year) {
             var id = this.textContent || this.innerText;
             $('#myModal').modal();
             var year = "20" + $('#ca3').text() + $('#ca4').text();
-            $.getJSON(hostays + '/townInfo?nom=' + id, function(data) {
+            $.getJSON('townInfo?nom=' + id, function(data) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
                     $('#DV2TownName').html(id);
                     console.log("<img src=\"/images/"+data.image+"\">");
                     $('#DV2pic').html("<img src=\"/images/"+data.image+"\">");
                     
-                    if(data.hasOwnProperty('medaille1')) {
+                    if(data.medaille1) {
                         console.log("<img src=\"/images/"+data.medaille1+"\">");
                         $('#med1').html("<img src=\"/images/"+data.medaille1+"\">");
                     }
-                    if(data.hasOwnProperty('medaille2')) {
+                    if(data.medaille2) {
                         console.log("<img src=\"/images/"+data.medaille2+"\">");
                          $('#med2').html("<img src=\"/images/"+data.medaille2+"\">");
                     }
                 }
            });
-          $.getJSON(hostays + '/townNumbers?nom=' + id + '&annee=' + year, function(data) {
+          $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
              if(data)  {
                  $('#ch1').html(data.ch1);
                  $('#ch2').html(data.ch2);

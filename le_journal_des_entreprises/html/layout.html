@@ -15,37 +15,34 @@
     <script type="text/javascript">
         Shadowbox.init({
             handleOversize: "resize"
-        });</script>
+        });
+    </script>
         
 </head>
 <body>
-    <!--<div class="container-fluid">-->
+
         {% include "./intro.html" %}
         {% include "./dataviz1.html" %}
         {% include "./salariesNum.html" %}
         
         <div id="comparison" class="page">
-        <iframe
-        src="https://hyblab2015-ayssti-3.c9.io/comparatif.html"
-        width="100%"
-        height="100%"
-        scrolling="auto"
-        frameborder="0" >
-        </iframe>
+            <iframe
+            src="https://hyblab2015-ayssti-3.c9.io/comparatif.html"
+            width="100%"
+            height="100%"
+            scrolling="auto"
+            frameborder="0" >
+            </iframe>
         </div>
+        
         {% include "./matchfinal.html" %}
         {% include "./outro.html" %}
 
-    <!--</div>-->
     <script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap-slider.js"></script>
-
     <script type="text/javascript" src="/js/scroll.js"></script>
-
     <script type="text/javascript" src="js/highcharts-min.js"></script>
-  
-  
     <script type="text/javascript" src="/js/dataviz1.js"></script>
 
 </body>
