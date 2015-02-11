@@ -74,7 +74,7 @@ body{
 #inside1
 {
  height: inherit;
- background-image: url(/images/ring.png);   
+ background-image: url("../images/ring.png");   
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;  
@@ -111,7 +111,7 @@ body{
 #inside2
 {
  height: inherit;
- background-image: url(/images/Gants.png);  
+ background-image: url("../images/Gants.png");  
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center; 

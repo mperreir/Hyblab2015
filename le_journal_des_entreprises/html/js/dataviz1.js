@@ -14,15 +14,15 @@ function whichYear(year) {
         $('#ville5').html('Montpellier');
         $('#ville8').html('Lille');
         $('#ville9').html('Lyon');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-5.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-5.png)");
     }
     else if (year === 2009) {
         $('.ca3').html('0');
@@ -32,15 +32,15 @@ function whichYear(year) {
         $('#ville7').html('Marseille');
         $('#ville8').html('Lyon');
         $('#ville9').html('Lille');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-1.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-1.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2010) {
         $('.ca3').html('1');
@@ -50,56 +50,56 @@ function whichYear(year) {
         $('#ville9').html('Marseille');
         $('#ville7').html('Lyon');
         $('#ville8').html('Lille');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2011) {
         $('.ca3').html('1');
         $('.ca4').html('1');
         $('#ville7').html('Lille');
         $('#ville8').html('Lyon');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2012) {
         $('.ca3').html('1');
         $('.ca4').html('2');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-6.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-6.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     if (year === 2013) {
         $('.ca3').html('1');
         $('.ca4').html('3');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-1.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-6.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-1.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-6.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
         
     }
 }
