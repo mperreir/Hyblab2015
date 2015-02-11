@@ -1,0 +1,20 @@
+{
+  "name": "HyblabJDE",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.1",
+    "d3": "^3.4.13",
+    "express": "^4.10.2",
+    "jquery": "^2.1.1",
+    "request": "^2.48.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
