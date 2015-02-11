@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+<ellipse fill="#EB6155" cx="116.058" cy="280.593" rx="52.994" ry="23.438"/>
+<polygon fill="#EB6155" points="169.206,249.277 169.206,280.633 63.063,280.598 63.063,249.277 "/>
+<ellipse fill="#DB5C56" cx="116.058" cy="250.536" rx="52.994" ry="23.44"/>
+<ellipse fill="#6BBAAD" cx="116.371" cy="207.108" rx="52.681" ry="23.438"/>
+<polygon fill="#6BBAAD" points="169.206,184.585 169.206,207.149 63.689,207.119 63.689,184.585 "/>
+<ellipse fill="#51B19E" cx="116.058" cy="188.355" rx="52.994" ry="23.439"/>
+<ellipse fill="#F18A31" cx="116.371" cy="138.269" rx="52.681" ry="23.439"/>
+<polygon fill="#F18A31" points="169.206,120.521 169.206,138.31 63.689,138.293 63.689,120.521 "/>
+<ellipse fill="#DC6E2C" cx="116.058" cy="121.401" rx="52.994" ry="23.44"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="199.983" y1="127.533" x2="319.945" y2="127.533"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="200.867" y1="202.171" x2="298.5" y2="202.171"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="201.867" y1="263.675" x2="321.829" y2="263.675"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="199.983" y1="335.952" x2="319.945" y2="335.952"/>
+<rect x="335.646" y="114.185" fill="none" width="444.051" height="22.926"/>
+<text transform="matrix(1 0 0 1 335.646 129.9707)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Connaissance sans application directe : 10</text>
+<rect x="338.16" y="192.27" fill="none" width="615.829" height="22.32"/>
+<text transform="matrix(1 0 0 1 311.1592 208.0566)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Application directe dans nouveaux produits ou procédés : 16</text>
+<rect x="335.646" y="247.302" fill="none" width="413.588" height="23.553"/>
+<text transform="matrix(1 0 0 1 335.646 270.0898)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Produits et procédés mis sur le marché : 52</text>
+<rect x="334.547" y="319.821" fill="none" width="112.112" height="24.494"/>
+<text transform="matrix(1 0 0 1 335.0352 341.0361)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Autres débouchés : 4</text>
+<g opacity="0.7">
+	<path fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" d="M149.127,442.901
+		c-19.305,0-34.954-15.65-34.954-34.955"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="114.173" y1="407.946" x2="114.173" y2="383.884"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="149.127" y1="442.901" x2="318.061" y2="442.901"/>
+</g>
+<rect x="333.035" y="424.827" fill="none" width="584.211" height="72.541"/>
+<text transform="matrix(1 0 0 1 334.5474 447.4844)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Nombre de projets de R&amp;D aboutis entre 2006 et 2011 : 82</text>
+<ellipse fill="#F18A31" cx="118.254" cy="337.998" rx="52.681" ry="23.44"/>
+<rect x="65.573" y="329.669" fill="#F18A31" width="105.517" height="8.367"/>
+<ellipse fill="#DC6E2C" cx="117.942" cy="328.667" rx="52.994" ry="23.439"/>
+</svg>

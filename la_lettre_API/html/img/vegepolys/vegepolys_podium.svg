@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.279px" height="559.09px" viewBox="0 0 595.279 559.09" enable-background="new 0 0 595.279 559.09"
+	 xml:space="preserve">
+	<defs>
+  <style type="text/css">
+    @font-face {
+	    font-family: 'Roboto';
+	    src: url('../../fonts/roboto/Roboto-Thin.eot');
+	    src: url('../../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+	         url('../../fonts/roboto/Roboto-Thin.woff') format('woff'),
+	         url('../../fonts/roboto/Roboto-Thin.ttf') format('truetype'),
+	         url('../../fonts/roboto/Roboto-Thin.svg#Roboto') format('svg');
+	}
+  </style>
+</defs>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="274.598" y1="61.062" x2="274.598" y2="107.432"/>
+<rect x="250.37" y="42.749" fill="none" width="49.08" height="25.203"/>
+<text transform="matrix(1 0 0 1 243.9998 51.125)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="21">Nantes</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="166.949" y1="446.247" x2="120.58" y2="446.247"/>
+<rect x="63.37" y="438.417" fill="none" width="49.08" height="25.201"/>
+<text transform="matrix(1 0 0 1 48.4392 448.4766)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="21">Angers</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="244" y1="513.5" x2="197.631" y2="513.5"/>
+<rect x="112.037" y="493.417" fill="none" width="78.081" height="25.201"/>
+<text transform="matrix(1 0 0 1 143.7644 513.5)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="21">Paris</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="427.781" y1="413.245" x2="381.412" y2="413.245"/>
+<rect x="436.702" y="405.415" fill="none" width="96.299" height="25.434"/>
+<text transform="matrix(1 0 0 1 436.7029 413.7939)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="21">Saumur</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="436.448" y1="458.247" x2="390.079" y2="458.247"/>
+<rect x="445.369" y="450.417" fill="none" width="49.08" height="25.201"/>
+<text transform="matrix(1 0 0 1 445.3708 458.7939)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="21">Cholet</text>
+<ellipse fill="#64BBAE" cx="274.479" cy="448.838" rx="30.396" ry="14.662"/>
+<ellipse fill="#F09748" cx="207.479" cy="480.838" rx="30.396" ry="14.662"/>
+<polygon fill="#F09748" points="238,157.849 238,252.208 177,252.097 177,157.849 "/>
+<ellipse fill="#E06C3A" cx="207.5" cy="158.157" rx="30.5" ry="13.445"/>
+<polygon fill="#F09748" points="238,243.849 238,338.066 177,337.958 177,243.849 "/>
+<polygon fill="#F09748" points="238,325.85 238,421.723 177,421.616 177,325.85 "/>
+<polygon fill="#F09748" points="238,387.85 238,480.409 177,480.301 177,387.85 "/>
+<polygon fill="#64BBAE" points="305,126.849 305,221.208 244,221.097 244,126.849 "/>
+<ellipse fill="#46B2A0" cx="274.5" cy="127.157" rx="30.5" ry="13.445"/>
+<polygon fill="#64BBAE" points="305,212.849 305,307.066 244,306.958 244,212.849 "/>
+<polygon fill="#64BBAE" points="305,294.85 305,390.725 244,390.616 244,294.85 "/>
+<polygon fill="#64BBAE" points="305,382.85 305,448.477 244,448.403 244,382.85 "/>
+<ellipse fill="#F05F59" cx="341.479" cy="425.838" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="372.001,375.85 372.001,425.204 311.001,425.147 311.001,375.85 "/>
+<ellipse fill="#E05B5A" cx="341.501" cy="376.157" rx="30.5" ry="13.445"/>
+<polygon fill="#F09748" points="384.001,437.848 384.001,469.538 323.001,469.5 323.001,437.848 "/>
+<ellipse fill="#E06C3A" cx="353.501" cy="438.157" rx="30.5" ry="13.445"/>
+<ellipse fill="#F09748" cx="353.479" cy="468.838" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="317.001,412.848 317.001,502.208 256,502.102 256,412.848 "/>
+<ellipse fill="#E05B5A" cx="286.5" cy="413.157" rx="30.501" ry="13.445"/>
+<ellipse fill="#F05F59" cx="286.479" cy="502.838" rx="30.397" ry="14.662"/>
+</svg>

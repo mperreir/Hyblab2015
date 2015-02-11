@@ -1,0 +1,41 @@
+body {
+  background: #efefef;
+}
+
+#bar_chart{
+  height: 250px;
+  margin-left:100px;
+  width: 400px;
+}
+
+#percent, #bar_chart {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#percent {
+  line-height: 20px;
+  height: 20px;
+  width 100%;
+  top: 10px;
+  left: 30px;
+  font-size: 43px;
+  text-align: justify;
+  color: #3da08d;
+  opacity: 0.8
+}
+
+#spe {
+  line-height: 20px;
+  margin-left:95px;
+  height: 20px;
+  width 100%;
+  margin-top: 40px;
+  font-size: 43px;
+  text-align: justify;
+  color: #3da08d;
+  opacity: 0.8
+}

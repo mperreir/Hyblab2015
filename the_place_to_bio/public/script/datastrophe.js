@@ -30,7 +30,7 @@ function DataStrophe(div){
 	this.resources = new ResourceLoader();
 	this.resources.onLoad = function(){ 
 		$.ajax({
-			url:"/data.json",
+			url:"data.json",
 			dataType:"text",
 			success: function(e){
 				eval("self.dataset = "+e);
@@ -333,7 +333,7 @@ DataStrophe.prototype = {
 			else{
 				var s = this.selected;
 				$.ajax({
-					url:"/json/"+data.production.fichier,
+					url:"json/"+data.production.fichier,
 					dataType:'text',
 					success:function(e){
 						var f;

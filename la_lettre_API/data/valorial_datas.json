@@ -1,0 +1,47 @@
+{
+	"name": "Valorial",
+	"icon": "img/valorial/valorial_icon_id.svg",
+	"desc": "L’aliment de demain, tel est le crédo de Valorial. Le pôle rennais s'articule autour de cinq thématiques : la microbiologie et la sécurité des aliments, les ingrédients fonctionnels, la nutrition humaine et animale, les process et usages innovants et le marketing. Valorial déploie aujourd’hui ses actions en Bretagne, en Pays de la Loire et en Basse-Normandie.",
+	"city": "Angers",
+	"president": {
+	    "image": "img/valorial/valorial_president.png",
+	    "name": "Pierre Weill",
+	    "biographie": "De son enfance alsacienne, Pierre Weill a gardé « l'envie de faire un métier en lien avec le monde agricole et l'alimentation ». Après un séjour en Israël et une mission de coopération en Afrique, il arrive au début des années 80 en Bretagne. En 1985, il entre comme ingénieur chez Prodex-Vetagri qui connaît des difficultés sept ans plus tard. Pierre Weill participe alors à la reprise de l'entreprise, sous l'enseigne Valorex (120 salariés - 66 M€ de CA), et en devient le président en 2003. Valorex développe des technologies industrielles destinées au traitement des graines de lin, lupin et féverole pour la nutrition animale et humaine. Président de Valorial depuis 2012, il est également à l’origine de l'association Bleu-Blanc-Cœur en 2000."
+	},
+	"link": "http://agence-api.fr/societes/pole-valorial-aliment-de-demain-25055.html",
+	"bassinEmploi":{
+    	"img":"img/valorial/valorial_podium.svg",
+    	"more": {
+    		"title": "Le Finistère sud, terre de l’agroalimentaire",
+			"icon": "img/valorial/valorial_icon_id.svg",
+    		"content": "Parmi les membres du pôle Valorial, nombreux sont ceux basés à Quimper. La préfecture du Finistère est le premier bassin d’emplois du pôle de compétitivité. Le département regroupe 20 000 salariés dans l’industrie et le négoce agroalimentaire, soit 40% de l’emploi industriel. Dominant, le secteur représente 1/4 des entreprises industrielles du département. De grands groupes tels que les produits laitiers Entremont, les charcuteries Monique Ranou ou encore la société Hénaff sont implantés dans le bassin quimpérois. Et ces entreprises continuent d’investir. En 2013, Saupiquet (200 salariés) a modernisé son outil de production. Un investissement de plusieurs millions d’euros pour atteindre  la production de 50 000 conserves de maquereaux par an.</br></br><h4>Des signes de reprise de l’activité</h4>D’autres ont connu quelques difficultés à l’image du groupe Doux, placé en redressement judiciaire en 2012. Déficitaire, son pôle frais a été liquidé et partiellement repris à la rentrée 2012 avec la perte d’un millier d’emplois. Le groupe a aussi été impacté par l’arrêt des aides européennes à l’export du poulet. Mais le groupe de Châteaulin (450 M€ de CA – 2200 salariés) redresse la barre. Il annonce la création de 193 emplois à moyen terme pour continuer à développer son activité en Bretagne et en Vendée. «La création de ces nouveaux emplois a été rendue possible grâce à la demande soutenue des clients et l’amélioration de la productivité», souligne Arnaud Marion, président du directoire de Doux, qui reste le troisième acteur mondial de la volaille. "
+    	}
+    },
+	"adherents":{
+		"data":[
+			["Nombre d'établissements membres",242],
+			["Nombre de nouveaux établissements membres",37]
+		]
+	},
+	"secteurs":{
+		"img":"img/valorial/valorial_activites.svg"
+	},
+	"repartition":{
+		"data":[
+			["Etablissements créés en 2012",3],
+			["PME",137],
+			["Entreprises de taille intermédiaire",53],
+			["Grandes entreprises",17]
+		]
+	},
+	"projetLabellise":{
+		"nombre": 	[0,3,1,0,3,1,1],
+		"montant":	[0,1317235,750000,0,2374529.72,663399.6,207049.65]
+	},
+	"resultats_intelectuels":{
+		"img": "img/valorial/valorial_brevets.svg"
+	},
+	"resultats_operationnel":{
+		"img": "img/valorial/valorial_RD.svg"
+	}
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html> <!-- this is an html5 document -->
+<html lang="fr" ng-app> <!-- our page in in french -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="fullpage/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="css/polices/police.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide1.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide2.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide3.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide4.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide5.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide6.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide7.css" />
+        <link rel="stylesheet" type="text/css" href="css/slide8.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet "type="text/css" href="chartist/chartist.min.css"/>
+        <script src="chartist/chartist.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+        <title>Hyblab - L'Express</title>
+    </head>
+    <body>
+        
+    
+        <div id='container' class='container'>
+            <div id=content>
+                <div id="fullpage" class='col-lg-12'>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 1--------------------------------------------------------->
+                    <div class="section active">
+                        <div id="persoDiv" class="animated bounceInDown">
+                                <img src="ressource/svg/slide1/perso.svg" alt="Personnage" id="perso"></img>
+                        </div>
+                        
+                        <div id="titre1" class="animated bounceInRight">
+                                <img src="ressource/svg/slide1/titre1.svg" alt="Titre1"></img>
+                        </div>
+                        
+                        <div id="titre2" class="animated bounceInLeft">
+                                <img src="ressource/svg/slide1/titre2.svg" alt="Titre2"></img>
+                        </div>
+                        
+                        <div id="soustitre" class="animated bounceInRight">
+                                <img src="ressource/svg/slide1/soustitre.svg" alt="Soustitre"></img>
+                        </div>
+                        
+                        <div id="flecheDiv">
+                            <img src="ressource/svg/slide1/fleche.svg" alt="fleche" id="fleche" class="flecheBas" style="cursor: pointer;"></img>
+                        </div>
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 2--------------------------------------------------------->
+                    <div class="section">
+                        <div ng-include="'slide2.html'"></div>
+                    </div>
+
+<!---------------------------------------------------------CONTENU SLIDE 3--------------------------------------------------------->
+                    <!--Partie Gauche de la slide -->
+                    <div class="section" style="padding:1%;padding-left:4%">
+                        <img src="ressource/svg/slide3/titreSlide3.svg" alt="Titre slide 3" id="titreSlide3"></img>
+                        <div class="col-sm-6" style="font-size:130%">
+                            <div>
+                                <form id="tfnewsearch">
+		                              <input type="text" id="textField-s3" class="tftextinput" name="q" size="21" maxlength="120" value="Saissisez votre Ville" style="color: white;">
+		                              <input type="image" value="search" id="tfbutton1s3" class="tfbutton" src="ressource/svg/slide5/pictoloupe.svg">
+	                           </form>
+                                <form>
+                                    <br>
+                                    <input type="radio" id="radio01" name="radio" value="croissant" class="css-checkbox" checked/>
+                                    <label for="radio01" class="css-label radGroup1"><span></span>De la ville moins polluée vers la plus polluée</label>
+                                    <br>
+                                    <input type="radio" id="radio02" name="radio" value="decroissant" class="css-checkbox"/>
+                                    <label for="radio02" class="css-label radGroup1"><span></span>De la ville plus polluée vers la moins polluée</label>
+                                </form>
+                            </div>
+                            <div class="scroll" id="classementVille">
+                                <table id="tabVilles">
+                                  <!-- Fonction Javascript qui ajoute des éléments au tableau--> 
+                                </table>
+                            </div>
+                            <p id="textindices3">L'indice atmo caractérise quotidiennement la qualité de l'air extérieur des grandes villes et varie sur une échelle graduée de 1 (excellente qualité) à 10 (très mauvaise qualité).</p>
+                            <input type="image" id="tfbutton2" class="tfbutton" src="ressource/svg/slide3/boutonensavoirplus.svg" onclick="location.href='http://www.atmo-france.org/fr/'">
+                        </div>
+                        
+                        <!--Partie Droite de la slide -->
+                        <div class="col-sm-6" id="datavizCarte">
+                            <div id="listeVilles">
+                                <!-- Carte -->
+                                <img src="ressource/svg/slide3/carte.svg" alt="France" id="france"></img>
+                                <svg id="infoBulle" xmlns="http://www.w3.org/2000/svg" width="120px" height="120px">
+                                    <circle id="cercleInfoBulle" style="stroke:white;stroke-width:2px" cx="60" cy="60" r="59"></circle>
+                                    <text class="infoBulle_1" x="60" y="56" id="nomVille" text-anchor="middle"></text>
+                                    <text class="infoBulle_2" x="60" y="71" id="nbJours" text-anchor="middle"></text>
+                                </svg>
+                            </div>
+                            <!-- Légende de la carte-->
+                            <div>
+                                <img src="ressource/svg/slide3/point3.svg" class="leg" alt="pollutionForte"></img><span class="textLeg">200-270 jours d'air de bonne qualité</span><br>
+                                <img src="ressource/svg/slide3/point2.svg" class="leg" alt="pollutionMoyenne"></img><span class="textLeg">270-300 jours d'air de bonne qualité</span><br>
+                                <img src="ressource/svg/slide3/point1.svg" class="leg" alt="pollutionFaible"></img><span class="textLeg">300-350 jours d'air de bonne qualité</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 4--------------------------------------------------------->
+                    <div class="section">
+                        <div id="contenu_slide4" style="padding:1%; padding-left:2%;">
+                             <div class="row" id="4-titre">
+                                 <!-- iNFORMATION général de la ville-->
+                                  <div class="col-sm-8" id="4-ville">
+                                      <p class="villeCompare" id="titreVille">
+                                          <span id="villeTitre"></span>
+                                          <br/>
+                                          <span id="posvilles4"></span>
+                                       </p>
+                                  </div>
+                                  <div class="col-sm-4" id="4-compare">
+                                      <img src="ressource/svg/slide4/boutton_compare_ta_ville.svg" alt="compare" id="compare"></img>
+                                  </div>
+                             </div>
+                             <div class="row nbr_s" id="4-nbr">
+                                  <div class="col-sm-4" id="4-vehicule" style="">
+                                        <img src="ressource/svg/slide5/barre3.png" alt="remplissage Voiture" id="rempl_voiture" style="width: 0px;"></img>
+                                        <img src="ressource/svg/slide4/voiture.svg" alt="voiture" id="icone_voiture"></img>
+                                        <p id="texte_voiture"><span id="voiture_chiffre_s4" class="chiffre_s4"></span><br/><span class="text_s4"> de la population utilise la voiture pour aller au travail</span></p>
+                                  </div>
+                                  <div class="col-sm-4" id="4-commun">
+                                       <img src="ressource/svg/slide5/barre3.png" alt="remplissage Bus" id="rempl_bus" style="width: 0px;"></img>
+                                       <img src="ressource/svg/slide4/bus.svg" alt="transport en commun" id="icone_bus"></img>
+                                       <p id="texte_bus"><span id="tc_chiffre_s4" class="chiffre_s4"></span><br/><span class="text_s4"> de la population utilise les transports en commun pour aller au travail</span></p>
+                                  </div>
+                                  <div class="col-sm-4" id="4-temps">
+                                       <div class="row" style="margin-bottom: 0%;">
+                                           <img src="ressource/svg/slide4/soleil.svg" alt="soleil" id="picto_soleil"></img>
+                                           <p id="texte_soleil"><span class="text_s4"><span id="soleil_chiffre_s4"></span> jours/an</span></p>
+                                       </div>
+                                           <img src="ressource/svg/slide4/pluie.svg" alt="pluie" id="picto_pluie"></img>
+                                           <p id="texte_pluie"><span class="text_s4"><span id="pluie_chiffre_s4"></span> jours/an</span></p>
+                                  </div>
+                             </div>
+                             
+                             <!-- Graphe du nombre de jours inférieur a 6 par mois-->
+                             <div class="row" id="4-graphe">
+                                 <div id="legendegraphe">
+                                     <img src="ressource/svg/slide4/titregraphique.svg" id="titregraphique"></img>
+                                     <div id="legendes4">Nombre</br>de jours</div>
+                                 </div>
+                                  <div class="col-lg-12" id="graphe">
+                                     <div class="ct-chart ct-perfect-fourth"></div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 5--------------------------------------------------------->
+                    <div class="section">
+                        <!-- Nom des villes comparées-->
+                        <div class="container">
+                            <div class="row" id="nom-villes-s5">
+                              <div class="col-sm-6"><p class="villeCompare" id="ville-g-s5" ></p></div>
+                              <div class="col-sm-6"><p id="ville-d-s5" class="villeCompare"></p>
+	                               <form id="tfnewsearch2">
+		                                <input type="text" id="textField-s5" class="tftextinput" name="q" size="21" maxlength="120" value="Saissisez votre Ville" >
+		                                    <input type="image" value="search" class="tfbutton" id="tfbutton1s5" src="ressource/svg/slide5/pictoloupe.svg" >
+	                                	</form>
+	                               <div class="tfclear"></div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Indice ATMO-->
+                        <div id="indiceATMO-s5">
+                            <div id="div-barreAtmo-g-s5">
+                                <img src="ressource/svg/slide5/barre3.png" class="barreComparaison" id="barreAtmo-g" alt="valeurAtmo-g" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="atmo-g-chiffre"></span>
+                                </p>
+                            </div>
+                            <div id="div-pictoAtmo-s5" class="divPicto">
+                                <img src="ressource/svg/slide5/pictoindice.svg" alt="indiceATMO"></img>
+                            </div>
+                            <div id="div-barreAtmo-d-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreAtmo-d" alt="valeurAtmo-d" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="atmo-d-chiffre"></span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!--BUS-->
+                        <div id="bus-s5">
+                            <div id="div-barreBus-g-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreBus-g" alt="valeurBus-g" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="bus-g-chiffre"></span>
+                                </p>
+                            </div>
+                            <div id="div-pictoBus-s5" class="divPicto">
+                                <img src="ressource/svg/slide5/pictobusplein.svg" alt="bus"></img>
+                            </div>
+                            <div id="div-barreBus-d-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreBus-d" alt="valeurBus-d" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="bus-d-chiffre"></span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Voiture-->
+                        <div id="voiture-s5">
+                            <div id="div-barreVoiture-g-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreVoiture-g" alt="valeurVoiture-g" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="voiture-g-chiffre"></span>
+                                </p>
+                            </div>
+                            <div id="div-pictoVoiture-s5" class="divPicto">
+                                 <img src="ressource/svg/slide5/pictovoitureplein.svg" alt="voiture"></img>
+                            </div>
+                            <div id="div-barreVoiture-d-s5">
+                                 <img src="ressource/svg/slide5/barre3.png" id="barreVoiture-d" alt="valeurVoiture-d" style="width: 0px;height:15px;">
+                                 <p class="policeChiffre">
+                                     <span id="voiture-d-chiffre"></span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Soleil-->
+                        <div id="soleil-s5">
+                            <div id="div-barreSoleil-g-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreSoleil-g" alt="valeurSoleil-g" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="soleil-g-chiffre"></span>
+                                </p>
+                            </div>
+                            <div id="div-pictoSoleil-s5" class="divPicto">
+                                <img src="ressource/svg/slide5/pictosoleil.svg" alt="soleil"></img>
+                            </div>
+                            <div id="div-barreSoleil-d-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barreSoleil-d" alt="valeurSoleil-d" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="soleil-d-chiffre"></span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Pluie-->
+                        <div id="pluie-s5">
+                            <div id="div-barrePluie-g-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barrePluie-g" alt="valeurPluie-g" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="pluie-g-chiffre"></span>
+                                </p>
+                            </div>
+                            <div id="div-pictoPluie-s5" class="divPicto">
+                                <img src="ressource/svg/slide5/pictopluie.svg" alt="pluie"></img>
+                            </div>
+                            <div id="div-barrePluie-d-s5">
+                                <img src="ressource/svg/slide5/barre3.png" id="barrePluie-d" alt="valeurPluie-d" style="width: 0px;height:15px;">
+                                <p class="policeChiffre">
+                                    <span id="pluie-d-chiffre"></span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Légende-->
+                        <div id="divleg">
+                            <img src="ressource/svg/slide5/légende.svg" id="imgleg">
+                        </div>
+                        
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 6--------------------------------------------------------->
+                    <div class="section">
+                        <img src="ressource/svg/slide6/slide6.svg" id="slide6" height="100%" width="100%">
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 7--------------------------------------------------------->
+                    <div class="section">
+                        <div id="titres7"><img src="ressource/svg/slide7/titre.svg"></div>
+                        <div id="divMains7">
+                            
+                            <!----Partie Gauche-->
+                            <div class="col-sm-5" id="divInfo">
+                                <div id="sousTitres7-g">Seuil d'information</div>
+                                <div id="pictos7g">
+                                    <img src="ressource/svg/slide7/pictolivres.svg"  alt="pictoLivre">
+                                </div>
+                                <div class="divIndice">
+                                    <img src="ressource/svg/slide7/pictoindice.svg" class="pictoIndice-s7" alt="pictoIndice">
+                                    <span class="textAtmo-s7"> = 4-7</span>
+                                </div>
+                                <div class="textExpli-g">Des mesures sont à prendre pour les populations vulnérables 
+                                                        (femmes enceintes, nourrissons et jeunes enfants ou encore 
+                                                        personnes asthmatiques) et les populations sensibles 
+                                                        (personnes se reconnaissant comme sensibles lors des 
+                                                        pics de pollution et/ou dont les symptômes apparaissent 
+                                                        ou sont amplifiés lors des pics de pollution. 
+                                </div>
+                            </div>
+                            <div class="col-sm-2" id="divPerso">
+                                <img src="ressource/svg/slide7/savants7.svg" alt="Personnage" id="persos7"></img>
+                            </div>
+                            
+                            <!-----Partie Droite------>
+                            <div class="col-sm-5" id="divAlerte">
+                                <div id="sousTitres7-d">Seuil d'alerte</div>
+                               <div id="pictos7d">
+                                   <img src="ressource/svg/slide7/pictoattention.svg" alt="pictoAttention">
+                                </div>
+                                <div class="divIndice">
+                                    <img src="ressource/svg/slide7/pictoindice.svg" class="pictoIndice-s7" alt="pictoIndice">
+                                    <span class="textAtmo-s7"> = 8-10</span>
+                                </div>
+                                <div class="textExpli-d">Les mesures sont plus restrictives pour les personnes 
+                                                        vulnérables et sensibles. Mais les recommandations 
+                                                        s’étendent à la population générale. Par exemple 
+                                                        il est recommandé de limiter les activités physiques 
+                                                        en plein air ou de privilégier les sorties brèves. 
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <img src="ressource/svg/slide7/boutonensavoirplus.svg" id="savoirpluss7" class="tfbutton" alt="savoirplus" onclick="location.href='http://www.atmoauvergne.asso.fr/fr/reglementation/alertes/recommandations'">
+                            </div>
+                        </div>
+                    </div>
+                    
+<!---------------------------------------------------------CONTENU SLIDE 8--------------------------------------------------------->
+                    <div class="section" id="mainDivs8">
+                        <div class="titre" id="credit">Crédits</div>
+                        <div class="col-sm-6">
+                            <div class="ecole">AGR, l'école de l'image</div>
+                            <div class="eleve">BEZIER Romain, GALET Mathieu, MANSO Adrien</div>
+                            <div class="ecole">Polytech Nantes</div>
+                            <div class="eleve">CHOTARD François, EVO Brieuc, GUINARD Arnaud</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="ecole">SciencesCom</div>
+                            <div class="eleve">NICOLAS Marine, RECOQUILLE Maxime</div>
+                            <div class="ecole">L'Express</div>
+                            <div class="eleve">FALGA Pierre, METTOUT Eric</div>
+                        </div>
+                        <div class="titre" id="sources">Sources</div>
+                        <div class="source">INSEE</div>
+                        <div class="source">AASQA</div>
+                        <div class="expli">(Associations Agrées de Surveillance de la Qualité de l'air)</div>
+                        <div class="source">LCSQA</div>
+                        <div class="expli" id="bas">(Laboratoire Central de Surveillance de la Qualité de l'Air)</div>
+                            
+                        <div id="lets_partenaires">
+                            <div id="lets_partenaires_hyb">
+                                <div class="lets_first_row">
+                                    <div>
+                                        <a href="http://www.agrnantes.fr" title="A.G.R.">
+                                            <img src="ressource/svg/slide8/agr.png" alt="A.G.R." />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://web.polytech.univ-nantes.fr" title="Polytech">
+                                            <img src="ressource/svg/slide8/polytech.jpg" alt="Polytech" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.sciencescom.org" title="Science Com">
+                                            <img src="ressource/svg/slide8/sciences_com.jpg" alt="Science Com" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.univ-nantes.fr" title="Université de Nantes">
+                                            <img src="ressource/svg/slide8/universite_nantes.jpg" alt="Université de Nantes" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.etalab.gouv.fr" title="Etalab Gouv">
+                                            <img src="ressource/svg/slide8/etalab_gouv.png" alt="Etalab Gouv" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.nantesmetropole.fr" title="Nantes Métropole">
+                                            <img src="ressource/svg/slide8/nantes-metro.png" alt="Nantes Métropole" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.orange.fr" title="Orange">
+                                            <img src="ressource/svg/slide8/orange.jpg" alt="Orange" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.paysdelaloire.fr" title="Pays de la Loire">
+                                            <img src="ressource/svg/slide8/pdl.png" alt="Pays de la Loire" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="lets_second_row">
+                                    <div>
+                                        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/" title="Creative Commons">
+                                            <img src="ressource/svg/slide8/cc.jpg" alt="Creative Commons" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="http://opensource.org" title="Open Source Initiative">
+                                            <img src="ressource/svg/slide8/osi.jpg" alt="Open Source Initiative" />
+                                        </a>
+                                    </div>
+                                    <div class="lets_text"><p>un projet issu des ateliers du </p>
+                                        <div>
+                                            <a href="http://www.hyblab.fr"><img src="ressource/svg/slide8/hyblab.jpg" alt="Hyblab - Data Journalisme"></a>
+                                        </div>
+                                        <div>
+                                            <a href="http://www.ouestmedialab.fr" title="MediaLab"><img src="ressource/svg/slide8/medialab.png" alt="MediaLab" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        
+        <!--PARTIE JS-->
+        <script type="text/javascript" src="js/data.js"></script>
+        <script type="text/javascript" src="js/slide1.js"></script>
+        <script type="text/javascript" src="js/slide2.js"></script>
+        <script type="text/javascript" src="js/slide3.js"></script>
+        <script type="text/javascript" src="js/slide4.js"></script>
+        <script type="text/javascript" src="js/slide5.js"></script>
+        <script type="text/javascript" src="js/radio.js"></script>
+        <script type="text/javascript" src="fullpage/vendors/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="fullpage/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/general.js"></script>
+        
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="fullpage/vendors/jquery.easings.min.js"></script>
+    </body>
+</html>

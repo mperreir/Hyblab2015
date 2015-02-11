@@ -21,9 +21,11 @@ app.get('/data', function(req,res){
 })
 
 // launch the server
-var server = app.listen(process.env.PORT, function () {
+/*var server = app.listen(process.env.PORT, function () {
   var host = server.address().address;
   var port = server.address().port;
 
   console.log('TestHyblab app listening at http://%s:%s', host, port);
-})
+})*/
+
+module.exports = app;

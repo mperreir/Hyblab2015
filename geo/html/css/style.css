@@ -226,7 +226,7 @@ a:focus {
 
 #container_graph41, #container_graph43, #container_graph42 {
   	background-repeat: no-repeat;
-  	background-image: url('/svg/Radar.svg'); 
+  	background-image: url('../svg/Radar.svg'); 
   	background-size: 100% 90%; 
   	display: inline-block;
   	background-position: center bottom;

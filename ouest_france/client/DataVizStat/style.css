@@ -1,0 +1,39 @@
+
+#bar_chart{
+  height: 250px;
+  margin-left:50px;
+  margin-top:0px;
+  width: 400px;
+  text-align: justify;
+}
+
+
+#percent {
+ /* line-height: 20px;*/
+  height: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 30px;
+  text-align: justify;
+  color: #FFFFFF;
+  opacity: 0.8
+}
+
+#spe {
+  /*line-height: 20px;*/
+  margin-left:80px;
+  height: 20px;
+  width :300px;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: justify;
+  color: #FFFFFF;
+  opacity: 0.8
+}
+
+#DataViz1{
+  margin-top:100px;
+  height: 400px;
+  width : 40px;
+}

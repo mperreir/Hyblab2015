@@ -1,0 +1,37 @@
+#modal,#modal_biographie {
+    position:absolute;
+}
+
+#modal .modal-content,#modal_biographie .modal-content{
+    background-color: #9ACDD7;
+    color: rgba(0, 0, 0, 0.70);
+    min-height: 19vw;
+}
+
+#modal img,#modal_biographie img{
+    height: 9vw;
+    float: left;
+    margin: 0 1vw 1vw 0;
+}
+
+#modal img{
+    width: 18vw;
+}
+
+#modal_biographie_title,#modal_title{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#modal_biographie_body,#modal_body{
+    font-size: 1vw;
+    font-weight: initial;
+    text-align: justify;
+    font-family: 'RobotoRegular', Arial, serif;
+}
+
+#modal_biographie_body h4,#modal_body h4{
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'RobotoRegular', Arial, serif;
+}

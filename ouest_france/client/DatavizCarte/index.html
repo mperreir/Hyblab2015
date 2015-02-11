@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	#canvas{
+		background-color:#AAAAAA;
+	}
+</style>
+</head>
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script>
+
+	var width = 960,
+	    height = 600;
+
+	var medById = d3.map();
+
+	var dsv = d3.dsv(";", "text/plain");
+
+	// CREATE SVG DRAWING CANVAS
+	var paper = d3.select("body")
+    .append("svg")
+    .attr("id", "canvas")
+    .attr("width", 800)
+    .attr("height", 600);
+
+	queue()
+		.defer( d3.xml, "Map.svg")
+		.defer( dsv, "Medecins.csv", function(d) {
+			if( parseInt(d.POPU) > 0 )
+				ratio = 1000 * parseFloat(d.MEDECINS) / parseInt(d.POPU);
+			else
+				ratio = 0;
+			medById.set(d.CODGEO, ratio); })
+		.await(ready);
+
+	function ready(error, map_data)
+	{
+		var svgNode = document.importNode(map_data.documentElement,true);
+
+		paper.node().appendChild(svgNode);
+		updateMapFill(0) // on définit un seuil ici pour mettre ne évidence les déserts médicaux
+	}
+
+	function updateMapFill(seuil)
+	{
+		d3.selectAll("#medecins-light > g > g")
+			.datum( function(d) { return medById.get(this.attributes["code_insee"].value); } )
+			.attr("fill", function(d) { 
+				val=25*this.__data__;
+				if( val >= seuil)
+					return d3.rgb(255-val,255,255-val);
+				else
+					return "#FF0000";
+			}) 
+			.attr("stroke","None");
+	}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+	"name": "Images et réseaux",
+	"icon": "img/imagereseaux/imagereseaux_icon_id.svg",
+	"desc": "À vocation mondiale, Images et réseaux couvre la Bretagne et les Pays de la Loire. Le pôle a rassemble les forces régionales dans les domaines des télécoms, de l’internet, de la télévision et des images. Son ambition ? Innover dans les services et technologies associés aux nouveaux usages des contenus numériques et des médias. Basé à Lannion, le pôle a ouvert une antenne à Rennes.",
+	"city": "Lannion",
+	"president": {
+	    "image": "img/imagereseaux/imagereseaux_president.png",
+	    "name": "Vincent Marcatté",
+	    "biographie": "Vincent Marcatté est un homme de réseaux. A la tête d’Images et réseaux depuis 2008, il est également à l’origine de l’institut de recherche technologique B-com, qu’il préside. Vincent Marcatté a aussi présidé la Fondation de l'Université Rennes 1 entre 2010 et 2012. Depuis ses débuts professionnels, il montre de l'intérêt pour tout ce qui touche au potentiel du numérique. Et exercé plusieurs fonctions de management au sein des cellules de R&D de La Poste, France Télécom, d’Orange notamment. Depuis 2010, il assure la direction des partenariats et de l'open Innovation d'Orange Labs à Rennes. Vincent Marcatté est également chef du plan Réalité Augmentée de la Nouvelle France Industrielle."
+	},
+	"link": "http://agence-api.fr/societes/pole-images-et-reseaux-25412.html",
+	"bassinEmploi":{
+    	"img": "img/imagereseaux/imagereseaux_podium.svg"
+	},
+	"adherents":{
+		"data":[
+			["Nombre d'établissements membres",184],
+			["Nombre de nouveaux établissements membres",26]
+		]
+	},
+	"secteurs":{
+		"img":"img/imagereseaux/imagereseaux_activites.svg"
+	},
+	"repartition":{
+		"data":[
+			["Etablissements créés en 2012",2],
+			["PME",151],
+			["Entreprises de taille intermédiaire",16],
+			["Grandes entreprises",7]
+		],
+		"more": {
+			"title": "Le pôle Images et réseaux capte les grands groupes de télécoms",
+			"icon": "img/imagereseaux/imagereseaux_icon_id.svg",
+			"content": "Sept des adhérents du pôle Images et réseaux sont des grands groupes. Et pour cause, l’Ouest jouit d’une forte présence des industriels des télécoms et du numérique. Terre d’innovations, la Bretagne a vu naitre le Minitel au début des années 70 grâce au centre national des études des télécommunications de Lannion. À Lannion comme à Rennes, les laboratoires d’Orange Labs perpétuent cette culture de l’innovation au sein de leurs centres de R&D:  le Marathon, premier prototype de téléphone mobile, la voix haute définition, le son spatialisé ou encore les fonctionnalités de la nouvelle livebox. Aujourd’hui les 1500 ingénieurs de ces deux centres de R&D travaillent déjà sur la 5G mobile. </br></br><h4>Un secteur toujours porteur</h4>Cet écosystème performant attire, à l’image de l’hébergeur OVH. Le groupe de Roubaix va renforcer ses sites bretons. 70 recrutements sont prévus à Rennes où le site emploie 12 personnes. A Brest, OVH regroupe 40 salariés. «D'ici à juin 2015, 10 recrutements sont prévus. Puis, nous ouvrirons 50 postes pour atteindre un effectif de 100 personnes à fin 2015», précise Octave Klaba, PDG d’OVH. Le numérique reste donc un secteur porteur pour la région."
+		}
+	},
+	"projetLabellise":{
+		"nombre":	[5,6,7,10,6,3,7],
+		"montant": 	[7571016,11931980.79,12130651.19,14355941.76,6771185.7,2823490.38,6901762]
+	},
+	"resultats_intelectuels":{
+		"img": "img/imagereseaux/imagereseaux_brevets.svg"
+	},
+	"resultats_operationnel":{
+		"img": "img/imagereseaux/imagereseaux_RD.svg"
+	}
+	
+}

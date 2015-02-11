@@ -1,0 +1,50 @@
+{
+	"name": "EMC2",
+	"icon": "img/emc2/emc2_icon_id.svg",
+	"desc": "EMC2 se positionne comme le pôle de compétitivité pour l’innovation dans les technologies de production : Produire mieux et propre. Basé à Bouguenais, il a l’ambition de devenir un écosystème de référence mondiale dans le domaine des technologies avancées de production, mais aussi de conforter le développement du territoire et de ses acteurs par le biais de l'innovation collaborative.",
+	"city": "Bouguenais",
+	"president": {
+	    "image": "img/emc2/emc2_president.png",
+	    "name": "Nicolas Orance",
+	    "biographie": "Etre au service du progrès industriel : une volonté qui a dicté le parcours de Nicolas Orance, président d’EMC2 depuis 2009. Responsable du service de R&D de Mecaprotec (31), Nicolas Orance intègre le groupe Daher en 2000 sur un poste à double responsabilité : il est à la fois chef de projet et ingénieur R & D. Des fonctions qui le conduisent à gérer la fabrication de conteneurs techniques pour le spatial mais également à s'occuper d'innovation, de propriété industrielle et de veille technologique. Il rejoint la Loire Atlantique en tant que directeur de la filiale Daher Atlantique. Depuis 2007, il pilote le service Stratégie et développement de Daher-Socata, le pôle aéronautique de Daher. Nicolas Orance est aussi président de l'association des membres fondateurs de l’IRT Jules Verne."
+	},
+	"link": "http://agence-api.fr/societes/pole-emc2-24809.html",
+	"bassinEmploi":{
+		"img":"img/emc2/emc2_podium.svg",
+		"more": {
+			"title": "L'IRT Jules Verne dessine l'industrie de demain",
+			"icon": "img/emc2/emc2_icon_id.svg",
+			"content": "Si EMC2 est basé à Bouguenais aux abords de l’aéroport, les membres du pôle sont fortement implantés dans la région nantaise. Et c’est dans la zone du Chaffault près d’Airbus, que EMC2 a installé son Technocampus composites, l’un des piliers de l’IRT de Jules Verne. L’institut de recherche technologique mène des recherches «en mode coopératif» dédiées aux technologies de production composites, métalliques et structures hybrides. 38 M€ ont déjà été engagés, avec la mise en place d’un premier démonstrateur: un robot circule à toute vitesse sur un rail, usinant une aile d'avion avec des niveaux de précision hors pair. </br></br> <h4>Des projets à horizon 2020</h4>Et les prochaines années s’annoncent riches puisque l’institut vise à devenir un campus d’innovation technologique de dimension mondiale d’ici 2020. L'IRT compte mobiliser 267 M€ dont 50 % venant de fonds privés et 115 M€ provenant de l’Etat via les investissements d'avenir. Son objectif ? Assurer la compétitivité et la pérennité des entreprises. Et pour cela, il regroupera des industriels, des établissements de formation, des laboratoires de recherche appliquée publics ou privés, travaillant ensemble autour de moyens de prototypage et de démonstration pour créer l’industrie de demain."
+		}
+	},
+	"adherents":{
+		"data":[
+			["Nombre d'établissements membres",185],
+			["Nombre de nouveaux établissements membres",57]
+		]
+	},
+	"secteurs":{
+		"img":"img/emc2/emc2_activites.svg"
+	},
+	"repartition":{
+		"data":[
+			["Etablissements créés en 2012",0],
+			["PME",109],
+			["Entreprises de taille intermédiaire",24],
+			["Grandes entreprises",12]
+		]
+	},
+	"projetLabellise":{
+		"nombre": [3,2,4,5,4,1,2],
+		"montant": [1595744,3195103.87,4486588.3,6628028.46,6142306.35,824065.1,632289.42]
+	},
+	"resultats_intelectuels":{
+		"img": "img/emc2/emc2_brevets.svg"
+	},
+	"resultats_operationnel":{
+		"img": "img/emc2/emc2_RD.svg"
+	}
+}
+
+
+

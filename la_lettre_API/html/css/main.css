@@ -1,0 +1,51 @@
+html,body {
+    height:100%;
+    font-family: 'CodeBold', Arial, serif;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-family: 'Roboto', Arial, serif;
+}
+
+.textBold {
+    font-family: 'Roboto', Arial, serif;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'Code';
+    src: url('../fonts/code/CODE_Light.eot');
+    src: url('../fonts/code/CODE_Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/code/CODE_Light.woff') format('woff'),
+         url('../fonts/code/CODE_Light.ttf') format('truetype'),
+         url('../fonts/code/CODE_Light.svg#Code') format('svg');
+}
+
+@font-face {
+    font-family: 'CodeBold';
+    src: url('../fonts/code/CODE_Bold.eot');
+    src: url('../fonts/code/CODE_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/code/CODE_Bold.woff') format('woff'),
+         url('../fonts/code/CODE_Bold.ttf') format('truetype'),
+         url('../fonts/code/CODE_Bold.svg#CodeBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Thin.eot');
+    src: url('../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Thin.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Thin.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Thin.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/roboto/Roboto-Regular-Thin.eot');
+    src: url('../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Regular.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Regular.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Regular.svg#RobotoRegular') format('svg');
+}

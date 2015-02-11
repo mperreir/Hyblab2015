@@ -1,0 +1,164 @@
+#pagePole{
+	background-color: #ED7464;
+}
+
+#poleContent{
+	padding: 15px 25px;
+	background-color: white;
+	width: 90%;
+	margin: 8% auto 3% auto;
+	-moz-box-shadow: 8px 8px 29px 5px #505050;
+	-webkit-box-shadow: 8px 8px 29px 5px #505050;
+	-o-box-shadow: 8px 8px 29px 5px #505050;
+	box-shadow: 8px 8px 29px 5px #505050;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#505050, Direction=134, Strength=17);
+}
+
+#menu_pagePole{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+	height: 9%;
+	background-color: #BA5749;
+    font-family: 'CodeBold', Arial, serif;
+}
+
+#menu_pagePole .col-md-1{
+	height: 100%;
+	display: table; 
+}
+
+#menu_pagePole .col-md-1:hover{
+	background-color: #73362e;
+	cursor: pointer;
+}
+
+#menu_pagePole .selected{
+	background-color: #73362e;
+}
+
+
+#menu_pagePole p{
+	color: white;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+	font-size: 1vw;
+}
+
+.header{
+	width: 40%;
+	border-bottom: solid #ED7464 1px;
+	margin-bottom: 1vw;
+	
+}
+.titre{
+	font-size: 25px;
+	color: #ED7464;
+	font-weight: bold;
+    font-family: 'RobotoRegular', Arial, serif;
+}
+
+.logo{
+	max-height: 2vw;
+}
+
+#nouveaux_adherents, #repartition,#graphique_courbe,#resultats_intelectuels,#resultats_operationnel{
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#podium_bassin,#cylindres_activites{
+	text-align: center;
+	vertical-align: middle;
+}
+
+#podium_bassin h4,#cylindres_activites h4,#resultats_operationnel h4,#resultats_intelectuels h4{
+	text-align: center;
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+
+#podium_bassin_img{
+	height: 400px;
+	max-width: 100%;
+}
+
+#cylindres_activites_img{
+	max-height: 400px;
+	max-width: 100%;
+}
+
+#resultats_intelectuels img {
+	max-height: 400px;
+	max-width: 100%;
+}
+
+#resultats_operationnel img {
+	max-height: 400px;
+	max-width: 100%;
+}
+
+#projets_pole{
+	margin-top: 2vw;
+}
+
+#bassin_loupe,#activite_loupe,#intelectuels_loupe,#operationnel_loupe{
+	position: absolute;
+	width: 15%;
+	top: 5vw;
+	right: 5vw;
+	cursor: pointer;
+}
+
+#adherents_loupe,#repartition_loupe,#labellise_loupe{
+	position: absolute;
+	top: 0;
+	width: 15%;
+	right: 0;
+	z-index: 3;
+	cursor: pointer;
+}
+
+#labellise_loupe{
+	width: 8%;
+}
+
+
+@-webkit-keyframes rumble {
+    0% {-webkit-transform: rotate(3deg);}
+    25% {-webkit-transform: rotate(0deg);}
+    50% {-webkit-transform: rotate(-3deg);}
+    75% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(3deg);} 
+}
+
+.rumble{
+    -webkit-animation: rumble 0.8s infinite linear;
+}
+
+#footer_pagePole{
+	position:relative;
+}
+
+#phone{
+	position: absolute;
+	left: 31vw;
+	z-index: 1;
+	width: 17%;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(35deg);
+}
+
+#clavier{
+	position: absolute;
+	z-index: 1;
+	width: 52%;
+	right: -23vw;
+}

@@ -1,0 +1,31 @@
+
+
+.DataVizVersus {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  color: #444;
+}
+
+#percentDataViz, #svgDataViz {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#percentDataViz {
+  line-height: 20px;
+  height: 20px;
+  width 100%;
+  top: 60px;
+  left: 100px;
+  font-size: 43px;
+  text-align: justify;
+  color: #3da08d;
+  opacity: 0.8
+}
+
+
