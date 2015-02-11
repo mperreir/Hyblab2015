@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="117.833px" height="30px" viewBox="0 0 117.833 30" enable-background="new 0 0 117.833 30" xml:space="preserve">
+<g id="Calque_3">
+</g>
+<g id="Calque_1">
+	<path fill="#FFFFFF" d="M116.5,13.667c0-6.627-5.373-12-12-12h-92c-6.627,0-12,5.373-12,12v4c0,6.627,5.373,12,12,12h92
+		c6.627,0,12-5.373,12-12V13.667z"/>
+	<ellipse fill="#00C74D" cx="14.86" cy="15.483" rx="11.651" ry="11.434"/>
+	<rect x="48.336" y="11.67" fill="none" width="19.914" height="7.497"/>
+	<text transform="matrix(1 0 0 1 48.3359 18.7695)" fill="#6F6F6E" font-family="'MyriadPro-Regular'" font-size="10">MIDI</text>
+</g>
+<g id="Calque_2">
+	<circle fill="#00C74D" stroke="#FFFFFF" stroke-width="1.5673" stroke-miterlimit="10" cx="14.604" cy="15.472" r="5.253"/>
+	
+		<rect x="13.7" y="7.325" fill="#FFFFFF" stroke="#00C74D" stroke-width="0.5224" stroke-miterlimit="10" width="1.977" height="7.422"/>
+</g>
+</svg>

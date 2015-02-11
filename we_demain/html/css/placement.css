@@ -1,0 +1,944 @@
+.max_taille
+{
+width:100%;
+height:100%;
+}
+.conteneur_global
+{
+  position: relative;
+  background-color: #152435;
+  margin: 0 auto;
+
+}
+.page1-bouton1
+{
+    position:absolute;
+    left:5%;
+    background-size:100% 100%;
+    top:72%;
+    height:15%;
+    width:15%;
+    z-index:10;
+}
+.page1-bouton2
+{
+    position:absolute;
+    left:18%;
+    background-size:100% 100%;
+    top:72%;
+    height:15%;
+    width:15%;
+    z-index:10;
+}
+
+.page1-texte1
+{
+    position:absolute;
+    left:4.75%;
+    background-size:100% 100%;
+    top:86%;
+    height:15%;
+    width:15%;
+    z-index:10;
+    visibility:hidden;
+}
+
+.page1-texte2
+{
+    position:absolute;
+    left:20.5%;
+    background-size:100% 100%;
+    top:86%;
+    height:11.25%;
+    width:10.25%;
+    z-index:10;
+    visibility:hidden;
+}
+
+
+.page2-conteneur
+{
+  position: absolute;
+  top: 38%;
+  left: 38.5%;
+  width:34%;
+  height:45%;
+}
+
+.page2-legende
+{
+    position:absolute;
+    left:60%;
+    background-size:100% 100%;
+    top:30%;
+    height:70%;
+    width:40%;
+    z-index:10;
+}
+.page2-titre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:0%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page2-soustitre
+{
+    position:absolute;
+    left:50%;
+    background-size:100% 100%;
+    top:15%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+
+.zoom-page2 { 
+	background-color:#FFF5EB;
+   -webkit-transition: all 0s ease-out; 
+   -moz-transition: all 0s ease-out; 
+   -o-transition: all 0s ease-out; 
+   transition: all 0s ease-out;
+}
+.zoom-page2:hover { 
+    top:30%;
+    left:33.333%;
+	background-color:#FFF5EB;
+   -moz-transform: scale(2);
+   -webkit-transform: scale(2);
+   -o-transform: scale(2);
+   transform: scale(2);
+   -ms-transform: scale(2);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+   M11=2, M12=-0, M21=0, M22=2);
+ }
+.page3-conteneur
+{
+  position: absolute;
+  top: 22%;
+  left: 31%;
+  width:31.5%;
+  height:30%;
+  text-align:center;
+}
+
+.page3-legende
+{
+    position:absolute;
+    left:60%;
+    background-size:100% 100%;
+    top:30%;
+    height:70%;
+    width:40%;
+    z-index:10;
+}
+.page3-titre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:0%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page3-soustitre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:15%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page3-fixe
+{
+    position:absolute;
+    left:2%;
+    background-size:100% 100%;
+    top:92%;
+    height:5%;
+    width:10.5%;
+    z-index:15;
+    background-color:white;
+
+}
+.page3-tv
+{
+    position:absolute;
+    left:15%;
+    background-size:100% 100%;
+    top:91.4%;
+    height:3.45%;
+    width:10.5%;
+    z-index:15;
+    background-color:white;
+
+}
+
+
+
+
+
+.zoom-page3 { 
+	background-color:white;
+   -webkit-transition: all 0s ease-out; 
+   -moz-transition: all 0s ease-out; 
+   -o-transition: all 0s ease-out; 
+   transition: all 0s ease-out;
+}
+.zoom-page3:hover { 
+    top:25%;
+    left:33.333%;
+	background-color:white;
+   -moz-transform: scale(2);
+   -webkit-transform: scale(2);
+   -o-transform: scale(2);
+   transform: scale(2);
+   -ms-transform: scale(2);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+   M11=2, M12=-0, M21=0, M22=2);
+ }
+
+
+.page4-conteneur
+{
+background-color:black;
+position:absolute;
+top:40%;
+bottom:20%;
+right:30%;
+left:24%;
+width:27%;
+height:44%;
+}
+
+.page5-conteneur
+{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width:20%;
+  height:25%;
+}
+.page5-imprimante
+{
+    position:absolute;
+    left:2%;
+    background-size:100% 100%;
+    top:90.5%;
+    height:5%;
+    width:10%;
+    z-index:15;
+    background-color:white;
+}
+
+.page5-copieur
+{
+    position:absolute;
+    left:15.75%;
+    background-size:100% 100%;
+    top:90.5%;
+    height:5%;
+    width:7%;
+    z-index:15;
+    background-color:white;
+}
+
+.page5-legende
+{
+    position:absolute;
+    left:60%;
+    background-size:100% 100%;
+    top:30%;
+    height:70%;
+    width:40%;
+    z-index:10;
+}
+.page5-titre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:0%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page5-soustitre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:15%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+
+.zoom-page5 { 
+
+   -webkit-transition: all 0s ease-out; 
+   -moz-transition: all 0s ease-out; 
+   -o-transition: all 0s ease-out; 
+   transition: all 0s ease-out;
+}
+.zoom-page5:hover { 
+    top:35%;
+    left:40%;
+	background-color:white;
+   -moz-transform: scale(3);
+   -webkit-transform: scale(3);
+   -o-transform: scale(3);
+   transform: scale(3);
+   -ms-transform: scale(3);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+   M11=2, M12=-0, M21=0, M22=2);
+ }
+
+.page6-conteneur
+{
+  position: absolute;
+  top: 9.5%;
+  left: 44%;
+  width:38%;
+  height:60%;
+  text-align:center;
+}
+.page6-legende
+{
+    position:absolute;
+    left:60%;
+    background-size:100% 100%;
+    top:30%;
+    height:70%;
+    width:40%;
+    z-index:10;
+}
+.page6-texte
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:70%;
+    height:40%;
+    width:100%;
+    z-index:10;
+}
+.page6-titre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:0%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page6-soustitre
+{
+    position:absolute;
+    left:0%;
+    background-size:100% 100%;
+    top:15%;
+    height:15%;
+    width:100%;
+    z-index:10;
+}
+.page6-portable
+{
+    position:absolute;
+    left:2.75%;
+    background-size:100% 100%;
+    top:69.69%;
+    height:10%;
+    width:14.5%;
+    z-index:15;
+    background-color:white;
+}
+
+.page6-projecteur
+{
+    position:absolute;
+    left:20.25%;
+    background-size:100% 100%;
+    top:69.69%;
+    height:10%;
+    width:12.5%;
+    z-index:15;
+    background-color:white;
+}
+
+
+.zoom-page6 { 
+	background-color:white;
+   -webkit-transition: all 0s ease-out; 
+   -moz-transition: all 0s ease-out; 
+   -o-transition: all 0s ease-out; 
+   transition: all 0s ease-out;
+}
+.zoom-page6:hover { 
+    top:18%;
+    left:30%;
+	background-color:white;
+   -moz-transform: scale(1.5);
+   -webkit-transform: scale(1.5);
+   -o-transform: scale(1.5);
+   transform: scale(1.5);
+   -ms-transform: scale(1.5);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+   M11=2, M12=-0, M21=0, M22=2);
+   z-index:32;
+ }
+ .page6-conteneur2
+{
+  position: absolute;
+  top: 59.5%;
+  left: 21.5%;
+  width:20%;
+  height:20%;
+  text-align:center;
+}
+
+ .page7-conteneur1
+{
+  position: absolute;
+  top: 59.2%;
+  left: 14.75%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur2
+{
+  position: absolute;
+  top: 59.2%;
+  left: 30%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur3
+{
+  position: absolute;
+  top: 59.2%;
+  left: 45.25%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur4
+{
+  position: absolute;
+  top: 59.2%;
+  left: 60.5%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur5
+{
+  position: absolute;
+  top: 59.2%;
+  left: 75.25%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur6
+{
+  position: absolute;
+  top: 66.2%;
+  left: 14.75%;
+  width:9%;
+  height:3%;
+}
+ .page7-conteneur7
+{
+  position: absolute;
+  top: 82%;
+  left: 45.25%;
+  width:5%;
+  height:5%;
+}
+input
+{
+    text-align:center;
+    height:100%;
+    width:100%;
+    font-family:Helvetica;
+    font-size:60%;
+    position:absolute;
+}
+
+SELECT
+{
+    text-align:center;
+    height:100%;
+    width:100%;
+}
+ .page8-conteneur1
+{
+  position: absolute;
+  top: 28%;
+  left: 12.75%;
+  width:9%;
+}
+.page8-conteneur1>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+ .page8-conteneur2
+{
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  width:10%;
+
+}
+.page8-conteneur2>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+ .page8-conteneur3
+{
+  position: absolute;
+  top: 25%;
+  left: 42.5%;
+  width:12%;
+}
+.page8-conteneur3>img
+{
+ position:absolute;
+  width: 100%;
+min-height: 100%;
+}
+ .page8-conteneur4
+{
+  position: absolute;
+  top: 65%;
+  left: 33.25%;
+  width:11%;
+}
+.page8-conteneur4>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+ .page8-conteneur5
+{
+
+  position: absolute;
+  top: 65%;
+  left: 57%;
+  width:11%;
+}
+.page8-conteneur5>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+ .page8-conteneur6
+{
+  position: absolute;
+  right: 4%;
+  top:54.35%;
+  width:10%;
+  height:35%;
+}
+
+
+ .page8-conteneur7
+{
+  position: absolute;
+  right: 8%;
+  top:17%;
+  width:10%;
+  height:10%;
+}
+.page8-conteneur7>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+
+.page8-conteneur8
+{
+  position: absolute;
+  right: 8%;
+  top:25%;
+  width:10%;
+  height:10%;
+}
+.page8-conteneur8>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+.page8-conteneur9
+{
+  position: absolute;
+  right: 8%;
+  top:33%;
+  width:10%;
+  height:10%;
+}
+.page8-conteneur9>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+.page8-conteneur10
+{
+  position: absolute;
+  right:8%;
+  top:9%;
+  width:10%;
+  height:10%;
+}
+.page8-conteneur10>img
+{
+  width: 100%;
+min-height: 100%;
+position: absolute;
+}
+
+span#resultatW
+{
+    position:absolute;
+    top:8%;
+    left:5%;
+    color:white;
+    font-family:Helvetica;
+    font-size:100%;
+}
+span#resultatC
+{
+     position:absolute;
+    top:47%;
+    left:5%;
+    color:white;
+    font-family:Helvetica;
+    font-size:100%;
+}
+span#resultatE
+{
+     position:absolute;
+    top:85%;
+    left:5%;
+    color:white;
+    font-family:Helvetica;
+    font-size:100%;
+}
+
+.texte-invisible
+{
+    position: absolute;
+    top:10%;
+    left:30%;
+    right:30%;
+    text-align:justify;
+    visibility : hidden;
+    
+}
+ .page9-conteneur1
+{
+  position: absolute;
+  left: 7.5%;
+  top:50%;
+  width:25%;
+  height:3%;
+  color:white;
+}
+ .page9-conteneur2
+{
+
+  position: absolute;
+  left:23%;
+  top:50%;
+  width:13%;
+  height:3.5%;
+}
+
+.fb-like
+{
+  position: absolute;
+  left:0%;
+  top:0%;
+  width:100%;
+  height:100%;
+}
+ .page9-conteneur3
+{
+  position: absolute;
+  left: 2%;
+  top:77.5%;
+  width:6%;
+}
+ .page9-conteneur4
+{
+
+  position: absolute;
+  left:10%;
+  top:76.2%;
+  width:6%;
+}
+ .page9-conteneur5
+{
+
+  position: absolute;
+  left:17%;
+  top:76.5%;
+  width:6%;
+}
+ .page9-conteneur6
+{
+
+  position: absolute;
+  left:24%;
+  top:72.5%;
+  width:6%;
+}
+ .page9-conteneur7
+{
+
+  position: absolute;
+  left:31%;
+  top:76%;
+  width:6%;
+}
+ .page9-conteneur8
+{
+
+  position: absolute;
+  left:39%;
+  top:76.6%;
+  width:6%;
+}
+ .page9-conteneur9
+{
+
+  position: absolute;
+  left:46.6%;
+  top:74%;
+  width:6%;
+}
+ .page9-conteneur10
+{
+
+  position: absolute;
+  left:52.6%;
+  top:72.6%;
+  width:8%;
+}
+ .page9-conteneur11
+{
+
+  position: absolute;
+  left:61.6%;
+  top:73.5%;
+  width:4.5%;
+}
+ .page9-conteneur12
+{
+
+  position: absolute;
+  left:68%;
+  top:77%;
+  width:7.5%;
+}
+ .page9-conteneur13
+{
+
+  position: absolute;
+  left:77.4%;
+  top:76%;
+  width:5.5%;
+}
+ .page9-conteneur14
+{
+
+  position: absolute;
+  left:83.5%;
+  top:74%;
+  width:6.5%;
+}
+ .page9-conteneur15
+{
+
+  position: absolute;
+  left:91%;
+  top:76.2%;
+  width:6%;
+}
+.page9-conteneur16
+{
+
+  position: absolute;
+  left:1.6%;
+  top:92.3%;
+  width:6%;
+}
+
+ .page9-conteneur17
+{
+
+  position: absolute;
+  left:9.3%;
+  top:91.1%;
+  width:6%;
+}
+ .page9-conteneur18
+{
+
+  position: absolute;
+  left:17%;
+  top:91.5%;
+  width:6%;
+}
+ .page9-conteneur19
+{
+
+  position: absolute;
+  left:24.5%;
+  top:89%;
+  width:5.3%;
+}
+
+ .page9-conteneur20
+{
+
+  position: absolute;
+  left:31%;
+  top:91.3%;
+  width:7%;
+}
+ .page9-conteneur21
+{
+
+  position: absolute;
+  left:38%;
+  top:89.6%;
+  width:10%;
+}
+ .page9-conteneur22
+{
+
+  position: absolute;
+  left:46.7%;
+  top:90.4%;
+  width:6%;
+}
+ .page9-conteneur23
+{
+
+  position: absolute;
+  left:54%;
+  top:89%;
+  width:6%;
+}
+ .page9-conteneur24
+{
+
+  position: absolute;
+  left:60.6%;
+  top:90%;
+  width:6%;
+}
+ .page9-conteneur25
+{
+
+  position: absolute;
+  left:67.8%;
+  top:90.5%;
+  width:6%;
+}
+ .page9-conteneur26
+{
+
+  position: absolute;
+  left:75%;
+  top:90%;
+  width:5.5%;
+}
+ .page9-conteneur27
+{
+
+  position: absolute;
+  left:82.7%;
+  top:89.3%;
+  width:6%;
+}
+ .page9-conteneur28
+{
+
+  position: absolute;
+  left:90%;
+  top:87%;
+  width:8.2%;
+}
+ .page9-conteneur29
+{
+  position: absolute;
+  left:6%;
+  top:56%;
+  width:3%;
+}
+ .page9-conteneur30
+{
+  position: absolute;
+  left:22.3%;
+  top:56%;
+  width:2.6%;
+}
+
+#hist1
+{
+    bottom:14%;
+    top:22%;
+    left:0%;
+    position:absolute;
+}
+#cam1
+{
+    bottom:5%;
+    top:30%;
+    left:28%;
+    position:absolute;
+}
+#hist2
+{
+    bottom:14%;
+    top:10%;
+    left:0%;
+    position:absolute;
+}
+#cam2
+{
+    bottom:5%;
+    top:30%;
+    left:25%;
+    position:absolute;
+}
+#hist3
+{
+    bottom:14%;
+    top:17%;
+    left:0%;
+    position:absolute;
+}
+#cam3
+{
+    bottom:5%;
+    top:30%;
+    left:35%;
+    position:absolute;
+}

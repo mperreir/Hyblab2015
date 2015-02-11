@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="212px" height="257.48px" viewBox="0 0 212 257.48" enable-background="new 0 0 212 257.48" xml:space="preserve">
+<ellipse fill="#669CA4" cx="78.317" cy="162.912" rx="12.555" ry="8.757"/>
+<g>
+	<path fill="#669CA4" d="M210,218.813c0,1.725-0.066,2.834-1.059,2.834H40.355c-0.991,0-1.355-1.109-1.355-2.834v-24.98
+		c0-1.725,0.364-4.186,1.355-4.186h168.586c0.992,0,1.059,2.461,1.059,4.186V218.813z"/>
+	<polygon fill="#98D5EE" points="190.708,160.247 57.692,160.625 38.786,191.948 209.988,191.471 	"/>
+</g>
+<circle fill="#FA5F5C" cx="21.904" cy="95.691" r="19.499"/>
+<circle fill="#FA5F5C" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="21.427" cy="97.711" r="10.055"/>
+<rect x="19.699" y="82.117" fill="#FFFFFF" stroke="#FA5F5C" stroke-miterlimit="10" width="3.783" height="14.207"/>
+<rect x="50.833" y="226.295" fill="#152435" width="149" height="28"/>
+<rect x="50.833" y="235.295" fill="none" width="148.5" height="59.998"/>
+<text transform="matrix(1 0 0 1 79.5107 244.4001)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="12">Vidéoprojecteur</text>
+</svg>

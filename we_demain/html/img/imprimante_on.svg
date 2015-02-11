@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="172.667px" height="237.145px" viewBox="0 0 172.667 237.145" enable-background="new 0 0 172.667 237.145"
+	 xml:space="preserve">
+<circle fill="#00C74D" cx="86.543" cy="19.835" r="17.835"/>
+<circle fill="#00C74D" stroke="#FFFFFF" stroke-width="2.744" stroke-miterlimit="10" cx="86.107" cy="21.683" r="9.197"/>
+<rect x="84.527" y="7.418" fill="#FFFFFF" stroke="#00C74D" stroke-width="0.9147" stroke-miterlimit="10" width="3.46" height="12.995"/>
+<g>
+	<polygon fill="#020101" points="157.533,201 14.667,201 14.667,194.87 157.289,195.116 	"/>
+	<polyline fill="#669CA4" points="15.082,194.87 26.17,185.268 151.774,185.573 157.569,195.15 	"/>
+	<path fill="#669CA4" d="M171.292,127.6l-11.178-4.773l-25.451,0.457l-0.457-3.049l-55.016-1.066c0,0,1.829-4.267-1.828-5.027
+		c-3.658-0.763-20.422-0.915-20.422-0.915l-0.304-4.725l-5.183-0.609l-3.656,9.905l5.486,9.603L171.292,127.6z"/>
+	<path fill="#669CA4" d="M1.011,124.35c0,0,3.657-12.496,10.363-16.154c6.706-3.657,4.877-2.133,4.877-2.133l34.747,0.608
+		c0,0,6.401,5.182-0.609,9.753C43.377,120.997,1.011,124.35,1.011,124.35z"/>
+	<path fill="#98D5EE" d="M1.417,133.29l6.299,59.943l155.853,0.609c0,0,4.269-28.854,5.486-39.42
+		c1.219-10.566,2.438-19.305,2.438-19.305l-0.203-7.52l-112.979-1.219c0,0-6.908-1.017-7.924-9.957l-39.217-0.812
+		C11.17,115.611-0.615,112.361,1.417,133.29z"/>
+	<rect x="41.667" y="148" fill="#020101" width="91" height="28"/>
+	<path fill="#FFFFFF" d="M49.423,163.971c8.641,17.109,4.909,47.311,0.208,61.029h76.775c0,0,5.819-36.396-5.505-60.84
+		L49.423,163.971z"/>
+</g>
+<rect x="13.833" y="205.5" fill="#152435" width="149" height="28"/>
+<rect x="13.833" y="214.5" fill="none" width="148.5" height="60"/>
+<text transform="matrix(1 0 0 1 29.9502 223.5806)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="12">Imprimante / Copieur</text>
+</svg>
