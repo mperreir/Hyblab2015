@@ -28,6 +28,7 @@ src: local('Bebas Neue'), url('/fonts/BebasNeue.otf') format('otf');
  background-color: #213146;  
  text-align:center;
  color: white;   
+ overflow-x : hidden;
 }
 
 
