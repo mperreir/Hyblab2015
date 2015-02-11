@@ -47,14 +47,14 @@
 	"nom"  : "Nantes",
 	"desc" : "Nantes est une ville du numérique et cela se confirme : la Cité des Ducs obtient la 1ère place en ce qui concerne l’évolution du nombre d’employés entre 2008 et 2013, un bond de 16,5%. Concernant le nombre d’entreprises du numérique, il a évolué de 14%. <br />Concernant le nombre d’entreprises du numérique, il a évolué de 14%. Parmi les entreprises phares, citons IAdvize, qui offre des solutions de chats, 10vins, une plateforme de vente de vins en ligne, Qivivo, concepteur de thermostats intelligents ou Doyoubuzz, éditeur de CV sur internet. <br />Le dynamisme numérique de Nantes se concrétise par la présence de nombreux évènements comme, par exemple, le Web2day. Pendant trois jours, le rendez-vous regroupe environ 1.800 personnes pour discuter des innovations numériques. Un autre évènement, la Digital Week, réunit 67.500 personnes sur dix jours autour de la culture et du numérique. A Nantes, on trouve aussi des clusters tels qu’Atlantic 2.0 ou Ouestmedialab, un fablab et une cantine numérique de 250 adhérents.",
 	"image" : "Nantes.png",
-	"medaille1" : "Medaille+1000entreprises.png",
+	"medaille1" : "Medaille+de1000entreprises.png",
 	"medaille2" : "Medailleentre25000et30000.png"
 },
 {
 	"nom"  : "Toulouse",
 	"desc" : "En six ans, les effectifs et les entreprises dédiés au secteur du numérique toulousain ont progressé de plus de 10%, lui accordant ainsi la deuxième place du classement. Cela s’explique par la forte présence des secteurs du spatial et de l’aéronautique, de l’édition de logiciels applicatifs, de programmation informatique et des télécoms. On trouve en effet des entreprises telles que Thales Alenia Space, Aramis Télécom, mais aussi des start-up comme Overblog, plateforme de création de blog ou du curateur de contenus ScoopIt. Toulouse est aussi une terre de réseaux, avec des acteurs tels que la Cantine Numérique (600 adhérents), la Mêlée Numérique, le cluster Digital Place et quatre pôles de compétitivité. C’est aussi à Toulouse que l’on s’interroge sur le développement de technologies du futur, drones, impression 3D, robots, à travers l’événement Futurapolis (26 et 27 novembre 2015).<br />Notons cependant que si la ville se développe fortement, la pénétration du numérique (6%) demeure relativement faible par rapport aux autres, ce qui classe Toulouse en avant dernière position. La ville rose a donc encore une marge de progression. ",
 	"image" : "Toulouse.png",
-	"medaille1" : "Medaille+1000entreprises.png",
+	"medaille1" : "Medaille+de1000entreprises.png",
 	"medaille2" : "Medailleentre25000et30000.png"
 }
 ]
