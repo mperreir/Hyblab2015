@@ -1,0 +1,11 @@
+id,name,voiture,transportsPublic,velo,apied,autres
+0,Paris,15,68,3,11,3
+1,Rennes,60,21,4,13,2
+2,Nice,59,16,6,15,4
+3,Nantes,63,21,4,9,3
+4,Marseille,60,22,4,12,2
+5,Lyon,56,27,3,12,2
+6,Lille,66,16,6,10,5
+7,Bordeaux,64,18,4,10,4
+8,Strasbourg,55,22,6,13,4
+9,Toulouse,61,20,5,12,2

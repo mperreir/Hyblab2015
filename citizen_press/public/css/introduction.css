@@ -1,0 +1,17 @@
+body.introductionPage {
+	background: url('../media/background-introduction.png') no-repeat center center;
+	height: 100%;
+	background-size: 100% auto;
+	background-position: bottom; 
+	background-color: #1A0D2B;
+}
+#introContainer {
+	font-family: fontTitreTexte;  
+	color: #63D2BD;
+}
+#textIntro {
+	margin-top: 30px;
+}
+#textExplicatif {
+	margin-top: 40px;
+}

@@ -1,0 +1,58 @@
+body.creditPage {
+    background: url('../media/background-conclusion.png') no-repeat bottom center;
+    background-size: 100% auto;
+    background-color: #59CFCA;
+}
+.creditPhoto {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#stevenVaidieCredit {
+    background: url('../media/credit/photo/stevenVaidie.png');
+}
+#stevenVaidieCredit:hover {
+    background: url('../media/credit/photo/stevenVaidieHover.png');
+}
+#matthieuPayenCredit {
+    background: url('../media/credit/photo/matthieuPayen.png');
+}
+#matthieuPayenCredit:hover {
+    background: url('../media/credit/photo/matthieuPayenHover.png');
+}
+#nicolasPerezCredit {
+    background: url('../media/credit/photo/nicolasPerez.png');
+}
+#nicolasPerezCredit:hover {
+    background: url('../media/credit/photo/nicolasPerezHover.png');
+}
+#chloeCantournetCredit {
+    background: url('../media/credit/photo/chloeCantourne.png');
+}
+#chloeCantournetCredit:hover {
+    background: url('../media/credit/photo/chloeCantourneHover.png');
+}
+#aurelieCheronCredit {
+    background: url('../media/credit/photo/aurelieCheron.png');
+}
+#aurelieCheronCredit:hover {
+    background: url('../media/credit/photo/aurelieCheronHover.png');
+}
+#emelineArnaudCredit {
+    background: url('../media/credit/photo/emelineArnaud.png');
+}
+#emelineArnaudCredit:hover {
+    background: url('../media/credit/photo/emelineArnaudHover.png');
+}
+#adrienLeRouxCredit {
+    background: url('../media/credit/photo/adrienLeRoux.png');
+}
+#adrienLeRouxCredit:hover {
+    background: url('../media/credit/photo/adrienLeRouxHover.png');
+}
+#manonLeGuillouCredit {
+    background: url('../media/credit/photo/manonLeGuillou.png');
+}
+#manonLeGuillouCredit:hover {
+    background: url('../media/credit/photo/manonLeGuillouHover.png');
+}
