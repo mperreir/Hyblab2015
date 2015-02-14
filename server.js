@@ -28,7 +28,7 @@ app.use('/ouest_france',ouest_france);
 app.use('/pays_de_la_loire',pays_de_la_loire);
 app.use('/the_place_to_bio',the_place_to_bio);
 app.use('/we_demain',we_demain);
-app.use('/',function(req, res, next){
+app.use(/\/$/,function(req, res, next){
 	res.redirect('http://www.hyblab.fr/evenements/hyblab-datajournalisme/');
 });
 
