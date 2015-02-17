@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+<path fill="#EB6155" d="M110.92,257.442c30.389,0,55.023,10.896,55.023,24.337c0,13.438-24.634,24.336-55.023,24.336
+	c-30.388,0-55.022-10.898-55.022-24.336C55.898,268.338,80.533,257.442,110.92,257.442z"/>
+<polygon fill="#EB6155" points="166.104,264.45 166.104,281.82 55.898,281.801 55.898,264.45 "/>
+<ellipse fill="#DB5C56" cx="110.92" cy="264.266" rx="55.023" ry="24.338"/>
+<ellipse fill="#6BBAAD" cx="111.245" cy="219.175" rx="54.698" ry="24.335"/>
+<polygon fill="#6BBAAD" points="166.104,203.615 166.104,219.218 56.547,219.196 56.547,203.615 "/>
+<ellipse fill="#51B19E" cx="110.92" cy="207.53" rx="55.023" ry="24.337"/>
+<ellipse fill="#F18A31" cx="111.245" cy="159.439" rx="54.698" ry="24.337"/>
+<polygon fill="#F18A31" points="166.104,135.143 166.104,159.481 56.547,159.454 56.547,135.143 "/>
+<ellipse fill="#DC6E2C" cx="110.92" cy="134.1" rx="55.023" ry="24.338"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="198.059" y1="148.292" x2="322.613" y2="148.292"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="198.059" y1="219.24" x2="322.613" y2="219.24"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="200.015" y1="277.909" x2="324.569" y2="277.909"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="200.015" y1="337.303" x2="324.569" y2="337.303"/>
+<rect x="338.917" y="134.434" fill="none" width="461.05" height="23.803"/>
+<text transform="matrix(1 0 0 1 338.915 150.8232)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Connaissance sans application directe : 25</text>
+<rect x="339.569" y="203.769" fill="none" width="639.403" height="23.174"/>
+<text transform="matrix(1 0 0 1 339.5674 220.1602)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Application directe dans nouveaux produits ou procédés : 8</text>
+<rect x="338.917" y="260.908" fill="none" width="429.421" height="24.453"/>
+<text transform="matrix(1 0 0 1 338.915 277.3008)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Produits et procédés mis sur le marché : 13</text>
+<rect x="339.732" y="320.551" fill="none" width="116.402" height="25.436"/>
+<text transform="matrix(1 0 0 1 339.7305 336.9434)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Autres débouchés : 0</text>
+<g opacity="0.7">
+	<path fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" d="M147.213,446.389
+		c-20.044,0-36.292-16.248-36.292-36.293"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="110.92" y1="410.096" x2="110.92" y2="385.109"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="147.213" y1="446.389" x2="322.613" y2="446.389"/>
+</g>
+<rect x="338.161" y="427.619" fill="none" width="606.575" height="75.32"/>
+<text transform="matrix(1 0 0 1 338.1602 451.834)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Nombre de projets de R&amp;D aboutis entre 2006 et 2011 : 46</text>
+<ellipse fill="#ECECEC" cx="111.245" cy="340.469" rx="54.698" ry="24.336"/>
+<polygon fill="#6BBAAD" points="166.104,328.822 166.104,340.518 56.547,340.504 56.547,328.822 "/>
+<path fill="#D9D9D9" d="M110.92,310.357c30.389,0,55.023,10.896,55.023,24.338c0,13.438-24.634,24.338-55.023,24.338
+	c-30.388,0-55.022-10.9-55.022-24.338C55.898,321.254,80.533,310.357,110.92,310.357z"/>
+</svg>

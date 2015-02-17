@@ -1,0 +1,238 @@
+#tfnewsearch{
+	float:right;
+	padding:20px;
+}
+
+#tfbutton1s5{
+    vertical-align:middle;
+    margin-bottom:2px;
+}
+.tftextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	background-color:#13b5d0;
+	border:1px solid #ffffff;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+
+.policeChiffre{
+  color: white;
+  font-family: proximanova-bold,sans-serif;
+  font-size: 20px;
+}
+
+#imgleg{
+    text-align:center;
+}
+
+#divleg{
+    text-align:center;
+}
+
+#indiceATMO-s5{
+    width: 100%;
+    margin-top:3%;
+}
+#div-barreAtmo-g-s5{
+    float: left;
+}
+
+#barreAtmo-g{
+    float: right;
+}
+
+#barreAtmo-d{
+    float: left;
+}
+
+#atmo-g-chiffre{
+    float: right;
+    margin-right: 2%;
+    color:white;
+}
+
+#atmo-d-chiffre{
+    float: left;
+    margin-left: 2%;
+    color:white;
+}
+
+#div-pictoAtmo-s5{
+    float: left;
+}
+
+#div-barreAtmo-d-s5{
+    float: left;
+}
+
+#nom-villes-s5{
+    text-align:center;
+    color:white;
+}
+
+#bus-s5{
+   width: 100%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+#div-barreBus-g-s5{
+    float: left;
+}
+
+#barreBus-g{
+    float: right;
+}
+
+#barreBus-d{
+    float: left;
+}
+
+#bus-g-chiffre{
+    float: right;
+    margin-right: 2%;
+    color:white;
+}
+
+#bus-d-chiffre{
+    float: left;
+    margin-left: 2%;
+    color:white;
+}
+
+#div-pictoBus-s5{
+    float: left;
+}
+
+#div-barreBus-d-s5{
+    float: left;
+}
+
+#voiture-s5{
+    width: 100%;
+    margin-top:2%;
+}
+
+#div-barreVoiture-g-s5{
+    float: left;
+}
+
+#barreVoiture-g{
+    float: right;
+}
+
+#barreVoiture-d{
+    float: left;
+}
+
+#voiture-g-chiffre{
+    float: right;
+    margin-right: 2%;
+    color:white;
+}
+
+#voiture-d-chiffre{
+    float: left;
+    margin-left: 2%;
+    color:white;
+}
+
+#div-pictoVoiture-s5{
+    float: left;
+}
+
+#div-barreVoiture-d-s5{
+    float: left;
+}
+
+#soleil-s5{
+    width: 100%;
+    margin-top:2%;
+}
+
+#div-barreSoleil-g-s5{
+    float: left;
+}
+
+#barreSoleil-g{
+    float: right;
+}
+
+#barreSoleil-d{
+    float: left;
+}
+
+#soleil-g-chiffre{
+    float: right;
+    margin-right: 2%;
+    color:white;
+}
+
+#soleil-d-chiffre{
+    float: left;
+    margin-left: 2%;
+    color:white;
+}
+
+#div-pictoSoleil-s5{
+    float: left;
+}
+
+#div-barreSoleil-d-s5{
+    float: left;
+}
+
+#pluie-s5{
+    width: 100%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+#div-barrePluie-g-s5{
+    float: left;
+}
+
+#barrePluie-g{
+    float: right;
+}
+
+#barrePluie-d{
+    float: left;
+}
+
+#pluie-g-chiffre{
+    float: right;
+    margin-right: 2%;
+    color:white;
+}
+
+#pluie-d-chiffre{
+    float: left;
+    margin-left: 2%;
+    color:white;
+}
+
+#div-pictoPluie-s5{
+    float: left;
+}
+
+#div-barrePluie-d-s5{
+    float: left;
+}
+
+.villeCompare{
+    font-family:proximanova-boldit, sans-serif;
+    font-size:58px;
+    color:white;
+}
+
+.divPicto{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#ville-d-s5{
+    display:inline;
+}

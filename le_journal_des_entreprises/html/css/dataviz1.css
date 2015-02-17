@@ -2,21 +2,21 @@
 font-family: 'Myriad Pro Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed'), url('/fonts/MYRIADPRO-COND.woff') format('woff');
+src: local('Myriad Pro Condensed'), url('../fonts/MYRIADPRO-COND.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Myriad Pro Condensed Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed Italic'), url('/fonts/MYRIADPRO-CONDIT.woff') format('woff');
+src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Myriad Pro Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Bebas Neue'), url('/fonts/BebasNeue.otf') format('otf');
+src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
 }
 
 /***************
@@ -28,6 +28,7 @@ src: local('Bebas Neue'), url('/fonts/BebasNeue.otf') format('otf');
  background-color: #213146;  
  text-align:center;
  color: white;   
+ overflow-x : hidden;
 }
 
 
@@ -79,7 +80,7 @@ src: local('Bebas Neue'), url('/fonts/BebasNeue.otf') format('otf');
 {
     width:24px;
     height:35px;
-    background-image: url('/images/backYear.png');
+    background-image: url('../images/backYear.png');
     background-size: 24px 35px;
     display: inline-block;
     margin-left: -5px;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="176.667px" height="238.5px" viewBox="0 0 176.667 238.5" enable-background="new 0 0 176.667 238.5" xml:space="preserve">
+<circle fill="#FA5453" cx="88.876" cy="21.501" r="17.835"/>
+<circle fill="#FA5453" stroke="#FFFFFF" stroke-width="2.744" stroke-miterlimit="10" cx="88.441" cy="23.35" r="9.197"/>
+<rect x="86.86" y="9.085" fill="#FFFFFF" stroke="#FA5453" stroke-width="0.9147" stroke-miterlimit="10" width="3.46" height="12.995"/>
+<g>
+	<polygon fill="#020101" points="159.867,202.667 17,202.667 17,196.537 159.623,196.783 	"/>
+	<polyline fill="#669CA4" points="17.416,196.537 28.504,186.934 154.107,187.24 159.902,196.816 	"/>
+	<path fill="#669CA4" d="M173.625,129.266l-11.176-4.772l-25.451,0.456l-0.457-3.049l-55.017-1.065c0,0,1.829-4.267-1.828-5.028
+		c-3.658-0.763-20.422-0.914-20.422-0.914l-0.304-4.726l-5.183-0.608l-3.656,9.904l5.486,9.604L173.625,129.266z"/>
+	<path fill="#669CA4" d="M3.344,126.016c0,0,3.657-12.496,10.363-16.154c6.706-3.656,4.877-2.133,4.877-2.133l34.747,0.608
+		c0,0,6.401,5.183-0.609,9.753C45.71,122.663,3.344,126.016,3.344,126.016z"/>
+	<path fill="#98D5EE" d="M3.751,134.957L10.05,194.9l155.853,0.608c0,0,4.269-28.854,5.486-39.42
+		c1.219-10.565,2.438-19.304,2.438-19.304l-0.203-7.52l-112.979-1.219c0,0-6.908-1.018-7.924-9.958l-39.217-0.812
+		C13.504,117.277,1.719,114.027,3.751,134.957z"/>
+	<rect x="44" y="149.667" fill="#020101" width="91" height="28"/>
+</g>
+<rect x="13.833" y="205.5" fill="#152435" width="149" height="28"/>
+<rect x="13.833" y="214.5" fill="none" width="148.5" height="60"/>
+<text transform="matrix(1 0 0 1 29.9502 223.5801)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="12">Imprimante / Copieur</text>
+</svg>

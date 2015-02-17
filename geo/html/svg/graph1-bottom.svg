@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="850"
+   height="125"
+   id="svg3729"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Nouveau document 6">
+  <defs
+     id="defs3731" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="854"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3734">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-927.36214)">
+    <g
+       transform="translate(-380.29192,310.19371)"
+       id="Légende">
+      <g
+         id="g15">
+        <rect
+           style="fill:none"
+           x="498.5"
+           y="642.40002"
+           width="269"
+           height="73.300003"
+           id="rect17" />
+        <text
+           transform="translate(498.4725,652.0955)"
+           id="text19">
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="0"
+             font-size="14"
+             id="tspan21">Poids des énergies renouvelables dans la</tspan>
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="20"
+             font-size="14"
+             id="tspan23">production initiale d’énergie par année</tspan>
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="40"
+             font-size="14"
+             id="tspan25">(production naturelle)</tspan>
+        </text>
+      </g>
+      <g
+         id="g27">
+        <rect
+           style="fill:none"
+           x="935.59998"
+           y="642.40002"
+           width="294.70001"
+           height="91"
+           id="rect29" />
+        <text
+           transform="translate(935.6398,652.0961)"
+           id="text31">
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="0"
+             font-size="14"
+             id="tspan33">Poids des énergies renouvelables par année</tspan>
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="20"
+             font-size="14"
+             id="tspan35">dans la consommation finale d’énergie</tspan>
+          <tspan
+             style="font-size:14px;fill:#fceed7;font-family:RotisSerifStd"
+             x="0"
+             y="40"
+             font-size="14"
+             id="tspan37">(hors opération de transformation)</tspan>
+        </text>
+      </g>
+      <line
+         style="fill:none;stroke:#ff9600;stroke-miterlimit:10"
+         stroke-miterlimit="10"
+         x1="832"
+         y1="652.5"
+         x2="913"
+         y2="652.5"
+         id="line39" />
+      <line
+         style="fill:none;stroke:#e4153b;stroke-miterlimit:10"
+         stroke-miterlimit="10"
+         x1="395"
+         y1="652.5"
+         x2="476"
+         y2="652.5"
+         id="line41" />
+      <circle
+         d="m 836.3,652.5 c 0,1.27025 -1.02975,2.3 -2.3,2.3 -1.27025,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02975,-2.3 2.3,-2.3 1.27025,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#f29100;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="834"
+         stroke-miterlimit="10"
+         cx="834"
+         cy="652.5"
+         r="2.3"
+         id="circle43" />
+      <circle
+         d="m 915.09999,652.5 c 0,1.27025 -1.02975,2.3 -2.3,2.3 -1.27026,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02974,-2.3 2.3,-2.3 1.27025,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#f29100;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="912.79999"
+         stroke-miterlimit="10"
+         cx="912.79999"
+         cy="652.5"
+         r="2.3"
+         id="circle45" />
+      <circle
+         d="m 874.70002,652.5 c 0,1.27025 -1.02974,2.3 -2.3,2.3 -1.27025,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02975,-2.3 2.3,-2.3 1.27026,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#f29100;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="872.40002"
+         stroke-miterlimit="10"
+         cx="872.40002"
+         cy="652.5"
+         r="2.3"
+         id="circle47" />
+      <circle
+         d="m 398.19999,652.5 c 0,1.27025 -1.02974,2.3 -2.3,2.3 -1.27025,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02975,-2.3 2.3,-2.3 1.27026,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#e4153b;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="395.89999"
+         stroke-miterlimit="10"
+         cx="395.89999"
+         cy="652.5"
+         r="2.3"
+         id="circle49" />
+      <circle
+         d="m 437.59999,652.5 c 0,1.27025 -1.02975,2.3 -2.3,2.3 -1.27026,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02974,-2.3 2.3,-2.3 1.27025,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#e4153b;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="435.29999"
+         stroke-miterlimit="10"
+         cx="435.29999"
+         cy="652.5"
+         r="2.3"
+         id="circle51" />
+      <circle
+         d="m 478.00001,652.5 c 0,1.27025 -1.02974,2.3 -2.3,2.3 -1.27025,0 -2.3,-1.02975 -2.3,-2.3 0,-1.27025 1.02975,-2.3 2.3,-2.3 1.27026,0 2.3,1.02975 2.3,2.3 z"
+         style="fill:#002333;stroke:#e4153b;stroke-width:0.91799998;stroke-miterlimit:10"
+         sodipodi:ry="2.3"
+         sodipodi:rx="2.3"
+         sodipodi:cy="652.5"
+         sodipodi:cx="475.70001"
+         stroke-miterlimit="10"
+         cx="475.70001"
+         cy="652.5"
+         r="2.3"
+         id="circle53" />
+    </g>
+  </g>
+</svg>

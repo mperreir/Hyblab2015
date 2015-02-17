@@ -1,0 +1,11 @@
+{
+  "name": "conso,boulot,dodo",
+  "version": "1.3.5",
+  "description": "Projet hyblab Labo8, we demain",
+  "main": "server.js",
+  "repository": "",
+  "author": "Victorien AVON <victorien.avon@gmail.com>, Marine GARANDEAU <marine.garandeau@gmail.com>, Guillaume BETINEAU <guillaume.bertineau@gmail.com>",
+  "dependencies": {
+    "express": "~3.2.4"
+  }
+}

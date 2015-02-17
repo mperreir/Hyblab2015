@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="210px" height="258.146px" viewBox="0 0 210 258.146" enable-background="new 0 0 210 258.146" xml:space="preserve">
+<ellipse fill="#669CA4" cx="77.317" cy="162.911" rx="12.555" ry="8.758"/>
+<g>
+	<path fill="#669CA4" d="M209,218.813c0,1.724-0.066,2.834-1.059,2.834H39.355c-0.991,0-1.355-1.11-1.355-2.834v-24.981
+		c0-1.724,0.364-4.185,1.355-4.185h168.586c0.992,0,1.059,2.461,1.059,4.185V218.813z"/>
+	<polygon fill="#98D5EE" points="189.708,160.245 56.692,160.625 37.786,191.946 208.988,191.471 	"/>
+</g>
+<g>
+	<g>
+		<path fill="#98D5EE" d="M69.037,150.584c-2.218-3.453-4.894-6.568-7.415-9.797c-0.84-1.076-2.661-0.875-3.535,0
+			c-1.051,1.051-0.838,2.461,0,3.535c2.261,2.895,4.643,5.688,6.632,8.783C66.456,155.81,70.786,153.306,69.037,150.584
+			L69.037,150.584z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path fill="#98D5EE" d="M78.068,149.556c-0.504-3.151-0.25-6.382-0.497-9.556c-0.248-3.193-5.25-3.217-5,0
+			c0.282,3.638,0.097,7.27,0.675,10.885C73.755,154.063,78.573,152.709,78.068,149.556L78.068,149.556z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path fill="#98D5EE" d="M86.303,152.411c1.958-3.021,2.91-6.564,4.974-9.522c1.85-2.651-2.487-5.146-4.317-2.521
+			c-2.064,2.957-3.016,6.5-4.974,9.521C80.228,152.602,84.558,155.106,86.303,152.411L86.303,152.411z"/>
+	</g>
+</g>
+<circle fill="#34C94D" cx="20.904" cy="95.691" r="19.499"/>
+<circle fill="#34C94D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="20.428" cy="97.711" r="10.055"/>
+<rect x="18.699" y="82.116" fill="#FFFFFF" stroke="#34C94D" stroke-miterlimit="10" width="3.783" height="14.207"/>
+<rect x="50.833" y="226.295" fill="#152435" width="149" height="28"/>
+<rect x="50.833" y="235.295" fill="none" width="148.5" height="59.998"/>
+<text transform="matrix(1 0 0 1 79.5107 244.4006)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="12">Vidéoprojecteur</text>
+</svg>

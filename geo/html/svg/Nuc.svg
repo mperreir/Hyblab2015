@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Calque_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 55 55"
+   enable-background="new 0 0 226.8 283.5"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="Nuc.svg"><metadata
+   id="metadata16"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs14" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview12"
+   showgrid="false"
+   inkscape:zoom="0.8324515"
+   inkscape:cx="113.4"
+   inkscape:cy="141.75"
+   inkscape:window-x="0"
+   inkscape:window-y="24"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Calque_1" />
+<g
+   id="nucléaire_3_"
+   transform="translate(-85.290254,-114.37924)">
+	<g
+   id="g4">
+		<path
+   d="m 122.7,137 c 0,-0.1 0,-0.1 -0.1,-0.1 0,0 -0.1,-0.1 -0.1,-0.1 h -6 c -0.1,0 -0.1,0 -0.1,0.1 0,0 -0.1,0.1 -0.1,0.1 0,3.7 -0.3,7.3 -1,10.6 -1.1,-4.9 -1.7,-10.1 -1.6,-15.6 0,-0.1 0,-0.1 -0.1,-0.2 -0.1,-0.1 -0.1,-0.1 -0.2,-0.1 h -8.3 c -0.1,0 -0.1,0 -0.2,0.1 -0.1,0.1 -0.1,0.1 -0.1,0.2 0.1,6.1 -0.6,11.9 -2.1,17.3 0,0.1 0,0.2 0,0.2 0.1,0.1 0.1,0.1 0.2,0.1 l 21,0 h 0 c 0.1,0 0.2,-0.1 0.2,-0.2 0,0 0,0 0,-0.1 -0.9,-3.7 -1.4,-7.9 -1.4,-12.3 z"
+   id="path6"
+   inkscape:connector-curvature="0"
+   style="fill:#704897" />
+		<path
+   d="m 117,136.4 c 0,0 0,0 0,0 0,0 -0.1,0 0,0 -0.1,0 -0.2,0 -0.2,0 0,0 0.1,0 0.1,0 0,0 0.1,0 0.1,0 z"
+   id="path8"
+   inkscape:connector-curvature="0"
+   style="fill:#704897" />
+	</g>
+	<circle
+   stroke-miterlimit="10"
+   cx="113.5"
+   cy="141.8"
+   r="24.6"
+   id="circle10"
+   d="m 138.1,141.8 c 0,13.58621 -11.01379,24.6 -24.6,24.6 -13.586205,0 -24.6,-11.01379 -24.6,-24.6 0,-13.5862 11.013795,-24.6 24.6,-24.6 13.58621,0 24.6,11.0138 24.6,24.6 z"
+   sodipodi:cx="113.5"
+   sodipodi:cy="141.8"
+   sodipodi:rx="24.6"
+   sodipodi:ry="24.6"
+   style="fill:none;stroke:#704897;stroke-miterlimit:10" />
+</g>
+</svg>

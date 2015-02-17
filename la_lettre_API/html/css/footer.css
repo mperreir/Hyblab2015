@@ -1,0 +1,96 @@
+#remerciements {
+    background-color: #ED7464;
+}
+
+.img_remerciement {
+	height: 60px;
+	padding: 0 4px;
+	margin: 15px 0;
+	opacity: 0.6;
+}
+.img_remerciement:hover {
+	opacity: 1;
+}
+#share_title {
+    padding-top: 1vw;
+	text-align:center;
+	font-size: 300%;
+	font-weight: bold;
+}
+#network {
+	text-align: center;
+}
+#network a {
+	padding: 0 40px;
+}
+
+#groups {
+	text-align: center;
+}
+
+#participants {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+#participants ul  {
+        display: inline-block;
+        text-align:center;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        font-size: 1vw;
+        list-style-type: none;
+        font-weight: bold;
+        vertical-align: top;
+        padding-right: 40px;
+}
+
+#crayon_pagePole{
+	position: relative;
+	height: 45%;
+	z-index: 5;
+	-ms-transform: rotate(-35deg);
+	-webkit-transform: rotate(-35deg);
+	transform: rotate(-35deg);
+	float: right;
+	height: 30vw;
+	right: 10vw;
+	top: 22vw;
+}
+
+#bic_pagePole{
+	position: relative;
+	height: 45%;
+	z-index: 5;
+	-ms-transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+	transform: rotate(-50deg);
+	margin-right: -7%;
+	float: right;
+	height: 30vw;
+	right: 10vw;
+	top: 20vw;
+}
+
+.title1 {
+	font-size: 1.5vw;
+	letter-spacing: 0.04em;
+	border-bottom: 2px solid black;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+}
+
+.lets_text {
+	display: inline-block;
+}
+
+.lets_text p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 180%;
+	font-weight: bold;
+}

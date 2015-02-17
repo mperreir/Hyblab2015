@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="625.016px" height="184.85px" viewBox="0 0 625.016 184.85" enable-background="new 0 0 625.016 184.85"
+	 xml:space="preserve">
+	<defs>
+  <style type="text/css">
+    @font-face {
+	    font-family: 'Roboto';
+	    src: url('../../fonts/roboto/Roboto-Thin.eot');
+	    src: url('../../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+	         url('../../fonts/roboto/Roboto-Thin.woff') format('woff'),
+	         url('../../fonts/roboto/Roboto-Thin.ttf') format('truetype'),
+	         url('../../fonts/roboto/Roboto-Thin.svg#Roboto') format('svg');
+	}
+  </style>
+</defs>
+<polygon fill="#6BBBAE" points="65.576,51.394 65.576,165.7 9.576,165.568 9.576,51.394 "/>
+<ellipse fill="#50B29F" cx="37.369" cy="51.668" rx="28.125" ry="12.44"/>
+<ellipse fill="#6BBBAE" cx="37.369" cy="165.621" rx="28.125" ry="12.44"/>
+<ellipse fill="#F28B32" cx="37.369" cy="36.813" rx="28.125" ry="12.44"/>
+<polygon fill="#F28B32" points="65.576,17.394 65.576,36.835 9.576,36.813 9.576,17.394 "/>
+<ellipse fill="#DC6E2D" cx="37.369" cy="17.861" rx="28.125" ry="12.44"/>
+<line opacity="0.7" fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="87.786" y1="81.995" x2="167.216" y2="81.995"/>
+<text transform="matrix(1 0 0 1 185.2166 81.9944)" opacity="0.7" enable-background="new    " font-family="'Roboto'" letter-spacing="1px" font-size="21">Nombre de brevets déposés : 5</text>
+<line opacity="0.7" fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="87.786" y1="32.51" x2="167.215" y2="32.51"/>
+<text transform="matrix(1 0 0 1 185.2166 32.5095)" opacity="0.7" enable-background="new    "><tspan x="0" y="0" font-family="'Roboto'" letter-spacing="1px" font-size="21">Autres titres de propriété intellectuelle déposés</tspan><tspan x="0" y="25.2" font-family="'Roboto'" letter-spacing="1px" font-size="21">(ex : modèles, marques, dessins) : 0</tspan></text>
+</svg>

@@ -1,0 +1,219 @@
+Année;IdCountry;Pays;NumberofCompetitors;GOLD;SILVER;BRONZE;Position
+2013;KR;Corée du Sud;37;12;5;6;1
+2013;CH;Suisse;37;9;3;5;2
+2013;TW;Taïwan;39;6;4;8;3
+2013;JP;Japon;40;5;4;3;4
+2013;AT;Autriche;27;5;2;4;5
+2013;BR;Brésil;37;4;5;3;6
+2013;SG;Singapour;20;3;2;0;7
+2013;FR;France;40;2;5;1;8
+2013;DE;Allemagne;36;2;4;3;9
+2013;GB;Royaume-Uni;29;2;1;3;10
+2013;TH;Thaïlande;20;2;1;0;11
+2013;IE;Irlande;14;2;0;1;12
+2013;FI;Finlande;38;1;2;3;13
+2013;SE;Suède;23;1;2;2;14
+2013;IT;Italie;13;1;2;2;15
+2013;AU;Australie;28;1;2;1;16
+2013;ID;Indonésie;30;1;1;0;17
+2013;NL;Pays-Bas;19;1;0;1;18
+2013;CA;Canada;32;1;0;0;19
+2013;IR;Iran;11;0;2;1;20
+2013;CN;Chine;22;0;1;3;21
+2013;NO;Norvège;19;0;1;2;22
+2013;DK;Danemark;17;0;1;1;23
+2013;MO;Macao;10;0;1;0;24
+2013;NZ;Nouvelle-Zélande;13;0;1;0;25
+2013;US;États-Unis d'Amérique;19;0;1;0;26
+2013;LV;Lettonie;7;0;1;0;27
+2013;MY;Malaisie;14;0;0;0;28
+2013;PT;Portugal;18;0;0;0;28
+2013;CO;Colombie;20;0;0;0;28
+2013;VN;Viêt-Nam;12;0;0;0;28
+2013;BE;Belgique;15;0;0;0;28
+2013;HU;Hongrie;15;0;0;0;28
+2013;HK;Honk Kong;10;0;0;0;28
+2013;IN;India;22;0;0;0;28
+2013;LI;Liechtenstein;5;0;0;0;28
+2013;AE;Émirats arabes unis;15;0;0;0;28
+2013;LU;Luxembourg;5;0;0;0;28
+2013;MA;Maroc;4;0;0;0;28
+2013;ZA;Afrique du Sud;14;0;0;0;28
+2013;CL;Chili;3;0;0;0;28
+2013;EE;Estonie;8;0;0;0;28
+2013;IS;Islande;4;0;0;0;28
+2013;KW;Koweit;8;0;0;0;28
+2013;OM;Oman;10;0;0;0;28
+2013;RU;Russie;14;0;0;0;28
+2013;SA;Arabie Saoudite;4;0;0;0;28
+2011;KR;Corée du Sud;38;13;5;6;1
+2011;JP;Japon;39;11;4;4;2
+2011;CH;Suisse;34;6;5;6;3
+2011;BR;Brésil;25;6;3;2;4
+2011;GB;Royaume-Uni;36;4;2;6;5
+2011;SG;Singapour;19;4;1;2;6
+2011;AT;Autriche;25;3;1;2;7
+2011;IE;Irlande;11;3;0;0;8
+2011;FR;France;38;2;3;3;9
+2011;TH;Thaïlande;25;2;2;0;10
+2011;DK;Danemark;15;2;1;0;11
+2011;TW;Taïwan;38;1;4;3;12
+2011;AU;Australie;25;1;4;3;13
+2011;DE;Allemagne;23;1;2;1;14
+2011;NO;Norvège;18;1;0;2;15
+2011;IT;Italie;12;1;0;2;16
+2011;FI;Finlande;39;0;5;3;17
+2011;SE;Suède;24;0;2;2;18
+2011;NL;Pays-Bas;21;0;1;1;19
+2011;MO;Macao;9;0;1;1;20
+2011;CN;Chine;6;0;1;0;21
+2011;US;États-Unis d'Amérique;17;0;1;0;22
+2011;CA;Canada;31;0;0;4;23
+2011;ID;Indonésie;23;0;0;1;24
+2011;IR;Iran;8;0;0;1;25
+2011;BE;Belgique;15;0;0;1;26
+2011;LI;Liechtenstein;6;0;0;1;27
+2011;NZ;Nouvelle-Zélande;17;0;0;0;28
+2011;VN;Viêt-Nam;12;0;0;0;28
+2011;MY;Malaisie;10;0;0;0;28
+2011;HK;Honk Kong;12;0;0;0;28
+2011;PT;Portugal;16;0;0;0;28
+2011;EE;Estonie;8;0;0;0;28
+2011;ES;Espagne;31;0;0;0;28
+2011;AE;Émirats arabes unis;12;0;0;0;28
+2011;CO;Colombie;14;0;0;0;28
+2011;HU;Hongrie;14;0;0;0;28
+2011;SA;Arabie Saoudite;4;0;0;0;28
+2011;IN;India;15;0;0;0;28
+2011;IS;Islande;3;0;0;0;28
+2011;JM;Jamaica;3;0;0;0;28
+2011;LU;Luxembourg;3;0;0;0;28
+2011;MA;Maroc;6;0;0;0;28
+2011;MX;Mexique;4;0;0;0;28
+2011;OM;Oman;9;0;0;0;28
+2011;PY;Paraguay;1;0;0;0;28
+2011;TN;Tunisie;7;0;0;0;28
+2011;ZA;Afrique du Sud;6;0;0;0;28
+2009;KR;Corée du Sud;39;13;4;5;1
+2009;CH;Suisse;34;7;2;5;2
+2009;JP;Japon;39;6;3;5;3
+2009;BR;Brésil;20;4;4;2;4
+2009;AT;Autriche;24;4;2;2;5
+2009;CA;Canada;34;3;3;2;6
+2009;TW;Taïwan;36;3;0;8;7
+2009;GB;Royaume-Uni;25;3;0;6;8
+2009;FR;France;37;3;0;4;9
+2009;IE;Irlande;11;3;0;2;10
+2009;SG;Singapour;16;3;0;1;11
+2009;AU;Australie;23;2;3;4;12
+2009;DE;Allemagne;20;2;2;2;13
+2009;FI;Finlande;39;2;1;2;14
+2009;TH;Thaïlande;15;2;0;2;15
+2009;IT;Italie;18;1;3;4;16
+2009;SE;Suède;28;0;3;2;17
+2009;US;États-Unis d'Amérique;15;0;2;0;18
+2009;NL;Pays-Bas;22;0;1;1;19
+2009;NO;Norvège;16;0;1;1;20
+2009;IR;Iran;12;0;1;0;21
+2009;IN;India;2;0;1;0;22
+2009;PT;Portugal;19;0;0;1;23
+2009;ID;Indonésie;22;0;0;0;24
+2009;DK;Danemark;15;0;0;0;24
+2009;HK;Honk Kong;12;0;0;0;24
+2009;LI;Liechtenstein;7;0;0;0;24
+2009;NZ;Nouvelle-Zélande;16;0;0;0;24
+2009;BE;Belgique;19;0;0;0;24
+2009;VN;Viêt-Nam;9;0;0;0;24
+2009;HU;Hongrie;12;0;0;0;24
+2009;MO;Macao;7;0;0;0;24
+2009;EE;Estonie;5;0;0;0;24
+2009;ES;Espagne;15;0;0;0;24
+2009;MY;Malaisie;9;0;0;0;24
+2009;IS;Islande;3;0;0;0;24
+2009;SA;Arabie Saoudite;3;0;0;0;24
+2009;LU;Luxembourg;5;0;0;0;24
+2009;AE;Émirats arabes unis;9;0;0;0;24
+2009;CO;Colombie;6;0;0;0;24
+2007;JP;Japon;41;12;4;3;1
+2007;KR;Corée du Sud;37;10;9;5;2
+2007;FR;France;36;5;4;2;3
+2007;CH;Suisse;35;4;5;4;4
+2007;SG;Singapour;12;3;0;1;5
+2007;BR;Brésil;20;2;3;4;6
+2007;CA;Canada;26;2;2;2;7
+2007;IT;Italie;18;2;1;3;8
+2007;AT;Autriche;25;2;1;1;9
+2007;FI;Finlande;38;2;0;6;10
+2007;AU;Australie;23;1;3;1;11
+2007;GB;Royaume-Uni;21;1;1;2;12
+2007;NO;Norvège;22;1;0;1;13
+2007;TW;Taïwan;35;0;5;3;14
+2007;DE;Allemagne;25;0;5;2;15
+2007;TH;Thaïlande;16;0;4;0;16
+2007;NZ;Nouvelle-Zélande;13;0;1;2;17
+2007;NL;Pays-Bas;22;0;1;1;18
+2007;ID;Indonésie;15;0;1;0;19
+2007;MO;Macao;9;0;1;0;20
+2007;AE;Émirats arabes unis;8;0;1;0;21
+2007;IE;Irlande;21;0;0;4;22
+2007;SE;Suède;29;0;0;2;23
+2007;DK;Danemark;12;0;0;1;24
+2007;IR;Iran;15;0;0;1;25
+2007;PT;Portugal;15;0;0;0;26
+2007;HK;Honk Kong;12;0;0;0;26
+2007;LU;Luxembourg;4;0;0;0;26
+2007;BE;Belgique;16;0;0;0;26
+2007;MY;Malaisie;14;0;0;0;26
+2007;US;États-Unis d'Amérique;6;0;0;0;26
+2007;HU;Hongrie;3;0;0;0;26
+2007;ZA;Afrique du Sud;6;0;0;0;26
+2007;VN;Viêt-Nam;8;0;0;0;26
+2007;SA;Arabie Saoudite;5;0;0;0;26
+2007;LI;Liechtenstein;6;0;0;0;26
+2007;MA;Maroc;3;0;0;0;26
+2007;EC;Équateur;1;0;0;0;26
+2007;EE;Estonie;3;0;0;0;26
+2007;ES;Espagne;7;0;0;0;26
+2007;HR;Croatie;4;0;0;0;26
+2007;IN;India;5;0;0;0;26
+2007;IS;Islande;1;0;0;0;26
+2007;JA;Jamaïque;4;0;0;0;26
+2007;MX;Mexique;5;0;0;0;26
+2007;TN;Tunisie;5;0;0;0;26
+2005;CH;Suisse;34;5;7;6;1
+2005;IT;Italie;18;5;1;5;2
+2005;JP;Japon;32;5;1;2;3
+2005;DE;Allemagne;25;4;4;2;4
+2005;FI;Finlande;39;4;1;3;5
+2005;KR;Corée du Sud;35;3;8;5;6
+2005;AT;Autriche;24;3;2;1;7
+2005;IE;Irlande;20;3;1;1;8
+2005;AU;Australie;21;3;0;2;9
+2005;CA;Canada;26;2;2;1;10
+2005;FR;France;34;2;1;2;11
+2005;SG;Singapour;10;2;0;1;12
+2005;SE;Suède;23;1;3;1;13
+2005;TW;Taïwan;31;1;2;4;14
+2005;GB;Royaume-Uni;16;1;2;0;15
+2005;TH;Thaïlande;14;1;1;1;16
+2005;NO;Norvège;20;1;1;0;17
+2005;BE;Belgique;12;1;0;1;18
+2005;LI;Liechtenstein;6;1;0;1;19
+2005;HK;Honk Kong;13;1;0;0;20
+2005;BR;Brésil;16;0;2;3;21
+2005;NL;Pays-Bas;30;0;2;1;22
+2005;DK;Danemark;9;0;2;0;23
+2005;NZ;Nouvelle-Zélande;13;0;1;0;24
+2005;MO;Macao;8;0;0;1;25
+2005;PT;Portugal;17;0;0;0;26
+2005;IR;Iran;15;0;0;0;26
+2005;LU;Luxembourg;5;0;0;0;26
+2005;MY;Malaisie;9;0;0;0;26
+2005;US;États-Unis d'Amérique;6;0;0;0;26
+2005;SA;Arabie Saoudite;4;0;0;0;26
+2005;MA;Maroc;2;0;0;0;26
+2005;TN;Tunisie;5;0;0;0;26
+2005;ZA;Afrique du Sud;4;0;0;0;26
+2005;ID;Indonésie;4;0;0;0;26
+2005;JA;Jamaïque;4;0;0;0;26
+2005;AE;Émirats arabes unis;4;0;0;0;26

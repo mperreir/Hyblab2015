@@ -1,0 +1,15 @@
+{
+  "name": "la_lettre_api",
+  "version": "1.0.0",
+  "description": "Projet Hyblab 2015 - La lettre API / Polytech'Nantes / AGR / Sciences Com' ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.10.2",
+    "request": "^2.48.0"
+  },
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}

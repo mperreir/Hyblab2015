@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1,width=device-width"></meta>
+	<title>Hyblab</title>
+
+	<!-- libraires diverses et fichiers js -->
+	<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">-->
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='onepage/onepage-scroll.css' rel='stylesheet' type='text/css'>
+	<link href='frame.css' rel='stylesheet' type='text/css'>
+	<link href='page6/jqvmap.css' rel='stylesheet' type='text/css'>
+	<!--<script src="lib/jquery-2.1.0.min.js"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+	<!-- On affiche les sections une fois que tout est chargé -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("section").css("visibility", "visible");
+		});
+	</script>
+
+
+	<script src="lib/highstock.js"></script>
+	<script src="lib/csvUtil.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="page6/jquery.vmap.js"></script>
+	<script type="text/javascript" src="page6/carte_svg.js"></script>
+	<script type="text/javascript" src="page6/page6.js"></script>
+	<script type="text/javascript">
+		loadData();
+	</script>
+	<script type="text/javascript" src="page2/page2.js"></script>
+	<script type="text/javascript" src="page8/page8.js"></script>
+	<script type="text/javascript" src="page4/page4.js"></script>
+	<script type="text/javascript">
+		loadDataPodium();
+	</script>
+
+	<!-- onepage scroll -->
+	<script type="text/javascript" src="onepage/jquery.onepage-scroll.js"></script>
+	<script type="text/javascript" src="onepage/onePageInit.js"></script>
+</head>
+
+
+<body>
+	<div class="preloaded-images">
+		<img src='img/page4/bonhommes/1.png' alt='bonhomme' width="1" height="1"/>
+		<img src='img/page4/bonhommes/2.png' alt='bonhomme' width="1" height="1"/>
+		<img src='img/page4/bonhommes/3.png' alt='bonhomme' width="1" height="1"/>
+		<img src='img/page4/bonhommes/4.png' alt='bonhomme' width="1" height="1"/>
+		<img src='img/page4/bonhommes/5.png' alt='bonhomme' width="1" height="1"/>
+		<img src="img/page4/Podium-1.png" width="1" height="1" alt="Podium" />
+		<img src="img/page4/Podium-12.png" width="1" height="1" alt="Podium" />
+		<img src="img/page4/Podium-13.png" width="1" height="1" alt="Podium" />
+		<img src="img/page4/Podium-123.png" width="1" height="1" alt="Podium" />
+		<img src="img/accueil.png" width="1" height="1" alt="accueil" />
+		<img src="img/page2/2013.png" width="1" height="1" alt="international" />
+		<img src="img/page2/2011.png" width="1" height="1" alt="international" />
+		<img src="img/page2/2009.png" width="1" height="1" alt="international" />
+		<img src="img/page2/2007.png" width="1" height="1" alt="international" />
+		<img src="img/page2/2005.png" width="1" height="1" alt="international" />
+		<img src="img/page6/-.png" width="1" height="1" alt="+" />
+		<img src="img/page6/+.png" width="1" height="1" alt="-" />
+		<img src="img/page8/Toucan.png" width="1" height="1" alt="Toucan" />
+		<img src="img/page9/photo1.png" width="1" height="1" alt="photo" />
+		<img src="img/page9/photo2.png" width="1" height="1" alt="photo" />
+		<img src="img/page9/photo3.png" width="1" height="1" alt="photo" />
+		<img src="img/page8/play2.png" width="1" height="1" alt="play" />
+		<img src="img/page8/playvide.png" width="1" height="1" alt="play" />
+	</div>
+
+	<div class="main">
+		<!-- Première page -->
+		<section class="page1">
+			<div class="titreP1 titre">Les Olympiades des Métiers</div>
+			<div class="edito">
+				<p> En août 2015, 50 jeunes français décolleront pour les 43e Worldskills, les jeux olympiques des métiers, à São Paolo. Tu n’en as jamais entendu parler ? Alors suis nous dans cette infographie interactive pour découvrir cette grande compétition. Dans
+					quel pays habite le champion du monde de coiffure ? Comment la France prépare-t-elle ses jeunes ?
+					<br>Entre dans le monde des champions !</p>
+			</div>
+			<div class="scrollClic"></div>
+		</section>
+
+		<!-- Page1bis -->
+		<section class="page1bis" style="visibility: hidden;">
+			<img src="img/page1bis.png" alt="Petit historique" />
+			<div style="display: none;">
+				<p>1946 L'idée des Olympiades naît dans la tête de José Antonio Elola Olaso</p>
+				<p>1950 La 1ère compétition est nationale, a lieu à Madrid et rassemble 24 participants</p>
+				<p>1953 La France participe à ses premières Olympiades</p>
+				<p>1995 La France accueille pour la première fois les Olympiades à Lyon pour la 33ème édition</p>
+			</div>
+		</section>
+
+		<!-- Page1ter -->
+		<section class="page1ter" style="visibility: hidden;">
+			<div class="titre titreP1ter">
+				<p>Et comment ça se passe alors ?</p>
+			</div>
+
+			<div class="reg">
+				<div class="titre1P1ter">
+					<p>Les sélections régionales</p>
+				</div>
+				<div class="texte1P1ter">
+					<p>Cette étape élit le meilleur candidat de chaque métier par région afin de constituer les équipes régionales qui s’affronteront lors des finales nationales.</p>
+				</div>
+			</div>
+
+			<div class="nat">
+				<div class="titre1P1ter">
+					<p>Les sélections nationales</p>
+				</div>
+				<div class="texte3P1ter">
+					<p>Elles réunissent les meilleurs jeunes de toutes les régions. Ils intègrent l’équipe de France et participent à la compétition mondiale.</p>
+				</div>
+			</div>
+
+			<div class="mond">
+				<div class="titre1P1ter">
+					<p>Les sélections mondiales</p>
+				</div>
+				<div class="texte4P1ter">
+					<p>La compétition mondiale des métiers est organisée tous les deux ans dans l'un des pays membres de Worldskills International.</p>
+				</div>
+			</div>
+
+			<div class="texte2P1ter">
+				<p>Digne des Jeux Olympiques, la compétition mondiale se prépare par un entraînement complet.</p>
+			</div>
+		</section>
+
+		<!-- page4 -->
+		<section class="page1quater" style="visibility: hidden;">
+			<img src="img/page1quater.png" alt="Il vous faut une forte motivation!" />
+			<div style="visibility: hidden;">
+				<p>Il te faut</p>
+				<p>Une forte motivation</p>
+				<p>De la volonté</p>
+				<p>Une maîtrise de soi</p>
+				<p>Du dynamisme</p>
+				<p>Aimer les challenges</p>
+			</div>
+		</section>
+
+		<!-- Deuxième page -->
+		<section class="page2" style="visibility: hidden;">
+			<div class="bandeauGauche">
+				<div class="annee2005">
+					<div class="titreAnnee titreAnnee2005" onclick="changerAnnee(2005);">
+						2005
+					</div>
+					<div class="cartesMonde">
+						<p>Pays participants</p>
+						<div id="carte2005" style="display: block;"></div>
+					</div>
+				</div>
+				<div class="annee2007">
+					<div class="titreAnnee titreAnnee2007" onclick="changerAnnee(2007);">
+						2007
+					</div>
+					<div class="cartesMonde">
+						<p>Pays participants</p>
+						<div id="carte2007" style="display: block;"></div>
+					</div>
+				</div>
+				<div class="annee2009">
+					<div class="titreAnnee titreAnnee2009" onclick="changerAnnee(2009);">
+						2009
+					</div>
+					<div class="cartesMonde">
+						<p>Pays participants</p>
+						<div id="carte2009" style="display: block;"></div>
+					</div>
+				</div>
+				<div class="annee2011">
+					<div class="titreAnnee titreAnnee2011" onclick="changerAnnee(2011);">
+						2011
+					</div>
+					<div class="cartesMonde">
+						<p>Pays participants</p>
+						<div id="carte2011" style="display: block;"></div>
+					</div>
+				</div>
+				<div class="annee2013">
+					<div class="titreAnnee titreAnneeActive titreAnnee2013" onclick="changerAnnee(2013);">
+						2013
+					</div>
+					<div class="cartesMonde">
+						<p>Pays participants</p>
+						<div id="carte2013" style="display: block;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="titreP2">
+				<p>À l'international, qui participe et qui sont les champions ?</p>
+			</div>
+			<div class="imgsMonde">
+				<img src="img/page2/2013.png" />
+			</div>
+			<div style="visibility: hidden;">
+				<p>participants</p>
+				<p>pays d'accueil</p>
+				<p>La france revient avec ... médailles</p>
+			</div>
+			<div class="legende">
+				<p class="or"><span></span> Vainqueur</p>
+				<p class="argent"><span></span> Deuxième position</p>
+				<p class="bronze"><span></span> Troisième position</p>
+				<p class="participant"><span></span> Pays participant</p>
+			</div>
+		</section>
+
+		<!-- Troisième page -->
+		<section class="page3" style="visibility: hidden; background: url('img/transition.png');">
+			<div class="titreP3 titre" style="display: none;">
+				<p style="font-size: 65px">Toi aussi découvre les meilleurs de chaque métier</p>
+			</div>
+		</section>
+
+		<!-- Quatrième page -->
+		<section class="page4" style="visibility: hidden;">
+			<div class="headerP4">
+				<img class="imgPointilles" src="img/page4/pointilles.png" />
+				<ul class="categories">
+					<li class="boutonCategorie1">
+						<!-- Métiers de l'alimentation -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Alimentation.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Alimentation</li>
+							<li><a href="javascript:void(0);">Boulanger</a>
+							</li>
+							<li><a href="javascript:void(0);">Cuisinier</a>
+							</li>
+							<li><a href="javascript:void(0);">Pâtissier/confiseur</a>
+							</li>
+							<li><a href="javascript:void(0);">Service de restauration</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie2">
+						<!-- Métiers de l'automobile -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Automobile.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Automobile</li>
+							<li><a href="javascript:void(0);">Peinture automobile</a>
+							</li>
+							<li><a href="javascript:void(0);">Technologie automobile</a>
+							</li>
+							<li><a href="javascript:void(0);">Tôlerie/Carrosserie</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie3">
+						<!-- Métiers du bâtiment et des travaux publics -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/BTP.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">BTP</li>
+							<li><a href="javascript:void(0);">Carrelage</a>
+							</li>
+							<li><a href="javascript:void(0);">Charpente</a>
+							</li>
+							<li><a href="javascript:void(0);">Charpente Métallique de Construction</a>
+							</li>
+							<li><a href="javascript:void(0);">Couverture métallique</a>
+							</li>
+							<li><a href="javascript:void(0);">Ébénisterie</a>
+							</li>
+							<li><a href="javascript:void(0);">Installation électrique</a>
+							</li>
+							<li><a href="javascript:void(0);">Maçonnerie</a>
+							</li>
+							<li><a href="javascript:void(0);">Menuiserie</a>
+							</li>
+							<li><a href="javascript:void(0);">Peinture et décoration</a>
+							</li>
+							<li><a href="javascript:void(0);">Plâtrerie et Construction Sèche</a>
+							</li>
+							<li><a href="javascript:void(0);">Plomberie et chauffage</a>
+							</li>
+							<li><a href="javascript:void(0);">Taille de pierre</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie4">
+						<!-- Métiers de l'industrie -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Industrie.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Industrie</li>
+							<li><a href="javascript:void(0);">CNC Fraisage</a>
+							</li>
+							<li><a href="javascript:void(0);">CNC Tournage</a>
+							</li>
+							<li><a href="javascript:void(0);">Contrôle industriel</a>
+							</li>
+							<li><a href="javascript:void(0);">DAO-Dessin industriel</a>
+							</li>
+							<li><a href="javascript:void(0);">Électronique</a>
+							</li>
+							<li><a href="javascript:void(0);">Génie plastique</a>
+							</li>
+							<li><a href="javascript:void(0);">Manufacturing Team Challenge</a>
+							</li>
+							<li><a href="javascript:void(0);">Mécatronique</a>
+							</li>
+							<li><a href="javascript:void(0);">Modélisme</a>
+							</li>
+							<li><a href="javascript:void(0);">Mold Making (moules)</a>
+							</li>
+							<li><a href="javascript:void(0);">Polymécanique/Automation</a>
+							</li>
+							<li><a href="javascript:void(0);">Réfrigération technique</a>
+							</li>
+							<li><a href="javascript:void(0);">Robotique mobile</a>
+							</li>
+							<li><a href="javascript:void(0);">Soudage</a>
+							</li>
+							<li><a href="javascript:void(0);">Tôlerie</a>
+							</li>
+							<li><a href="javascript:void(0);">Transport et logistique</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie5">
+						<!-- Métiers de la maintenance -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Maintenance.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Maintenance</li>
+							<li><a href="javascript:void(0);">Entretien d'aéronef</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie6">
+						<!-- Métiers des nouvelles technologies -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/High Tech.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Nouvelles Technologies</li>
+							<li><a href="javascript:void(0);">Arts graphiques</a>
+							</li>
+							<li><a href="javascript:void(0);">Câblage des réseaux informatiques</a>
+							</li>
+							<li><a href="javascript:void(0);">Gestion de réseaux informatiques</a>
+							</li>
+							<li><a href="javascript:void(0);">Imprimerie</a>
+							</li>
+							<li><a href="javascript:void(0);">Pilotage de materiel mécanique</a>
+							</li>
+							<li><a href="javascript:void(0);">Technologie d’information applications de logiciels</a>
+							</li>
+							<li><a href="javascript:void(0);">Web Design</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie7">
+						<!-- Métiers du service -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Services.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Services</li>
+							<li><a href="javascript:void(0);">Aide à la personne</a>
+							</li>
+							<li><a href="javascript:void(0);">Bijouterie/Joaillerie</a>
+							</li>
+							<li><a href="javascript:void(0);">Coiffure</a>
+							</li>
+							<li><a href="javascript:void(0);">Mode et création</a>
+							</li>
+							<li><a href="javascript:void(0);">Soins de Beauté</a>
+							</li>
+							<li><a href="javascript:void(0);">Visual Merchandising</a>
+							</li>
+						</ul>
+					</li>
+					<li class="boutonCategorie8">
+						<!-- Métiers du végétal -->
+						<a href="javascript:void(0);"><img src="img/logo_metiers/Vegetal.png" class="boutonCategorie" />
+						</a>
+						<ul>
+							<li class="nomCategorie">Végétal</li>
+							<li><a href="javascript:void(0);">Fleuriste</a>
+							</li>
+							<li><a href="javascript:void(0);">Jardinier/paysagiste</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="menuSelectionne"></div>
+			<script>
+				for (i = 0; i < 3; i++) {
+					document.write('<div class="zone zone' + i + '">');
+					document.write('<div class="zonesNomsDrapeaux"></div>');
+					document.write('<p class="nom nom' + i + '"></p></div>');
+				}
+			</script>
+			<div class="podium">
+				<script>
+					for (i = 0; i < 3; i++) {
+						document.write('<div class="bonhommes bonhomme' + i + '">');
+						for (j = 0; j < 5; j++) {
+							document.write('<img src="" alt="" class="drapeaux drapeau' + j + '"/>');
+						}
+						document.write('</div>');
+					}
+				</script>
+				<img src="img/page4/Podium-123.png" alt="podium" class="lePodium" width='500' />
+				<div class="selectionsAnnees">
+					<div class="selectionAnnee">
+						<span class="selectionAnneeBouton"></span>
+						<br>
+						<span class="texteSelectionAnnee">2005</span>
+					</div>
+					<div class="selectionAnnee">
+						<span class="selectionAnneeBouton"></span>
+						<br>
+						<span class="texteSelectionAnnee">2007</span>
+					</div>
+					<div class="selectionAnnee">
+						<span class="selectionAnneeBouton"></span>
+						<br>
+						<span class="texteSelectionAnnee">2009</span>
+					</div>
+					<div class="selectionAnnee">
+						<span class="selectionAnneeBouton"></span>
+						<br>
+						<span class="texteSelectionAnnee">2011</span>
+					</div>
+					<div class="selectionAnnee">
+						<span class="selectionAnneeBouton selectionAnneeBoutonActive"></span>
+						<br>
+						<span class="texteSelectionAnnee texteSelectionAnneeActive">2013</span>
+					</div>
+				</div>
+			</div>
+			<img class="boutonMetiers" src="img/page4/boutonMetiers.png" />
+			<div style="visibility: hidden;">
+				<p>Les différents pôles de métiers</p>
+			</div>
+		</section>
+
+		<!-- Sixième page -->
+		<section class="page6" style="visibility: hidden;">
+			<div class="titreP6 titre">
+				<p>Et la France alors ?</p>
+			</div>
+			<div>
+				<img class="clicRegion" src="img/page6/clic_region.png" />
+				<div class="carteFrance"></div>
+				<div class="P6_droite">
+					<div style="text-align:center; font-size: 15px; padding-left: 40px;">Evolution du classement de la région<br>lors les sélections nationales</div>
+					<div class="courbeRegion">Courbe de région</div>
+					<div>
+						<div class="infoP6_2 infoP6_2Active">
+						</div>
+					</div>
+					<img class="imgFrance" src="img/page6/international.png" />
+				</div>
+				<div style="visibility: hidden;">
+					<p>3000 repas par service,soit 6000 repas par jour</p>
+					<p>75 000 visiteurs sur les 3 jours de compétition dont 30 000 jeunes d’établissements scolaires</p>
+					<p>2,5 m3 de bois massif</p>
+					<p>200 kg de chocolat</p>
+					<p>24 voitures sur le Pôle automobile</p>
+					<p>1 hélicoptère Maintenance aéronautique</p>
+					<p>31 janvier 2015</p>
+					<p>Les chiffres clefs de la finale nationale à Strasbourg ! </p>
+					<p>Résultats des 43es Finales Nationales de la WorldSkills Competition, qui se déroulaient depuis ce 29 janvier à Strasbourg. Parmi les médaillés se trouvent donc les futurs membres qui constitueront l’Équipe de France des Métiers, qui s’envolera pour
+						le Brésil du 10 au 16 août prochains, défendre les couleurs de la France lors de l’épreuve mondiale de la WorldSkills Competition.</p>
+				</div>
+		</section>
+
+		<!-- Huitième page -->
+		<section class="page8" style="visibility: hidden; background: url('img/page8/pays_de_la_loire.png');">
+			<div class="toucan"></div>
+			<div class="video"><iframe id="iframeYT" width="889" height="500" src="https://www.youtube.com/embed/QQunwgc0Gs8?rel=0&amp;controls=1&amp;showinfo=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+			<div class="titreP8 titre">
+				<p>En Pays de la Loire</p>
+			</div>
+			<div style="display: none;">
+				<p>Pays de la Loire 1er nationale</p>
+			</div>
+			<div class="page8micro"></div> 
+			<div style="visibility: hidden;">
+				<p>En Pays de la Loire</p>
+				<p>Pays de la Loire 1er National</p>
+				<p>20,5% des lauréats sont des femmes</p>
+				<p>Sur 100% des lauréats régionaux</p>
+				<p>Apprentis 53%</p>
+				<p>Étudiants 16%</p>
+				<p>Salariés 14,5%</p>
+				<p>Lycéens 10,5%</p>
+				<p>Contrats Pro 5%</p>
+				<p>Ouvriers 1%</p>
+				<p>2015</p>
+				<p>22% des meilleurs apprentis de France sont Ligériens</p>
+				<p>17 médailles lors de la finale nationale à Strasbourg</p>
+				<p>7 médailles 7 qualifications direction Brésil</p>
+			</div>
+		</section>
+
+		<section class="page8bis" style="visibility: hidden; background: #3D6865 url('img/page8bis/fondElisabeth.png') no-repeat top left;">
+			<p class="titreP8bis">Interview d'Élisabeth Vincent</p>
+			<p class="sousTitreP8bis">Responsable de la promotion de la formation professionnelle à la Chambre régionale des métiers et de l'artisanat des Pays de la Loire</p>
+			<div class="itwElisabeth">
+				<p class="intro">La région Pays de la Loire représente une grande partie de l’équipe de France, jusqu’à un quart de l’équipe en 2009. Elisabeth Vincent, chargée de mission à la chambre de métiers et de l’artisanat de région des Pays de la Loire revient sur les raisons
+					qui font de la région l’une des plus dynamiques de France. </p>
+				<div class="div div1">
+					<p class="subtitle">La formation par alternance</p>
+
+					<p>Traditionnellement et comme l’Alsace, la Région des Pays de la Loire investit depuis des décennies dans la formation par alternance. Ainsi, la relation tripartite : jeune&nbsp;/&nbsp;centre de formation pour apprenti&nbsp;/&nbsp;entreprise constitue la combinaison gagnante pour ce type de concours où la connaissance et la maîtrise des fondamentaux de chaque métier sont cruciales. Les centres de formation sont globalement bien équipés et leurs matériels sont renouvelés régulièrement. Les formateurs sont bien formés et maintiennent régulièrement le lien avec l’entreprise.</p>
+
+				</div>
+				<div class="div div2">
+					<p class="subtitle">L’organisation</p>
+
+					<p>
+						Ce qui renforce également le succès de notre région les soirs de finales nationales, c’est sa propre organisation qui s’appuie sur des structures et des experts qui connaissent bien les formations dispensées, leurs acteurs et les entreprises de chacun des secteurs. De la sélection en établissements, à l’organisation de pré-sélections départementales ou interdépartementales aux sélections régionales, ce sont en moyenne trois sélections qui permettent aux jeunes Ligériens d’accéder aux finales nationales.
+					</p>
+				</div>
+				<div class="div div3">
+
+					<p class="subtitle">La préparation</p>
+
+					<p>Je voudrais insister sur le fait que la préparation physique et mentale proposée aux jeunes avant les finales nationales est une initiative heureuse de notre région. Travailler l’esprit de groupe, apprendre à se concentrer, faire le vide autour de soi, respirer et se ressourcer, est un atout majeur pour les candidats mais surtout pour leur vie future.(…) Quel que soit le résultat de la compétition, tous ont le sourire aux lèvres car tous ressortent gagnants de l’aventure. Les Olympiades des Métiers, c’est avant tout une grande aventure humaine !</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Neuvième page -->
+		<section class="page9 " style="visibility: hidden; background: url('img/page9/quedevenus.png');">
+			<div class="titreP9">Que sont-ils devenus ?</div>
+			<div class="quedevenusNom quedevenusNom1">Mélanie Colin, 23 ans<br>Argent aux nationales 2012<br>Bijouterie</div>
+			<div class="quedevenusNom quedevenusNom2">Marcel</div>
+			<div class="quedevenusNom quedevenusNom3">Jacky</div>
+			<div class="quedevenus quedevenus1">
+				<p>&laquo; Aujourd’hui je ne travaille pas en entreprise car la conjoncture actuelle ne me le permet pas. Je suis installée à Reims pour être près de Paris car c’est là bas qu’on trouve du travail pour les bijoutiers.</p>
+				<p>J’aimerais ouvrir ma propre boutique en bijouterie. Si ça ne marche pas, j’ai envie de travailler avec des enfants.</p>
+				<p>A 8 ans quand je suis sortie de l’atelier d’un ami bijoutier de mes parents, j’ai réalisé que c’est ce que je voulais faire plus tard et j’ai pas démordu. C’est un métier de passion. &raquo;</p>
+			</div>
+			<div class="quedevenus quedevenus2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet sapien lacinia erat vulputate, vel varius lorem bibendum. Etiam accumsan metus dapibus, tincidunt orci venenatis, finibus justo. Cras risus felis, dapibus vitae euismod quis,
+				tincidunt a nisl. In eget lobortis purus, id dapibus ligula. Proin facilisis placerat augue et imperdiet. Proin nec elementum arcu. </div>
+			<div class="quedevenus quedevenus3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet sapien lacinia erat vulputate, vel varius lorem bibendum. Etiam accumsan metus dapibus, tincidunt orci venenatis, finibus justo. Cras risus felis, dapibus vitae euismod quis,
+				tincidunt a nisl. In eget lobortis purus, id dapibus ligula. Proin facilisis placerat augue et imperdiet. Proin nec elementum arcu. </div>
+			<div class="photoParticipant photo1"></div>
+			<div class="photoParticipant photo2"></div>
+			<div class="photoParticipant photo3"></div>
+		</section>
+
+		<!-- Dixième page -->
+		<section class="page10 " style="visibility: hidden; ">
+			<div style="display: none; ">
+				<div>
+					<p>11 : Le nombre de fois où Madrid a accueilli les Olympiades</p>
+					<p>L'entraînement de l'équipe de France se faità l'INSEP de Paris</p>
+				</div>
+				<div class="titre10 titre">
+					<p>Le Saviez Vous ?</p>
+				</div>
+				<div>
+					<p>2013 : 90% des médaillés d'or sont des hommes</p>
+					<p>La Bourgogne n'a jamais remporté le prix de sommelier</p>
+					<p>Pour qu'un métier soit retenu et mis en compétition il faut au moins 12 pays participants</p>
+					<p>Abou Dhabi 2017 : Pour la 1ère fois le mondiale au Moyen Orient</p>
+					<p>Compétition réservée aux moins de 23 ans</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Page Crédits -->
+		<section class="pageCredits " style="visibility: hidden; ">
+			<div class="titreCredits titre ">
+				<p>Crédits</p>
+			</div>
+			<div class="bandeauCredits ">
+				<div class="ecole sciencescom">
+					<a href="http://www.sciencescom.org" class="lecole" target="_blank"></a>
+					<p class="role">Éditorial</p>
+					<ul class="camarade">
+						<li>Florence du Boÿs</li>
+						<li>Gabriel Prévost</li>
+					</ul>
+				</div>
+				<div class="ecole agr">
+					<a href="http://www.agrnantes.fr" target="_blank" class="lecole"></a>
+					<p class="role">Conception graphique</p>
+					<ul class="camarade">
+						<li><a class="authorUrl" href="http://alaurebellamy.wix.com/ephemere" target="_blank">Anne-Laure Bellamy</a></li>
+						<li>Christelle Fitan</li>
+						<li>Nicolas Guillaud</li>
+					</ul>
+				</div>
+				<div class="ecole polytech">
+					<a href="http://www.polytech-nantes.fr " target="_blank" class="lecole"></a>
+					<p class="role">Réalisation</p>
+					<ul class="camarade">
+						<li><a class="authorUrl" href="http://fr.linkedin.com/in/christophehubert" target="_blank">Christophe Hubert</a></li>
+						<li><a class="authorUrl" href="http://fr.linkedin.com/pub/emmanuel-le-bris/74/a47/545" target="_blank">Emmanuel Le Bris</a></li>
+						<li><a class="authorUrl" href="http://thomasmainguy.fr" target="_blank">Thomas Mainguy</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="src">
+				Avec la participation et l'aide de Nicolas Dumez (<a href="http://www.paysdelaloire.fr/ ">région Pays de la Loire</a>)
+				<br>Sources : <a href="https://www.worldskills.org/ " target="_blank">WorldSkills International</a>, <a href="http://www.worldskills-france.org/ " target="_blank">WorldSkills France</a>
+			</div>
+
+
+			<div id="lesPartenaires">
+					<a class="lpart" id="part1" href="http://www.paysdelaloire.fr " title="Pays de la Loire " target="_blank"></a>
+					<a class="lpart" id="part2" href="http://www.nantesmetropole.fr " title="Nantes Métropole " target="_blank"></a>
+					<a class="lpart" id="part3" href="http://opensource.org " title="Open Source Initiative " target="_blank"></a>
+					<a class="lpart" id="part4" href="http://www.univ-nantes.fr " title="Université de Nantes " target="_blank"></a>
+					<a class="lpart" id="part5" href="http://www.etalab.gouv.fr " title="Etalab Gouv " target="_blank"></a>
+					<a class="lpart" id="part6" href="http://www.orange.fr " title="Orange " target="_blank"></a>
+					<a class="lpart" id="part7" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/ " title="Creative Commons " target="_blank"></a>
+			</div>
+			<div id="lesPartenaires2">
+				<a class="lpart" id="part8" href="http://www.hyblab.fr " title="Hyblab " target="_blank"></a>
+				<a class="lpart" id="part9" href="http://www.ouestmedialab.fr " title="MediaLab " target="_blank"></a>
+			</div>
+		</section>
+
+		<!-- On charge le js ici pour être sûrs que la page est completement chargée avant le js -->
+		<script type="text/javascript " src="page2/carte.js "></script>
+</body>
+
+</html>

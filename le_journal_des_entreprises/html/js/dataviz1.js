@@ -1,4 +1,8 @@
-var hostays ="https://hyblab2015-ayssti-3.c9.io";
+/**
+ * @author Benjamin MOUDEN (main)
+ * @author Claire REMY 
+ */
+
 var chart1 = '';
 
 function whichYear(year) {
@@ -10,15 +14,15 @@ function whichYear(year) {
         $('#ville5').html('Montpellier');
         $('#ville8').html('Lille');
         $('#ville9').html('Lyon');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-5.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-5.png)");
     }
     else if (year === 2009) {
         $('.ca3').html('0');
@@ -28,15 +32,15 @@ function whichYear(year) {
         $('#ville7').html('Marseille');
         $('#ville8').html('Lyon');
         $('#ville9').html('Lille');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-1.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-1.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2010) {
         $('.ca3').html('1');
@@ -46,63 +50,63 @@ function whichYear(year) {
         $('#ville9').html('Marseille');
         $('#ville7').html('Lyon');
         $('#ville8').html('Lille');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2011) {
         $('.ca3').html('1');
         $('.ca4').html('1');
         $('#ville7').html('Lille');
         $('#ville8').html('Lyon');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-4.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-4.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     else if (year === 2012) {
         $('.ca3').html('1');
         $('.ca4').html('2');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-2.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-6.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-2.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-6.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
     }
     if (year === 2013) {
         $('.ca3').html('1');
         $('.ca4').html('3');
-        $('#sac9').css('background-image', 'url(/images/Sac-de-frappe-1.png)');
-        $('#sac8').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac7').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac6').css('background-image', "url(/images/Sac-de-frappe-2.png)");
-        $('#sac5').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac4').css('background-image', "url(/images/Sac-de-frappe-3.png)");
-        $('#sac3').css('background-image', "url(/images/Sac-de-frappe-5.png)");
-        $('#sac2').css('background-image', "url(/images/Sac-de-frappe-6.png)");
-        $('#sac1').css('background-image', "url(/images/Sac-de-frappe-6.png)");
+        $('#sac9').css('background-image', 'url(./images/Sac-de-frappe-1.png)');
+        $('#sac8').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac7').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac6').css('background-image', "url(./images/Sac-de-frappe-2.png)");
+        $('#sac5').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac4').css('background-image', "url(./images/Sac-de-frappe-3.png)");
+        $('#sac3').css('background-image', "url(./images/Sac-de-frappe-5.png)");
+        $('#sac2').css('background-image', "url(./images/Sac-de-frappe-6.png)");
+        $('#sac1').css('background-image', "url(./images/Sac-de-frappe-6.png)");
         
     }
 }
 
 function datasD1(year) {
 
-    $.getJSON(hostays + '/dataviz1?annee=' + year, function(data) {
+    $.getJSON('dataviz1?annee=' + year, function(data) {
         var villesD1 = [];  
         var valeursD1 = [];    
 
@@ -177,21 +181,24 @@ function datasD1(year) {
             var id = this.textContent || this.innerText;
             $('#myModal').modal();
             var year = "20" + $('#ca3').text() + $('#ca4').text();
-            $.getJSON(hostays + '/townInfo?nom=' + id, function(data) {
+            $.getJSON('townInfo?nom=' + id, function(data) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
                     $('#DV2TownName').html(id);
-                    $('#DV2pic').html("<img src=/images/\""+data.medaille1+"\")>");
+                    console.log("<img src=\"/images/"+data.image+"\">");
+                    $('#DV2pic').html("<img src=\"/images/"+data.image+"\">");
                     
                     if(data.medaille1) {
-                        $('#med1').html("<img src=/images/"+data.medaille1+"\")>");
+                        console.log("<img src=\"/images/"+data.medaille1+"\">");
+                        $('#med1').html("<img src=\"/images/"+data.medaille1+"\">");
                     }
                     if(data.medaille2) {
-                         $('#med2').html("<img src=\""+data.medaille2+"\")>");
+                        console.log("<img src=\"/images/"+data.medaille2+"\">");
+                         $('#med2').html("<img src=\"/images/"+data.medaille2+"\">");
                     }
                 }
            });
-          $.getJSON(hostays + 'townNumbers?nom=' + id + '&annee=' + year, function(data) {
+          $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
              if(data)  {
                  $('#ch1').html(data.ch1);
                  $('#ch2').html(data.ch2);

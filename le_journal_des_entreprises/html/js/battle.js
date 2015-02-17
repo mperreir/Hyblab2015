@@ -1,4 +1,8 @@
-var host="https://hyblab2015-ayssti-3.c9.io";
+/**
+ * @author Claire REMY
+ * 
+ * js file for the interactive tab
+ */
 
 /**
  * Sidebar
@@ -99,7 +103,7 @@ function loadData(indexOfTown) {
     if(clicks.length === 0) {
         $('#city1, #city2').text('Choisissez deux villes pour commencer l\'expérience !');
     }else{
-        $.getJSON(host + '/tableau?nom=' + clicks[indexOfTown] + '&annee=' + yearSliderValue + '&codeNAF=' + requestedNAF, function(data) {
+        $.getJSON('tableau?nom=' + clicks[indexOfTown] + '&annee=' + yearSliderValue + '&codeNAF=' + requestedNAF, function(data) {
             var tabCell = "";
             var tabNoRow;
             
@@ -134,19 +138,19 @@ function loadData(indexOfTown) {
  * @event on add or removing search criterias
  */
 $('document').ready(function(){
-        yearSliderValue = $('#sl1').data('slider').getValue();
+    yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
 });
 
 $('.criteria, .towns').on('click', function(e){
-        yearSliderValue = $('#sl1').data('slider').getValue();
+    yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
 });
 
 $('#sl1').on('slideStop', function(e){
-        yearSliderValue = $('#sl1').data('slider').getValue();
+    yearSliderValue = $('#sl1').data('slider').getValue();
     loadData(0);
     loadData(1);
     $('#yearHeader').text($('#sl1').data('slider').getValue());

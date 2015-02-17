@@ -1,0 +1,47 @@
+{
+	"name": "Atlanpôle Biothérapies",
+	"icon": "img/atlanticbio/atlanticbio_icon_id.svg",
+	"desc": "Basé à Nantes, Atlanpôle Biotherapies se spécialise sur les biothérapies et la production de biomédicaments. A vocation nationale, le pôle fédère les compétences des laboratoires, plateformes et entreprises afin d’articuler pour une offre public-privé sur la chaîne de valeur du biomédicament depuis la découverte de cibles jusqu’à l’évaluation clinique.",
+	"city": "Nantes",
+	"president": {
+	    "image": "img/atlanticbio/atlanticbio_president.png",
+	    "name": "Murielle Cazaubiel",
+	    "biographie": "Murielle Cazaubiel est l’une des co-fondatrices de Biofortis en 2002. La PME nantaise, qui dépend depuis 2009 du groupe Mérieux Nutrisciences, est spécialisée dans les analyses et essais cliniques pour l'industrie pharmaceutique et agro-alimentaire. Murielle Cazaubiel est diplômée d’un DEA de biologie moléculaire et d’un master de management de la recherche et de l'innovation obtenu à Audencia. Son objectif ?  Travailler à l’interface entre la recherche et l’industrie. Murielle Cazaubiel préside Atlanpôle Biothérapies depuis 2012. Très attachée au développement de l'entrepreneuriat féminin, elle est également membre d'Atlantic Pionnières, dispositif d'accompagnement dédié aux femmes créatrices d'entreprises innovantes."
+	},
+	"link": "http://agence-api.fr/societes/atlanpole-biotherapies-30860.html",
+	"bassinEmploi":{
+	    	"img": "img/atlanticbio/atlanpolebio_podium.svg"
+	},
+	"adherents":{
+		"data":[
+			["Nombre d'établissements membres",76],
+			["Nombre de nouveaux établissements membres",7]
+		]
+	},
+	"secteurs":{
+		"img": "img/atlanticbio/atlanpolebio_activites.svg"
+	},
+	"repartition":{
+		"data":[
+			["Etablissements créés en 2012",0],
+			["PME",60],
+			["Entreprises de taille intermédiaire",7],
+			["Grandes entreprises",3]
+		]
+	},
+	"projetLabellise":{
+		"nombre": [2,1,2,2,0,3,0],
+		"montant": [2133957.24,998663.4,1466689,2273030.71,0,2196405.68,0],
+		"more": {
+			"title": "Plus d'informations sur les bassins d'emploi",
+			"icon": "img/atlanticbio/atlanticbio_icon_id.svg",
+			"content": "Infos supplémentaires atlantic bio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at nibh consectetur, malesuada dui eget, scelerisque mi. Duis lobortis tristique auctor. Integer id ligula neque. Morbi id mauris in magna egestas fermentum. Etiam id nisi ac quam pharetra euismod. Curabitur pellentesque enim ut rutrum dictum. Nulla molestie elit nec eros ullamcorper, sed scelerisque tortor sollicitudin.Vestibulum pellentesque turpis est, vel molestie diam rutrum sit amet. Nunc aliquet dolor id iaculis convallis. Nullam justo ligula, tincidunt ultricies orci sed, hendrerit varius justo. Phasellus ex neque, volutpat vel risus a, bibendum commodo libero. Phasellus posuere id felis ac interdum. Nullam scelerisque neque nec consectetur ultricies. Aenean scelerisque diam nec sapien auctor, id aliquam ante luctus. Integer malesuada purus vitae leo facilisis rutrum.In porta nulla libero, nec convallis tellus condimentum sed. Nam congue lorem ac magna vestibulum, eget mattis leo viverra. Etiam at faucibus augue. Etiam maximus, libero id pharetra ullamcorper, augue magna laoreet tellus, sed pharetra dui eros vel nibh. Donec commodo libero nulla, eget eleifend nulla faucibus quis. Nulla vel lobortis lacus. Nunc pretium tortor tellus, sit amet consequat sapien posuere sagittis. Quisque nisi sem, sollicitudin eu luctus non, porta vitae nisl. Cras sit amet lorem ut nunc gravida aliquet. Pellentesque sed nunc non magna tincidunt laoreet sed porta enim. Interdum et malesuada fames ac ante ipsum primis in metus."
+		}
+	},
+	"resultats_intelectuels":{
+		"img": "img/atlanticbio/atlanpolebio_brevets.svg"
+	},
+	"resultats_operationnel":{
+		"img": "img/atlanticbio/atlanpolebio_RD.svg"
+	}
+}

@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Boulot, Conso, Dodo</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<meta name="title" content="Boulot, Conso, Dodo" />
+	<meta name="author" content="Labo8/WeDemain">
+	
+
+	
+	<!-- Donnee js -->
+	<script type="text/javascript" src="js/donnee.js"></script>
+		
+	<!-- Config js -->
+	<script type="text/javascript" src="js/config.js"></script>
+	
+	<!-- jquerry js -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+ 
+	<!-- camenbert js -->
+	<script type="text/javascript" src="js/camembert.js"></script>
+		
+	<!-- camembert css -->
+	<link rel="stylesheet" href="css/camembert.css" type="text/css" media="screen" />
+	
+	<!-- Onepage-scroll js -->
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    
+	<!-- Onepage-scroll CSS -->
+	<link href="css/onepage-scroll.css" rel="stylesheet">
+	
+	<!-- Onepage-scroll js -->
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	
+	<!-- Dataviz1 js -->
+	<script type="text/javascript" src="js/raphael.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	
+	<!-- Jeux js -->
+	<script type="text/javascript" src="js/jeux.js"></script>
+	
+	<!-- Numeral js -->
+	<script type="text/javascript" src="js/numeral.js"></script>
+	
+	<!-- Placement CSS -->
+    <link href="css/placement.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+ 
+
+</head>
+<body>
+		
+	<!-- load onepage-scroll -->
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+
+	
+	//window.onresize=taille;
+	</script>
+						
+  <div class="wrapper">
+	  <div class="main">	    
+		  <section class="page1">
+				
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+				<!-- pour rendre le site dynamique : <div class ="conteneur_global" style="">-->
+					<img class='max_taille' src='img/page1.svg' alt="fond d'écran"/>
+					<div class="texte-invisible">
+						<h1>Boulot, Conso, Dodo</h1>
+						<h3>Le saviez-vous ?</h3>
+						<h3>50%* : c’est la part de la facture électrique que peut atteindre la consommation d’un parc informatique d’une entreprise.</h3>
+						<h3>207 000€* : c’est ce qu’une entreprise peut réussir à économiser en un an. </h3>
+						<p>*Ces données, comment l’ensemble des données de notre étude, émanent d’une enquête réalisée d’octobre 2012 à novembre 2014 par KaliTerre, auprès de 45 organisations françaises issues des secteurs suivants : administrations, services, industries, établissements d’enseignement et de recherche ainsi que des centres hospitaliers. </p>
+					</div>
+					<div class="page1-bouton1">
+							<img class='max_taille' src='img/Bouton1-Graphic.svg' alt="graphique1"
+							onmouseover="cacheText('text1');" 
+							onmouseout="afficheText('text1');" />
+					</div>
+					<div class="page1-bouton2">
+							<img class='max_taille' src='img/Bouton2-Graphic.svg' alt="graphique2"
+							onmouseover="cacheText('text2');" 
+							onmouseout="afficheText('text2');" />
+					</div>
+					<div class="page1-texte1">
+							<img id="text1" class='max_taille' src='img/Bouton1-Texte.svg' alt="texte1"/>
+					</div>
+					<div class="page1-texte2">
+							<img id="text2" class='max_taille' src='img/Bouton2-Texte.svg' alt="texte2"/>
+					</div>
+				</div>
+		  </section>
+		   <section class="page1-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page1-texte.svg' alt="fond d'écran"/>
+						<div class="texte-invisible">
+						<h3>Avez-vous idée de l’énergie que vous pouvez économiser sur votre lieu de travail ?</h3>
+						<p>Nous allons suivre Jean, salarié modèle, toujours ponctuel, et très apprécié par ses collègues. Impliqué dans la vie de son équipe, il se charge chaque année de la galette des rois et du sapin de Noël. 
+Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être franchement écolo. Avec lui, observons les tendances de consommation au sein de l’entreprise.</p>
+					</div>
+				</div>
+		  </section>
+		  <section class="page2-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page2-texte.svg' alt="fond d'écran"/>
+						<div class="texte-invisible">
+						<h3>Un appareil, ça consomme même en veille</h3>
+						<p>Comme chaque matin, Jean passe en revue l'actualité. Economie, politique, résultats sportifs… En football, Nantes a battu Marseille sur le score de 2 à 0. Il est heureux. Mais ce matin, c'est un article consacré à la consommation d’énergie du matériel informatique qui retient son attention. Jean s’y intéresse de près.</p>
+					</div>
+				</div>
+		  </section>
+		  
+		  <section class="page2">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+				
+				
+				
+					<img class='max_taille' src='img/page2.svg' alt="fond d'écran"/> 
+					<div class="page2-conteneur zoom-page2">
+						<!-- Dataviz1-->
+						<div id="diagram"></div>
+
+						<div class="get">
+							<div class="arc">
+								<span class="text">Ordinateur portable</span>
+								<input type="hidden" class="percent" value="11" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+							<div class="arc">
+								<span class="text">Imprimante</span>
+								<input type="hidden" class="percent" value="17" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+							<div class="arc">
+								<span class="text">Vidéoprojecteur</span>
+								<input type="hidden" class="percent" value="26" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+							<div class="arc">
+								<span class="text">Ordinateur fixe</span>
+								<input type="hidden" class="percent" value="36" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+							<div class="arc">
+								<span class="text">Ecran TV</span>
+								<input type="hidden" class="percent" value="64" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+							<div class="arc">
+								<span class="text">Copieur</span>
+								<input type="hidden" class="percent" value="100" />
+								<input type="hidden" class="color" value="#193340" />
+							</div>
+						</div>
+						<div class="page2-titre">
+							<img class='max_taille' src='img/legende-dataviz1-titre.svg' alt="titre"/>
+						</div>
+						<div class="page2-soustitre">
+							<img class='max_taille' src='img/legende-dataviz1-soustitre.svg' alt="soustitre"/>
+						</div>
+						<div class="page2-legende">
+							<img class='max_taille' src='img/legende-dataviz1-texte.svg' alt="legende"/>
+						</div>
+					</div>
+				</div>
+		  </section>
+		  
+		  <section class="page3-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page3-texte.svg' alt="fond d'écran"/>
+					<div class="texte-invisible">
+						<h3>Ordinateur et écran TV : faîtes entrer les accusés</h3>
+						<p>Jean allume son ordinateur.  Son mot de passe n’est pas difficile à retenir. C’est le nom de son chat : Marius. Au programme : Envoi d'e-mails, accès aux fichiers de suivi, traitement de texte… Pour Jean, comme pour nombre d’autres salariés, cet appareil est indispensable. Mais, à l’instar de Bernard, à la compta, ou de Géraldine, la secrétaire, Jean n’a pas le réflexe de l'éteindre lorsqu’il n’est plus sur son lieu de travail.
+						</p>
+					</div>
+				</div>
+		  </section>
+		  
+		  <section class="page3">
+			<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					
+					<img class='max_taille' src='img/page3.svg' alt="fond d'écran"/> 
+						<div class="page3-conteneur zoom-page3">
+						<div id='datavizFE'></div>
+						<div class="page3-fixe">
+							<img class='max_taille' src='img/ordinateur_fixe.svg' alt="fixe"/>
+						</div>
+						<div class="page3-tv">
+							<img class='max_taille' src='img/ecran_TV.svg' alt="tv"/>
+						</div>
+						<div class="page3-legende">
+							<img class='max_taille' src='img/legende-dataviz2-texte.svg' alt="legende"/>
+						</div>
+						<div class="page3-titre">
+							<img class='max_taille' src='img/legende-dataviz2-titre.svg' alt="titre"/>
+						</div>
+						<div class="page3-soustitre">
+							<img class='max_taille' src='img/legende-dataviz2-soustitre.svg' alt="soustitre"/>
+						</div>
+					</div>
+				</div>
+		  </section>
+		  
+		   <section class="page4-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page4-texte.svg' alt="fond d'écran"/>
+					<div class="texte-invisible">
+						<h3>À midi, comment éviter le gâchis d'énergie ?</h3>
+						<p>Jean nous quitte pour déjeuner. L’occasion pour nous de rencontrer de nouvelles personnes, et de les interroger sur leurs habitudes entre midi et deux. Ont-elles conscience de l’énergie qu’elles pourraient économiser ?
+						</p>
+					</div>
+				</div>
+		  </section>
+		  
+		  
+		  <section class="page4">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page4.svg' alt="fond d'écran"/> 
+					<div class="page4-conteneur">
+						<video class="max_taille" src="video/video2.mp4" autostart="fasle" controls="true"></video>
+					</div>
+				</div>
+		  </section>
+		  
+		   <section class="page5-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+				
+					<img class='max_taille' src='img/page5-texte.svg' alt="fond d'écran"/> 
+					<div class="texte-invisible">
+						<h3>Imprimer copier, sans gaspiller</h3>
+						<p>Jean revient de sa pause déjeuner. Avec le copieur multifonctions de son service, il imprime le programme du séminaire annuel de l’entreprise, en 50 exemplaires. Il se passe rarement un jour sans que Jean utilise cet appareil. Se remémorant sa lecture du matin, il enchaîne avec l’impression d’un article relatif à la consommation de ces appareils.
+						</p>
+					</div>
+				</div>
+		  </section>
+		  
+		  
+		  <section class="page5">
+			<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page5.svg' alt="fond d'écran"/>
+					<div class="page5-conteneur zoom-page5">
+						
+						<div id='datavizIC'></div>
+						<div class="page5-imprimante">
+							<img class='max_taille' src='img/imprimantes.svg' alt="imprimante"/>
+						</div>
+						<div class="page5-copieur">
+							<img class='max_taille' src='img/copieurs.svg' alt="copieur"/>
+						</div>
+						<div class="page5-legende">
+							<img class='max_taille' src='img/legende-dataviz3-texte.svg' alt="titre"/>
+						</div>
+						<div class="page5-titre">
+							<img class='max_taille' src='img/legende-dataviz3-titre.svg' alt="titre"/>
+						</div>
+						<div class="page5-soustitre">
+							<img class='max_taille' src='img/legende-dataviz3-soustitre.svg' alt="soustitre"/>
+						</div>
+					</div>
+				</div>
+		  </section>
+		  
+		  <section class="page6-texte">
+				<script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page6-texte.svg' alt="fond d'écran"/>
+					<div class="texte-invisible">
+						<h3>À quatre heures, place au vidéo projecteur</h3>
+						<p>C’est l’heure du goûter pour certains. Pas pour Jean, qui, comme souvent, est retenu par une réunion. Jean a l’habitude des présentations orales, maniant vidéo projecteur et PC portable à merveille. Aujourd’hui, zoom sur la consommation énergétique de certains appareils informatiques en entreprise. 
+						</p>
+					</div>
+				</div>
+		  </section>
+		  
+		  
+		  <section class="page6">
+			  <script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page6.svg' alt="fond d'écran"/> 
+					<div class="page6-conteneur zoom-page6">
+						<div id='datavizPV'></div>
+						<div class="page6-portable">
+							<img class='max_taille' src='img/ordinateurs_portables.svg' alt="imprimante"/>
+						</div>
+						<div class="page6-projecteur">
+							<img class='max_taille' src='img/video_projecteur.svg' alt="projecteur"/>
+						</div>
+						<div class="page6-legende">
+							<img class='max_taille' src='img/legende-dataviz4-texte.svg' alt="legende"/>
+						</div>
+						<div class="page6-texte">
+							<img class='max_taille' src='img/legende-dataviz4-texte1.svg' alt="legende"/>
+						</div>
+						<div class="page6-titre">
+							<img class='max_taille' src='img/legende-dataviz4-titre.svg' alt="titre"/>
+						</div>
+						<div class="page6-soustitre">
+							<img class='max_taille' src='img/legende-dataviz4-soustitre.svg' alt="soustitre"/>
+						</div>
+					</div>
+					
+					<div class="page6-conteneur2">
+							<img class='max_taille' src='img/test.png' alt="simulation de l'image projetée"/> 
+					</div>
+				</div> 
+		  </section>
+		  
+		  <section class="page7">
+			 <script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page7.svg' alt="fond d'écran"/>
+							<div class="texte-invisible">
+								<h3>Testez-vous !</h3>
+								<p>Et vous, comment consommez-vous ? Les règles sont simples. Ci-dessous, indiquez le nombre d’appareils numériques présents dans votre entreprise.
+Selon vos habitudes de consommation, éteignez ou laissez les appareils électriques allumés. En haut à droite, vous pouvez choisir différentes périodes : nuit, midi et week-end. En bas à droite, observez les économies réalisées.
+								</p>
+							</div>
+							<form>
+								<div class="page7-conteneur1">
+									<input type="texte" placeholder="nombre d'imprimantes" id="nbimprimante" name="nbimprimante" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+								<div class="page7-conteneur2">
+									<input type="texte" placeholder="nombre d'ordinateurs fixes" id="nbfixe" name="nbfixe" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+								<div class="page7-conteneur3">
+									<input type="texte" placeholder="nombre de portables" id="nbportable" name="nbportable" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+								<div class="page7-conteneur4">
+									<input type="texte" placeholder="nombre de projecteurs" id="nbvideoproj" name="nbvideoproj" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+								<div class="page7-conteneur5">
+									<input type="texte" placeholder="nombre d'écrans TV" id="nbtv" name="nbtv" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+								<div class="page7-conteneur6">
+									<input type="texte" placeholder="nombre de copieurs" id="nbcopieur" name="nbcopieur" size="4" maxlength="4" onkeypress="if((event.keyCode < 48 || event.keyCode > 57)) event.returnValue = false;"/>
+								</div>
+							</form>
+				</div> 
+			
+		  </section>
+		  
+		    
+		  <section class="page8">
+			 	 <script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page8.svg' alt="fond d'écran"/> 
+					<div class="page8-conteneur1">
+						<img id="tv" src="img/tv_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
+					</div>
+					<div class="page8-conteneur2">
+							<img id="imprimante" src="img/imprimante_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
+					</div>
+					<div class="page8-conteneur3">
+							<img id="fixe" src="img/fixe_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
+					</div>
+					<div class="page8-conteneur4">
+							<img id="portable" src="img/portable_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
+					</div>
+					<div class="page8-conteneur5">
+							<img id="videoproj" src="img/videoproj_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
+					</div>
+					<div class="page8-conteneur6">
+						<span id="resultatW">0</span>
+						<span id="resultatC">0</span>
+						<span id="resultatE">0</span>
+					</div>
+					<div class="page8-conteneur7">
+						<img id="midi" src="img/midi_on.svg"  onclick="changePeriode(this);" class="bjeux" value="on"/>
+					</div>
+					<div class="page8-conteneur8">
+						<img id="nuit" src="img/nuit_off.svg"  onclick="changePeriode(this);" class="bjeux" value="off"/>
+					</div>
+					<div class="page8-conteneur9">
+						<img id="week_end" src="img/week_end_off.svg"  onclick="changePeriode(this);" class="bjeux" value="off"/>
+					</div>
+					<div class="page8-conteneur10">
+						<img id="jour" src="img/jour_on.svg"  class="bjeux" value="on"/>
+					</div>
+					
+				</div> 
+		  </section>
+		  
+		  
+		  
+		  <section class="page9">
+		  			<div class="texte-invisible">
+								<h3>Parlez-en autour de vous!</h3>
+								<p>Pour connaître les bonnes pratiques, visitez le site de l’Agence de l’environnement et de la maîtrise de l’énergie :
+								Ademe.fr
+								Envie d’en savoir plus sur l’enquête qui a servi de base à notre étude ?
+								http://www.adnouest.org/conso-it/
+								</p>
+							</div>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+			  	 <script type="text/javascript">
+					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
+				</script>
+					<img class='max_taille' src='img/page9.svg' alt="fond d'écran"/>
+					<div class="page9-conteneur1">
+							<div class="fb-like" data-href="http://www.open-odyssey.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+					</div>
+					<div class="page9-conteneur2">
+							<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					</div>
+					<div class="page9-conteneur3">
+						<a href="http://www.wedemain.fr/" ><img class="max_taille" src="img/wedemain.svg" alt="logo we demain"/></a>
+					</div>
+					<div class="page9-conteneur4">
+						<a href="http://www.open-odyssey.org/" ><img class="max_taille" src="img/openodyssey.svg" alt="logo openodyssey"/></a>
+					</div>
+					<div class="page9-conteneur5">
+						<a href="http://www.kaliterre.fr/" ><img class="max_taille" src="img/kaliterre.svg" alt="logo kaliterre"/></a>
+					</div>
+					<div class="page9-conteneur6">
+						<a href="http://www.ademe.fr/" ><img class="max_taille" src="img/ademe.svg" alt="logo ademe"/></a>
+					</div>
+					<div class="page9-conteneur7">
+						<a href="http://www.hyblab.fr/"><img class="max_taille" src="img/hyblab.svg" alt="logo hyblab"/></a>
+					</div>
+					<div class="page9-conteneur8">
+						<a href="http://www.ouestmedialab.fr" ><img class="max_taille" src="img/ouestmedialab.png" class="max_taille" alt="logo ouestmedialab"/></a>
+					</div>
+					<div class="page9-conteneur9">
+						<a href="http://web.polytech.univ-nantes.fr/" ><img class="max_taille" src="img/polytech.svg" alt="logo polytech"/></a>
+					</div>
+					<div class="page9-conteneur10">
+						<a href="http://www.sciencescom.org/" ><img class="max_taille" src="img/sciencescom.svg" alt="logo sciencescom"/></a>
+					</div>
+					<div class="page9-conteneur11">
+						<a href="http://www.agrnantes.fr/" ><img class="max_taille" src="img/agr.svg" alt="logo agr"/></a>
+					</div>
+					<div class="page9-conteneur12">
+						<a href="http://www.citizen-press.fr/" ><img class="max_taille" src="img/citizenpress.jpg" alt="logo citizenpress"/></a>
+					</div>
+					<div class="page9-conteneur13">
+						<a href="http://www.geo.fr/" ><img class="max_taille" src="img/geo.jpg" alt="logo geo"/></a>
+					</div>
+					<div class="page9-conteneur14">
+						<a href="http://www.agence-api.fr/" ><img class="max_taille" src="img/api.jpg" alt="logo api"/></a>
+					</div>
+					<div class="page9-conteneur15">
+						<a href="http://www.lejournalesentreprises.com/national/index.php" ><img class="max_taille" src="img/jde.jpg" alt="logo jde"/></a>
+					</div>
+					<div class="page9-conteneur16">
+						<a href="http://www.lexpress.fr/" ><img class="max_taille" src="img/express.png" alt="logo lexpress"/></a>
+					</div>
+					<div class="page9-conteneur17">
+						<a href="http://www.nantes.fr/home.html" ><img class="max_taille" src="img/nantesfr.jpg" alt="logo nantes.fr"/></a>
+					</div>
+					<div class="page9-conteneur18">
+						<a href="http://www.ouest-france.fr/" ><img class="max_taille" src="img/ouestfrance.png" alt="logo ouestfrance"/></a>
+					</div>
+					<div class="page9-conteneur19">
+						<a href="http://www.placetobio.fr/" ><img class="max_taille" src="img/theplacetobio.png" alt="logo theplacetobio"/></a>
+					</div>
+					<div class="page9-conteneur20">
+						<a href="http://www.paysdelaloire.fr/" ><img class="max_taille" src="img/pdl.png" alt="logo pdl"/></a>
+					</div>
+					<div class="page9-conteneur21">
+						<a href="http://www.territoires-innovation.paysdelaloire.fr/" ><img class="max_taille" src="img/territoireinnovation.png" alt="logo territoireinnovation"/></a>
+					</div>
+					<div class="page9-conteneur22">
+						<a href="http://www.nantesmetropole.fr/" ><img class="max_taille" src="img/nantes-metro.png" alt="logo nantesmetro"/></a>
+					</div>
+					<div class="page9-conteneur23">
+						<a href="http://www.orange.fr/" ><img class="max_taille" src="img/orange.jpg" alt="logo orange"/></a>
+					</div>
+					<div class="page9-conteneur24">
+						<a href="https://www.etalab.gouv.fr/" ><img class="max_taille" src="img/etalab_gouv.png" alt="logo etalab"/></a>
+					</div>
+					<div class="page9-conteneur25">
+						<a href="http://www.stereolux.org/" ><img class="max_taille" src="img/stereolux.jpg" alt="logo stereolux"/></a>
+					</div>
+					<div class="page9-conteneur26">
+						<a href="https://www.globaleditorsnetwork.org/french/" ><img class="max_taille" src="img/gen.jpg" alt="logo gen"/></a>
+					</div>
+					<div class="page9-conteneur27">
+						<a href="http://rue89.nouvelobs.com/" ><img class="max_taille" src="img/rue89.png" alt="logo rue 89"/></a>
+					</div>
+					<div class="page9-conteneur28">
+						<a href="http://www.univ-nantes.fr/" ><img class="max_taille" src="img/universite_nantes.jpg" alt="logo universitenantes"/></a>
+					</div>
+					<div class="page9-conteneur29">
+						<a href="http://www.ademe.fr/particuliers-eco-citoyens/bureau/economiser-lelectricite" ><img class="max_taille" src="img/ademe.svg" alt="logo ademe"/></a>
+					</div>
+					<div class="page9-conteneur30">
+						<a href=http://www.adnouest.org/conso-it/ ><img class="max_taille" src="img/adnouest.jpg" alt="logo adnouest"/></a>
+					</div>
+					
+					
+					
+				</div>  
+		  </section>
+	    
+	  
+    </div>
+  </div>
+</body>
+
+<script>
+
+	/*
+	Code pour rendre les div dynamique
+	var divC = document.querySelectorAll('.conteneur_global');//On récupère les images du jeux
+	for (var i = 0 ; i < divC.length ; i++) 
+	{
+		alert("test");
+		divC[i].style=text_taille(2.125);
+	}*/
+	
+	initialiseJeux();
+	$(function(){ o.init(dwidth,dheight); });
+	dashboard('#datavizFE',DatavizFixeEcran,1,dwidth,dheight);
+	dashboard('#datavizIC',DatavizImpCop,2,dwidth,dheight);
+	dashboard('#datavizPV',DatavizPortaVideo,3,dwidth,dheight);
+</script>
+</html>

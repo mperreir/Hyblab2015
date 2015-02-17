@@ -98,7 +98,7 @@ background-color:#CBDADD;
  display: inline-block;
  height: 99%;
  width: 10%;
- background-image: url('/images/Sac-de-frappe-1.png');
+ background-image: url('../images/Sac-de-frappe-1.png');
  background-repeat: no-repeat;
  margin-left: 5px;
 }

@@ -1,0 +1,1003 @@
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    background: #82AEAC;
+    color:#fefefe;
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    margin: 0;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.scrollClic {
+    position: absolute;
+    height: 75px;
+    width: 58px;
+    left: 449px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.page10 div {
+    position: absolute;
+}
+
+.edito {
+    margin-top: 58px;
+    margin-left: 614px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-align: justify;
+    width: 270px;
+}
+
+.page3, .page7 {
+    background-color: #1c556d;
+}
+.titre {
+    font-size: 40px;
+    font-family: "Open Sans";
+    margin: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.titreP1 {
+    font-size: 27px;
+    margin-top: 215px;
+    margin-left: 30px;
+}
+.titreP3,
+.titreP5,
+.titreP7 {
+    font-size: 70px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 70px;
+}
+.titreP8 {
+    font-size: 23px;
+    text-transform: uppercase;
+    width: 250px;
+    margin-left: 183px;
+    margin-top: 47px;
+}
+.categories li {
+    margin-right: 6px;
+    margin-left: 6px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.categories a {
+    display: block;
+}
+/* Image quand on passe dessus */
+
+.categories .active a,
+.categories li:hover > a {
+    opacity: 0.85;
+}
+.categories ul {
+    display: none;
+    padding-left: 3px;
+    width: 200px;
+    position: absolute;
+    /*border-left: dotted 3px white;*/
+    font-size: 12px;
+    z-index: 998;
+    background: rgba(130,174,172,0.9);
+    -webkit-transition: all 0s;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 0s;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 0s;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 0s;
+}
+.categories li:hover > ul {
+    display: block;
+}
+
+.menuActif ul {
+    display: block;
+    z-index: 990;
+    height:353px;
+}
+
+p.menuSelectionne {
+    position: relative;
+    top: 320px;
+    left: 58px;
+    z-index:991;
+}
+
+p.menuSelectionnet {
+    position: relative;
+    top: 314px;
+    left: 58px;
+    font-size: 26px;
+    z-index:991;
+    width: 240px;
+    height: 20px;
+    background: #82AEAC;
+    padding-left:10px;
+    color: #2A7B77;
+}
+
+.categories ul li {
+    float: none;
+}
+.categories ul li a {
+    padding: 2px;
+}
+.categories ul a {
+    text-decoration: none;
+    color: white;
+}
+.categories {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding:0px;
+    list-style-type: disc;
+    width: 896px;
+    -webkit-transition: all 2s;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 2s;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 2s;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 2s;
+}
+.menuCategorie {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding-left: 3px;
+    width: 200px;
+}
+.headerP4 {
+    -webkit-transition: all 2s;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 2s;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 2s;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 2s;
+    padding-left: 40px;
+}
+.selectionAnneeBouton {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #bc4572;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    display: inline-block;
+    -webkit-transition: all 400ms;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 400ms;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 400ms;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 400ms;
+}
+
+.selectionAnneeBouton:hover {
+    opacity: 0.8;
+}
+
+.selectionAnneeBoutonActive {
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+}
+.SelectionAnnee {
+    font-size: 13px;
+    -webkit-transition: all 400ms;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 400ms;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 400ms;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 400ms;
+}
+.texteSelectionAnneeActive {
+    font-size: 18px;
+}
+.selectionAnnee {
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+}
+.selectionAnnees {
+    text-align: center;
+}
+.imgsMonde img {
+    right: 0px;
+    width: 550px;
+    bottom: 0px;
+    position: absolute;
+}
+.cartesMonde {
+    padding: 12px 0px 5px 0px;
+}
+.cartesMonde p {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.titreP2 {
+    margin-top: 50px;
+    position: absolute;
+    right: 50px;
+    width: 440px;
+    height: 64px;
+    background: url('img/page2/title_inter.png');
+}
+.titreP2 p {
+    text-align: center;
+    padding: 10px 25px 0px 25px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+}
+.titreP3 p {
+    font-family: "Roboto";
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.titreP6 {
+    background: url('img/page6/title_inter.png');
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 35px;
+    width: 515px;
+    height: 50px;
+    margin-left: 222px;
+    font-weight: normal;
+}
+.titreP6 p {
+    line-height: 50px;
+}
+
+.bandeauGauche {
+    width: 350px;
+    float: left;
+}
+.titreAnnee {
+    cursor:pointer;
+    width: 178px;
+    height: 48px;
+    border-bottom: dotted white 3px;
+    -webkit-transition: all 200ms;
+    /* For Safari 3.1 to 6.0 */
+    -moz-transition: all 200ms;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    -o-transition: all 200ms;
+    /* For Opera 3.1 to 6.0 */
+    transition: all 200ms;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+.titreAnneeActive {
+    background: #bc4572;
+    border-bottom: dotted white 3px;
+}
+.titreAnneeActiveBorder {
+    border-top: dotted white 3px;
+}
+.imgAnnee {
+    height: 370px;
+}
+.legende {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 8px;
+    background: #65918f;
+}
+.legende p {
+    font-size: 15px;
+    padding: 2px;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+.legende span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 1px 1px black;
+}
+.legende p.or span{
+    background: #F6A713;
+}
+.legende p.argent span {
+    background: #7F7F7E;
+}
+.legende p.bronze span {
+    background: #A56A42;
+}
+.legende p.participant span {
+    background: #3B6664;
+}
+.carteFrance {
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 5px;
+    z-index: 10;
+}
+.carteFrance path:hover {
+    cursor: pointer;
+}
+.clicRegion {
+    position: absolute;
+    top: 255px;
+    left: 155px;
+    z-index: 11;
+    height: 160px;
+}
+.P6_droite {
+    display: inline-block;
+    padding-left: 5px;
+    margin-top: 60px;
+}
+.courbeRegion {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+.infoP6_2 {
+    display: inline-block;
+    margin: 30px 0px 0px 182px;
+    background: url("img/page6/-.png");
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+}
+.infoP6_2Active {
+    background: url("img/page6/+.png");
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+}
+.imgFrance {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    z-index: 50;
+}
+/*
+.animated {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: rotate(-200deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: rotate(0);
+        opacity: 1;
+    }
+}
+@keyframes rotateIn {
+    0% {
+        transform-origin: center center;
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+    100% {
+        transform-origin: center center;
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+.rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+*/
+.imgPointilles {
+    margin-left: 41px;
+}
+.nomCategorie {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.boutonCategorie {
+    width: 100px;
+}
+
+.page1 {
+    background:url("img/accueil.png");
+    z-index: 998;
+}
+
+/* Pages 1 ter*/
+.page1ter{
+    background:url("img/page1ter.png");
+}
+
+.titreP1ter{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.titre1P1ter{
+    font-size: 17px;
+    color:#2d6862;
+}
+
+.texte2P1ter{
+    position:absolute;
+    top:320px;
+    left:200px;
+    width: 144px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.texte1P1ter{
+    width:150px;
+    font-size:12px;
+    text-align: justify;
+    margin-left:27px;
+}
+
+
+.texte3P1ter{
+    width:155px;
+    font-size:12px;
+    text-align: justify;
+    margin-left:27px;
+}
+
+
+.texte4P1ter{
+    width:143px;
+    font-size:12px;
+    text-align: justify;
+    margin-left:27px;
+}
+
+.reg{
+    position:absolute;
+    left : 250px;
+    top: 140px;
+}
+.nat{
+    position:absolute;
+    left : 545px;
+    top: 140px;
+}
+
+.mond{
+    position:absolute;
+    top:455px;
+    left : 397px;
+}
+
+/*fin page 1 ter*/
+
+.page10 {
+    background: url(img/lesaviezvous.png);
+}
+
+.boutonMetiers {
+    margin: 0px;
+    margin-left:430px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.bonhommes{
+    height:205px;
+    width: 200px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    position:relative;
+    z-index:1;
+}
+
+.bonhomme0{
+    left:180px;
+}
+
+.bonhomme1{
+    left:-170px;
+    top:60px;
+}
+
+.bonhomme2{
+    left: -70px;
+    bottom: -110px;
+}
+
+.drapeau0.droit0 {
+    position: relative;
+    left: 40px;
+    top: 11px;
+    transform: rotate(-3deg);
+}
+
+.drapeau2.droit2 {
+    position: relative;     
+    left: 5px;     
+    top: 21px;     
+    -ms-transform: rotate(8deg); /* IE 9 */           
+    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */           
+    transform: rotate(8deg);
+}
+
+.drapeaux{
+    position: relative;
+    height:50px;
+    width:50px;
+    visibility:hidden;
+}
+
+.drapeau0{
+    left: 1px;
+    top: -19px;
+    -ms-transform: rotate(-14deg); /* IE 9 */      
+    -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */      
+    transform: rotate(-14deg);
+}
+
+.drapeau1{
+    left: -10px;     
+    top: 23px;     
+    -ms-transform: rotate(17deg); /* IE 9 */           
+    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */           
+    transform: rotate(17deg);
+}
+
+.drapeau2{
+    left: -22px; 
+    top: -20px;
+    transform: rotate(-13deg);
+}
+
+.drapeau3{
+    left: -33px; 
+    top: 22px;
+    transform: rotate(17deg);
+}
+
+.drapeau4{
+    left: 115px;
+    top: 7px;
+    transform: rotate(40deg);
+}
+
+.plie0{
+    left: 19px;
+    top: -18px;
+}
+
+.plie1{
+    left: 8px;   
+    top: 22px;
+}
+
+.lePodium{
+    position:relative;
+    top:-40px;
+}
+
+.podium {
+    padding-top:20px;
+    display: none;
+    position: absolute;
+    width: 600px;
+    top: 150px;
+    right: 80px;
+    overflow: hidden;
+    -webkit-transition: all 4000ms;
+    /* For Safari 3.1 to 6.0 */
+    
+    -moz-transition: all 4000ms;
+    /* For Firefox et Chrome 3.1 to 6.0 */
+    
+    -o-transition: all 4000ms;
+    /* For Opera 3.1 to 6.0 */
+    
+    transition: all 4000ms;
+}
+
+
+.preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
+
+.selectionsAnnees{
+    position:relative;
+    top:-40px;
+    left: 155px;
+    cursor:pointer;
+}
+
+.zonesNomsDrapeaux{
+    height:350px;
+    width:145px;
+}
+
+.zone{
+    position: absolute;
+    z-index:991;
+}
+
+.nom{
+    position:absolute;
+    background : rgba(42,123,119,0.8);
+    display:none;
+}
+
+.margeNom{
+    padding:7px;
+}
+
+.nom0{
+    bottom: 300px;
+    left: 160px;
+    width: 180px;
+}
+
+.nom1{
+    bottom: 230px;
+    left: -190px;
+    width: 180px;
+}
+
+.nom2{
+    bottom: 250px;
+    left: 140px;
+    width: 180px;
+}
+
+.zone0{
+    left:460px;
+}
+
+.zone1{
+    left:310px;
+}
+
+.zone2{
+    left:610px;
+}
+
+section{
+    width:960px;
+}
+.page8micro {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width:50px;
+    height:50px;
+    background-repeat:no-repeat;
+    background:url("img/page8/play2.png");
+    cursor: pointer;
+}
+
+.page8micro:hover {
+    background:url("img/page8/playvide.png");
+}
+
+.quedevenus {
+    position: absolute;
+    width: 168px;
+    height: 274px;
+    top: 314px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+.titreP9 {
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 28px;
+    width: 515px;
+    height: 50px;
+    margin-left: 227px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.quedevenus1 {
+    left: 91px;
+}
+.quedevenus2 {
+    left: 391px;
+}
+.quedevenus3 {
+    left: 688px;
+}
+.quedevenusNom {
+    position: absolute;
+    width: 191px;
+    height: 39px;
+    top: 267px;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.quedevenusNom1 {
+    left: 85px;
+}
+.quedevenusNom2 {
+    left: 383px;
+}
+.quedevenusNom3 {
+    left: 679px;
+}
+
+.photoParticipant{
+    position : absolute;
+    height: 145px;
+    width: 152px;
+    top: 125px;
+}
+
+.photo1{
+    left:105px;
+}
+
+.photo2{
+    left:406px;
+    top:122px;
+}
+
+.photo3{
+    left:703px;
+}
+
+.photo1:hover{
+    background : url("img/page9/photo1.png");
+}
+
+.photo2:hover{
+    background : url("img/page9/photo2.png");
+}
+
+.photo3:hover{
+    background : url("img/page9/photo3.png");
+}
+.itwElisabeth {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 75px;
+    font-size: 13px;
+    /*text-align: justify;*/
+}
+
+.itwElisabeth .div {
+    display: inline-block;
+    padding: 10px 18px 0px 18px;
+    width: 240px;
+    vertical-align: top;
+}
+
+.itwElisabeth .div3 {
+    padding-right: 0px;
+}
+
+.itwElisabeth .div1 {
+    padding-left: 0px;
+}
+
+.titreP8bis {
+    margin-top: 65px;
+    font-size: 32px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    margin-right: 105px;
+}
+
+.sousTitreP8bis {
+    font-size: 16px;
+    margin-left: 170px;
+    opacity: 0.8;
+    margin-right: 105px;
+}
+
+.itwElisabeth .subtitle {
+    margin: 14px 0px 10px 0px;
+    font-size: 18px;
+    text-indent: 0px;
+    
+}
+.video {
+    position:absolute;
+    width: 889px;
+    height: 500px;
+    left: 35px;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.pageCredits{
+    background:url("img/Page_credits.png");
+}
+
+.authorUrl, .authorUrl:visited {
+    color: white;
+    /*text-decoration: none;*/
+}
+
+.titreCredits{
+    margin-top:43px;
+    font-family: "roboto";
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.polytech{
+    left: 266px;
+}
+
+.agr{
+    left: 188px;
+}
+
+.sciencescom{
+    left: 113px;
+}
+
+.lecole{
+    display:block;
+    height:100px;
+    width:160px;
+}
+
+.ecole{
+    position:relative;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.role{
+    text-align:center;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.camarade{
+    height:100px;
+    margin-top:13px;
+    margin-left:-15px;
+}
+
+.src{
+    position:relative;
+    left:157px;
+    top:78px;
+}
+
+.src a {
+    color: #75a9a7;
+}
+.src a:visited {
+    color: white;
+}
+
+#lesPartenaires{
+    position:relative;
+    top:96px;
+    left:113px;
+}
+
+#lesPartenaires2{
+    position:relative;
+    top:97px;
+    left:466px;
+}
+
+.lpart{
+    display:inline-block;
+    vertical-align:top;
+    height:71px;
+}
+
+#part1{
+    width:162px;
+}
+
+#part2{
+    width:124px;
+}
+
+#part3{
+    width:66px;
+}
+
+#part4{
+    width:90px;
+}
+
+#part5{
+    width:132px;
+}
+
+#part6{
+    width:67px;
+}
+
+#part7{
+    width:52px;
+}
+
+#part8{
+    width:100px;
+}
+
+#part9{
+    width:127px;
+}
+
+.toucan{
+    height: 133px;
+    width: 176px;
+    position:absolute;
+    top:10px;
+    left: 530px;
+}
+
+.toucan:hover{
+    background:#83adab url("img/page8/Toucan.png");
+}

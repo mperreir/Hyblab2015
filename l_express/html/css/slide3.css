@@ -1,0 +1,147 @@
+#tfbutton1s3{
+    vertical-align:middle;
+    margin-bottom:2px;
+}
+
+#textindices3{
+    color:white;
+    font-size:100%;
+    padding:5%;
+    font-family:proximanova-regular;
+}
+
+#textField-s3{
+    color:white;
+}
+
+.numClassement{
+   color:white; 
+}
+
+.barresClassement{
+    padding-left:10%;
+}
+
+.villeClassement{
+    padding-left:5%;
+    color:white;
+}
+
+div.scroll {
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+    background-color: #13b5d0;
+}
+
+input[type=radio].css-checkbox {
+	position:absolute;
+	z-index:-1000;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+    padding-left:27px;
+	height:22px; 
+	display:inline-block;
+	line-height:22px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:75%;
+	font-family:proximaNova-regular;
+	color:white;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+    background-position: 0 -22px;
+}
+
+label.css-label {
+	background-image:url(/ressource/svg/slide3/rad.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.leg{
+    margin-left:2%;
+    margin-right:2%;
+    display:inline;
+}
+
+.textLeg{
+    font-family:proximanova-regular;
+    font-size:100%;
+    color:white;
+}
+
+#titreSlide3{
+    margin-bottom:1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+}
+
+.nbreJoursPos{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left:2%;
+    color:#13b5d0;
+}
+
+#sousTitre{
+    color:white;
+    font-size:100%;
+    font-family:proximanova-lightitalic;
+    text-align:center;
+}
+
+#datavizCarte{
+    border-left-style:solid;
+    border-width: 2px;
+    border-color:white;
+}
+
+.infoBulle_1{
+    font-family:proximanova-bold, sans-serif;
+    font-size:14px;
+    fill:white;
+}
+
+.infoBulle_2{
+    font-family:proximanova-lightitalic, sans-serif;
+    font-size:16px;
+    fill:white;
+}
+
+#infoBulle{
+    visibility:hidden;
+    position:absolute;
+    left:32%;
+    top:10%;
+}
+
+#tfbutton2{
+    float: right;
+    margin-right: 2%;
+}
+
+
+.classementNbrJour{
+    font-family:proximanova-bold, sans-serif;
+    font-size:14px;
+    color:white;
+}

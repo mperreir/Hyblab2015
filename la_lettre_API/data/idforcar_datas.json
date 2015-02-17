@@ -1,0 +1,47 @@
+{
+	"name": "IDforCar",
+	"icon": "img/idforcar/idforcar_icon_id.svg",
+	"desc": "Renforcer la compétitivité de la filière véhicules et mobilité durable l’Ouest par le biais de l’innovation est la mission du pôle. IdforCar couvre la Bretagne, les Pays de la Loire et le Poitou-Charentes. À Bouguenais, il s’intéresse aux matériaux et à l’architecture des véhicules, à l’intelligence des systèmes embarqués, aux usages et services innovantes et à la mobilité durable.",
+	"city": "Bouguenais",
+	"president": {
+	    "image": "img/idforcar/idforcar_president.png",
+	    "name": "Yvon PEUROU",
+	    "biographie": "A la tête du pole de compétitivité depuis 2012, Yvon Peurou a dirigé le groupe Gruau pendant près de 15 ans. Il siège toujours au conseil de surveillance du groupe, leader européen de la carrosserie sur véhicule utilitaire. Le groupe familial est l’un des adhérents historique du pôle IDforCar. Membre du Conseil d’administration avant d’en prendre la présidence, Yvon Peurou a œuvré depuis les débuts du pôle à l’évolution de sa stratégie et à sa réorientation en direction du véhicule spécifique."
+	},
+	"link": "http://agence-api.fr/societes/idforcar-30149.html",
+	"bassinEmploi":{
+    	"img": "img/idforcar/idforcar_podium.svg"
+	},
+	"adherents":{
+		"data":[
+			["Nombre d'établissements membres",118],
+			["Nombre de nouveaux établissements membres",11]
+		]
+	},
+	"secteurs":{
+		"img":"img/idforcar/idforcar_activites.svg"
+	},
+	"repartition":{
+		"data":[
+			["Etablissements créés en 2012",0],
+			["PME",59],
+			["Entreprises de taille intermédiaire",28],
+			["Grandes entreprises",9]
+		]
+	},
+	"projetLabellise":{
+		"nombre": [2,4,4,0,2,3,1],
+		"montant": [1600000,4704681.2,3484404.45,0,2157348.3,2317612.63,325983.46],
+		"more": {
+			"title": "Les véhicules électriques de Gruau préservent la chaine du froid",
+			"icon": "img/idforcar/idforcar_icon_id.svg",
+			"content": "Fin 2014, le groupe Gruau a présenté les premiers résultats de son projet Iso4Car, labélisé en 2010 par le pôle de compétitivité Id4Car. Ce projet visait à transformer un véhicule utilitaire électrique en un véhicule frigorifique électrique novateur, doté d’une autonomie suffisante pour assurer la continuité de la chaîne de froid lors de distributions urbaines. L'ambition était d'aboutir à une recyclabilité du véhicule supérieure à 95 % et à une source de froid peu consommatrice d’énergie permettant d’atteindre et de stabiliser des températures inférieures ou égales à 4°C. Les travaux de recherche ont été axés sur le système frigorifique doté d’une interface de pilotage et de fonctions communicantes. </br></br><h4>Commercialisation en 2015</h4></br>Les partenaires du projet ont également réfléchi sur la maîtrise globale de l'énergie du véhicule, en travaillant sur une carrosserie isotherme peu énergivore, des matériaux isolants ou encore en réduisant les ponts thermiques de la cellule. Deux démonstrateurs technologiques ont été réalisés sur un Kangoo ZE et sur un Electron Gruau. Autour de Gruau (53), le consortium d’Iso4Car regroupe Carrier Transiscold, Cooper Standard, le Limatb laboratoire de l’Université de Bretagne sud et l’Ensma. Le véhicule doit être commercialisé fin 2015. Ce projet a permis la sauvegarde ou la création de 10 emplois."
+		}
+	},
+	"resultats_intelectuels":{
+		"img": "img/idforcar/idforcar_brevets.svg"
+	},
+	"resultats_operationnel":{
+		"img": "img/idforcar/idforcar_RD.svg"
+	}
+}
