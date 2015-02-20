@@ -220,6 +220,7 @@ function datasD1(year) {
 
     $('.yearplus').on('click', function(e) {
         year++;
+        var id = $('#DV2TownName').text();
         $('.yearless').css("opacity", "1");
         whichYear(year);
 
@@ -228,10 +229,19 @@ function datasD1(year) {
             $('.yearplus').css("opacity", "0");
         }
         datasD1(year);
+        $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
+             if(data)  {
+                 $('#ch1').html(data.ch1);
+                 $('#ch2').html(data.ch2);
+                 $('#ch3').html(data.ch3);
+                 $('#ch4').html(data.ch4);
+             }
+          });
     });
 
     $('.yearless').on('click', function(e) {
         year--;
+        var id = $('#DV2TownName').text();
         $('.yearplus').css("opacity", "1");
         whichYear(year);
         if (year < 2008) {
@@ -239,5 +249,13 @@ function datasD1(year) {
             $('.yearless').css("opacity", "0");
         }
         datasD1(year);
+        $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
+             if(data)  {
+                 $('#ch1').html(data.ch1);
+                 $('#ch2').html(data.ch2);
+                 $('#ch3').html(data.ch3);
+                 $('#ch4').html(data.ch4);
+             }
+          });
     });
 })();
