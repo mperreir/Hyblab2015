@@ -27,3 +27,38 @@ $(document).ready(function () {
 }).scroll(function () {
     parallax();
 });
+
+(function () {
+  
+
+function handle(delta) {
+	if (delta < 0)
+		 $('html, body').animate({
+	        scrollTop: $( "#slide2").offset().top
+	    }, 1000);
+	else
+    	$('html, body').animate({
+	        scrollTop: $( "#slide1").offset().top
+	    }, 1000);
+}
+
+function wheel(event){
+	var delta = 0;
+	if (!event) event = window.event;
+	if (event.wheelDelta) {
+		delta = event.wheelDelta/120; 
+	} else if (event.detail) {
+		delta = -event.detail/3;
+	}
+	if (delta)
+		handle(delta);
+        if (event.preventDefault)
+                event.preventDefault();
+        event.returnValue = false;
+}
+
+/* Initialization code. */
+if (window.addEventListener)
+	window.addEventListener('DOMMouseScroll', wheel, false);
+window.onmousewheel = document.onmousewheel = wheel;
+}());
