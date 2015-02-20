@@ -5,28 +5,9 @@
  #slidematchfinal
  {
     position:relative;
+    background-color : black;
  }
- /*
- #bandeaupodium
- {
-    position:absolute;
-    top:0px;
-    left:20%;
-    background-image: url("../images/BlueBanner.png");
-    background-repeat: no-repeat;
-	background-position: absolute; 
- }
- 
- #podium
- {
-    position:relative;
-    text-align:center;
-    background-image: url("../images/Podium.png");   
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;  
- }
- */
+
  #stars
  {
      margin-right:5%;
