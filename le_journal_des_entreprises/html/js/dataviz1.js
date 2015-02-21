@@ -138,6 +138,7 @@ function datasD1(year) {
             },
             yAxis: {
                 gridLineWidth: 0,
+                max: 4200,
                 labels: {
                     formatter: function() {
                         return this.value;
@@ -154,11 +155,34 @@ function datasD1(year) {
             legend: {
                 enabled: false
             },
+            tooltip: {
+                enabled: false
+            },
             plotOptions: {
                 column: {
-                    groupPadding: 0,
-                    pointPadding: 0,
-                    borderWidth: 0
+                    dataLabels: {
+                        enabled: true,
+                        useHTML: true,
+                        formatter: function() {
+                            return "&nbsp;"+this.y+'<br/><img src="images/ballonTop.png" width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"/>&nbsp;'  
+                        },
+                        style: {
+                            color: '#E9AE28',
+                            fontSize: '15px',
+                            fontWeight: 'bold'
+                        }
+                    },
+                    color: '#EBAC44',
+                    pointPadding: 0.45,
+                    pointWidth: 5,
+                    borderWidth: 0,
+                    point: {
+                        events: {
+                            click: function() {
+                                loadData(this.category);
+                            }
+                        }
+                    }
                 }
             },
             title:{
@@ -172,13 +196,26 @@ function datasD1(year) {
             },
 
             series: [{
+                id: 'series-1',
                 data: valeursD1
-            }]      
+            }]
             
         });
         
-    $('.highcharts-axis-labels text ').on('click', function () {
-            var id = this.textContent || this.innerText;
+        $('.highcharts-axis-labels text ').on('click', function(e) {
+            loadData(this.textContent);
+        });
+
+    
+        $('.highcharts-axis > path').attr('opacity','0');
+    });
+}
+
+
+
+
+function loadData(id) {
+            //var id = this.textContent || this.innerText;
             $('#myModal').modal();
             var year = "20" + $('#ca3').text() + $('#ca4').text();
             $.getJSON('townInfo?nom=' + id, function(data) {
@@ -206,9 +243,18 @@ function datasD1(year) {
                  $('#ch4').html(data.ch4);
              }
           });
-    });
-        $('.highcharts-axis > path').attr('opacity','0');
-    });
+    }
+
+function changeNumbers(year) {
+    var id = $('#DV2TownName').text();
+    $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
+             if(data)  {
+                 $('#ch1').html(data.ch1);
+                 $('#ch2').html(data.ch2);
+                 $('#ch3').html(data.ch3);
+                 $('#ch4').html(data.ch4);
+             }
+          });
 }
 
 (function yearD1() {
@@ -220,7 +266,6 @@ function datasD1(year) {
 
     $('.yearplus').on('click', function(e) {
         year++;
-        var id = $('#DV2TownName').text();
         $('.yearless').css("opacity", "1");
         whichYear(year);
 
@@ -229,19 +274,11 @@ function datasD1(year) {
             $('.yearplus').css("opacity", "0");
         }
         datasD1(year);
-        $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
-             if(data)  {
-                 $('#ch1').html(data.ch1);
-                 $('#ch2').html(data.ch2);
-                 $('#ch3').html(data.ch3);
-                 $('#ch4').html(data.ch4);
-             }
-          });
+        changeNumbers(year);
     });
 
     $('.yearless').on('click', function(e) {
         year--;
-        var id = $('#DV2TownName').text();
         $('.yearplus').css("opacity", "1");
         whichYear(year);
         if (year < 2008) {
@@ -249,13 +286,6 @@ function datasD1(year) {
             $('.yearless').css("opacity", "0");
         }
         datasD1(year);
-        $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
-             if(data)  {
-                 $('#ch1').html(data.ch1);
-                 $('#ch2').html(data.ch2);
-                 $('#ch3').html(data.ch3);
-                 $('#ch4').html(data.ch4);
-             }
-          });
+        changeNumbers(year);
     });
 })();
