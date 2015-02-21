@@ -162,12 +162,19 @@ function datasD1(year) {
                 column: {
                     dataLabels: {
                         enabled: true,
+                        useHTML: true,
+                        formatter: function() {
+                            return "&nbsp;"+this.y+'<br/><img src="images/ballonTop.png" width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"/>&nbsp;'  
+                        },
                         style: {
                             color: '#E9AE28',
                             fontSize: '15px',
                             fontWeight: 'bold'
                         }
                     },
+                    color: '#EBAC44',
+                    pointPadding: 0.45,
+                    pointWidth: 5,
                     borderWidth: 0,
                     point: {
                         events: {
@@ -189,8 +196,9 @@ function datasD1(year) {
             },
 
             series: [{
+                id: 'series-1',
                 data: valeursD1
-            }]      
+            }]
             
         });
         
@@ -202,6 +210,8 @@ function datasD1(year) {
         $('.highcharts-axis > path').attr('opacity','0');
     });
 }
+
+
 
 
 function loadData(id) {
