@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+<ellipse fill="#F18A31" cx="118.448" cy="338.474" rx="52.326" ry="23.283"/>
+<rect x="66.122" y="333.944" fill="#F18A31" width="104.805" height="4.1"/>
+<ellipse fill="#DC6E2C" cx="118.138" cy="334.821" rx="52.636" ry="23.282"/>
+<ellipse fill="#EB6155" cx="118.138" cy="273.971" rx="52.636" ry="23.281"/>
+<polygon fill="#EB6155" points="170.927,262.831 170.927,274.012 65.5,273.998 65.5,262.831 "/>
+<ellipse fill="#DB5C56" cx="118.138" cy="260.96" rx="52.636" ry="23.282"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="201.337" y1="133.298" x2="320.49" y2="133.298"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="201.337" y1="204.915" x2="320.49" y2="204.915"/>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="201.337" y1="268.521" x2="320.49" y2="268.521"/>
+<rect x="336.085" y="120.042" fill="none" width="441.057" height="22.77"/>
+<text transform="matrix(1 0 0 1 336.0859 135.7207)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Connaissance sans application directe : 0</text>
+<rect x="336.71" y="190.113" fill="none" width="611.675" height="22.17"/>
+<text transform="matrix(1 0 0 1 336.7109 205.791)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Application directe dans nouveaux produits ou procédés : 0</text>
+<rect x="334.214" y="252.258" fill="none" width="410.8" height="23.395"/>
+<text transform="matrix(1 0 0 1 334.2158 267.9385)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Produits et procédés mis sur le marché : 19</text>
+<rect x="336.866" y="324.289" fill="none" width="111.354" height="24.332"/>
+<text transform="matrix(1 0 0 1 336.8657 339.9697)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Autres débouchés : 1</text>
+<line opacity="0.7" fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" enable-background="new    " x1="201.337" y1="336.454" x2="320.49" y2="336.454"/>
+<g opacity="0.7">
+	<path fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" d="M153.243,438.053
+		c-19.175,0-34.719-15.544-34.719-34.719"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="118.524" y1="403.334" x2="118.524" y2="379.432"/>
+	
+		<line fill="none" stroke="#1D1D1B" stroke-width="0.5" stroke-miterlimit="10" x1="153.243" y1="438.053" x2="321.037" y2="438.053"/>
+</g>
+<rect x="335.909" y="420.1" fill="none" width="739.876" height="72.055"/>
+<text transform="matrix(1 0 0 1 335.9102 441.4824)" opacity="0.7" fill="#1D1D1B" enable-background="new    " font-family="'Roboto-Light'" font-size="24">Nombre de projets de R&amp;D aboutis entre 2006 et 2011 : 20</text>
+<ellipse fill="#ECECEC" cx="118.448" cy="141.093" rx="52.326" ry="23.28"/>
+<polygon fill="#6BBAAD" points="170.927,129.951 170.927,141.139 66.122,141.124 66.122,129.951 "/>
+<ellipse fill="#D9D9D9" cx="118.138" cy="135.567" rx="52.636" ry="23.281"/>
+<ellipse fill="#ECECEC" cx="118.448" cy="202.853" rx="52.326" ry="23.28"/>
+<polygon fill="#6BBAAD" points="170.927,191.712 170.927,202.899 66.122,202.886 66.122,191.712 "/>
+<ellipse fill="#D9D9D9" cx="118.138" cy="197.328" rx="52.636" ry="23.281"/>
+</svg>

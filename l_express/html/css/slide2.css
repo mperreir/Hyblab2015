@@ -1,0 +1,106 @@
+#ville{
+    position:absolute;
+    top:0;
+}
+
+#bus{
+    position:absolute;
+    top:70%;
+    right: -40%;
+}
+
+#voiture{
+    position:absolute;
+    top:85%;
+    left: -16%;
+}
+
+#fumeeCentraleGauche{
+    position:absolute;
+    top:41%;
+    left:2%;
+    width:6%;
+}
+
+#petiteFumeeMaison{
+    position:absolute;
+    top:25%;
+    left:17%;
+}
+
+
+#fumeeUsineDroite{
+    position:absolute;
+    top:30%;
+    left:82%;
+    width:6%;
+}
+
+#voiture1{
+    position:absolute;
+    top: 89%;
+    right: -16%;
+}
+
+#voiture2{
+    position:absolute;
+    top: 89%;
+    right: -37%;
+}
+
+#punchline1{
+    position:absolute;
+    top: 18%;
+    left: 30%;
+}
+
+#punchline2{
+    visibility: hidden;
+    position:absolute;
+    top: 18%;
+    left: 34%;
+}
+
+#petit_nuage1{
+    position:absolute;
+    top: 1%;
+    right: 53%;
+}
+
+#moyen_nuage1{
+    position:absolute;
+    top: 2%;
+    right: 75%;
+}
+
+#gros_nuage1{
+    position:absolute;
+    top: 4%;
+    right: 18%;
+}
+
+#petit_nuage2{
+    position:absolute;
+    top: 6%;
+    right: 98%;
+}
+
+#moyen_nuage2{
+    position:absolute;
+    top: 4%;
+    right: 1%;
+}
+
+.withfadeout {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.withfadeout:hover {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+}

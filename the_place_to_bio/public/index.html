@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	
+	<title>Le bio au menu des français</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="style/render.css">
+	<link rel="stylesheet" type="text/css" href="style/slidemap.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="style/modal.css">
+	<link rel="stylesheet" type="text/css" href="style/credits.css">
+
+	<script src="script/libs/jquery-1.11.2.min.js"></script>
+
+	<!-- This following line is needed only in case of using other easing effect rather than "linear", "swing" or "easeInQuart". You can also add the full jQuery UI instead of this file if you prefer -->
+	<script src="script/libs/jquery.easings.min.js"></script>
+
+
+	<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+	<script type="text/javascript" src="script/libs/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="script/libs/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="script/datastrophe.js"></script>
+	<script type="text/javascript" src="script/conveyorbelt.js"></script>
+	<script type="text/javascript" src="script/ResourceLoader.js"></script>
+	<script type="text/javascript" src="script/movements.js"></script>
+	<script type="text/javascript" src="script/slider.js"></script>
+	<script type="text/javascript" src="script/counter2.js"></script>
+	<script type="text/javascript" src="script/counter.js"></script>
+	<script type="text/javascript" src="script/jauge.js"></script>
+	<script type="text/javascript" src="script/libs/snapsvg.js"></script>
+	<script type="text/javascript">
+	var dts;
+	$(document).ready(function(){
+		dts =  new DataStrophe(0);
+		dts.onLoad = function(){
+		}
+	});
+	</script>
+	<script src="script/highcharts/highmaps.js"></script>
+	<script type="text/javascript" src="script/slidemap.js"></script>
+</head>
+<body>
+<!--MODAL-->
+<div id="modalSourceDonnees" class="modalDialog">
+	<div>
+		<a href="#close" class="close">X</a>
+		<h2>D'où viennent<br/>nos données</h2>
+		<div id="div_credits">
+			<div id="div_credits_col1">
+				<p>Les données concernant la production bio (cultures et élevages) ont été fournies par <a href="http://www.agencebio.org/les-donnees" target="_blank">l'Agence bio</a> (territoire métropolitain). Nous avons considéré comme bio les productions certifiées bio (AB) ainsi que les terres et les élevages en conversion. Cette période transitoire avant la certification varie entre six semaines (poules pondeuses) à trois ans (cultures pérennes).</p>
+				<p>Nous avons établi la proportion de bio par région et par filière en comparant les chiffres de l'Agence bio avec ceux du service de la statistique du ministère de l'Agriculture (Agreste) pour l'ensemble des cultures (bio et non bio.) Ces chiffres sont fournis par <a href="https://stats.agriculture.gouv.fr/disar/" target="_blank">l'outil Disar</a> (son emploi nécessite la consultation d'un didacticiel, <a href="https://stats.agriculture.gouv.fr/disar/aide/didacticiel/construire_un_tableau.html" target="_blank">disponible ici</a>).</p>
+			</div>
+			<div id="div_credits_col2">
+				<p>Les données concernant la distribution (volumes de ventes par circuit de distribution et parts de marché) et l'importation ont été fournies par l'Agence bio. Son observatoire nous a envoyé les données compilées de ses derniers rapports annuels sur <a href="http://www.agencebio.org/la-bio-en-france" target="_blank">"La bio en France"</a>. Comme nous l'indiquons dans les textes associés à ces chiffres, certaines données concernent des catégories plus larges que le produit affiché sur notre tapis roulant. Par exemple, un seul chiffre est fourni pour l'importation globale du lait et des produits laitiers.</p>
+				<p>Nous indiquons également un surcoût indicatif à l'achat pour le bio concernant certains produits. Nous avons relevé des prix à Nantes en janvier et février 2015 dans plusieurs points de vente (supermarchés, marché, épiceries, magasins spécialisés)</p>
+			</div>
+			<div id="div_credits_col3">
+				<p>pour des produits de même catégorie : pommes golden (prix au kilo), filets de poulet par deux (prix au kilo), lait demi-écrémé, œuf de calibre moyen (mention "plein air" pour le non bio), sqeezer de miel "toutes fleurs" importé, jus d’orange et jus de pomme avec pulpe en bouteille (verre ou plastique), biscuits Petit écolier (non bio) et équivalent de marque bio, pizza surgelée "3 fromages" ou "4 fromages". Nous avons validé au moins 3 matchs par catégorie et calculé la moyenne des surcoûts constatés.</p>
+			<p>Nous n'avons pas mélangé les marques de distributeurs et les autres marques : par exemple, un jus d'orange U bio est comparé à un jus d'orange U non bio de même catégorie. Nous n'avons relevé qu’une seule fois un prix inférieur en bio : pour les pommes golden, au marché de Talensac. La synthèse de nos relevés est <a href="https://docs.google.com/spreadsheets/d/1S8RwOhe_HHhFMTwiksCRpMJKGx9fPcmfeTFYIcyYWjs/edit?usp=sharing" target="_blank">disponible ici</a>.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="modalCredits" class="modalDialog">
+	<div>
+		<a href="#close" class="close">X</a>
+		<h2>Crédits</h2>
+		<p>Cette animation a été créée dans la joie et la bonne humeur par de jeunes talents étudiant à Nantes, dans le cadre du projet <a href="http://www.hyblab.fr/" target="_blank">Hyblab 2015</a>.</p>
+		<p>Textes : Camille Lhommelet, Leslie Paul (<a href="http://www.sciencescom.org/" target="_blank">Sciences Com</a>).</p>
+		<p>Création graphique : Timothée Jaouen, Arthur Kostadinoff, Chloé Poitevin (<a href="http://www.agrnantes.fr/" target="_blank">AGR, l'école de l'image</a>).</p>
+		<p>Développement : Maxime Bellier, Guillaume Connan, David Tollec (<a href="http://www.polytech-nantes.fr/" target="_blank">Polytech Nantes</a>).</p>
+		<p>Eric Lecluyse encadrait cette équipe en tant que responsable éditorial du site <a href="http://www.placetobio.fr/" target="_blank">The Place to Bio</a>.</p>
+		<p>Nous tenons à remercier le ministère de l’Agriculture (<a href="http://agreste.agriculture.gouv.fr/" target="_blank">Agreste</a>) et <a href="http://www.agencebio.org/" target="_blank">l’Agence bio</a> qui nous ont permis de rassembler des données en un temps record.</p>
+		
+		<div id="lets_partenaires">
+		    <div id="lets_partenaires_hyb">
+		        <div class="lets_first_row">
+		            <div>
+		                <a href="http://www.agrnantes.fr" title="A.G.R.">
+		                    <img src="logos/agr.png" alt="A.G.R." />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://web.polytech.univ-nantes.fr" title="Polytech">
+		                    <img src="logos/polytech.jpg" alt="Polytech" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.sciencescom.org" title="Science Com">
+		                    <img src="logos/sciences_com.jpg" alt="Science Com" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.univ-nantes.fr" title="Université de Nantes">
+		                    <img src="logos/universite_nantes.jpg" alt="Université de Nantes" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.etalab.gouv.fr" title="Etalab Gouv">
+		                    <img src="logos/etalab_gouv.png" alt="Etalab Gouv" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.nantesmetropole.fr" title="Nantes Métropole">
+		                    <img src="logos/nantes-metro.png" alt="Nantes Métropole" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.orange.fr" title="Orange">
+		                    <img src="logos/orange.jpg" alt="Orange" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://www.paysdelaloire.fr" title="Pays de la Loire">
+		                    <img src="logos/pdl.png" alt="Pays de la Loire" />
+		                </a>
+		            </div>
+		        </div><!-- .lets_first_row -->
+		        <div class="lets_second_row">
+		            <div>
+		                <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/" title="Creative Commons">
+		                    <img src="logos/cc.jpg" alt="Creative Commons" />
+		                </a>
+		            </div>
+		            <div>
+		                <a href="http://opensource.org" title="Open Source Initiative">
+		                    <img src="logos/osi.jpg" alt="Open Source Initiative" />
+		                </a>
+		            </div>
+		            <div class="lets_text"><p>un projet issu des ateliers du </p>
+		                <div>
+		                    <a href="http://www.hyblab.fr"><img src="logos/hyblab.jpg" alt="Hyblab - Data Journalisme"></a>
+		                </div>
+		                <div>
+		                    <a href="http://www.ouestmedialab.fr" title="MediaLab"><img src="logos/medialab.png" alt="MediaLab" /></a>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+</div>
+<div class="timeline" id="timeline">
+	<div class="title"><span>Le bio</span> au menu des français</div>
+	<div>
+	<div class="backline"> </div>
+	<div class="bg2"> </div>
+	<img src="images/bouteilles.png" id="icon0" alt="Vin" onClick='dts.changeProduct(0); return false;'/>
+	<img src="images/miel.png" id="icon1" alt="Miel" onClick='dts.changeProduct(1); return false;'/>
+	<img src="images/pommes.png" id="icon2" alt="Pommes" onClick='dts.changeProduct(2); return false;'/>
+	<img src="images/biscuit.png" id="icon3" alt="Biscuits" onClick='dts.changeProduct(3); return false;'/>
+	<img src="images/orange.png" id="icon4" alt="Orange" onClick='dts.changeProduct(4); return false;'/>
+	<img src="images/lait.png" id="icon5" alt="Lait" onClick='dts.changeProduct(5); return false;'/>
+	<img src="images/viande.png" id="icon6" alt="Viande" onClick='dts.changeProduct(6); return false;'/>
+	<img src="images/oeuf.png" id="icon7" alt="Oeufs" onClick='dts.changeProduct(7); return false;'/>
+	<img src="images/surgeles.png" id="icon8" alt="Surgeles" onClick='dts.changeProduct(8); return false;'/>
+	<img src="images/legumes.png" id="icon9" alt="Legumes" onClick='dts.changeProduct(9); return false;'/>
+	<img src="images/france.png" id="icon10" class="active" alt="France" onClick='dts.changeProduct(10); return false;'/>
+	</div>
+</div>
+<div id="donnees_credits">
+	<table>
+		<tr>
+			<td id="source_donnees"><a href="#modalSourceDonnees"><img src="images/source_donnees.png" height="35" id="icon_source_donnees" alt=""/> <span>D'où viennent nos données</span></a></td>
+			<td><div id="separateur_colonnes_haut"></div></td>
+			<td id="credits"><a href="#modalCredits"><img src="images/credits.png" height="35" id="icon_credits" alt=""/> <span>Crédits</span></a></td>
+		</tr>
+	</table>
+</div>
+<div id="menu">
+	<div id="menu1" onClick="dts.changeSlide(1); return false;" class='active'></div>
+	<div id="menu2" onClick="dts.changeSlide(2); return false;"></div>
+	<div id="menu3" onClick="dts.changeSlide(3); return false;"></div>
+</div>
+<div id="fullpage">
+    <div class="section homepage" id="section">
+		<div class="header"> </div>
+		<svg id="l_arrow" class="l_arrow"></svg>
+		<svg id="r_arrow" class="r_arrow"></svg>
+		<div id="title"></div>
+		<div class="conveyorbelt" id="coveyorbelt">
+			
+		</div>
+		<div class="bg3"></div>
+		<div class="visualisations">
+			<div>
+				<img src="images/le_saviez_vous.svg" alt="Le saviez vous"/>
+				<div id="le_saviez_vous">	</div>
+				<div id="prix">Le bio est en moyenne <div id="pc_prix"></div> plus cher que le non bio d’après nos relevés.</div>
+			</div>
+		</div>
+		<div id="boutons_defilement">
+			<table>
+				<tr>
+					<td><img src="images/bouton_top_distribution.png" id="bouton_top_distribution" onClick="dts.changeSlide(2); return false;" alt="Top distribution"/></td>
+					<td><img src="images/fleche.png" id="icon_fleche" onClick="dts.changeSlide(2); return false;" alt="Fleche"/></td>
+					<td><img src="images/bouton_top_production.png" id="bouton_top_production" onClick="dts.changeSlide(3); return false;" alt="Top production"/></td>
+				</tr>
+			</table>
+		</div>
+		<div class="bg4"></div>
+	</div>
+    <div class="section slide2" id="section2">
+    	<div class="header"></div>
+    	<div class="texts">
+    		<div>
+    			<h1>Distribution</h1>
+    			<div id="text_distrib"></div>
+    		</div>
+    		<div>
+    			<h1>Importation</h1>
+    			<div id="text_import"></div>
+    		</div>
+    		<div>
+    			<h1>Part du marché</h1>
+    			<div id="text_marche"></div>
+    		</div>
+    		
+    	</div>
+    	<div class="visualisations">
+    		<div>
+    			<div class="markbox">
+    				<div class="name">Grande<br/>distribution</div>
+    				<div class="box">
+    					<div class="pc" id="pc_supermarche">34%</div>
+    					<div class="picto"><img src="images/supermarche.svg" alt="Supermarché"/></div>
+    				</div>
+    			</div>
+    			<div class="markbox">
+    				<div class="name">Artisan</div>
+    				<div class="box">
+    					<div class="pc" id="pc_artisan">24%</div>
+    					<div class="picto"><img src="images/artisan.svg" alt="Artisan"/></div>
+    				</div>
+    			</div>
+    			<div class="markbox">
+    				<div class="name">Magasin<br/>Spécialisé</div>
+    				<div class="box">
+    					<div class="pc" id="pc_magasin">14%</div>
+    					<div class="picto"><img src="images/magasinbio.svg" alt="Magasin Bio"/></div>
+    				</div>
+    			</div>
+    			<div class="markbox">
+    				<div class="name">Vente<br/>Directe</div>
+    				<div class="box">
+    					<div class="pc" id="pc_vente">4%</div>
+    					<div class="picto"><img src="images/ventedirecte.svg" alt="Vente directe"/></div>
+    				</div>
+    			</div>
+    		</div>
+    		<div>
+    			<!-- Jauge France -->
+				<div class="counter" id="counter_france">15%</div>
+    			<div class="jauge" id="jauge_france"></div>
+    		</div>
+    		<div>
+    			<!-- Jauge Bio -->
+				<div class="counter" id="counter_bio">15%</div>
+    			<div class="jauge" id="jauge_bio"></div>
+    		</div>
+    	</div>
+    	<div class="sliders">
+    		<div><div id="slider1"></div></div>
+    		<div><div id="slider2"></div></div>
+    		<div><div id="slider3"></div></div>
+    	</div>
+    	<div class="footer">
+    	</div>
+    </div>
+    <div class="section s3" id="section3">
+		<div class="div_slide_carte">
+	      <div id="slide_carte">
+	         <div id="left">
+	            <div id="titres">
+	               <h1 id="titre_production">PRODUCTION</h1>
+	               <h1 id="titre_regions_championnes">LES RÉGIONS CHAMPIONNES</h1>
+	            </div>
+	            <p id="texte_region_selectionnee">
+	            </p>
+	            <table>
+	               <tr>
+	                  <td>
+	                     <div id="titre_numero_un">N°<span id="classement_region_selectionnee">1</span></div>
+						 <div id="separateur_classement"></div>
+	                     <div id="regions_totales">22</div>
+	                  </td>
+					  <td><div id="separateur_tableau"></div></td>
+	                  <td id="titre_region">Rhône-Alpes</td>
+	               </tr>
+	            </table>
+				<div id="compteur_region"></div>
+				<div id="infos_region"><span id="spearateur_compteur_donnees">-</span><span id="compteur_type_valeur">Hectars</span></div> <!-- Hectars / Têtes / Ruches -->
+				<div id="texte_pourcentage_region">Soit <span id="pourcentage_bio_region_selectionnee"><span id="valeur_pourcentage_bio_region_selectionnee">XX</span>%</span> de la production régionale en bio.</div>
+	         </div>
+	         <div id="carte"></div>
+			 <div id="slider_slide_carte"></div>
+	      </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+#pageChoixPole p{
+  position: absolute;
+  top: 75%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.7vw;
+  width: 100%;
+  font-family: 'CodeBold', Arial, serif;
+}
+
+.fleche_choix_pole{
+    position: absolute;
+    bottom:10px;
+    max-height: 8%;
+    display: block;
+    width: 100%;
+}
+
+
+
+/*------- Seven Columns --------*/
+.choix_pole{
+  background-color: #F07564;
+  padding: 0 10px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.choix_pole:hover{
+  background-color: #BA5749;
+  cursor: pointer;
+}
+
+.icon_choix_pole{
+  padding: 40px;
+  height: 80%;
+}
+
+
+
+@media (min-width: 992px) {
+  #pageChoixPole .seven-cols {
+     height: 100%;
+  }
+}
+
+#pageChoixPole .seven-cols{
+    height: 100%;
+}
+
+#pageChoixPole .col-md-1{
+  padding: 0;
+}
+
+
+/*------------------------------*/

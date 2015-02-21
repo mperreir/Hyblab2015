@@ -1,14 +1,14 @@
 # Descriptif du projet
 
-Média : notre de votre média
+Média : La Lettre API
 
 Sujet : description du sujet
 
-Equipe : nom de votre équipe
+Equipe : Datass
 
 Patricipants : 
 - AGR : 
-- Polytech :
+- Polytech : Guillaume NICOLAS, Thomas LEGOUGAUD, Thibault HUCKERT
 - SciencesCom :
 
 # Installation

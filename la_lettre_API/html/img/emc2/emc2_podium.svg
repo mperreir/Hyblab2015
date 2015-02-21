@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.28px" height="256px" viewBox="0 0 595.28 256" enable-background="new 0 0 595.28 256" xml:space="preserve">
+<defs>
+  <style type="text/css">
+    @font-face {
+	    font-family: 'Roboto';
+	    src: url('../../fonts/roboto/Roboto-Thin.eot');
+	    src: url('../../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+	         url('../../fonts/roboto/Roboto-Thin.woff') format('woff'),
+	         url('../../fonts/roboto/Roboto-Thin.ttf') format('truetype'),
+	         url('../../fonts/roboto/Roboto-Thin.svg#Roboto') format('svg');
+	}
+  </style>
+</defs>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="275.598" y1="52.214" x2="275.598" y2="98.583"/>
+<rect x="251.37" y="33.9" fill="none" width="49.08" height="25.203"/>
+<text transform="matrix(1 0 0 1 263.6348 42.2754)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Paris</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="167.949" y1="161.397" x2="121.58" y2="161.397"/>
+<rect x="64.37" y="153.567" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 78.8486 161.9463)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Nantes</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="246.615" y1="221.397" x2="200.246" y2="221.397"/>
+<rect x="113.037" y="212.567" fill="none" width="78.081" height="25.202"/>
+<text transform="matrix(1 0 0 1 124.9033 220.9463)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Saint-Nazaire</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="428.782" y1="128.396" x2="382.413" y2="128.396"/>
+<rect x="437.703" y="120.566" fill="none" width="96.297" height="25.434"/>
+<text transform="matrix(1 0 0 1 437.7031 128.9453)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">La Roche sur Yon</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="437.449" y1="173.397" x2="391.08" y2="173.397"/>
+<rect x="446.37" y="165.567" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 446.3701 173.9443)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Challans</text>
+<ellipse fill="#F05F59" cx="342.479" cy="139.99" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="373,107 373,140.015 312,139.976 312,107 "/>
+<ellipse fill="#E05B5A" cx="342.5" cy="107.309" rx="30.5" ry="13.445"/>
+<ellipse fill="#F09748" cx="208.479" cy="195.99" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="239,41 239,194.355 178,194.176 178,41 "/>
+<ellipse fill="#E06C3A" cx="208.5" cy="41.309" rx="30.5" ry="13.445"/>
+<ellipse fill="#64BBAE" cx="274.479" cy="164.99" rx="30.397" ry="14.662"/>
+<polygon fill="#64BBAE" points="305,121 305,165.848 244,165.795 244,121 "/>
+<ellipse fill="#46B2A0" cx="274.5" cy="121.309" rx="30.5" ry="13.445"/>
+<ellipse fill="#F05F59" cx="287.479" cy="217.99" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="318,182 318,218.348 257,218.305 257,182 "/>
+<ellipse fill="#E05B5A" cx="287.5" cy="182.309" rx="30.5" ry="13.445"/>
+<ellipse fill="#F09748" cx="352.479" cy="182.99" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="383,161 383,184.195 322,184.168 322,161 "/>
+<ellipse fill="#E06C3A" cx="352.5" cy="161.309" rx="30.5" ry="13.445"/>
+</svg>

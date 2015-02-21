@@ -1,0 +1,32 @@
+/* Lets style SVG  */
+
+/* style background back that will display each parking capacity */
+.backbar {
+  fill: #D9D9D9;
+  stroke-width: 0px;
+  shape-rendering: steelblue;
+}
+
+/* same for available slots bars (still SVG) */
+.bar {
+  fill: steelblue;
+}
+
+/* bar will turn brown when hovered (still SVG)*/
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+}
+
+.x.axis path {
+  display: none;
+}

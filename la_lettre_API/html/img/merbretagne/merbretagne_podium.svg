@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.28px" height="324.243px" viewBox="0 0 595.28 324.243" enable-background="new 0 0 595.28 324.243"
+	 xml:space="preserve">
+<defs>
+  <style type="text/css">
+    @font-face {
+	    font-family: 'Roboto';
+	    src: url('../../fonts/roboto/Roboto-Thin.eot');
+	    src: url('../../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+	         url('../../fonts/roboto/Roboto-Thin.woff') format('woff'),
+	         url('../../fonts/roboto/Roboto-Thin.ttf') format('truetype'),
+	         url('../../fonts/roboto/Roboto-Thin.svg#Roboto') format('svg');
+	}
+  </style>
+</defs>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="286.598" y1="65.578" x2="286.598" y2="111.947"/>
+<rect x="262.37" y="47.264" fill="none" width="49.08" height="25.203"/>
+<text transform="matrix(1 0 0 1 270.0312 55.6353)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Lorient</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="178.949" y1="202.761" x2="132.58" y2="202.761"/>
+<rect x="75.37" y="194.931" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 99.1084 203.3101)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Brest</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="257.616" y1="264.761" x2="211.247" y2="264.761"/>
+<rect x="152.037" y="255.931" fill="none" width="50.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 160.7275 264.3101)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Quimper</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="439.782" y1="153.76" x2="393.413" y2="153.76"/>
+<rect x="448.703" y="145.93" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 448.7031 154.3052)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Nantes</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="448.449" y1="221.761" x2="402.08" y2="221.761"/>
+<rect x="457.37" y="213.931" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 457.3701 222.3091)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Paris</text>
+<ellipse fill="#F09748" cx="218.479" cy="238.354" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="249,107.364 249,240.219 188,240.063 188,107.364 "/>
+<ellipse fill="#E06C3A" cx="218.5" cy="107.672" rx="30.5" ry="13.445"/>
+<ellipse fill="#64BBAE" cx="285.479" cy="209.354" rx="30.397" ry="14.662"/>
+<polygon fill="#64BBAE" points="316,134.364 316,211.049 255,210.959 255,134.364 "/>
+<ellipse fill="#46B2A0" cx="285.5" cy="134.672" rx="30.5" ry="13.445"/>
+<ellipse fill="#F05F59" cx="351.479" cy="178.354" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="382,113.364 382,178.694 321,178.616 321,113.364 "/>
+<ellipse fill="#E05B5A" cx="351.5" cy="113.672" rx="30.5" ry="13.445"/>
+<ellipse fill="#F09748" cx="362.479" cy="223.354" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="393,178.364 393,223.729 332,223.674 332,178.364 "/>
+<ellipse fill="#E06C3A" cx="362.5" cy="178.672" rx="30.5" ry="13.445"/>
+<ellipse fill="#F05F59" cx="297.479" cy="263.354" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="328,208.364 328,262.36 267,262.295 267,208.364 "/>
+<ellipse fill="#E05B5A" cx="297.5" cy="208.672" rx="30.5" ry="13.445"/>
+</svg>

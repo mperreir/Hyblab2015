@@ -1,0 +1,120 @@
+#poleID{
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    top: 13%;
+    left: 2%;
+    width: 25%;
+    height: 85%;
+    background: #8BDBEA;
+    border-radius: 25px;
+    color: white;
+}
+
+#move_poleID{
+    position: absolute;
+    right: -4.47vw;
+    top: 46%;
+    width: 5vw;
+    cursor: pointer;
+}
+
+
+#poleID_languette{
+    position: absolute;
+    top: -3.6vw;
+    left: 48%;
+    height: 5vw;
+}
+
+
+#picto_poleID{
+    width: 65%;
+    height: 20%;
+    margin-top: 1.2vw;
+}
+
+#name_poleID{
+    text-align: center;
+    border-bottom: solid white 1px;
+    margin: 0 10%;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'CodeBold', Arial, serif;
+}
+
+#description_poleID{
+    text-align: justify;
+    margin: 10px 10%;
+    font-size: 1vw;
+    font-family: 'RobotoRegular', Arial, serif;
+}
+
+#info_poleID{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 22%;
+    border-radius: 0 0 25px 25px;
+    background-color: #79A6AD;
+    text-align: center;
+}
+
+#president_poleID{
+    margin-top: -12%;
+}
+
+#image_president_poleID{
+    max-height: 6vw;
+    cursor: pointer;
+}
+
+#image_president_poleID:hover{
+	-moz-box-shadow: 8px 8px 29px 5px #505050;
+	-webkit-box-shadow: 8px 8px 29px 5px #505050;
+	-o-box-shadow: 8px 8px 29px 5px #505050;
+	box-shadow: 8px 8px 29px 5px #505050;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#505050, Direction=134, Strength=17);
+}
+
+
+#name_president_poleID{
+    font-size: 1vw;
+}
+
+
+#articles_poleID{
+    background-color: #6C9396 ;
+    border: solid white 1px;
+    border-radius: 8px;
+    margin: 5% 10%;position: absolute;
+    bottom: 0;
+    width: 20vw;
+}
+
+#articles_poleID:hover{
+    background-color: #496769;
+}
+
+#articles_poleID a{
+    color: white;
+}
+
+#articles_poleID a:hover{
+    text-decoration: none;
+}
+
+#articles_poleID p{
+    margin: 0;
+    font-size: 1vw;
+}
+
+
+#articles_poleID span{
+    font-size: 2vw;
+}
+
+#link_API{
+    height: 2vw;
+}
+

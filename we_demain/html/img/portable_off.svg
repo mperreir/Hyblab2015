@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="210px" height="258.146px" viewBox="0 0 210 258.146" enable-background="new 0 0 210 258.146" xml:space="preserve">
+<g id="Calque_1_1_">
+</g>
+<g id="Calque_2">
+	<path fill="#58585B" d="M189.762,195.092c0,1.109-0.979,2.713-2.061,2.713l-130.063-0.604c-2.346,0.9-4.7-0.699-4.7-1.807
+		l2.747-81.311c0-1.106,0.874-2.006,1.953-2.006h127.816c1.078,0,1.953,0.899,1.953,2.006L189.762,195.092z"/>
+	<path fill="#A09F9F" d="M33.96,213.252l0.293,5.297c0,0,2.061,2.941,5.443,2.795c3.384-0.146,164.042,0.146,164.042,0.146
+		s3.824-0.885,4.267-2.502c0.44-1.617,0.146-6.326,0.146-6.326L33.96,213.252z"/>
+	<path fill="#E4E5E6" d="M208.005,212.616c0,0.36,0,1.911-2.942,1.764l-166.835,0.147c-4.119,0.146-4.414-0.963-4.414-1.323
+		l17.949-16.479c0-0.36,0.797-0.733,1.913-0.733l135.741-0.146c1.117,0,1.32,0.11,2.021,0.653L208.005,212.616z"/>
+	<path fill="#58585B" d="M147.042,212.568c0,0.229,0.144,0.707-0.405,0.707H97.501c-0.547,0-1.016-0.375-1.016-0.606l0.49-5.446
+		c0-0.23,1.415-0.418,1.963-0.418h46.098c0.548,0,1.569,0.188,1.569,0.418L147.042,212.568z"/>
+	<polygon points="61.322,117.865 181.387,117.865 183.421,190.542 59.869,190.542 	"/>
+	<polygon fill="#58585B" points="187.126,203.934 57.193,204.062 59.213,198.133 184.334,198.133 	"/>
+	<circle fill="#FA5F5C" cx="22.237" cy="73.691" r="19.499"/>
+	<circle fill="#FA5F5C" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="21.761" cy="75.711" r="10.055"/>
+	<rect x="20.033" y="60.117" fill="#FFFFFF" stroke="#FA5F5C" stroke-miterlimit="10" width="3.783" height="14.207"/>
+</g>
+<rect x="46.833" y="226.295" fill="#152435" width="149" height="28"/>
+<rect x="46.833" y="235.295" fill="none" width="148.5" height="59.998"/>
+<text transform="matrix(1 0 0 1 66.8394 244.3926)" fill="#FFFFFF" font-family="'Avenir-Roman'" font-size="12">Ordinateur portable</text>
+</svg>

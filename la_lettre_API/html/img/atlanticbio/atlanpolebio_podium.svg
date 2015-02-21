@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.28px" height="245.455px" viewBox="0 0 595.28 245.455" enable-background="new 0 0 595.28 245.455"
+	 xml:space="preserve">
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="293.598" y1="73.123" x2="293.598" y2="119.492"/>
+<rect x="269.37" y="54.81" fill="none" width="49.08" height="25.203"/>
+<text transform="matrix(1 0 0 1 276.9053 63.1885)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Angers</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="185.949" y1="151.307" x2="139.58" y2="151.307"/>
+<rect x="82.37" y="143.477" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 96.8486 151.8555)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Nantes</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="264.616" y1="222.307" x2="218.247" y2="222.307"/>
+<rect x="160.037" y="213.477" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 178.2588 221.8555)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Poitiers</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="446.782" y1="124.306" x2="400.413" y2="124.306"/>
+<rect x="455.703" y="116.476" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 455.7031 124.8535)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Laval</text>
+<line fill="none" stroke="#706F6F" stroke-width="0.5" stroke-miterlimit="10" x1="455.449" y1="170.307" x2="409.08" y2="170.307"/>
+<rect x="464.37" y="162.477" fill="none" width="49.08" height="25.202"/>
+<text transform="matrix(1 0 0 1 464.3701 170.8545)" fill="#706F6F" font-family="'Roboto'" letter-spacing="1px" font-size="11">Paris</text>
+<ellipse fill="#F09748" cx="225.479" cy="186.899" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="256,45.909 256,186.757 195,186.591 195,45.909 "/>
+<ellipse fill="#E06C3A" cx="225.5" cy="46.218" rx="30.5" ry="13.445"/>
+<ellipse fill="#64BBAE" cx="293.479" cy="156.899" rx="30.397" ry="14.662"/>
+<polygon fill="#64BBAE" points="324,140.909 324,156.587 263,156.567 263,140.909 "/>
+<ellipse fill="#46B2A0" cx="293.5" cy="141.218" rx="30.5" ry="13.445"/>
+<ellipse fill="#F05F59" cx="304.479" cy="211.899" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="335,203.909 335,213.239 274,213.228 274,203.909 "/>
+<ellipse fill="#E05B5A" cx="304.5" cy="204.218" rx="30.5" ry="13.445"/>
+<ellipse fill="#F05F59" cx="360.479" cy="128.899" rx="30.397" ry="14.662"/>
+<polygon fill="#F05F59" points="391,120.909 391,130.239 330,130.228 330,120.909 "/>
+<ellipse fill="#E05B5A" cx="360.5" cy="121.218" rx="30.5" ry="13.445"/>
+<ellipse fill="#F09748" cx="369.479" cy="172.899" rx="30.397" ry="14.662"/>
+<polygon fill="#F09748" points="400,164.909 400,174.239 339,174.228 339,164.909 "/>
+<ellipse fill="#E06C3A" cx="369.5" cy="165.218" rx="30.5" ry="13.445"/>
+</svg>

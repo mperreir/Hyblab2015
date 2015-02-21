@@ -1,0 +1,29 @@
+/* Lets style some of the HTML elements
+They are already style by bootstrap, but we can add our own customizations */
+
+body {
+    background-color: #F0F0F0;
+}
+
+#content {
+    background-color: #FFFFFF;
+}
+
+#graph{
+    max-width : 720px;
+    height: 500px;
+}
+
+header, footer{
+  background-color : #D0D0D0;
+  color : #404040;
+  text-align: center;  
+  padding : 5px 0px
+}
+
+.bartooltip {
+  background-color : #F0F0F0;
+  border-radius : 8px;
+  padding : 4px;
+}
+

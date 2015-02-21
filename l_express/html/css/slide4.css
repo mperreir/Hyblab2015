@@ -1,0 +1,143 @@
+.nbr_s{
+  margin-left: 13% !important;
+  width:88%;
+  margin-top: 3%;
+}
+
+#titreVille{
+  letter-spacing:1px;
+}
+
+@keyframes dashoffset-seven {
+  0% {
+    stroke-dashoffset: 7px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.ct-chart .ct-series.ct-series-a .ct-line {
+  stroke: #C7F464;
+  stroke-width: 2px;
+  stroke-dasharray: 5px 2px;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-bar, .ct-chart .ct-series.ct-series-a .ct-line, .ct-chart .ct-series.ct-series-a .ct-point, .ct-chart .ct-series.ct-series-a .ct-slice.ct-donut {
+    stroke: white !important;
+}
+
+.ct-chart .ct-label, .ct-chart .ct-label.ct-horizontal {
+    font-size: medium !important;
+}
+
+#icone_voiture{
+  width: 29%;
+  float: left;
+  position: absolute;
+}
+
+#texte_voiture {
+    width: 70%;
+    float: right;
+}
+
+#icone_bus{
+  width: 29%;
+  float: left;
+  position: absolute;
+}
+
+#legendes4{
+  font-family:proximanova-regular;
+  color:white;
+  size:80%;
+}
+
+#texte_bus{
+    width: 70%;
+    float: right;
+}
+
+#compare{
+    float: right;
+    margin-right: 23%;
+    margin-top: 5%;
+    width: 44%;
+    cursor:pointer;
+}
+
+#rempl_voiture{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  margin-left: 3px;
+}
+
+#rempl_bus{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.ct-chart.ct-perfect-fourth > svg {
+    margin: auto;
+    margin-top: 2%;
+    position: relative !important;
+}
+
+.chiffre_s4{
+  font-family:proximanova-bold, sans-serif;
+  font-size: 44px;
+  color: white;
+}
+
+.text_s4{
+  font-family:proximanova-regular, sans-serif;
+  font-size: 105%;
+  color: white;
+}
+
+.ct-chart .ct-label.ct-vertical {
+  color:white !important;
+}
+
+.ct-chart .ct-label, .ct-chart .ct-label.ct-horizontal{
+  color:white !important;
+}
+
+#texte_pluie{
+  float: left;
+  margin-top: 4%;
+}
+
+#titregraphique{
+  margin-left:40%;
+
+}
+
+#texte_soleil{
+  margin-top:8%;
+  float: left;
+}
+
+#picto_pluie{
+  float: left;
+  margin-right: 5%;
+}
+
+#picto_soleil{
+  float: left;
+  margin-right: 5%;
+}
+
+#posvilles4{
+  font-size: 24px;
+  font-family: proximanova-light,sans serif;
+  display: block;
+  margin-top: -5%;
+}
+
+#legendegraphe{
+  position:absolute;
+}

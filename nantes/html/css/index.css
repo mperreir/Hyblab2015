@@ -1,0 +1,802 @@
+/*Font spécial ajouté*/
+
+
+@font-face
+{
+	font-family: 'Bellota';
+	src: url('../fonts/Bellota-Bold.otf') format('truetype');
+	src: url('../fonts/Bellota-BoldItalic.otf') format('truetype');
+	src: url('../fonts/Bellota-Italic.otf') format('truetype');
+	src: url('../fonts/Bellota-Light.otf') format('truetype');
+	src: url('../fonts/Bellota-LightItalic.otf') format('truetype');
+	src: url('../fonts/Bellota-Regular.otf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Sofia';
+	src: url('../fonts/SofiaProLight.otf') format('truetype');
+	font-weight: normal;
+}
+
+/*Options de style de base*/
+
+p{
+	font-family: 'Sofia';
+	padding: 0px;
+	margin: 0px;
+}
+
+
+html
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.main
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+img, object, embed, canvas, video, audio, picture {
+       max-width: 100%;
+       height: auto;
+}
+
+section
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.source
+{
+	position:absolute;
+	width:15%;
+	height:3%;
+	right:0%;
+	bottom:0%;
+	font-family:Sofia;
+	font-size:1em;
+	color:white;
+}
+
+/*CSS concernant le premier slide*/
+#slide1
+{
+	background: url('../img/index/background_index_1.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+#slide1 #getDown
+{
+	position: absolute;
+	top: 87.7%;
+	left: 48.4%;
+	width: 3.2%;
+	height: 3.7%;
+}
+/*CSS concernant le deuxième slide*/
+#slide2
+{
+	background: url('../img/index/background_index_2.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+#slide2 #text_choix
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Sofia';
+	font-size: 200%;
+	text-align: center;
+	color: gray;
+	position: absolute;
+	top: 60%;
+	left: 33.33%;
+	width: 33.33%;
+	height: 10%;
+}
+
+#div_bouton
+{
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	width: 30%;
+	height: auto;
+}
+
+#div_bouton #bouton1 
+{
+	float: left;
+	width: 30%;
+	height: auto;
+}
+
+#div_bouton #bouton2 
+{
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+/*CSS concernant le troisième slide ***Choix Sexe*** */
+
+#slide3, #slide4, #slide5, #slide7
+{
+	background-color: #F7ECE6;
+	background-size: cover;
+}
+
+#slide3 #slider
+{
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 40%;
+}
+
+#slide3 p
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Sofia';
+	font-size: 2.5em;
+	color: gray;
+	text-align: center;
+}
+
+#slide3 #bouton_valider
+{
+	margin-top: 10%;	
+}
+
+#slide3 #text_choix2
+{
+	margin-bottom: 10%;
+}
+
+/*CSS concernant le quatrième slide ***Tranche âge*** */
+#slide4 #age_container
+{
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 40%;
+}
+
+
+#age p
+{
+	font-family: 'Sofia';
+	color: gray;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+
+/*CSS concernant le 5ème slide ***Questions ETUDES*** */
+#slide5
+{
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-bus.jpg') no-repeat;
+	background-size: cover;
+}
+
+.container
+{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 25%;
+}
+
+.bouton_container
+{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	height: auto;
+}
+
+.bouton_container img
+{
+	width: 25%;
+}
+
+.bouton_guy
+{
+	float: left;	
+}
+
+.bouton_josie
+{
+	float: right;
+}
+
+/*CSS concernant le cinquième slide ***Dataviz*** */
+.datavizs
+{
+	width: 100%;
+	height: 100%;
+	background-color: #393535;
+}
+
+.conteneur
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.box_titre
+{
+	font-family: Sofia;
+	color:white;
+	padding-bottom:3%;
+}
+
+.div_stats
+{
+	padding: 0px;
+	margin: 0px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.s1
+{
+	width: 100%;
+	height: 50%;
+	background: url('../img/stats/dataviz/carré_orange_haut.png')  bottom;
+	background-size: 100%;
+	margin-bottom: 4%;
+}
+
+.selonvous
+{
+	position: absolute;
+	width: 12.5%;
+	top: 10%;
+	left: 1%;	
+}
+
+.s2
+{
+	width: 100%;
+	height: 50%;
+	background: url('../img/stats/dataviz/carré_orange_bas.png')  top;
+	background-size: 100%;
+	margin-top: 4%;
+	overflow: hidden;
+}
+
+.s2 img
+{
+	position: absolute;
+	width: 12.5%;
+	top: 60%;
+	left: 1%;
+}
+
+.s1 p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Sofia';
+	font-weight: bolder;
+	color: white;
+	position: absolute;
+	width: 20%;
+	top: 10%;
+	left: 14.5%;	
+}
+
+.s2 p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Sofia';
+	font-weight: bolder;
+	color: white;
+	position: absolute;
+	width: 20%;
+	top: 60%;
+	left: 14.5%;
+}
+
+.s1 span, .s2 span
+{
+	border-bottom: 4px dotted white;
+}
+.dataviz
+{
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+.dataviz_text
+{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 7.5%;
+	margin-bottom: 2.5%;
+}
+.dataviz_text p
+{
+	text-align: center;
+	color: white;
+}
+.dataviz_text b
+{
+	font-size: 1.5em;
+}
+
+.dataviz_graph
+{
+	width: 100%;
+	height: 50%;
+
+}
+
+.box_slide6{
+	width:25%;
+	height:100%;
+	display:inline-block;
+
+}
+
+
+.graph_slide6
+{
+	text-align:center;
+	height:35%;
+	max-height:70%;
+	padding-bottom:5%;
+}
+
+.graph_slide6bis
+{
+	text-align:center;
+	height:35%;
+	max-height:70%;
+}
+#sans_diplome
+{
+	
+	width:100%;
+	height:100%;
+}
+
+#bep_cap
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bac_techno
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bac_general
+{
+	width:100%;
+	height:100%;
+}
+
+#cycle1
+{
+
+	width:100%;
+	height:100%;
+}
+
+#cycle2
+{
+
+	width:100%;
+	height:100%;
+}
+
+.dataviz_legend
+{
+	width: 100%;
+	height: 20%;
+}
+
+#bouton_slide6
+{
+	text-align:center;
+}
+
+#slide6_h
+{
+ 	width:5%;
+ 	height:5%;
+ 	padding-right:8%;
+}
+
+#slide6_f
+{
+	width:5%;
+ 	height:5%;
+}
+
+
+
+/*CSS Concernant le 7ème slide ***Questions SALAIRE*** */
+#slide7
+{
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-tram.jpg') no-repeat;
+	background-size: cover;
+}
+
+#slide7 #slider_1
+{
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	left: 25%;
+}
+
+.valeurs
+{
+	font-family: 'Sofia';
+	color: gray;
+	font-size: xx-large;
+	position: absolute;
+	top: 55%;
+}
+
+#slide7 #min
+{
+	left: 25%;
+}
+
+#slide7 #max
+{
+	left: 74%;
+}
+
+#slide7 #current_value
+{
+	left: 50%;
+	font-weight: bolder;
+	font-size: 3em;
+	color: #E8687A;
+}
+/*CSS Concernant le 8ème slide  */
+
+#non_qualif
+{
+	
+	width:100%;
+	height:100%;
+}
+
+#qualif
+{
+
+	width:100%;
+	height:100%;
+}
+
+#employes
+{
+
+	width:100%;
+	height:100%;
+}
+
+#prof_inter
+{
+	width:100%;
+	height:100%;
+}
+
+#cadres
+{
+
+	width:100%;
+	height:100%;
+}
+
+#moyenne
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bouton_slide8
+{
+	text-align:center;
+}
+
+#slide8_h
+{
+	width:5%;
+	height:5%;
+	padding-right:8%;
+}
+
+#slide8_f
+{
+	width:5%;
+	height:5%;
+
+}
+
+/*CSS Concernant le 9ème slide ***Questions TAUX ACTIVITE*** */
+#slide9
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-activité.jpg') no-repeat center;
+	background-size: cover;
+}
+/*CSS Concernant le 10ème slide */
+
+#graph_slide10
+{
+
+	width:60%;
+	height:60%;
+}
+
+#dataviz_graph10
+{
+	padding-top:10%;
+	text-align:center;
+}
+
+
+/*CSS Concernant le 11ème slide ***Questions TEMPS PARTIEL*** */
+#slide11
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-carroussel.jpg') no-repeat center;
+	background-size: cover;
+}
+
+/*CSS Concernant le 12ème slide  */
+
+#dataviz_graph12
+{
+	padding-top:10%;
+}
+
+#box12
+{
+	width:50%;
+	height:100%;
+	display:inline-block;
+	text-align:center;
+
+
+}
+
+#box12bis
+{
+	width:49%;
+	height:100%;
+	display:inline-block;
+	text-align:center;
+
+
+}
+
+#compteur12
+{
+	width:80%;
+	height:80%;
+}
+
+#compteur12bis
+{
+	width:80%;
+	height:80%;
+}
+
+#pourcent12
+{
+	position:absolute;
+	width:38%;
+	height:100%;
+	color: #a2ddab;
+	font-family: 'Sofia';
+	
+}
+
+#pourcent12bis
+{
+	position:absolute;
+	width:38%;
+	height:100%;
+	color:#ffe0a1;
+	font-family: 'Sofia';
+
+	
+}
+
+/*CSS Concernant le 13ème slide ***Questions VIE SOCIALE*** */
+#slide13
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-royale.jpg') no-repeat center;
+	background-size: cover;
+}
+
+/*CSS Concernant le 14ème slide ***Questions ASSOCIATIONS*** */
+
+#dataviz_graph14
+{
+	padding-top:5%;
+	width:100%;
+	text-align:center;
+}
+
+.box14
+{
+	width:18%;
+	height:80%;
+	display:inline-block;
+}
+
+#bouton_slide14
+{
+	text-align:center;
+	margin-top:5%;
+}
+
+#slide14_h
+{
+	width:5%;
+	height:5%;
+	padding-right:8%;
+}
+
+#slide14_f
+{
+	width:5%;
+	height:5%;
+}
+
+
+/*CSS Concernant le 13ème slide ***Questions ASSOCIATIONS*** */
+#slide15
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/stats/bg/fond-asso.jpg') no-repeat center;
+	background-size: cover;
+}
+
+
+
+/*CSS lien retour accueil*/
+#retour_accueil
+{
+	width: 3%;
+	height: 3%;
+	position: fixed;
+	top: 3%;
+	right: 3%;
+}
+/*CSS concernant le slide "crédits"*/
+#credits
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('../img/credits/credits_1.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#creditsBis
+{
+	background: url('../img/credits/credits_2.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+.logo_container
+{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 50%;
+	height: 15%;
+	top: 30%;
+	left: 25%;
+}
+
+.logos
+{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 25%;
+	top: 30%;
+	height: 100%;
+}
+
+.enSavoirPlus
+{
+	position: absolute;
+	left: 60%;
+	width: 3%;
+	height: auto;
+	margin-top: 1%;
+}
+
+#nantesfr
+{
+	background: url('../img/credits/NANTESFR.png') no-repeat center;
+	background-size: contain;
+	left: 0%;
+}
+
+#AGR
+{
+	background: url('../img/credits/AGR.png') no-repeat center;
+	background-size: contain;
+	left: 25%;
+}
+
+#Polytech
+{
+	background: url('../img/credits/POLYTECH.png') no-repeat center;
+	background-size: contain;
+	left: 50%;
+}
+
+#SciencesCom
+{
+	background: url('../img/credits/logo-sciencecom.png') no-repeat center;
+	background-size: contain;
+	left: 75%;
+}

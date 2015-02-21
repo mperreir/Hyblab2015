@@ -1,0 +1,84 @@
+#pageIntro{
+    background-color: white;
+}
+
+#background_pageIntro {
+    position: absolute;
+    width:100vw;
+    height:50vw;
+    margin-left: 25vw;
+}
+
+#text_pageIntro{
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    width: 25%;
+    font-size: 1vw;
+    text-align:justify;
+    color: #ABA8A7;
+    font-family: 'RobotoRegular', Arial, serif;
+}
+
+#title_pageIntro{
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    color: #F07565;
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 8vw;
+    line-height: 100%;
+    letter-spacing: 10px;
+    font-family: 'CodeBold', Arial, serif;
+}
+
+#accent{
+    position: relative;
+}
+
+#accent img{
+    position: absolute;
+    z-index: 2;
+    top: -3vw;
+    left: 0.58vw;
+    width: 73%;
+}
+
+#subtitle_pageIntro{
+    z-index: 1001;
+    position: absolute;
+    bottom: 19%;
+    left: 33%;
+    color: #6DBBBF;
+    font-size: 2vw;
+    font-family: 'CodeBold', Arial, serif;
+}
+
+/*------ PINS -------*/
+.pins{
+    position: absolute;
+    height:65px;
+    width:42px;
+}
+
+#pins1{
+    top:50vw;
+    right:50vw;
+}
+
+#pins2{
+    top:75vw;
+    right:50vw;
+}
+
+#pins3{
+    top:75vw;
+    right:33vw;
+}
+
+#pins4{
+    top:75vw;
+    right:25vw;
+}
+/*-------------------*/

@@ -1,0 +1,94 @@
+#containerPage3 {
+	height: 100%;
+}
+#section1-categoryList {
+    display:none;
+}
+#listeBouttonPartie3 {
+    display: inline-block;
+    text-align: center;
+	width: 220px;
+}
+.bouttonPartie3 {
+	margin: auto;
+	border: 2px solid #984058;
+	text-align: center;
+	color: #984058;
+	font-family: 'Arial';
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.section1-percentage{
+	font-family: fontPourcentageChiffre;
+    font-size: 400%;
+    fill : #14A589;	
+}
+#section1-chartConsommation {
+	margin: auto;
+}
+.bouttonPartie3.selected {
+	border-color: #25606C;
+	color: #25606C;
+}
+#descriptionBouttonPartie3 {
+	font-family: fontTitreTexte;
+	font-size: 150%;
+	color : #E95260;
+	position: relative;
+	margin-bottom: 30px;
+}
+#descriptionBouttonPartie3:after {
+	content: ' ';
+	position:absolute;
+	width: 0;
+	height: 0;
+	left: 85px;
+	bottom:-30px;
+	border-style: solid;
+	border-width: 20px 15px 0 15px;
+	border-color: #E95260 transparent transparent transparent;
+}
+.bouttonPartie3:hover {
+	border-color: #25606C;
+	color: #25606C;
+	cursor: pointer;
+}
+#voiturePage3{
+	fill: #01A58C;
+}
+#transportsPublicPage3{
+	fill: #57D6C1;
+}
+#veloPage3{
+	fill: #9D3844;
+}
+#apiedPage3{
+	fill: #FE5768;
+}
+#autresPage3{
+	fill: #7D5071;
+}
+.arcPage3.selected {
+  fill: #FCCE19;
+} 
+
+#imageDataPage3{
+	background-size: 100%;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 20px;
+}
+#explication{
+	font-family: fontTitreTexte;
+	font-size: 150%;
+    color : #14A589;	
+	
+}

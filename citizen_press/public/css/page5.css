@@ -1,0 +1,275 @@
+::-moz-selection{ background: blue; color:yellow; text-shadow: 1px 1px red; }
+::selection { background: blue; color:yellow; text-shadow: 1px 1px red}
+
+#containerPage5 {
+    height: 100%;
+}
+#europe-map {
+    height: 100%;
+}
+/*SECTION 1*/
+#section1 h2.section-title, #section1 h3.section-sub-title{
+    min-width: 500px;
+}
+
+#section1 h4 {
+    font-weight: 100;
+}
+
+#section1{
+    background-color: transparent;
+}
+
+#section1 svg path{
+    cursor:pointer;
+}
+
+#section1-categoryList img{
+    vertical-align: sub;
+    margin-right: 5px;
+}
+#listertransports {
+	display:inline;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+}
+
+
+.arrow-container.dark{
+    background-color: transparent;
+}
+
+.arrow.bright{
+    border-left: 30px solid #10262B;
+}
+
+#section1 h5 {
+    font-family: Oswald;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#section1 #section1-categoryList {
+    margin-top: 50px;
+}
+
+#section1-percentage{
+  color:white;
+}
+
+#section1-categoryList .selected{
+    background-color: #FCCE19;
+}
+
+#section1-chartConsommation path.selected{
+    fill: #FCCE19;
+}
+
+#section1-chartConsommation .client{
+    fill:grey;
+}
+#section1-chartConsommation .trajet{
+    fill:lightgoldenrodyellow;
+}
+#section1-chartConsommation .serveur{ 
+    fill:darkgrey;
+}
+
+.section1-percentage{
+    font-size: 4em;
+    fill: white;
+}
+
+
+websiteUlNoTooltip li.website, span.website, a.website{
+    background-color: #071B1F;
+    padding: 3px;
+     padding-left: 10px; 
+     padding-right: 10px; 
+     border-radius: 5px; 
+    font-size: 1.3em; 
+}
+
+.websiteUlNoTooltip li.website.selected.site0, span.website.selected.site0, a.website.selected.site0{
+    background-color: #A93721;
+}
+.websiteUlNoTooltip li.website.selected.site1, span.website.selected.site1, a.website.selected.site1{
+    background-color: #CF8F0B;
+}
+.websiteUlNoTooltip li.website.selected.site2, span.website.selected.site2, a.website.selected.site2{
+    background-color: #FCCE19;
+}
+
+/*Enleve les zooms de la map de manière dégueulasse */
+.jvectormap-zoomin{
+       display:none; 
+}
+
+.jvectormap-zoomout{
+    display:none; 
+        
+}
+/*gère les boutons des différents transports */
+.boutonPage5:hover circle, .boutonPage5:hover g g path, .boutonPage5.selected circle, .boutonPage5.selected g g path  {
+	stroke: #FC5965;
+}
+.boutonPage5:hover {
+	cursor: pointer;
+}
+
+.interviewText
+{
+	font-family: fontTitreTexte;
+	font-size: 200%;
+    color : #14A589;
+}
+.customContainerInterview,
+.bookBlock {
+	width: 100%;
+	height: 100%;
+}
+
+.containerInterview {
+	height: 100%;
+	position: relative;
+	left: 0px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-o-transition: left 0.3s ease-in-out;
+	transition: left 0.3s ease-in-out;
+}
+
+/* Content Flip Style */
+.bookBlock {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #1A0D2B;
+	z-index: 100;
+}
+
+.bb-page {
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	position: absolute;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.bb-page > div,
+.bb-outer,
+.bb-content {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.bb-content {
+	background: #1A0D2B;
+}
+
+.bb-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.bb-overlay, .bb-outer {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.bb-page > div {
+	width: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.bb-back {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.bb-outer {
+	width: 100%;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.bb-overlay, 
+.bb-flipoverlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1000;
+}
+
+.bb-flipoverlay {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bookBlock > div.bb-page:first-child,
+.bookBlock > div.bb-page:first-child .bb-back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.js .bb-item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #1A0D2B;
+}
+.rouge {
+    color: #E95260;
+}
+.jspContainer, .jspPane, .scroller, .content {
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+#jeanJouzel {
+     margin : auto; 
+     border-radius: 50%;
+}
+.interviewText {
+    margin-top: 17%;
+}

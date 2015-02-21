@@ -1,0 +1,139 @@
+/***************
+ * Dataviz2 Panel *
+ ***************/
+
+.cell1, .cell2, .cell3 {
+    margin-top : 30px;
+    padding : 1%;
+    background-color: #213146;
+    height : 110px;
+    width : 110px;
+}
+
+.cell3 {
+    width : 120px;
+}
+
+body {
+    width : 100%;
+}
+.nopad
+{
+    padding:0px;
+}
+
+body
+{
+    height:100%;   
+    width:100%; 
+}
+
+html
+{
+    height:100%;    
+    width:100%; 
+}
+
+.titlecell
+{
+    font-family:'bebasregular', Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:25pt;
+    margin-right:5%;
+}
+
+ .arrow{
+	opacity:0.2;
+}
+
+.control{
+	position:fixed;
+	width:170px;
+	cursor:pointer;
+}
+
+#firstRow {
+    margin-top : 40px;
+}
+
+#med1 {
+    margin-right : 0px;
+}
+
+#med2 {
+    margin-left : 0px;
+}
+
+#lastrow {
+    margin-top : 20px;
+    border-top : solid 2px #EBB003;
+}
+
+#dataviz1Identite
+{
+	background-color : #33425F;
+ 	width:100%;
+ 	height:100%;
+ 	margin-right:0px;
+ 	margin-left:0px; 
+ 	font-family:Helvetica, sans-serif;
+    font-size:7pt;
+    color:#9FC0C7;
+    text-align:center;
+}
+
+#modalDataviz2 {
+    border-radius: 0px;
+    background: #33425F;
+}
+
+
+#subcol1
+{
+    position:relative;
+    float:left;
+    width:50%;
+}
+
+#subcol2
+{
+    position:relative;
+    float:right;
+    width:50%;
+}
+
+#DV2TownName {
+    font-family:'bebasregular', Arial, Helvetica, sans-serif;
+    font-size:30pt;
+    color:#EBAD44;
+    height:25%;
+    position:relative;
+    margin-left:5%;
+    margin-top:5%;
+    text-transform: uppercase;
+}
+
+#DV2Description {
+    font-family:Helvetica, sans-serif;
+    font-size:7.5pt;
+    height:75%;
+    color:#6C8789;
+    position:relative;
+    margin-left:5%;
+    text-align:justify;
+}
+
+#DV2big {
+    height:100%;
+    position:relative;
+}
+
+#DV2badges {
+    height:50%;
+    position:relative;
+}
+
+#DV2pic {
+    text-align:center;
+}
+
