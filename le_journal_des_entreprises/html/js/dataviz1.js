@@ -107,22 +107,24 @@ function whichYear(year) {
 function datasD1(year) {
 
     $.getJSON('dataviz1?annee=' + year, function(data) {
-        var villesD1 = [];  
-        var valeursD1 = [];    
-
-        for (var i in data) {         
-                villesD1.push(data[i].nom);  
-                valeursD1.push(data[i].nb); 
+        var villesD1 = [];   
+        var dataArray = [];
+        for (var i in data) {
+            var point = {};
+                villesD1.push(data[i].nom); 
+                point.name = data[i].nom;
+                point.y = data[i].nb;
+                dataArray.push(point);
         }
 
-        console.log(villesD1);
+        //console.log(villesD1);
 
         chart1 = new Highcharts.Chart({
 
             chart: {
                 renderTo: 'affichD1',
                 type: 'column',
-                backgroundColor: '#223247',
+                backgroundColor: '#213146',
                 plotBorderWidth:2,
                 plotBorderColor: '#EBAC44'  
             },
@@ -164,7 +166,7 @@ function datasD1(year) {
                         enabled: true,
                         useHTML: true,
                         formatter: function() {
-                            return "&nbsp;"+this.y+'<br/><img src="images/ballonTop.png" width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"/>&nbsp;'  
+                            return "&nbsp;"+this.y+'<br/><img class="graphLabel" id="' + this.point.name + '" src="images/ballonTop.png" width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"/>&nbsp;'  
                         },
                         style: {
                             color: '#E9AE28',
@@ -197,56 +199,46 @@ function datasD1(year) {
 
             series: [{
                 id: 'series-1',
-                data: valeursD1
+                data: dataArray
             }]
+            
             
         });
         
         $('.highcharts-axis-labels text ').on('click', function(e) {
-            loadData(this.textContent);
+            loadData(this.textContent ||this.innerText);
         });
 
     
         $('.highcharts-axis > path').attr('opacity','0');
+        
+       
     });
 }
-
-
-
 
 function loadData(id) {
             //var id = this.textContent || this.innerText;
             $('#myModal').modal();
+            $('#hiddenName').html(id);
             var year = "20" + $('#ca3').text() + $('#ca4').text();
             $.getJSON('townInfo?nom=' + id, function(data) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
                     $('#DV2TownName').html(id);
-                    console.log("<img src=\"/images/"+data.image+"\">");
                     $('#DV2pic').html("<img src=\"/images/"+data.image+"\">");
                     
                     if(data.medaille1) {
-                        console.log("<img src=\"/images/"+data.medaille1+"\">");
                         $('#med1').html("<img src=\"/images/"+data.medaille1+"\">");
                     }
                     if(data.medaille2) {
-                        console.log("<img src=\"/images/"+data.medaille2+"\">");
                          $('#med2').html("<img src=\"/images/"+data.medaille2+"\">");
                     }
                 }
            });
-          $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
-             if(data)  {
-                 $('#ch1').html(data.ch1);
-                 $('#ch2').html(data.ch2);
-                 $('#ch3').html(data.ch3);
-                 $('#ch4').html(data.ch4);
-             }
-          });
+          changeNumbers(year, id);
     }
 
-function changeNumbers(year) {
-    var id = $('#DV2TownName').text();
+function changeNumbers(year, id) {
     $.getJSON('townNumbers?nom=' + id + '&annee=' + year, function(data) {
              if(data)  {
                  $('#ch1').html(data.ch1);
@@ -274,7 +266,8 @@ function changeNumbers(year) {
             $('.yearplus').css("opacity", "0");
         }
         datasD1(year);
-        changeNumbers(year);
+        console.log($('#hiddenName').text());
+        changeNumbers(year, $('#hiddenName').text());
     });
 
     $('.yearless').on('click', function(e) {
@@ -286,6 +279,6 @@ function changeNumbers(year) {
             $('.yearless').css("opacity", "0");
         }
         datasD1(year);
-        changeNumbers(year);
+        changeNumbers(year, $('#hiddenName').text());
     });
 })();
