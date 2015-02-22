@@ -35,34 +35,22 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
 .headD1
 {
     font-family:'Myriad Pro Condensed', sans-serif;
-    height: 97px;
+    margin-top : 20px;
 }
 
 
 .headD1 h1
 {
  color: #EBAC44;    
- font-size: 15pt;
+ font-size: 20pt;
 }
 
-.titleD1
-{
- display: inline-block;
- float:left;
-}
-
-.titleD1 p
+.titleD1 h2
 {
  margin-top:-10px;
  font-family:'Myriad Pro Condensed Italic', sans-serif;
- font-size: 11pt;
+ font-size: 16pt;
  text-align: left;
-}
-
-.cliquezIciD1 p
-{
- font-family:'Myriad Pro Condensed', sans-serif;
- font-size: 14pt;
 }
 
 .selectionAnneeD1
@@ -74,6 +62,7 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  font-size:19pt;
  width: 195px;
  margin-top: 22px;
+ padding-right: 0px !important;
 }
 
 .selectionAnneeD1 .chiffreAnnee
@@ -112,10 +101,14 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  margin-right: 5px;
 }
 
+
 .cliquezIciD1 p
 {
  color: #F9F9FA;
- font-family: Myriad Pro Condensed, sans-serif;
- font-size: 14pt;
+ font-family: 'Myriad Pro Condensed', sans-serif;
+ font-size: 15pt;
 }
 
+#graph {
+ margin-top: 90px;
+}
