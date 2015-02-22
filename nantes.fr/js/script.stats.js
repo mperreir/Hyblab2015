@@ -29,7 +29,7 @@ $(document).ready(function() {
 							$('#img2').attr('src', 'img/stats/tranche_age/homme-age2.png');
 							$('#img3').attr('src', 'img/stats/tranche_age/homme-age3.png');
 							$('#img4').attr('src', 'img/stats/tranche_age/homme-age4.png');
-							$('#img5').attr('src', 'img/stats/tranche_age/homme-age5.png');
+							$('#img5').attr('src', 'img/stats/tranche_age/cercueilguy.png');
 							break;
 						}
 						case "femme":
@@ -38,7 +38,7 @@ $(document).ready(function() {
 							$('#img2').attr('src', 'img/stats/tranche_age/femme-age2.png');
 							$('#img3').attr('src', 'img/stats/tranche_age/femme-age3.png');
 							$('#img4').attr('src', 'img/stats/tranche_age/femme-age4.png');
-							$('#img5').attr('src', 'img/stats/tranche_age/femme-age5.png');
+							$('#img5').attr('src', 'img/stats/tranche_age/curcueiljosie.png');
 							break;
 						}
 					}
