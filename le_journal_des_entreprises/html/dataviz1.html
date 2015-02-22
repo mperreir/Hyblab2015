@@ -1,40 +1,35 @@
 <div id="dataviz1" class="page">
 
 	<div class="insideD1 container">
-
-
-		<div class="headD1">
-			<div class="titleD1">
-				<h1>Nombre d'entreprises</h1>
-				<p>spécialisées dans le numérique</p>
+		
+		<div class="row">
+			<div class="headD1 col-xs-12 col-md-12 col-lg-12">
+				<div class="titleD1 col-xs-6 col-md-3 col-lg-3">
+					<h1>Nombre d'entreprises</h1>
+					<h2>spécialisées dans le numérique</h2>
+				</div>
+				<div class="selectionAnneeD1 col-xs-6 col-md-3 col-md-offset-5 col-lg-3 col-lg-offset-5">
+					<div class="yearless plusmoins">
+						-
+					</div>
+					<div class="chiffreAnnee ca1">
+						2
+					</div>
+					<div class="chiffreAnnee ca2">
+						0
+					</div>
+					<div id="ca3" class="chiffreAnnee ca3">
+					</div>
+					<div id="ca4" class="chiffreAnnee ca4">
+					</div>
+					<div class="yearplus plusmoins">
+						+
+					</div>
+				</div>
 			</div>
-
-			<div class="selectionAnneeD1">
-
-				<div class="yearless plusmoins">
-					-
-				</div>
-				<div class="chiffreAnnee ca1">
-					2
-				</div>
-				<div class="chiffreAnnee ca2">
-					0
-				</div>
-				<div id="ca3" class="chiffreAnnee ca3">
-
-				</div>
-				<div id="ca4" class="chiffreAnnee ca4">
-
-				</div>
-				<div class="yearplus plusmoins">
-					+
-				</div>
-
-			</div>
-
-
 		</div>
 		
+		<!-- modal -->
 		<div class=" modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content" id="modalDataviz2">
@@ -44,6 +39,8 @@
 								<div>
 									<div id="DV2TownName" class="short-div">
 										
+									</div>
+									<div id="hiddenName" class="hidden">
 									</div>
 									<div id="DV2Description" class="short-div">
 										
@@ -116,18 +113,23 @@
 				</div>
 			</div>
 		</div>
-
-<div class="cliquezIciD1">
-	<p>Cliquez sur les villes pour accéder aux informations complémentaires</p>
-</div>
-<div id="affichD1"></div>
-
-<div class="baspage container">
-
-	<a id="nav1" rel="relativeanchor" href="#salariesNum">
-		<img class="img-circle img-responsive inline-block" src="images/nextSlide.png" alt="page suivante"></img>
-	</a>
-</div>
-
-</div>
+		<!-- ./modal -->
+		
+		<div id="graph">
+			<div class="row">
+				<div class="cliquezIciD1">
+					<p>Cliquez sur les villes pour accéder aux informations complémentaires</p>
+				</div>
+			</div>
+			<div class="row">
+				<div id="affichD1">
+				</div>
+			</div>
+		</div>
+		<div class="baspage container">
+			<a id="nav1" rel="relativeanchor" href="#salariesNum">
+				<img class="img-circle img-responsive inline-block" src="images/nextSlide.png" alt="page suivante"></img>
+			</a>
+		</div>
+	</div>
 </div>
