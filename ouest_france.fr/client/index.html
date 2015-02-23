@@ -12,7 +12,7 @@
 		
         <!-- Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
@@ -23,6 +23,7 @@
         <script src="js/jquery.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/autocompletion.js"></script>
+        <script src="js/dataNantes.js"></script>
 
 		
 		<!-- jsSlider l'ordre des imports à une importance -->
@@ -36,8 +37,7 @@
         <!-- HighCharts -->        
         <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
-        <script type="text/javascript" src="https://www.highcharts.com/js/highstock.js"></script>
-        <script src="js/columnchart.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
 		
 		<!-- D3js --> 
 		<script src="js/d3.v3.min.js"></script>
@@ -45,12 +45,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.0/fabric.min.js"></script>
 
         <!-- DataViz Versus -->
-        <script src="js/snapsvg.js"></script>
-        <script src="DatavizVersus/cercle/js/index.js"></script>
-        <link rel="stylesheet" href="DatavizVersus/cercle/css/style.css" media="screen" type="text/css" />
-        
-		<!-- Choix praticiens/etab --> 
-
+        <script src="DatavizVersus/DataVizCirclePage3.js"></script>
 
 	
         <!-- DataViz Stat -->
@@ -59,6 +54,13 @@
         <link rel="stylesheet" href="DataVizStat/bar/css/style.css" media="screen" type="text/css" />
         <link rel="stylesheet" href="DataVizStat/bar/css/styleEtab.css" media="screen" type="text/css" />
 		
+		<!-- DataViz VersusBar -->
+        <script src="DatavizVersus/bar/js/DataVizVersusBar.js"></script>
+        <link rel="stylesheet" href="DatavizVersus/bar/css/DataVizVersusBar.css" media="screen" type="text/css" />
+        
+        <!-- DataViz VersusBar -->
+         <script src="DatavizVersus/cercle/js/CercleVersus.js"></script>
+         
 		<!-- DataViz Bubble -->
 		<link rel="stylesheet" href="DatavizBubble//style.css" media="screen" type="text/css" />
 	    <script src="DatavizBubble/barBubble.js"></script>
@@ -66,18 +68,25 @@
 		
 		<!-- onepage scroll -->
 	    <link href='onepagescroll/onepage-scroll.css' rel='stylesheet' type='text/css'>
+	    
+	    <script src="ks/snapsvg.js"></script>
 	</head>
+	
+	
+	
+	<!------------------------------------------------------------------ FIN DU HEADER ----------------------------------------------------------------->
 
     <body> 
         <div class="main">   
 		
             <!-- Première page -->    
+            
             <section class="page" id="1">
                 <div class="container">
                     <div class="col-xs-2 col-lg-2"></div>
                     <div class="col-xs-8 col-lg-8">
                         <div class="row" align="center">
-            	            <img class="img-responsive" id="imgFirstPage" src="imgs/hyblabFleches.svg">
+            	            <img class="img-responsive" id="imgFirstPage" src="imgs/hyblabFleches.svg" title="Hyblab 2015 - Ouest France">
             	        </div>
             	        <div class="row" align="center">
                             <div id=mainTitle>L'ACCESSIBILITE DES MALADES AUX SOINS</div>
@@ -88,7 +97,7 @@
             	        <div class="row">
                             <div class=mainText>
                                 <p><br>Votre commune et les alentours sont-ils bien desservis en termes de professionnels médicaux et d’équipements de santé ?<br>
-                                Cette application vous permet de découvrir les endroits où les prestations de soins sont les plus nombreuses, ainsi que les zones insuffisamment couvertes par les établissements de santé. Comparez aussi les services médicaux de votre commune avec ceux des autres villes de France. Enfin de navigation, nous vous proposons de lire et de télécharger une fiche synthétique sur l’accessibilité aux soins dans toute la France.</p>
+                                Cette application vous permet de découvrir les endroits où les prestations de soins sont les plus nombreuses, ainsi que les zones insuffisamment couvertes par les établissements de santé. Comparez aussi les services médicaux de votre commune avec ceux des autres villes de France.</p>
                                 <p>Médicalement vôtre.</p><br>
                             </div>
             	        </div>
@@ -96,70 +105,96 @@
             	    <div class="col-xs-2 col-lg-2"></div>
             	</div>
             </section>
+            
 
 
-            <!-- Deuxième page : dataviz carte de France -->    
+            <!-------------------------------------- Deuxième page : dataviz carte de France ------------------------------>    
             <section class="page" id="2">    
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-3 col-lg-3" id="trouver" align="center">
-                            <input type="text" id="rechercheauto">
+                            <input type="text" id="rechercheauto" value="Nantes" onChange="javascript:document.getElementById('premiereVille').value = document.getElementById('rechercheauto').value">
                             <img src="imgs/jeTrouveMaVille.svg" id="jeTrouveMaVille">
-                            <div class="row">
-                                <a href="#1"><img src="imgs/picto/burger.svg" style="margin-top:25vh"></a>
+                            <div class="row" align="left">
+                                <img src="imgs/picto/burger.svg" style="margin-top:35vh" onclick="accueil()" title="Accueil">
                             </div>
                         </div>
-                        <div class="col-xs-9 col-lg-9" id="carte" align="center">
-                            <div id="imageCarte"><img src="imgs/imageCarte/5.png"></div>
-                            <div id="slider"></div>
-                            <script>
-                                $("#slider").slider({
-                                    animate: "slow",
-                                    value:4, min:1, max:4, step:1
-                                });
-                                $("#slider").slider({
-                                    change: function( event, ui ) {
-                                        if(ui.value==1){
-                                            document.getElementById("imageCarte").innerHTML='<img src="imgs/imageCarte/1.png">';
-                                        }
-                                        else if(ui.value==2){
-                                            document.getElementById("imageCarte").innerHTML='<img src="imgs/imageCarte/2.png">';
-                                        }
-                                        else if(ui.value==3){
-                                            document.getElementById("imageCarte").innerHTML='<img src="imgs/imageCarte/3.png">';
-                                        }
-                                        else{
-                                            document.getElementById("imageCarte").innerHTML='<img src="imgs/imageCarte/5.png">';
-                                        }
-                                    }
-                                });
-                            </script>
+                        <div class="col-xs-9 col-lg-9" align="center">
+                            <div class="row" style="margin-top:4vh">
+                                <div class=subTitle>CARTE DE FRANCE DES DESERTS MEDICAUX MULTIDISCIPLINAIRES</div>
+                            </div>
+                            <div class="row" id="divCarte"><img src="imgs/imageCarte/5v.png" id="imageCarte"></div>
+                            <div class="row">
+                                <div class="col-xs-4 col-lg-4"></div>
+                                <div class="col-xs-4 col-lg-4" id="slider"></div>
+                                <div class="col-xs-4 col-lg-4"></div>
+                            </div>
+                            <div class="row" align="center">
+                                <img src="imgs/stop.svg" id="stop" onclick="javascript:stopSlider()">
+                            </div>
+                            <div class="row" style="margin-top:3vh">
+                                <div class="col-xs-2 col-lg-2">
+                                    <div class=mainText style="text-align:right">Désert médical : </div>
+                                </div>
+                                <div class="col-xs-3 col-lg-3">
+                                    <div class="col-xs-9 col-lg-9">
+                                        <div class=mainText style="text-align:right">Inexistant : </div>
+                                    </div>
+                                    <div class="col-xs-3 col-lg-3">
+                                        <img src="imgs/imageCarte/l2.png" class="legende">
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 col-lg-2">
+                                    <div class="col-xs-8 col-lg-8">
+                                        <div class=mainText style="text-align:right">Faible : </div>
+                                    </div>
+                                    <div class="col-xs-4 col-lg-4">
+                                        <img src="imgs/imageCarte/l3.png" class="legende">
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 col-lg-3">
+                                    <div class="col-xs-9 col-lg-9">
+                                        <div class=mainText style="text-align:right">Intermédiaire : </div>
+                                    </div>
+                                    <div class="col-xs-3 col-lg-3">
+                                        <img src="imgs/imageCarte/l4.png" class="legende">
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 col-lg-2">
+                                    <div class="col-xs-8 col-lg-8">
+                                        <div class=mainText style="text-align:right">Fort : </div>
+                                    </div>
+                                    <div class="col-xs-4 col-lg-4">
+                                        <img src="imgs/imageCarte/l5.png" class="legende">
+                                    </div>
+                                </div>
+                            </div>
                         </div>  
                     </div>
                 </div>
             </section>
             
             
-            <!--------------------- Troisième page : dataviz podiums ------------------------------------>    
+            <!--------------------- Troisième page : dataviz podiums : NANTES par défaut------------------------------------>    
             <section class="page" id="3">    
                 <div class="container">
                     <!-- Population - Ville - Superficie -->
-                    <div class="row">
+                    <div class="row" style="margin-top:1vh">
                         <div class="col-xs-1 col-lg-1"></div>
                         <div class="col-xs-2 col-lg-2">
                             <div class="row" align="center">
-                                <div class="population" id="populationCity">NOMBRE</div>
+                                <div class="population" id="populationCity">287845</div>
                             </div>
                             <div class="row" align="center">
                                 <div class="superficie" >HABITANTS</div>
                             </div>
                         </div>
                         <div class="col-xs-6 col-lg-6" align="center" >
-                           <div class="cityTitle" id="nomDeLaVille"></div>
+                           <div class="cityTitle" id="nomDeLaVille">Nantes</div>
                         </div>
                         <div class="col-xs-2 col-lg-2">
                             <div class="row" align="center">
-                                <div class="superficie" id="superficieCity" >NOMBRE KM2</div>
+                                <div class="superficie" id="superficieCity" >65,19 km²</div>
                             </div>
                             <div class="row" align="center" align="center">
                                 <div class="population">DE SUPERFICIE</div>
@@ -173,11 +208,11 @@
                         <div class="col-xs-2 col-lg-2"></div>
                         <div class="col-xs-3 col-lg-3" id="divPraticien3">
                             <img src="imgs/choisirPraticien.svg">
-                            <img src="imgs/picto/praticiens/praticiens.svg" class="pictoChoix" onclick="javascript:choix('prac3')">
+                            <img src="imgs/picto/praticiens/praticiens.svg" class="pictoChoix" onclick="javascript:choix('prac3')" title="Choisir un praticien">
                         </div>
                         <div class="col-xs-2 col-lg-2"></div>
                         <div class="col-xs-3 col-lg-3" id="divEtablissement3">
-                            <img src="imgs/picto/etablissements/etablissements.svg" class="pictoChoix" onclick="javascript:choix('etab3')">
+                            <img src="imgs/picto/etablissements/etablissements.svg" class="pictoChoix" onclick="javascript:choix('etab3')" title="Choisir un établissement">
                             <img src="imgs/choisirEtablissement.svg">
                         </div>
                         <div class="col-xs-2 col-lg-2"></div>
@@ -185,17 +220,19 @@
 
 	                <div class="row">
 	                   <div class="col-xs-5 col-lg-5 villebar" id="prac3"></div>
-	                   <div class="col-xs-2 col-lg-2"> <img src="imgs/barreBlanche.png" style="margin-left: 10vh"></div>
+	                   <div class="col-xs-2 col-lg-2"><img src="imgs/barreBlanche.png" id="barreblanche"></div>
 	                   <div class="col-xs-5 col-lg-5 villebar" id="etab3"></div>
 	                </div>
                     
                     <!-- Bas de page -->
+                    
                     <div class="row">
                         <div class="col-xs-6 col-lg-6">
-                            <img src="imgs/picto/burger.svg">
+                            <img src="imgs/picto/burger.svg" onclick="accueil()" title="Accueil">
                         </div>
                         <div class="col-xs-6 col-lg-6" style="text-align:right">
-                            <img src="imgs/picto/jecompare.svg">
+                            <p class="ressource">*Données brutes</p>
+                           <!-- <a href="#4"><img src="imgs/picto/jecompare.svg" onclick="jeCompare()"></a> -->
                         </div>
                     </div> 
 				</div>
@@ -208,11 +245,11 @@
                     <div class="row">
                         <div class="col-xs-1 col-lg-1"></div>
                         <div class="col-xs-4 col-lg-4" align="center">
-                              <input type="text" id="rechercheauto1">
+                              <input type="text" id="rechercheauto1" value="Nantes">
                         </div>
                         <div class="col-xs-2 col-lg-2"></div>
                         <div class="col-xs-4 col-lg-4" align="center">
-                              <input type="text" id="rechercheauto2">
+                              <input type="text" id="rechercheauto2" value="Rennes">
                         </div>
                         <div class="col-xs-3 col-lg-3"></div>
                     </div>
@@ -228,7 +265,9 @@
                         <div class="col-xs-3 col-lg-3"></div>
                     </div>
                     <div class="row">
-                        <a href="#1"><img src="imgs/picto/burger.svg" style="margin-top:25vh"></a>
+                        
+                            <img src="imgs/picto/burger.svg" style="margin-top:22vh" onclick="accueil()" title="Accueil">
+                       
                     </div>
                 </div>
             </section>
@@ -237,7 +276,7 @@
             <section class="page" id="5">    
                 <div class="container">
                     <!-- Population - Ville - Superficie -->
-                    <div class="row">
+                    <div class="row" style="margin-top:2vh">
                         <div class="col-xs-6 col-lg-6">
                             <div class="row">
                                 <div class="col-xs-1 col-lg-1"></div>
@@ -291,26 +330,27 @@
                     </div>
                     
                     <!-- Pictos -->
-                    <div class="row" class="ligneChoix" id="divPraticien5" align="center" style="margin-top:10vh;">
+                    <div class="row" class="ligneChoix" id="divPraticien5" align="center" style="margin-top:10vh;margin-right:10vh;">
                         <img src="imgs/choisirPraticien.svg">
-                        <img src="imgs/picto/praticiens/praticiens.svg" class="pictoChoix" onclick="javascript:choix5()">
+                        <img src="imgs/picto/praticiens/praticiens.svg" class="pictoChoix" onclick="javascript:choix5()" title="Choisir un praticien">
                     </div>
                     
                     <div class="row">
-	                    <div class="col-xs-3 col-lg-3"></div>
-	                    <div class="col-xs-6 col-lg-6 villebar" id="prac5"></div>
-	                    <div class="col-xs-3 col-lg-3"></div>
+	                    <div class="col-xs-10 col-lg-11 villebar" id="prac5"></div>
+	                    <div class="col-xs-1 col-lg-1"></div>
 	                </div>
 
                     <!-- Bas de page -->
-                    <div class="row">
+                    
+                     <div class="row">
                         <div class="col-xs-6 col-lg-6">
-                            <img src="imgs/picto/burger.svg">
+                            <img src="imgs/picto/burger.svg" style="margin-top:10vh" onclick="accueil()" title="Accueil">
                         </div>
                         <div class="col-xs-6 col-lg-6" style="text-align:right">
-                            <img src="imgs/picto/jecompare.svg">
+                            <p class="ressource">*Données brutes</p>
+                           <!-- <a href="#4"><img src="imgs/picto/jecompare.svg" onclick="jeCompare()"></a> -->
                         </div>
-                    </div> 
+                    </div>
 				</div>
             </section>
 
@@ -322,12 +362,17 @@
                         <div id="bubble" align="left"></div>
                         <div class="col-xs-6 col-lg-6">    
                             <div class="row">
-                                <div id="leSaviezVous">LE SAVIEZ-VOUS?</div>
+                                <div id="leSaviezVous">LE SAVIEZ-VOUS ?</div>
                             </div>
                             <div class="row" align="center">
                                 <div id="bubbles" align="center">
                                     <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" id="bubblesSVG"></svg>
                                 </div>
+                                <p class="ressource">*Ratios des particiens pour 100000 habitants.</p>
+                            </div>
+                            <!-- Bas de page -->
+                            <div class="row">
+                                <img src="imgs/picto/burger.svg" onclick="accueil()" title="Accueil">
                             </div>
                         </div>
                         <div class="col-xs-6 col-lg-6">    
@@ -338,63 +383,63 @@
                                             <img src="imgs/choisirPraticien.svg">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/tout.svg" alt="Tous les praticiens" id="b0" class="pictoChoix" onclick="javascript:choixBubble(0)">
+                                            <img src="imgs/picto/praticiens/tout.svg" title="Tous les praticiens" id="b0" class="pictoChoix" onclick="javascript:choixBubble(0,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/generalistes.svg" alt="Généralistes" id="b1" class="pictoChoix" onclick="javascript:choixBubble(1)">
+                                            <img src="imgs/picto/praticiens/generalistes.svg" title="Généralistes" id="b1" class="pictoChoix" onclick="javascript:choixBubble(1,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/cardiologue.svg" alt="Cardiologues" id="b2" class="pictoChoix" onclick="javascript:choixBubble(2)">
+                                            <img src="imgs/picto/praticiens/cardiologue.svg" title="Cardiologues" id="b2" class="pictoChoix" onclick="javascript:choixBubble(2,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/gynecologue.svg" alt="Gynecologues" id="b3" class="pictoChoix" onclick="javascript:choixBubble(3)">
+                                            <img src="imgs/picto/praticiens/gynecologue.svg" title="Gynecologues" id="b3" class="pictoChoix" onclick="javascript:choixBubble(3,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/gastro.svg" alt="Gastro-entérologues" id="b4" class="pictoChoix" onclick="javascript:choixBubble(4)">
-                                        </div>
-                                    </div>
-                                    <div class="row" style="margin-top:2vh">
-                                        <div class="col-xs-2 col-lg-2"></div>
-                                        <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/psychiatrie.svg" alt="Psychiatres" id="b5" class="pictoChoix" onclick="javascript:choixBubble(5)">
-                                        </div>
-                                        <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/ophtalmologie.svg" alt="Ophtalmologues" id="b6" class="pictoChoix" onclick="javascript:choixBubble(6)">
-                                        </div>
-                                        <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/rhino.svg" class="pictoChoix" id="b7" alt="Rhino-laryngologues" onclick="javascript:choixBubble(7)">
-                                        </div>
-                                        <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/pediatrie.svg" id="b8" class="pictoChoix" alt="Pédiatres" onclick="javascript:choixBubble(8)">
-                                        </div>
-                                        <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/pneumologue.svg" id="b9" class="pictoChoix" alt="Pneumologues" onclick="javascript:choixBubble(9)">
+                                            <img src="imgs/picto/praticiens/gastro.svg" title="Gastro-entérologues" id="b4" class="pictoChoix" onclick="javascript:choixBubble(4,0)">
                                         </div>
                                     </div>
-                                    <div class="row" style="margin-top:2vh">
+                                    <div class="row" style="margin-top:1vh">
                                         <div class="col-xs-2 col-lg-2"></div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/radio.svg" id="b10" class="pictoChoix" alt="Radiodiagnostic et imagerie médicale" onclick="javascript:choixBubble(10)">
+                                            <img src="imgs/picto/praticiens/psychiatrie.svg" title="Psychiatres" id="b5" class="pictoChoix" onclick="javascript:choixBubble(5,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/dentiste.svg" id="b11" class="pictoChoix" alt="Dentistes" onclick="javascript:choixBubble(11)">
+                                            <img src="imgs/picto/praticiens/ophtalmologie.svg" title="Ophtalmologues" id="b6" class="pictoChoix" onclick="javascript:choixBubble(6,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/kine.svg" id="b12" class="pictoChoix" alt="Masseur-kinésithérapeutes" onclick="javascript:choixBubble(12)">
+                                            <img src="imgs/picto/praticiens/rhino.svg" class="pictoChoix" id="b7" title="Rhino-laryngologues" onclick="javascript:choixBubble(7,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/audio.svg" id="b14" class="pictoChoix" alt="Audio-prothésistes" onclick="javascript:choixBubble(14)">
+                                            <img src="imgs/picto/praticiens/pediatrie.svg" id="b8" class="pictoChoix" title="Pédiatres" onclick="javascript:choixBubble(8,0)">
                                         </div>
                                         <div class="col-xs-2 col-lg-2">
-                                            <img src="imgs/picto/praticiens/podologue.svg" id="b13" class="pictoChoix" alt="Pédicure-podologues" onclick="javascript:choixBubble(13)">
+                                            <img src="imgs/picto/praticiens/pneumologue.svg" id="b9" class="pictoChoix" title="Pneumologues" onclick="javascript:choixBubble(9,0)">
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top:1vh">
+                                        <div class="col-xs-2 col-lg-2"></div>
+                                        <div class="col-xs-2 col-lg-2">
+                                            <img src="imgs/picto/praticiens/radio.svg" id="b10" class="pictoChoix" title="Radiodiagnostic et imagerie médicale" onclick="javascript:choixBubble(10,0)">
+                                        </div>
+                                        <div class="col-xs-2 col-lg-2">
+                                            <img src="imgs/picto/praticiens/dentiste.svg" id="b11" class="pictoChoix" title="Dentistes" onclick="javascript:choixBubble(11,0)">
+                                        </div>
+                                        <div class="col-xs-2 col-lg-2">
+                                            <img src="imgs/picto/praticiens/kine.svg" id="b12" class="pictoChoix" title="Masseur-kinésithérapeutes" onclick="javascript:choixBubble(12,0)">
+                                        </div>
+                                        <div class="col-xs-2 col-lg-2">
+                                            <img src="imgs/picto/praticiens/audio.svg" id="b14" class="pictoChoix" title="Audio-prothésistes" onclick="javascript:choixBubble(14,0)">
+                                        </div>
+                                        <div class="col-xs-2 col-lg-2">
+                                            <img src="imgs/picto/praticiens/podologue.svg" id="b13" class="pictoChoix" title="Pédicure-podologues" onclick="javascript:choixBubble(13,0)">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row" id="btext" style="margin-top:6vh" align="center">
+                            <div class="row" id="btext" style="margin-top:4vh">
                                 <div class="subTitle" style="text-align:center">214974 Praticiens en France</div>
-                                <div class="mainText">Les masseurs-kinésithérapeutes sont aussi nombreux que les médecins omnipraticiens (les généralistes) : presque 62.000 praticiens pour chaque catégorie. Associés aux chirurgiens-dentistes, ces 3 spécialités représentent près de trois quarts des praticiens sur le territoire français.</div>
-                                <div id="barBubble"><script>lancerBarreBubble("Medecins généralistes", 61937, "Masseur-Kiné", 61801, "Dentistes", 37105);</script></div>;
+                                <div class="mainText" style="margin-top:2vh">Les masseurs-kinésithérapeutes sont aussi nombreux que les médecins omnipraticiens (les généralistes) : presque 62.000 praticiens pour chaque catégorie. Associés aux chirurgiens-dentistes, ces 3 spécialités représentent près de trois quarts des praticiens sur le territoire français.</div>
+                                <div id="barBubble" style="margin-top:5vh"><script>lancerBarreGen("Medecins généralistes", 61937, "Masseur-Kiné", 61801, "Dentistes", 37105);</script></div>
                             </div>
                         </div>
                     </div>
@@ -408,12 +453,25 @@
                     <div class="row" align="center">
                         <div id="concerne">LA SANTE NOUS CONCERNE TOUS !</div>
                     </div>
-					
-                    <div class="row" align="right">
-                        <p id="ressource">Source: Base permanente des équipements (BPE) - 2013 - INSEE  Recensements de la population et statistiques d'état civil - 2011 - INSEE </p>
-                    </div> 
                     
+                    <div class="row">
+                        <div class="col-xs-3 col-lg-3"></div>
+                        <div class="col-xs-3 col-lg-3">
+                            <p class="nomprenom" style="text-align:right">Un projet issu des ateliers du </p>
+                        </div>
+                        <div class="col-xs-1 col-lg-1">
+                            <a href="http://www.hyblab.fr/"><img src="imgs/LogosPartenaires/hyblab.png" title="Hyblab" style="width: 7vw"/></a>
+                        </div>
+                        <div class="col-xs-1 col-lg-1">
+                            <a href="http://www.ouestmedialab.fr/"><img src="imgs/LogosPartenaires/ouest-medialab.png" title="Ouest Medialab" style="width: 7vw"/></a>
+                        </div>
+                        <div class="col-xs-4 col-lg-4"></div>
+                    </div> 
                     <div class="row" align="center">
+                        <p class="ressource">Source: Base permanente des équipements (BPE) - 2013 - INSEE  Recensements de la population et statistiques d'état civil - 2011 - INSEE </p>
+                    </div>
+                    
+                    <div class="row" align="center" style="margin-top:5vh">
 						<div class="col-xs-4 col-lg-4" align="center">
 							<div class="row" align="center">
 								<img id="bonhomme" src="imgs/bonhomme-09.png">
@@ -421,96 +479,68 @@
 						</div>
 						<div class="col-xs-8 col-lg-8" align="center">  
 							<div class="row" align="center">
-                                <div class="ecole"> </div>
+                                <div class="col-xs-6 col-lg-6" align="center">
+                                    <div class="ecole"> Sciencescom</div>
+                                    <div class="nomprenom"> David RETIERE</div>
+                                    <div class="nomprenom"> Sofia BOUDMAGH</div>
+                                </div>
+                                <div class="col-xs-6 col-lg-6" align="center">
+                                    <div class="ecole"> Polytech</div>
+                                    <div class="nomprenom"> Antoine PASQUIER</div>
+                                    <div class="nomprenom"> Florian BONNIEC</div>
+                                    <div class="nomprenom"> Marvin DRION</div>
+                                </div>
                             </div>
-                            <div class="col-xs-4 col-lg-4" align="center">
-                                <div class="ecole"> Sciencescom</div>
+                            <div class="row" align="center" style="margin-top:5vh">
+                                <div class="col-xs-6 col-lg-6" align="center">
+                                    <div class="ecole"> AGR</div>
+                                    <div class="nomprenom"> Angélique COUSSEAU</div>
+                                    <div class="nomprenom"> Chloé AUTISSIER</div>
+                                </div>
+                                <div class="col-xs-6 col-lg-6" align="center">
+        							<div class="ecole">Média</div>
+        							<div class="nomprenom"> Laurent FRETIGNE<br></div>
+                                </div>
                             </div>
-                            <div class="col-xs-4 col-lg-4" align="center">
-                                <div class="ecole"> AGR</div>
-                            </div>
-						</div>
+                        </div>
 					</div>
-					
-                    <div class="row" align="center">
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="ecole"></div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="ecole"> Polytech</div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-							<div class="ecole">Média</div>
-                        </div>
-                    </div>
                     
-                    <div class="row">
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom"> David RETIERE</div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom"> Angélique COUSSEAU</div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center"> 
-                            <div class="nomprenom"> Antoine PASQUIER</div>
-                        </div>
-                    </div>
-					
-                    <div class="row">
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom2"> Sofia BOUDMAGH</div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom2"> Chloé AUTISSIER</div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom2"> Florian BONNIEC</div>
-                        </div>
-                    </div>
-					
-                    <div class="row">
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom"></div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom"></div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom2"> Marvin DRION</div>
-                        </div>
-                    </div>
-					
-                    <div class="row">
-                        <div class="col-xs-4 col-lg-4" align="center">
-                            <div class="nomprenom2"> Laurent FRETIGNE<br></div>
-                        </div>
-                        <div class="col-xs-4 col-lg-4" align="center"></div>
-                        <div class="col-xs-4 col-lg-4" align="center"></div>
-                    </div>
-                    
-                    <div class="row" id="bandeauBlanc" align="center">
-                        <div class="row" align="center">
-                            <div class="col-xs-12 col-lg-12" align="center">
-                                <img src="imgs/LogosPartenaires/ouestFrance.jpg" alt="OUESTFRANCE" class="imgB"/> 
-                                <img src="imgs/LogosPartenaires/agr.png" alt="A.G.R." class="imgB"/>
-                                <img src="imgs/LogosPartenaires/polytech-nantes.png" alt="Polytech" class="imgB"/>
-                                <img src="imgs/LogosPartenaires/SciencesCom.png" alt="Sciences Com" class="imgB"/>
-                                <img src="imgs/LogosPartenaires/univ-nantes.png" alt="Université de Nantes" class="imgB"/>
-                                <img src="imgs/LogosPartenaires/logoEtalab.png" alt="Etalab Gouv" class="imgB"/>
-                                <img src="imgs/LogosPartenaires/Orange_logo.svg" alt="Orange" class="imgB"/>
-                                <img src="imgs/LogosPartenaires/cc.svg" alt="Creative Commons" class="imgB"/>
-                                <!--<img src="imgs/LogosPartenaires/opensource-initiative.png" alt="Open Source Initiative" class="imgB"/> -->                       
+                    <div class="row" id="bandeauBlanc" style="margin-top:10vh">
+                        <div class="row">
+                            <div class="col-xs-11 col-lg-11" align="center">
+                                <p>
+                                    <a href="http://www.ouest-france.fr/"><img src="imgs/LogosPartenaires/ouestf.png" title="Ouest France" class="imgB"/></a>
+                                    <a href="http://www.agrnantes.fr/"><img src="imgs/LogosPartenaires/agr.png" title="A.G.R." class="imgB"/></a>
+                                    <a href="http://web.polytech.univ-nantes.fr/"><img src="imgs/LogosPartenaires/polytech-nantes.png" title="Polytech Nantes" class="imgB"/></a>
+                                    <a href="http://www.sciencescom.org/"><img src="imgs/LogosPartenaires/SciencesCom.png" title="Sciences Com" class="imgB"/></a>
+                                    <a href="http://www.univ-nantes.fr/"><img src="imgs/LogosPartenaires/univ-nantes.png" title="Université de Nantes" class="imgB"/></a>
+                                    <a href="http://www.etalab.gouv.fr/"><img src="imgs/LogosPartenaires/logoEtalab.png" title="Etalab Gouv" class="imgB"/></a>
+                                    <a href="http://www.nantesmetropole.fr/"><img src="imgs/LogosPartenaires/nantesmetro.jpg" title="Nantes Métropole" class="imgB"/></a>
+                                    <a href="http://www.orange.fr/"><img src="imgs/LogosPartenaires/Orange_logo.svg" title="Orange" class="imgB"/></a>
+                                    <a href="http://www.paysdelaloire.fr/"><img src="imgs/LogosPartenaires/pdl.svg" title="Pays de la Loire" class="imgB"/></a>
+                                </p>
+                            </div>
+                            <div class="col-xs-1 col-lg-1">
+                                <div class="row">
+                                    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/"><img src="imgs/LogosPartenaires/cc.svg" title="Creative Commons" class="imgC"/></a>
+                                </div>
+                                <div class="row">
+                                    <a href="http://opensource.org/"><img src="imgs/LogosPartenaires/opensource-initiative.png" title="Open Source Initiative" class="imgC"/></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>                
  
+            <script src="DatavizCarte/sliderCarte.js"></script>
             <script src="DatavizBubble/bubble.js"></script>
+            <script src="js/choix.js"></script>
+    	    <script src="js/choix5.js"></script>
+    	    
             <script type="text/javascript" src="onepagescroll/onePageInit.js"></script>
             <script type="text/javascript" src="onepagescroll/jquery.onepage-scroll.js"></script>
+            <script type="text/javascript" src="js/accueil.js"></script>
         </div>
-        		<script src="js/choix.js"></script>
-	    <script src="js/choix5.js"></script>
     </body>
 </html>

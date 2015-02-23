@@ -27,7 +27,7 @@
     afterMove: null,
     loop: true,
     responsiveFallback: false,
-    direction : 'vertical',
+    direction : 'vertical'
 	};
 
 	/*------------------------------------------------*/

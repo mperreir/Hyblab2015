@@ -124,8 +124,8 @@ var Swiper = function (selector, params) {
       Default Parameters
       ===========================*/
     var defaults = {
-        eventTarget: 'wrapper', // or 'container'
-        mode : 'horizontal', // or 'vertical'
+        eventTarget: 'container', // or 'container'
+        mode : 'vertical', // or 'vertical'
         touchRatio : 1,
         speed : 300,
         freeMode : false,

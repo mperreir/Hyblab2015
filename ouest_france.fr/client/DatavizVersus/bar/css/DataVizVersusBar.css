@@ -1,0 +1,44 @@
+.dataVizBarSyleG{
+  margin-top:10px;
+  /*margin-left:100px;*/
+  /*position: fixed;*/
+  width:0px;
+  height:20px;
+  float: right;
+  margin-left:20px;
+ /* margin-left:40px;*/
+  background-color:#127eb6;
+}
+
+.dataVizBarSyleD{
+ margin-top:10px;
+  /*margin-right:100px;*/
+ /* position: fixed;
+  right:55%;
+  left:35%;*/
+  width:0px;
+  height:20px;
+  float: left;
+  margin-left:80px;
+  margin-right:20px;
+  background-color:#f7a21c;
+}
+
+.dataVizbarTextG{
+ color:#FFFFFF;
+ margin-top:10px;
+ width:50px;
+}
+
+.dataVizbarTextD{
+ color:#FFFFFF;
+ margin-top:10px;
+ width:50px;
+	margin-left:120px;
+}
+
+.dataVizVersusbarTextSpe{
+  color:#FFFFFF;
+  width:150px;
+  margin-top:10px;
+}

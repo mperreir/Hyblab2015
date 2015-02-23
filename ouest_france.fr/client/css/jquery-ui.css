@@ -663,7 +663,8 @@ button.ui-button::-moz-focus-inner {
 	z-index: 2;
 	width: 1.2em;
 	height: 1.2em;
-	cursor: default;
+	cursor: circle;
+	color:#127eb6;
 	-ms-touch-action: none;
 	touch-action: none;
 }
@@ -680,6 +681,7 @@ button.ui-button::-moz-focus-inner {
 .ui-slider.ui-state-disabled .ui-slider-handle,
 .ui-slider.ui-state-disabled .ui-slider-range {
 	filter: inherit;
+	color:#127eb6;
 }
 
 .ui-slider-horizontal {

@@ -1,12 +1,27 @@
 .dataVizbarTextEtablissement{
   color:#FFFFFF;
+ /* margin-top:10px;
+  width:280px;
+  height:50px;*/
 }
 
-.dataVizbarTextEtablissementSpe{
+.dataVizbarTextNomEtablissement{
   color:#FFFFFF;
   margin-left:20px;
+  margin-top:1px;
+  width:300px;
+  height:50px;
 }
 
+.dataVizBarEtablissementSyle{
+ /* margin-top:10px;*/
+  margin-left:20px;
+  width:0px;
+  height:20px;
+  /*float: right;*/
+  background-color:#f7a21c;
+}
+/*
 #dataVizbarEtablissement1{
   margin-top:20px;
   margin-left:20px;
@@ -105,7 +120,7 @@
   height:20px;
   background-color:#f7a21c;
 }
-
+/*
 #dataVizbarTextEtablissement1{
   margin-top:20px;
   width:150px;
@@ -176,4 +191,4 @@
   margin-top:20px;
   width:150px;
   height:50px;
-}
+}*/

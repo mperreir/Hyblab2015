@@ -8,9 +8,17 @@
   height: 50vh;
 }
 
+.swiper-container3 {
+  background: #121f32;
+  height: 50vh;
+}
+
 .slide-inner {
   padding:20px;
-  color:#fff;
+  /*width:100vw;*/
+    border-width:3px;
+  /*border-color: #FFFFFF;
+  color:#fff;*/
 }
 
 .swiper-scrollbar {
@@ -31,6 +39,15 @@
   width:5px;
 }
 
-.swiper-scrollbar .swiper-scrollbar2 .swiper-scrollbar-drag {
+.swiper-scrollbar3 {
+  background:none;
+  position:absolute;
+  right:3px;
+  top:0;
+  height:100%;
+  width:5px;
+}
+
+.swiper-scrollbar .swiper-scrollbar2 .swiper-scrollbar3 .swiper-scrollbar-drag {
   background:rgba(255,255,255,0.3);
 }

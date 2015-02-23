@@ -18,6 +18,18 @@
 	-ms-touch-action: none;
 	background: rgba(0,0,0,0.1)
 }
+.swiper-scrollbar2 {
+	border-radius: 10px;
+	position: relative;
+	-ms-touch-action: none;
+	background: rgba(0,0,0,0.1)
+}
+.swiper-scrollbar3 {
+	border-radius: 10px;
+	position: relative;
+	-ms-touch-action: none;
+	background: rgba(0,0,0,0.1)
+}
 .swiper-scrollbar-drag {
 	height: 100%;
 	width: 100%;

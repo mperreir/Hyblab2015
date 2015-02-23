@@ -1,4 +1,6 @@
 $(document).ready(function () {
     'use strict';
-    $(".main").onepage_scroll();
+    $(".main").onepage_scroll({
+        pagination: true
+    });
 });

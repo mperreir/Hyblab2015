@@ -1,12 +1,14 @@
 "use strict";
-
+var tuplesEtablissement;
+var tuplesPraticien;
 $(function() {
-               
-        $.ajax({
+        donneesNantes();       // lance les dataviz par défaut, quand on ne choisit aucune ville
+        
+        $.ajax({ // requete ajax pour récupérer la liste des communes a charger pour l'autocomplétion
           url: "communes",
           type: "get",
           dataType: "json",
-          success: function( data ) {
+          success: function( data ) { 
              $( "#rechercheauto" ).autocomplete({
               source: data,
        
@@ -18,13 +20,14 @@ $(function() {
                   $( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
               },
               select: function(event, ui){
-                 
+                 afficherDataviz('villePrac','toutPraticiens');
+                 afficherDataviz('etab3','toutEtablissement')
                  
                  //Chargement des données relatives à cette commune
                  
                //chargementData(ui.item.label);
                var commune=ui.item.label;
-                          $.ajax({
+                          $.ajax({ // Chargement des données de la commune sélectionnée précédemment
                               url: "data",
                               type: "get",
                               dataType: "json",
@@ -34,14 +37,10 @@ $(function() {
                                      
                                     var communePopulation = data.P11_POP;
                                     var communeSuperficie = data.SUPERF;
-                                   
-                                    
-                                  /*  function compare(x, y) {
-                                        return y - x;
-                                    } */
+              
                                     var tabDonnees = new Array();
                                   
-                                    if(commune.length>30){
+                                    if(commune.length>20){
                                         document.getElementById('nomDeLaVille').innerHTML="<marquee id='villeName' scrollamount=3>"+ui.item.label+"</marquee>";
                                         document.getElementById('VilleNomChx1').innerHTML="<marquee scrollamount=3>"+ui.item.label+"</marquee>";
                                   
@@ -67,6 +66,8 @@ $(function() {
                                     delete data["P11_POP"];
                                     delete data["SUPERF"];
                                    
+                                   setdonneesVille(data);
+                                   
                                     var tempPraticien = [];
                                     
                                     //clone data array
@@ -84,6 +85,8 @@ $(function() {
                                     delete tempPraticien["NB_D301"];
                                     delete tempPraticien["NB_D302"];
                                     delete tempPraticien["NB_D306"];
+                                   
+                                   
                                     
                                     var tuplesPraticien = [];
                                     
@@ -98,11 +101,10 @@ $(function() {
                                         return a > b ? -1 : (a < b ? 1 : 0);
                                     });
                                     
-                               //alert('!!!!');
-                                     lancerBarre(tuplesPraticien,tuplesPraticien[0][1]);
-                                     lancerBarreEtab(tuplesPraticien,tuplesPraticien[0][1]);
-                                     //alert(data);
-                               
+
+                                     setDonneesSpecialiteVille(tuplesPraticien,tuplesPraticien[0][1]);
+                                     lancerBarre();
+     
                                     
                                     /****** TRI ASSOCIATIF ETABLISSEMENTS*****/
                                     
@@ -130,10 +132,12 @@ $(function() {
                                 tuplesEtablissement.sort(function(c, d) {
                                     return d[1] - c[1];
                                 });
-                                    
-
-                                    lancerBarreEtab(tuplesEtablissement,tuplesEtablissement[0][1]);
-                                    
+ 
+                                    setDonneesEtablissementVille(tuplesEtablissement,tuplesEtablissement[0][1]);
+                                    lancerBarreEtab();
+                                    setDonneesVille1(tempPraticien);
+                                    genererBarVersus();
+ 
                               }
                           })
                
@@ -156,8 +160,17 @@ $(function() {
               select: function(event, ui){
                   var commune=ui.item.label;
                   document.getElementById('VilleNomChx1').innerHTML=commune;
-                  $.ajax({
-                              url: "data",
+                     if(commune.length>12){
+                                        
+                                        document.getElementById('VilleNomChx1').innerHTML="<marquee scrollamount=3>"+ui.item.label+"</marquee>";
+                                  
+                                    }
+                                    else{
+                                        
+                                        document.getElementById('VilleNomChx1').innerHTML="<p>"+ui.item.label+"</p>";
+                                    } 
+                  $.ajax({ // requete ajax pour récupérer les données sur la première ville à comparer
+                              url: "/data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
@@ -166,9 +179,37 @@ $(function() {
                                   document.getElementById('VilleNomChx1Sup').innerHTML= data["SUPERF"]+' km2';
                                   
                                   if(document.getElementById("rechercheauto2").value!="") $(".main").moveDown();
-                                  /************ DATAVIZ BONNIEC **********/
                                   
+                                    delete data["CODGEO"];
+                                    delete data["LIBGEO"];
+                                    delete data["REG"];
+                                    delete data["LIBREG"];
+                                    delete data["DEP"];
+                                    delete data["P11_POP"];
+                                    delete data["SUPERF"];
+                                   
+                                    var tempPraticienVersus = [];
+                                    
+                                    //clone data array
+                                    tempPraticienVersus=JSON.parse(JSON.stringify(data));
+                                
                                   
+                                    delete tempPraticienVersus["NB_D105"];
+                                    delete tempPraticienVersus["NB_D106"];
+                                    delete tempPraticienVersus["NB_D107"];
+                                    delete tempPraticienVersus["NB_D108"];
+                                    delete tempPraticienVersus["PSYCHO"];
+                                    delete tempPraticienVersus["NB_D110"];
+                                    delete tempPraticienVersus["NB_D111"];
+                                    delete tempPraticienVersus["NB_D112"];
+                                    delete tempPraticienVersus["NB_D301"];
+                                    delete tempPraticienVersus["NB_D302"];
+                                    delete tempPraticienVersus["NB_D306"];
+                                    
+                                    var tuplesPraticienVersus = [];
+                           
+                                    setDonneesVille1(tempPraticienVersus);
+                                    genererBarVersus();
                                   
                              }
                    })
@@ -179,7 +220,7 @@ $(function() {
            
            
            
-             $( "#rechercheauto2" ).autocomplete({
+             $( "#rechercheauto2" ).autocomplete({ 
                source: data,
        
       
@@ -192,9 +233,16 @@ $(function() {
               select: function(event, ui){
                 var commune=ui.item.label;
                document.getElementById('VilleNomChx2').innerHTML=commune;
+                  if(commune.length>12){
+                    document.getElementById('VilleNomChx2').innerHTML="<marquee scrollamount=3>"+ui.item.label+"</marquee>";
+                                  
+                    }
+                  else{
+                    document.getElementById('VilleNomChx2').innerHTML="<p>"+ui.item.label+"</p>";
+                  } 
                  
-                          $.ajax({
-                              url: "data",
+                          $.ajax({ // requete ajx pour récuprér les données de la seconde ville sélectionnée
+                              url: "/data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
@@ -204,8 +252,36 @@ $(function() {
                                   document.getElementById('superficieCity2').innerHTML= data["SUPERF"]+' km2';
                                   
                                   /************ DATAVIZ BONNIEC **********/
+                                  delete data["CODGEO"];
+                                    delete data["LIBGEO"];
+                                    delete data["REG"];
+                                    delete data["LIBREG"];
+                                    delete data["DEP"];
+                                    delete data["P11_POP"];
+                                    delete data["SUPERF"];
+                                   
+                                    var tempPraticienVersus = [];
+                                    
+                                    //clone data array
+                                    tempPraticienVersus=JSON.parse(JSON.stringify(data));
+                                
                                   
-                                  
+                                    delete tempPraticienVersus["NB_D105"];
+                                    delete tempPraticienVersus["NB_D106"];
+                                    delete tempPraticienVersus["NB_D107"];
+                                    delete tempPraticienVersus["NB_D108"];
+                                    delete tempPraticienVersus["PSYCHO"];
+                                    delete tempPraticienVersus["NB_D110"];
+                                    delete tempPraticienVersus["NB_D111"];
+                                    delete tempPraticienVersus["NB_D112"];
+                                    delete tempPraticienVersus["NB_D301"];
+                                    delete tempPraticienVersus["NB_D302"];
+                                    delete tempPraticienVersus["NB_D306"];
+  
+                                    var tuplesPraticienVersus = [];
+                                   
+                                  setDonneesVille2(tempPraticienVersus);
+                                  genererBarVersus();
                                   
                               }
                           })
@@ -213,13 +289,8 @@ $(function() {
            })
         }
         
-       
-            
-            
-            
-            
-        });
+   });
 
                   
 });
-//alert("fin autocmpletion");
+

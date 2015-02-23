@@ -1,4 +1,3 @@
-
 #imageCover{
     display: block;
     margin: 0 auto; 
@@ -11,19 +10,29 @@
     margin-top: 10px;
 }
 
+#fhaut{
+    opacity:0.2;
+}
+
+
 #imgPracticiens{
     width: 10vh;
+}
+
+#stop{
+    width: 20vh;
 }
 
 .pictoChoix{
     width: 10vh;
 }
 
-#carte {
-  margin-top: 15px;
-  height: 90vh;
-  height: 40vw;
-  border: none;
+#imageCarte {
+  width: 116vh;
+}
+
+.legende{
+   width: 2vh; 
 }
 
 @font-face {
@@ -69,6 +78,7 @@ font-size: 1.1vw;
 
 #jeTrouveMaVille{
     margin-top: 2vh;
+    width: 25vh;
 }
 
 .ligneChoix{
@@ -129,6 +139,12 @@ font-size: 1.5vw;
  margin-top:10%;
 }
 
+#barreblanche{
+    height: 60vh;
+    margin-left: 10vh;
+    opacity: 0.5;
+}
+
 #rechercheauto{
     background-color:#121f32;
     width: 20vw;
@@ -148,6 +164,7 @@ font-size: 1.5vw;
     color: white;
     margin-top:30vh;
     font-size: 2vw;
+    font-family: OpenSans-CondLight;
 }
 #premiereVille{
     margin-top:2vh;
@@ -160,6 +177,7 @@ font-size: 1.5vw;
     color: white;
     margin-top:30vh;
     font-size: 2vw;
+    font-family: OpenSans-CondLight;
 }
 #deuxiemeVille{
     margin-top:2vh;
@@ -210,14 +228,14 @@ font-size: 1.5vw;
 /*****************************  Dernière Page *****************************************/
 
 #bonhomme{
-    height: 30vh;
+    height: 40vh;
 }
 
 #concerne {
     color: #f9a21c;
     font-family: Oswald-Light;
     font-size: 4vw;
-    margin-top: 10vh ;
+    margin-top: 5vh ;
 }
 
 .ecole {
@@ -233,20 +251,21 @@ font-size: 1.5vw;
    font-size: 1.5vw;
 }
 
-.nomprenom2 {
-   color: #bbbdc0;
-   font-family: Oswald-Light;
-   font-size: 1.5vw;
-}
-
 #bandeauBlanc {
   background-color:white;
-    height: 15vh;
+  height: 15vh;
 }
 
 .imgB {
     margin-top:1vh;
-    height: 13vh;
+    margin-left:2.5vw;
+    width: 5.5vw;
+}
+
+.imgC {
+    margin-top:2vh;
+    margin-left:2.5vw;
+    width: 2vw;
 }
 
 #hyblab{
@@ -260,11 +279,11 @@ font-size: 1.5vw;
     margin-top: 2vh;
 }
 
-#ressource{
+.ressource{
     color:#bbbdc0;
     font-family: OpenSans-CondLight;    
-    font-size: 1,5vw;
-    margin-top: 5vh;
+    font-size: 1vw;
+    margin-top: 2vh;
 }
 
 #ligne {
@@ -318,8 +337,8 @@ progress::-moz-progress-bar {
 
 
 #divPraticien3 {
-    margin-left: 10vh;
-    margin-top:3vh;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
 }
 
 #divEtablissement3 {

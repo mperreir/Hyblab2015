@@ -25,3 +25,17 @@ var mySwiper2 = new Swiper('.swiper-container2', {
     }
   })
 }
+
+function genererSlider3(){
+var mySwiper2 = new Swiper('.swiper-container3', {
+    scrollContainer:true,
+    mousewheelControl : true,
+    mode:'vertical',
+    //Enable Scrollbar
+    scrollbar: {
+      container :'.swiper-scrollbar3',
+      hide: false,
+      draggable: false
+    }
+  })
+}
