@@ -135,3 +135,9 @@ h5 {
     text-align: center;
     color : white;
 }
+
+
+.modal-dialog {
+    width: 940px !important;
+    margin-left: -470px !important;
+}

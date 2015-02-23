@@ -7,5 +7,3 @@ $('#casierD').on('click', function() {
 $('#coatRack').on('click', function() {
     $('#modalEquipe')  .modal();
 })
-
-$('.modal-dialog').css('width'
