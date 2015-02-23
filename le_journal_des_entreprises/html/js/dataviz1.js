@@ -181,7 +181,7 @@ function datasD1(year) {
                     point: {
                         events: {
                             click: function() {
-                                loadData(this.category);
+                                loadDataviz(this.category);
                             }
                         }
                     }
@@ -206,7 +206,7 @@ function datasD1(year) {
         });
         
         $('.highcharts-axis-labels text ').on('click', function(e) {
-            loadData(this.textContent ||this.innerText);
+            loadDataviz(this.textContent ||this.innerText);
         });
 
     
@@ -216,7 +216,7 @@ function datasD1(year) {
     });
 }
 
-function loadData(id) {
+function loadDataviz(id) {
             //var id = this.textContent || this.innerText;
             $('#myModal').modal();
             $('#hiddenName').html(id);
