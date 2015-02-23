@@ -2,16 +2,15 @@
 font-family: 'Myriad Pro Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed'), url('fonts/MYRIADPRO-COND.woff') format('woff');
+src: local('Myriad Pro Condensed'), url('../fonts/MYRIADPRO-COND.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Myriad Pro Condensed Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed Italic'), url('fonts/MYRIADPRO-CONDIT.woff') format('woff');
+src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
 }
-
 
 /***************
  * Dataviz1 Panel *
