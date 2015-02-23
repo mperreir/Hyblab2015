@@ -157,9 +157,15 @@ float:right;
 {
  color: #F9F9FA;
  font-family: 'Myriad Pro Condensed', sans-serif;
- font-size: 15pt;
+ font-size: 14pt;
 }
 
 #graph {
- margin-top: 90px;
+ margin-top: 40px;
+}
+
+@media screen and (max-height: 700px) {
+   #graph {
+    margin-top: 20px;
+   }
 }
