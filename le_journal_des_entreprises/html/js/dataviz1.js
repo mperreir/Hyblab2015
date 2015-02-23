@@ -248,9 +248,14 @@ function datasD1(year) {
 
 function loadDataviz(id) {
             //var id = this.textContent || this.innerText;
-            $('#myModal').modal();
+            $('#myModal').modal({
+                backdrop: true,
+                keyboard: true
+            }).css({
+                width: 'auto',
+            });
             $('#hiddenName').html(id);
-            var year = "20" + $('.ca3').text() + $('.ca4').text();
+            //var year = "20" + $('.ca3').text() + $('.ca4').text();
             $.getJSON('townInfo?nom=' + id, function(data) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
