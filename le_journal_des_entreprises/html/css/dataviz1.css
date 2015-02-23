@@ -12,68 +12,69 @@ font-weight: normal;
 src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
 }
 
-@font-face {
-font-family: 'Myriad Pro Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
-}
-
 /***************
  * Dataviz1 Panel *
  ***************/
  
  #dataviz1
 { 
- background-color: #213146;  
- text-align:center;
+ background-color: #213146;
  color: white;   
  overflow-x : hidden;
+}
+
+.insideD1
+{
+ text-align:center;
 }
 
 
 .headD1
 {
     font-family:'Myriad Pro Condensed', sans-serif;
-    height: 97px;
+    margin-top : 20px;
 }
 
 
 .headD1 h1
 {
  color: #EBAC44;    
- font-size: 15pt;
+ font-size: 20pt;
 }
 
-.titleD1
-{
- display: inline-block;
- float:left;
-}
-
-.titleD1 p
+.titleD1 h2
 {
  margin-top:-10px;
  font-family:'Myriad Pro Condensed Italic', sans-serif;
- font-size: 11pt;
+ font-size: 16pt;
  text-align: left;
 }
 
-.cliquezIciD1 p
+.selectionAnneeD1, .selectionAnneePopup
 {
- font-family:'Myriad Pro Condensed', sans-serif;
- font-size: 14pt;
-}
-
-.selectionAnneeD1
-{
- display:inline-block;
- float:right;
  font-family: Bebas Neue, sans-serif;
  color: #EBAC44;  
  font-size:19pt;
  width: 195px;
+ height:35px;
  margin-top: 22px;
+ padding-right: 0px !important;
+ overflow:hidden;
+ position: relative;
+}
+
+.selectionAnneeD1
+{
+float:right;
+}
+
+.selectionAnneePopup .chiffreAnnee
+{
+    width:24px;
+    height:35px;
+    background-color: #13253B;
+    position: absolute; 
+    display: inline-block;
 }
 
 .selectionAnneeD1 .chiffreAnnee
@@ -82,40 +83,82 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
     height:35px;
     background-image: url('../images/backYear.png');
     background-size: 24px 35px;
+    position: absolute; 
     display: inline-block;
-    margin-left: -5px;
+}
+.ca1
+{
+ left : 40px;
+}
+.ca2
+{
+ left : 66px;
+}
+.ca3
+{
+ left : 92px;
+}
+.ca4
+{
+ left : 118px;
 }
 
-.selectionAnneeD1 .plusmoins
+.plusmoins
 {
  display: inline-block;
  font-size: 16pt;
  width: 26px;
  height: 32px;
+ position: absolute;
  
- -o-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -ms-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -moz-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -webkit-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ -o-transition: font-size 0.2s, top 0.2s;
+ -ms-transition: font-size 0.2s, top 0.2s;
+ -moz-transition: font-size 0.2s, top 0.2s;
+ -webkit-transition: font-size, top 0.2s;
  /* ...and now for the proper property */
- transition: font-size 0.4s ease-out,font-size 0.4s ease-in;
+ transition: font-size 0.2s, top 0.2s;
 }
 
-.selectionAnneeD1 .plusmoins:hover
+.plusmoins:hover
 {
   font-size: 20pt;
   cursor: pointer;
+
+}
+.yearless:hover
+{
+   top:-4px;
+}
+.yearplus:hover
+{
+   top:-2px;
 }
 
-.selectionAnneeD1 .yearless
+.yearless
 {
- margin-right: 5px;
+    left: 13px;
+    top: 1px;
 }
+.yearplus
+{
+ left: 142px;
+ top: 2px;
+}
+
 
 .cliquezIciD1 p
 {
  color: #F9F9FA;
- font-family: Myriad Pro Condensed, sans-serif;
+ font-family: 'Myriad Pro Condensed', sans-serif;
  font-size: 14pt;
 }
 
+#graph {
+ margin-top: 40px;
+}
+
+@media screen and (max-height: 700px) {
+   #graph {
+    margin-top: 20px;
+   }
+}

@@ -5,10 +5,51 @@
  #slidematchfinal
  {
     position:relative;
-    background-color : black;
+    background-color : #BDDAD8;
  }
 
- #stars
- {
-     margin-right:5%;
- }
+#podium {
+ text-align: center;
+ margin-top: 10px;
+}
+
+#podiumBoutons {
+ margin-top: 10px;
+ text-align: center;
+}
+
+.boutonPodium {
+    line-height: 40px;
+    color: white;
+    background-color: rgb(31, 40, 59);
+    text-transform: uppercase;
+    height: 20%;
+    font-family: "helvetica";
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+    
+    
+.boutonPodium:hover {
+    cursor: pointer;
+}
+
+#villesPodium {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bebasregular;
+    font-size: 15pt;
+}
+
+span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+@media screen and (max-width: 990px) {
+    .row1 .boutonPodium {
+        margin-right: 20px;
+    }
+}

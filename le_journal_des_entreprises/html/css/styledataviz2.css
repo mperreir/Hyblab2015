@@ -72,21 +72,27 @@ html
 #dataviz1Identite
 {
 	background-color : #33425F;
- 	width:100%;
  	height:100%;
  	margin-right:0px;
- 	margin-left:0px; 
  	font-family:Helvetica, sans-serif;
     font-size:7pt;
     color:#9FC0C7;
     text-align:center;
+    padding-bottom: 10px;
+    margin-left: -3%;
+    width: 600px !important;
+    margin-bottom: -3%;
+    margin-top: -3%;
 }
 
 #modalDataviz2 {
     border-radius: 0px;
-    background: #33425F;
+   /* background: transparent;*/
 }
 
+.modal-body {
+    /*background-color : transparent !important;*/
+}
 
 #subcol1
 {
@@ -121,6 +127,9 @@ html
     position:relative;
     margin-left:5%;
     text-align:justify;
+    overflow-x: auto;
+    height: 300px;
+    padding-right: 5px;
 }
 
 #DV2big {

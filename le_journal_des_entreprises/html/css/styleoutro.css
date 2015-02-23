@@ -10,47 +10,115 @@
     text-align: center;
     background-color:#EAAC42;
 }
-.Centerer
-{
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-.Centered
-{
-    display: inline-block;
-    vertical-align: middle;
-}
-.page
-{
- width: 100%;
- height: 100%;
- min-height:100%;
- display: block; 
- position: relative;
+
+#titleOutro {
+    text-align : center;
+    margin-top: 20px;
 }
 
-#titleoutro
+#teamName {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: bebasregular;
+}
+
+.nameSC {
+    text-transform: uppercase;
+    color: #886924;
+    font-family: bebasregular;
+}
+
+.teamPrez {
+    color: #5985A6;
+    font-size: 10pt;
+}
+
+.outro p {
+    margin: 0px;
+    margin-top: 3px;
+}
+
+#teamDescription {
+    text-align: justify;
+    font-family: 'helvetica';
+    font-size: 10pt;
+    color: #5985A6;
+}
+
+#modalCoulisse {
+    color : #5985A6;
+    font-size: 10pt;
+    font-family: 'helvetica';
+    text-align: justify;
+}
+
+#modalCoulisse h3 {
+    color: black;
+}
+
+#modalCoulisse ul {
+    margin-left: 10px;
+}
+
+#modalMerci {
+    padding : 20px;
+}
+
+#modalMerci img {
+    margin-top: 20px;
+}
+
+#modalMerci p {
+    text-align: justify;
+    color : #5985A6;
+    font-size: 10pt;
+    font-family: 'helvetica';
+}
+
+.nameAGR {
+    text-transform: uppercase;
+    color: #886924;
+    font-family: bebasregular;
+}
+
+.namePolytech {
+    text-transform: uppercase;
+    color: #5985A6;
+    font-family: bebasregular;
+}
+
+.vestiaires {
+    width: 100%;
+}
+
+.imgVest
 {
-    text-align:center;
+    width: 25.5%;
+    display: inline-block;   
+    margin-left: 30px;
+}
+.imgVest:hover
+{
+ cursor: pointer;   
+}
+
+.coatRack
+{
+     width: 35%;   
+}
+
+#titleOutro {
+    text-align: center;
+}
+#titleOutro img {
+    width: 50%;
+}
+#coatRack
+{
+    margin-top: 55px;   
 }
 
 #pics
 {
-    display:inline-block;
-    vertical-align: middle;
-}
-
-#casierl
-{
-    position: relative;
-}
-
-#casierr
-{
-    position: relative;
-}
-
-#coatrack
-{
+    margin-top : 6%;
 }
