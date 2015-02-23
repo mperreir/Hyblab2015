@@ -248,10 +248,9 @@ function changeNumbers(year, id) {
              }
           });
 }
-
+var year = 2013;
 (function yearD1() {
     var currentlyAnimating = false;
-    var year = 2013;
     whichYear(year);
     datasD1(year);
     
