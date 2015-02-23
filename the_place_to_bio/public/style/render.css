@@ -3,6 +3,16 @@ body{
     font-family: sans-serif;
 }
 
+.tooltip{
+    position:absolute;
+    background:rgba(255,255,255,0.7);
+    color: #C5581E;
+    padding:5px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:large;
+}
+
 #menu{
 	position:fixed;
 	width:25px;
@@ -35,7 +45,6 @@ body{
 */
 #donnees_credits{
     position:absolute;
-    width:350px;
     height:40px;
     right:0;
     z-index:150;
@@ -169,20 +178,20 @@ body{
     margin-top:2%;
 }
 .homepage .visualisations #le_saviez_vous{
-    color:white;
+    color:#C5581E;
     width:50%;
     margin-left:25%;
-    font-size:110%;
+    font-size:120%;
     text-align:center;
     margin-top:1%;
     height:20%;
     line-height:115%;
 }
 .homepage .visualisations #prix{
-    color:white;
+    color:#C5581E;
     width:50%;
     margin-left:25%;
-    font-size:110%;
+    font-size:120%;
     text-align:center;
     margin-top:1%;
     line-height:115%;
@@ -191,7 +200,7 @@ body{
     display:inline-block;
     font-size:180%;
     color:#E58B15;
-    width:13%;
+    width:9%;
 }
 .homepage  #title{
 	position:absolute;
@@ -204,6 +213,7 @@ body{
     text-align:center;
     font-size:300%;
     color:#BD9A5A;
+ 
 }
 .homepage .bg3{
     width:100%;

@@ -13,7 +13,6 @@ function Counter2(application, div, options){
     this.options = $.extend({
         digits:4,
 		suffix:"",
-		decimal:true,
         animation: Math.easeOutCubic
         
     }, options);
@@ -55,18 +54,13 @@ Counter2.prototype = {
 	},
 	update: function(){
 		var text= "";
-		if(this.options.decimal){
-			var i = Math.round(this.value)*10;
-			var i2 = Math.round(this.value*10);
-			if(i != i2){
-				text = i2/10;
-			}
-			else{
-				 text= Math.round(this.value)+".0";
-			}
+		var i = Math.round(this.value)*10;
+		var i2 = Math.round(this.value*10);
+		if(i != i2){
+			text = i2/10;
 		}
 		else{
-			text = Math.round(this.value);
+			 text= Math.round(this.value)+".0";
 		}
 		$(this.div).html(text+this.options.suffix);
 	}
