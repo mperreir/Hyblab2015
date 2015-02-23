@@ -255,11 +255,11 @@
             var circlebis = s.circle(0,200,0);
             
             carrebis.attr({
-                fill:"#a2ddab",
+                fill:"#ffe0a1",
             });
             
             circlebis.attr({
-                fill:"#a2ddab",
+                fill:"#ffe0a1",
             });
         
             
@@ -274,19 +274,19 @@
             var circledroitbis = s.circle(250,200,0);
             
             carredroitbis.attr({
-                fill:"#ffe0a1",
+                fill:"#a2ddab",
             });
             
             circledroitbis.attr({
-                fill:"#ffe0a1",
+                fill:"#a2ddab",
             });
         
             
             carredroitbis.animate({"points":carre22},1000,mina.linear);
             circledroitbis.animate({cx:250+pourcent2, cy:200-pourcent2, r: pourcent2},1000,mina.linear);
     
-     s.paper.text(0,280, [pourcent1+unite]).attr({fill: '#a2ddab', fontFamily: 'Sofia',fontSize: '5em'});
-        s.paper.text(250,280, [pourcent2+unite]).attr({fill: '#ffe0a1', fontFamily: 'Sofia',fontSize: '5em'});    
+     s.paper.text(0,280, [pourcent1+unite]).attr({fill: '#ffe0a1', fontFamily: 'Sofia',fontSize: '5em'});
+        s.paper.text(250,280, [pourcent2+unite]).attr({fill: '#a2ddab', fontFamily: 'Sofia',fontSize: '5em'});    
         
     }
     
@@ -427,7 +427,6 @@
     }
     
     function compteurHomme(percent,svg,divPercent) {
-        
         var canvasSize = 200,
             centre = canvasSize/2,
             radius = canvasSize*0.8/2,
@@ -467,8 +466,7 @@
             }, 2000, mina.easeinout);  
         }
         
-        function compteurFemme(percent,svg,divPercent) {
-        
+    function compteurFemme(percent,svg,divPercent) {
         var canvasSize = 200,
             centre = canvasSize/2,
             radius = canvasSize*0.8/2,
@@ -486,9 +484,9 @@
                 });
                    
             var endpoint = percent*360;
-            Snap.animate(0, endpoint,   function (val) {
+            
+            Snap.animate(0, endpoint, function (val) {
                 arc.remove();
-
                 var d = val,
                 dr = d-90;
                 radians = Math.PI*(dr)/180,
@@ -504,6 +502,5 @@
                     strokeWidth: 12
                 });
                 percDiv.innerHTML =    Math.round(val/360*100) +'%';
-
             }, 2000, mina.easeinout);  
         }

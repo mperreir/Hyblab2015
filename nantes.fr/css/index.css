@@ -397,7 +397,7 @@ section
 
 }
 
-.box_slide6{
+.box_slide6 {
 	width:25%;
 	height:100%;
 	display:inline-block;
@@ -507,6 +507,12 @@ section
 #slide7 #slider_1
 {
 	width: 100%;
+}
+
+#slide7 .bouton_valider
+{
+	width: 15%;
+	margin-top: 2.5%;
 }
 
 .valeurs
@@ -738,13 +744,13 @@ section
 {
 	width:5%;
 	height:5%;
-	margin-right:8%;
 }
 
 #slide14_f
 {
 	width:5%;
 	height:5%;
+	margin-right:8%;
 }
 
 
@@ -758,6 +764,48 @@ section
 	background: url('../img/stats/question6/assoc.jpg') no-repeat center;
 	background-size: cover;
 }
+
+/*CSS Slide 16 ***dataviz associations*** */
+
+.box16
+{
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+
+.box16 .compteur
+{
+	width: 80%;	
+}
+
+.box16 .pourcent
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bouton_sexe
+{
+	width: 20%;
+	margin: 5% auto 0 auto;
+}
+
+
+.bouton_f
+{
+	width:25%;
+	height:25%;
+	float: left;
+}
+.bouton_h
+{
+	width:25%;
+	height:25%;
+	float: right;
+}
+
 
 
 
