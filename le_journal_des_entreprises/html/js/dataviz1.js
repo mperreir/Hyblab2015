@@ -277,14 +277,22 @@ function changeNumbers(year, id) {
         }
         
         year++;
+        
+        //changement de données
+        datasD1(year);
+        console.log($('#hiddenName').text());
+        changeNumbers(year, $('#hiddenName').text());
+        
+        if (year > 2012) {
+            $('.yearplus').hide();
+        }
+        
         //changement après animation
         setTimeout(function(){
            
             $('.yearless').show();
             whichYear(year);
-            if (year > 2012) {
-                $('.yearplus').hide();
-            }
+            
             
             //animation pour le nouveau chiffre
             $('.ca4').animate({
@@ -301,10 +309,6 @@ function changeNumbers(year, id) {
                 },{ duration : 800 , queue: false });
             }
         
-            //changement de données
-            datasD1(year);
-            console.log($('#hiddenName').text());
-            changeNumbers(year, $('#hiddenName').text());
         }, 800);
         
         // contre les clicks intempestifs
@@ -330,14 +334,22 @@ function changeNumbers(year, id) {
                 marginTop: "-35"
             },{ duration : 800 , queue: false });
         }
+        
         year--;
+        
+        //changement de données
+        datasD1(year);
+        changeNumbers(year, $('#hiddenName').text());
+       
+        if (year < 2009) {
+            $('.yearless').hide();
+        }
+         
          //changement après animation
         setTimeout(function(){
             $('.yearplus').show();
             whichYear(year);
-            if (year < 2009) {
-                $('.yearless').hide();
-            }
+           
             
             //animation pour le nouveau chiffre
             $('.ca4').animate({
@@ -354,9 +366,6 @@ function changeNumbers(year, id) {
                 },{ duration : 800 , queue: false });
             }
             
-            //changement de données
-            datasD1(year);
-            changeNumbers(year, $('#hiddenName').text());
         }, 800);
         
         // contre les clicks intempestifs
