@@ -208,7 +208,37 @@ function datasD1(year) {
         $('.highcharts-axis-labels text ').on('click', function(e) {
             loadDataviz(this.textContent ||this.innerText);
         });
+        $('#xlabelS p').on('click', function(e) {
+            loadDataviz(this.textContent ||this.innerText);
+        });
 
+        $('#sac1').on('click', function(e) {
+            loadDataviz($('#ville1').innerText);
+        });
+        $('#sac2').on('click', function(e) {
+            loadDataviz($('#ville2').innerText);
+        });
+        $('#sac3').on('click', function(e) {
+            loadDataviz($('#ville3').innerText);
+        });
+        $('#sac4').on('click', function(e) {
+            loadDataviz($('#ville4').innerText);
+        });
+        $('#sac5').on('click', function(e) {
+            loadDataviz($('#ville5').innerText);
+        });
+        $('#sac6').on('click', function(e) {
+            loadDataviz($('#ville6').innerText);
+        });
+        $('#sac7').on('click', function(e) {
+            loadDataviz($('#ville7').innerText);
+        });
+        $('#sac8').on('click', function(e) {
+            loadDataviz($('#ville8').innerText);
+        });
+        $('#sac9').on('click', function(e) {
+            loadDataviz($('#ville9').innerText);
+        });
     
         $('.highcharts-axis > path').attr('opacity','0');
         
@@ -248,6 +278,7 @@ function changeNumbers(year, id) {
              }
           });
 }
+
 var year = 2013;
 (function yearD1() {
     var currentlyAnimating = false;
