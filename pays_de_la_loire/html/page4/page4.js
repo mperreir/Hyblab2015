@@ -1,7 +1,7 @@
+"use strict";
+
 $(document).ready(function() {
 	//Chargement du menu
-	// $(".headerP4").load('page4/categories.html');
-	// $("#menuGauche").load('page4/menuGauche.html');
 	$(".headerP4").click(function() {
 		$(this).css("margin-top", "-330px");
 		$(".categories").css("margin-top", "40px");
@@ -75,10 +75,21 @@ function loadDataPodium() {
 				dataPodium[c[0]] = [];
 			if (dataPodium[c[0]][c[1]] === undefined)
 				dataPodium[c[0]][c[1]] = [];
-			if (dataPodium[c[0]][c[1]][c[3]] === undefined)
-				dataPodium[c[0]][c[1]][c[3]] = [];
+			if (dataPodium[c[0]][c[1]][0] === undefined)
+				dataPodium[c[0]][c[1]][0] = [];
+			if (dataPodium[c[0]][c[1]][1] === undefined)
+				dataPodium[c[0]][c[1]][1] = [];
+			if (dataPodium[c[0]][c[1]][2] === undefined)
+				dataPodium[c[0]][c[1]][2] = [];
+				
+			if (c[3] == "BRONZE")
+				dataPodium[c[0]][c[1]][2].push(c[2]);
+			if (c[3] == "SILVER")
+				dataPodium[c[0]][c[1]][1].push(c[2]);
+			if (c[3] == "GOLD")
+				dataPodium[c[0]][c[1]][0].push(c[2]);
 
-			dataPodium[c[0]][c[1]][c[3]].push(c[2]);
+			//dataPodium[c[0]][c[1]][c[3]].push(c[2]);
 		});
 	});
 }
@@ -202,12 +213,12 @@ function changerPodium() {
 	$(".drapeau1").removeClass("plie1");
 	$(".drapeau2").removeClass("droit2");
 	var imgPodium = "";
-	["GOLD", "SILVER", "BRONZE"].forEach(
+	[0, 1, 2].forEach(
 		function(element, index, array) {
 			var pays = dataPodium[annee][metier][element];
 			var nomPays = "";
 			$(".nom"+index).html("");
-			if (pays !== undefined) {
+			if (pays !== undefined && pays.length != 0) {
 				imgPodium+=index+1;
 				$(".bonhomme" + index).css('background-image', 'url("img/page4/bonhommes/' + pays.length + '.png")');
 				if (pays.length == 1)
@@ -218,7 +229,7 @@ function changerPodium() {
 				}
 				else if (pays.length == 3)
 					$(".bonhomme" + index + " .drapeau2").addClass("droit2");
-				//console.log(pays);
+
 				pays.forEach(
 					function(e, j, a) {
 						nomPays += "<img src='img/page4/drapeaux/" + e + ".png' height='15px' align='top'> "+e+"<br>"; 
