@@ -17,17 +17,30 @@ function Tooltip(application, div){
     
     $(this.div).hide();
     
+    this.visible = false;
+    
     
 }
 
 Tooltip.prototype = {
-    show:function(parent, text){
-        var self = this;
-        $(this.div).fadeOut(1000, function(){
-            self.change(parent, text);
-        });
+    show:function(){
+        if(this.visible) return;
+        this.visible = true;
+        $(this.div).fadeIn();
     },
     change: function(parent, text){
+        var self = this;
+        if(!this.visible){
+            this.update(parent, text)
+        }
+        else{
+            $(this.div).fadeOut(250, function(){
+                self.update(parent, text);
+                $(self.div).fadeIn(250);
+            });
+        }
+    },
+    update: function(parent, text){
         this.div.innerHTML = text;
         var p = $(parent);
         var offset = p.offset();
@@ -35,9 +48,10 @@ Tooltip.prototype = {
         var y = parseInt(offset.top) + parseInt($(this.div).height()) + 30;
         $(this.div).css('left',x+"px");
         $(this.div).css('top',y+"px");
-        $(this.div).fadeIn(1000);  
     },
     hide: function(){
+        if(!this.visible) return;
+        this.visible = false;
         $(this.div).fadeOut();
     }
 }

@@ -127,7 +127,7 @@ DataStrophe.prototype = {
 		this.slide1.conveyorbelt = new ConveyorBelt(this, $("#coveyorbelt")[0]);
 		
 		this.map_data = {};
-		
+		this.first = true;
 		//On lance fullpage
 		this.fullpage = $('#fullpage').fullpage({
 		 anchors: ['homepage','visualisations','production'],
@@ -137,7 +137,13 @@ DataStrophe.prototype = {
 			afterLoad: function(anchorLink, index){
 				//self.slideChanged(index);
 			},
-			afterRender: function(){ self.slide1.conveyorbelt.resize(); },
+			afterRender: function(){ self.slide1.conveyorbelt.resize();
+				
+				if(self.first){
+					self.first = false;
+					$("#main_page").fadeIn(function(){$(".loader").hide();});
+				}
+			},
 			onLeave: function(index, nextIndex, direction){
 				self.changeIcon(nextIndex)
 				self.slideChanged(nextIndex);
@@ -159,7 +165,7 @@ DataStrophe.prototype = {
 		this.slide1.france = new Jauge(this, $("#jauge_france")[0], {image:this.res("jauge_france"), back:this.res("jauge_patriote"), min:0.1, max:0.9});
 		this.slide1.france_counter = new Counter2(this, $("#counter_france")[0], {suffix:"%"});
 		
-		this.slide1.bio = new Jauge(this, $("#jauge_bio")[0], {image:this.res("jauge_bio"), min:0.1, max:0.85});
+		this.slide1.bio = new Jauge(this, $("#jauge_bio")[0], {image:this.res("jauge_bio"), min:0.1, max:0.85, pc_max:35});
 		this.slide1.bio_counter = new Counter2(this, $("#counter_bio")[0], {suffix:"%"});
 		
 		
@@ -218,7 +224,10 @@ DataStrophe.prototype = {
 				$("#section2").removeClass("fp-section");
 				$("#section2").removeClass("active");
 				$("#bouton_top_distribution").fadeOut();
-				if(this.current_slide == 2) this.changeSlide(1);
+				if(this.current_slide == 2){
+					this.changeSlide(1);
+					this.tooltips.hide();
+				}
 				$("#menu2").fadeOut();
 				changed = true;
 			}
@@ -239,7 +248,10 @@ DataStrophe.prototype = {
 				$("#section3").hide();
 				$("#section3").removeClass("fp-section");
 				$("#section3").removeClass("active");
-				if(this.current_slide == 3) this.changeSlide(1);
+				if(this.current_slide == 3){
+					this.tooltips.hide();
+					this.changeSlide(1);
+				}
 				$("#bouton_top_production").fadeOut();
 				$("#menu3").fadeOut();
 				changed = true;
@@ -271,6 +283,12 @@ DataStrophe.prototype = {
 	slideChanged: function(id){
 		if(this.cs2 == false && id == 2) id = 3;
 		this.current_slide = id;
+		if(this.current_slide == 1){
+			this.tooltips.hide();
+		}
+		else{
+			this.tooltips.show();
+		}
 	},
 	leftConveyor: function(){
 		if(this.current_slide==1) this.slide1.conveyorbelt.moveLeft();
@@ -295,8 +313,7 @@ DataStrophe.prototype = {
 		$("#title").fadeOut(500,function(){ $(this).html(data.name); $(this).fadeIn(); });
 		$("#le_saviez_vous").fadeOut(500,function(){ $(this).html(data.le_saviez_vous); $(this).fadeIn(); });
 	
-		
-			this.tooltips.show($("#icon"+this.selected)[0], this.dataset[this.selected].name);
+			
 		if(data.prix){
 			this.slide1.prix.setValue(data.prix);
 			if(!this.slide1.prix_ok){
@@ -354,6 +371,7 @@ DataStrophe.prototype = {
 			//
 		}
 		this.toggleSections(s2, s3);
+		this.tooltips.change($("#icon"+this.selected)[0], this.dataset[this.selected].name);
 		
 	},
 	updateDistrib: function(id){

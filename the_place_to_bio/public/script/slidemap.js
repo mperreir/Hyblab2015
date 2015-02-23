@@ -20,7 +20,7 @@ function SlideMap(app) {
 				if(points[0].id) $('#classement_region_selectionnee').html(points[0].id);
 				else $('#classement_region_selectionnee').html('N/A');
 				
-				if(points[0].value) $('#valeur_pourcentage_bio_region_selectionnee').html(points[0].value);
+				if(points[0].pbio) $('#valeur_pourcentage_bio_region_selectionnee').html(points[0].pbio);
 				else $('#valeur_pourcentage_bio_region_selectionnee').html('N/A');
 				
 				console.log(points[0]);
@@ -82,7 +82,7 @@ function SlideMap(app) {
 				},
 				tooltip: {
 					headerFormat: '',
-					pointFormat: '{point.name} : {point.value}% bio<br/><div style="font-size: 10px">(Cliquez pour plus de détails)</div>',
+					pointFormat: '{point.name} : {point.pbio}% bio<br/><div style="font-size: 10px">(Cliquez pour plus de détails)</div>',
 				},
 				color: "#F3E6D3",
 				allowPointSelect: true,
@@ -129,7 +129,7 @@ SlideMap.prototype = {
 			//Classement
 			var cls = [];
 			for(var j in this.data.values[i]){
-				cls.push([j,data.values[i][j].pbio]);
+				cls.push([j,data.values[i][j][this.data.data.attributCpt]]);
 				
 			}
 			cls.sort(function(a,b){
@@ -272,7 +272,8 @@ SlideMap.prototype = {
 			var id = retour[i].identifier;
 			var obj = data[id];
 			if(obj){
-				if(obj.pbio) retour[i].value = obj.pbio*1;
+				if(obj[this.data.data.attributCpt]) retour[i].value = obj[this.data.data.attributCpt]*1;
+				if(obj.pbio) retour[i].pbio = obj.pbio;
 				if(obj[this.data.data.attributCpt]) retour[i].nb = obj[this.data.data.attributCpt];
 				if(obj.classement) retour[i].id = obj.classement*1;
 				else retour[i].id = "N/A"
