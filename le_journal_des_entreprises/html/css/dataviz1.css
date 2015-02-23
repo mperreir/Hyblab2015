@@ -12,13 +12,6 @@ font-weight: normal;
 src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
 }
 
-@font-face {
-font-family: 'Myriad Pro Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
-}
-
 /***************
  * Dataviz1 Panel *
  ***************/

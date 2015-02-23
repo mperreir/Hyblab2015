@@ -82,6 +82,7 @@ html
     margin-left: -3%;
     width: 600px !important;
     margin-bottom: -3%;
+    margin-top: -3%;
 }
 
 #modalDataviz2 {
@@ -128,6 +129,7 @@ html
     text-align:justify;
     overflow-x: auto;
     height: 300px;
+    padding-right: 5px;
 }
 
 #DV2big {
