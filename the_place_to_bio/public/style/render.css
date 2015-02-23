@@ -12,7 +12,14 @@ body{
     padding-right:20px;
     font-size:large;
 }
-
+.loader{
+    position:absolute;
+    left:49%;
+    top:45%;
+    width:32px;
+    height:32px;
+    margin:auto;
+}
 #menu{
 	position:fixed;
 	width:25px;
@@ -420,9 +427,9 @@ a{
 	margin-top:10%;
 }
 #jauge_bio{
-	width:80%;
-	margin-left:10%;
-	margin-top:35%;
+	width:90%;
+	margin-left:5%;
+	margin-top:25%;
 }
 .slide2 .footer{
     height:5%;
@@ -457,7 +464,7 @@ a{
 
 
 #bio{
-    margin-top:20%;
+    margin-top:15%;
     margin-left:15%;
     width:30%;
 }

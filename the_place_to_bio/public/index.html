@@ -52,6 +52,7 @@
 </head>
 <body>
 <!--MODAL-->
+<div class="loader"><img src="images/ajax-loader.gif"></div>
 <div id="modalSourceDonnees" class="modalDialog">
 	<div>
 		<a href="#close" class="close">X</a>
@@ -151,6 +152,7 @@
 		</div>
 	</div>
 </div>
+<div id="main_page" style="display:none;">
 <div class="timeline" id="timeline">
 	<div class="title">
 		<a style="text-decoration:none;cursor:pointer;" onClick='dts.changeProduct(10);dts.changeSlide(1); return false;' >
@@ -177,7 +179,7 @@
 	<table>
 		<tr>
 			<td id="source_donnees"><a href="#modalSourceDonnees"><img src="images/source_donnees.png" height="35" id="icon_source_donnees" alt=""/></a></td>
-			<td><a href="#modalCredits"><span>D'où viennent<br/>nos données</span></td>
+			<td><a href="#modalSourceDonnees"><span>D'où viennent<br/>nos données</span></td>
 			<td><div id="separateur_colonnes_haut"></div></td>
 			<td id="credits"><a href="#modalCredits"><img src="images/credits.png" height="35" id="icon_credits" alt=""/></a></td>
 			<td><a href="#modalCredits"><span>Crédits</span></a></td>
@@ -314,6 +316,7 @@
 	      </div>
 		</div>
 	</div>
+</div>
 </div>
 </body>
 </html>
