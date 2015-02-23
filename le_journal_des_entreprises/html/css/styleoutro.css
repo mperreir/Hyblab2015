@@ -13,6 +13,7 @@
 
 #titleOutro {
     text-align : center;
+    margin-top: 20px;
 }
 
 #teamName {
@@ -86,15 +87,38 @@
     font-family: bebasregular;
 }
 
-@media screen and (max-width: 1200px) {
-    .vestiaires {
-        width: 100%;
-    }
-    #titleOutro {
-        text-align: center;
-    }
-    #titleOutro img {
-        width: 50%;
-    }
+.vestiaires {
+    width: 100%;
 }
 
+.imgVest
+{
+    width: 25.5%;
+    display: inline-block;   
+    margin-left: 30px;
+}
+.imgVest:hover
+{
+ cursor: pointer;   
+}
+
+.coatRack
+{
+     width: 35%;   
+}
+
+#titleOutro {
+    text-align: center;
+}
+#titleOutro img {
+    width: 50%;
+}
+#coatRack
+{
+    margin-top: 55px;   
+}
+
+#pics
+{
+    margin-top : 6%;
+}

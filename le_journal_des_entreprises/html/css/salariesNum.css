@@ -100,24 +100,45 @@ background-color:#CBDADD;
  background-image: url('../images/Sac-de-frappe-1.png');
  background-size: 95% 80%;
  background-repeat: no-repeat;
+ background-position:0 -10px;
  margin-left: 5px;
  position:relative;
  text-align: left;
+ 
+ -o-transition: background-position 0.2s;
+ -ms-transition: background-position 0.2s;
+ -moz-transition: background-position 0.2s;
+ -webkit-transition: background-position 0.2s;
+ /* ...and now for the proper property */
+ transition: background-position 0.2s;
 }
-@media screen and (max-height: 680px) {
-   .punch {
-    background-size: 95% 95%;
-   }
+.punch:hover
+{
+ cursor: pointer;
+ background-position:0 0;
 }
+
 
 .punch p
 {
  position: absolute;
- top: 55%;
+ top: 45%;
  text-align: center;
  width: 100%;
  font-size: 20pt;
 }
+
+@media screen and (max-height: 680px) {
+   .punch {
+    background-size: 95% 95%;
+   }
+   .punch p
+   {
+    top: 50%;
+   }
+}
+
+
 .punch p span
 {
   font-size: 18pt;
