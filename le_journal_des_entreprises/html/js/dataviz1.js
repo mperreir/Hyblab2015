@@ -250,35 +250,118 @@ function changeNumbers(year, id) {
 }
 
 (function yearD1() {
+    var currentlyAnimating = false;
     var year = 2013;
     whichYear(year);
     datasD1(year);
     
-    $('.yearplus').css("opacity", "0");
+    $('.yearplus').hide();  
 
     $('.yearplus').on('click', function(e) {
-        year++;
-        $('.yearless').css("opacity", "1");
-        whichYear(year);
-
-        if (year > 2013) {
-            year--;
-            $('.yearplus').css("opacity", "0");
+        //contre les clicks intempestifs
+        if (currentlyAnimating) {
+            return;
         }
-        datasD1(year);
-        console.log($('#hiddenName').text());
-        changeNumbers(year, $('#hiddenName').text());
+        currentlyAnimating = true;
+        
+        
+        //animation
+        $('.ca4').animate({
+            marginTop: "35"
+        },{ duration : 800 , queue: false });  
+        if(year==2009)
+        {
+            $('.ca3').animate({
+                marginTop: "35"
+            },{ duration : 800 , queue: false });
+        }
+        
+        year++;
+        //changement après animation
+        setTimeout(function(){
+           
+            $('.yearless').show();
+            whichYear(year);
+            if (year > 2012) {
+                $('.yearplus').hide();
+            }
+            
+            //animation pour le nouveau chiffre
+            $('.ca4').animate({
+                marginTop: "-35"
+            },0).animate({
+                marginTop: "0"
+            },{ duration : 800 , queue: false });
+            if(year==2010)
+            {
+                $('.ca3').animate({
+                    marginTop: "-35"
+                },0).animate({
+                    marginTop: "0"
+                },{ duration : 800 , queue: false });
+            }
+        
+            //changement de données
+            datasD1(year);
+            console.log($('#hiddenName').text());
+            changeNumbers(year, $('#hiddenName').text());
+        }, 800);
+        
+        // contre les clicks intempestifs
+        setTimeout(function(){
+          currentlyAnimating = false;
+        }, 1800);
     });
 
     $('.yearless').on('click', function(e) {
-        year--;
-        $('.yearplus').css("opacity", "1");
-        whichYear(year);
-        if (year < 2008) {
-            year++;
-            $('.yearless').css("opacity", "0");
+        //contre les clicks intempestifs
+        if (currentlyAnimating) {
+            return;
         }
-        datasD1(year);
-        changeNumbers(year, $('#hiddenName').text());
+        currentlyAnimating = true;
+        
+        //animation
+        $('.ca4').animate({
+            marginTop: "-35"
+        },{ duration : 800 , queue: false });
+        if(year==2010)
+        {
+            $('.ca3').animate({
+                marginTop: "-35"
+            },{ duration : 800 , queue: false });
+        }
+        year--;
+         //changement après animation
+        setTimeout(function(){
+            $('.yearplus').show();
+            whichYear(year);
+            if (year < 2009) {
+                $('.yearless').hide();
+            }
+            
+            //animation pour le nouveau chiffre
+            $('.ca4').animate({
+                marginTop: "35"
+            },0).animate({
+                marginTop: "0"
+            },{ duration : 800 , queue: false });
+            if(year==2009)
+            {
+                $('.ca3').animate({
+                    marginTop: "35"
+                },0).animate({
+                    marginTop: "0"
+                },{ duration : 800 , queue: false });
+            }
+            
+            //changement de données
+            datasD1(year);
+            changeNumbers(year, $('#hiddenName').text());
+        }, 800);
+        
+        // contre les clicks intempestifs
+        setTimeout(function(){
+          currentlyAnimating = false;
+        }, 1800);
     });
 })();

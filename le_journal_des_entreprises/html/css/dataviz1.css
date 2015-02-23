@@ -55,14 +55,15 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
 
 .selectionAnneeD1
 {
- display:inline-block;
  float:right;
  font-family: Bebas Neue, sans-serif;
  color: #EBAC44;  
  font-size:19pt;
  width: 195px;
+ height:35px;
  margin-top: 22px;
  padding-right: 0px !important;
+ overflow:hidden;
 }
 
 .selectionAnneeD1 .chiffreAnnee
@@ -71,8 +72,24 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
     height:35px;
     background-image: url('../images/backYear.png');
     background-size: 24px 35px;
+    position: absolute; 
     display: inline-block;
-    margin-left: -5px;
+}
+.selectionAnneeD1 .ca1
+{
+ left : 40px;
+}
+.selectionAnneeD1 .ca2
+{
+ left : 66px;
+}
+.selectionAnneeD1 .ca3
+{
+ left : 92px;
+}
+.selectionAnneeD1 .ca4
+{
+ left : 118px;
 }
 
 .selectionAnneeD1 .plusmoins
@@ -81,24 +98,40 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  font-size: 16pt;
  width: 26px;
  height: 32px;
+ position: absolute;
  
- -o-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -ms-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -moz-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
- -webkit-transition: font-size 0.4s ease-out, font-size 0.4s ease-in;
+ -o-transition: font-size 0.2s, top 0.2s;
+ -ms-transition: font-size 0.2s, top 0.2s;
+ -moz-transition: font-size 0.2s, top 0.2s;
+ -webkit-transition: font-size, top 0.2s;
  /* ...and now for the proper property */
- transition: font-size 0.4s ease-out,font-size 0.4s ease-in;
+ transition: font-size 0.2s, top 0.2s;
 }
 
 .selectionAnneeD1 .plusmoins:hover
 {
   font-size: 20pt;
   cursor: pointer;
+
+}
+.selectionAnneeD1 .yearless:hover
+{
+   top:-4px;
+}
+.selectionAnneeD1 .yearplus:hover
+{
+   top:-2px;
 }
 
 .selectionAnneeD1 .yearless
 {
- margin-right: 5px;
+    left: 13px;
+    top: 1px;
+}
+.selectionAnneeD1 .yearplus
+{
+ left: 142px;
+ top: 2px;
 }
 
 
