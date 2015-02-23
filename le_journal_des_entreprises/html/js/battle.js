@@ -73,10 +73,10 @@ $('.towns > label').on('click', function(e){
 
 /**
  * fills a tab with the arguments selected by the user
- * the sends a get request which returns a json object filled with the data to be displayed
+ * then sends a get request which returns a json object filled with the data to be displayed
  * ajax request in the form of : https://hyblab2015bis-anhaflint.c9.io/tableau?nom=Lille&annee=2008&codeNAF=26.20Z-26.30Z-46.51Z-46.18Z
  */
-var nafCodes = ["26_20Z","26_30Z","46_18Z"];
+var nafCodes = ["26_20Z","26_30Z"];
 var requestedNAF, id, yearSliderValue;
 //Build naf codes tab on each click
 $('.criteria > label').on('click', function(e){
@@ -111,11 +111,11 @@ function loadData(indexOfTown) {
             tabCell = "<div class=\"row\">";
             for(var i in data) {
                 if(i==0) {
-                    tabNoRow = "<div class=\" col-xs-12 col-md-10 col-lg-3\"><div class=\"number bebas col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
+                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number bebas col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
                 }else{
-                    tabNoRow = "<div class=\" col-xs-12 col-md-10 col-lg-3\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
+                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
                 }
-                if(  ((i+1)%3 === 0 ) && ( i !== 0 ) ) {
+                if(  ((i+1)%2 === 0 ) && ( i !== 0 ) ) {
                     tabCell += tabNoRow;
                     tabCell += "</div><div class=\"row\">";
                 }else{
