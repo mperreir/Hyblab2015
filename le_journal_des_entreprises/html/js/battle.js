@@ -85,9 +85,9 @@ $('.criteria > label').on('click', function(e){
   
     if( (nafCodes.indexOf(id) >= 0)) {
         nafCodes.splice(nafCodes.indexOf(id), 1);
-    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length >= 9)) {
+    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length >= 6)) {
         $('#' + id).toggleClass('active');
-    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length < 9)) {
+    } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length < 6)) {
         nafCodes.push(id);
     }
 });
