@@ -5,7 +5,7 @@ var request = require('request');
 var app = express();
 
 
-app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(path.join(__dirname, 'html')));
 app.use('/angular',express.static(path.join(__dirname, 'node_modules/angular')));
 app.use('/bootstrap',express.static(path.join(__dirname, 'node_modules/bootstrap')));
 app.use('/jquery',express.static(path.join(__dirname, 'node_modules/jquery/dist')));

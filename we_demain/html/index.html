@@ -12,23 +12,23 @@
 	<!-- Donnee js -->
 	<script type="text/javascript" src="js/donnee.js"></script>
 		
-	<!-- Config js -->
-	<script type="text/javascript" src="js/config.js"></script>
+	<!-- meta -->
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    
+	<!-- Onepage-scroll CSS -->
+	<link href="css/onepage-scroll.css" rel="stylesheet">
 	
 	<!-- jquerry js -->
 	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<!-- Config js -->
+	<script type="text/javascript" src="js/config.js"></script>
  
 	<!-- camenbert js -->
 	<script type="text/javascript" src="js/camembert.js"></script>
 		
 	<!-- camembert css -->
 	<link rel="stylesheet" href="css/camembert.css" type="text/css" media="screen" />
-	
-	<!-- Onepage-scroll js -->
-	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    
-	<!-- Onepage-scroll CSS -->
-	<link href="css/onepage-scroll.css" rel="stylesheet">
 	
 	<!-- Onepage-scroll js -->
 	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
@@ -52,33 +52,20 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
  
-
+	 <!-- Loader -->
+    <link rel="stylesheet" href="css/fakeLoader.css">
+	<script src="js/fakeLoader.js"></script>
+	
 </head>
 <body>
-		
-	<!-- load onepage-scroll -->
-	<script>
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
-      });
-		});
-		
-
 	
-	//window.onresize=taille;
-	</script>
-						
+	<!--Div utie pour le Loader-->
+	<div class="fakeloader"></div>
+	
   <div class="wrapper">
-	  <div class="main">	    
+	  <div class="main">
 		  <section class="page1">
-				
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
-				<!-- pour rendre le site dynamique : <div class ="conteneur_global" style="">-->
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page1.svg' alt="fond d'écran"/>
 					<div class="texte-invisible">
 						<h1>Boulot, Conso, Dodo</h1>
@@ -89,13 +76,13 @@
 					</div>
 					<div class="page1-bouton1">
 							<img class='max_taille' src='img/Bouton1-Graphic.svg' alt="graphique1"
-							onmouseover="cacheText('text1');" 
-							onmouseout="afficheText('text1');" />
+							onmouseover="afficheText('text1');" 
+							onmouseout="cacheText('text1');" />
 					</div>
 					<div class="page1-bouton2">
 							<img class='max_taille' src='img/Bouton2-Graphic.svg' alt="graphique2"
-							onmouseover="cacheText('text2');" 
-							onmouseout="afficheText('text2');" />
+							onmouseover="afficheText('text2');" 
+							onmouseout="cacheText('text2');" />
 					</div>
 					<div class="page1-texte1">
 							<img id="text1" class='max_taille' src='img/Bouton1-Texte.svg' alt="texte1"/>
@@ -106,9 +93,7 @@
 				</div>
 		  </section>
 		   <section class="page1-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page1-texte.svg' alt="fond d'écran"/>
 						<div class="texte-invisible">
 						<h3>Avez-vous idée de l’énergie que vous pouvez économiser sur votre lieu de travail ?</h3>
@@ -118,9 +103,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 				</div>
 		  </section>
 		  <section class="page2-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page2-texte.svg' alt="fond d'écran"/>
 						<div class="texte-invisible">
 						<h3>Un appareil, ça consomme même en veille</h3>
@@ -130,12 +113,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		  <section class="page2">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
-				
-				
-				
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page2.svg' alt="fond d'écran"/> 
 					<div class="page2-conteneur zoom-page2">
 						<!-- Dataviz1-->
@@ -187,9 +165,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		  <section class="page3-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page3-texte.svg' alt="fond d'écran"/>
 					<div class="texte-invisible">
 						<h3>Ordinateur et écran TV : faîtes entrer les accusés</h3>
@@ -200,9 +176,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		  <section class="page3">
-			<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					
 					<img class='max_taille' src='img/page3.svg' alt="fond d'écran"/> 
 						<div class="page3-conteneur zoom-page3">
@@ -227,9 +201,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		   <section class="page4-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page4-texte.svg' alt="fond d'écran"/>
 					<div class="texte-invisible">
 						<h3>À midi, comment éviter le gâchis d'énergie ?</h3>
@@ -241,20 +213,16 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  
 		  
 		  <section class="page4">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page4.svg' alt="fond d'écran"/> 
 					<div class="page4-conteneur">
-						<video class="max_taille" src="video/video2.mp4" autostart="fasle" controls="true"></video>
+						<video class="max_taille" src="video/hyblab.mp4" autostart="fasle" controls="true">Votre navigateur n'est pas compatible avec cette magnifique vidéo !</video>
 					</div>
 				</div>
 		  </section>
 		  
 		   <section class="page5-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 				
 					<img class='max_taille' src='img/page5-texte.svg' alt="fond d'écran"/> 
 					<div class="texte-invisible">
@@ -267,9 +235,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  
 		  
 		  <section class="page5">
-			<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+			<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page5.svg' alt="fond d'écran"/>
 					<div class="page5-conteneur zoom-page5">
 						
@@ -294,9 +260,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		  <section class="page6-texte">
-				<script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+				<div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page6-texte.svg' alt="fond d'écran"/>
 					<div class="texte-invisible">
 						<h3>À quatre heures, place au vidéo projecteur</h3>
@@ -308,9 +272,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  
 		  
 		  <section class="page6">
-			  <script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+			  <div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page6.svg' alt="fond d'écran"/> 
 					<div class="page6-conteneur zoom-page6">
 						<div id='datavizPV'></div>
@@ -341,9 +303,7 @@ Jean, c’est vous, c’est nous, un esprit ouvert au changement, sans être fra
 		  </section>
 		  
 		  <section class="page7">
-			 <script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+			 <div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page7.svg' alt="fond d'écran"/>
 							<div class="texte-invisible">
 								<h3>Testez-vous !</h3>
@@ -377,9 +337,7 @@ Selon vos habitudes de consommation, éteignez ou laissez les appareils électri
 		  
 		    
 		  <section class="page8">
-			 	 <script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+			 	 <div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page8.svg' alt="fond d'écran"/> 
 					<div class="page8-conteneur1">
 						<img id="tv" src="img/tv_on.svg"  onclick="changeEtat(this);" class="jeux" value="on"/>
@@ -436,104 +394,99 @@ Selon vos habitudes de consommation, éteignez ou laissez les appareils électri
 					  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
 					  fjs.parentNode.insertBefore(js, fjs);
 					}(document, 'script', 'facebook-jssdk'));</script>
-			  	 <script type="text/javascript">
-					document.write("<div class ='conteneur_global' style='"+text_taille(2.125)+"'>");
-				</script>
+			  	 <div class ="conteneur_global" style="">
 					<img class='max_taille' src='img/page9.svg' alt="fond d'écran"/>
 					<div class="page9-conteneur1">
-							<div class="fb-like" data-href="http://www.open-odyssey.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+							<div class="fb-like" data-href="http://datajournalisme2015.hyblab.fr/we_demain/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 					</div>
 					<div class="page9-conteneur2">
 							<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 					</div>
 					<div class="page9-conteneur3">
-						<a href="http://www.wedemain.fr/" ><img class="max_taille" src="img/wedemain.svg" alt="logo we demain"/></a>
+						<a href="http://www.wedemain.fr/" ><img class="max_larg" src="img/wedemain.svg" alt="logo we demain"/></a>
 					</div>
 					<div class="page9-conteneur4">
-						<a href="http://www.open-odyssey.org/" ><img class="max_taille" src="img/openodyssey.svg" alt="logo openodyssey"/></a>
+						<a href="http://www.open-odyssey.org/" ><img class="max_larg" src="img/openodyssey.svg" alt="logo openodyssey"/></a>
 					</div>
 					<div class="page9-conteneur5">
-						<a href="http://www.kaliterre.fr/" ><img class="max_taille" src="img/kaliterre.svg" alt="logo kaliterre"/></a>
+						<a href="http://www.kaliterre.fr/" ><img class="max_larg" src="img/kaliterre.svg" alt="logo kaliterre"/></a>
 					</div>
 					<div class="page9-conteneur6">
-						<a href="http://www.ademe.fr/" ><img class="max_taille" src="img/ademe.svg" alt="logo ademe"/></a>
+						<a href="http://www.ademe.fr/" ><img class="max_larg" src="img/ademe.svg" alt="logo ademe"/></a>
 					</div>
 					<div class="page9-conteneur7">
-						<a href="http://www.hyblab.fr/"><img class="max_taille" src="img/hyblab.svg" alt="logo hyblab"/></a>
+						<a href="http://www.hyblab.fr/"><img class="max_larg" src="img/hyblab.svg" alt="logo hyblab"/></a>
 					</div>
 					<div class="page9-conteneur8">
-						<a href="http://www.ouestmedialab.fr" ><img class="max_taille" src="img/ouestmedialab.png" class="max_taille" alt="logo ouestmedialab"/></a>
+						<a href="http://www.ouestmedialab.fr" ><img class="max_larg" src="img/ouestmedialab.png" class="max_taille" alt="logo ouestmedialab"/></a>
 					</div>
 					<div class="page9-conteneur9">
-						<a href="http://web.polytech.univ-nantes.fr/" ><img class="max_taille" src="img/polytech.svg" alt="logo polytech"/></a>
+						<a href="http://web.polytech.univ-nantes.fr/" ><img class="max_larg" src="img/polytech.svg" alt="logo polytech"/></a>
 					</div>
 					<div class="page9-conteneur10">
-						<a href="http://www.sciencescom.org/" ><img class="max_taille" src="img/sciencescom.svg" alt="logo sciencescom"/></a>
+						<a href="http://www.sciencescom.org/" ><img class="max_larg" src="img/sciencescom.svg" alt="logo sciencescom"/></a>
 					</div>
 					<div class="page9-conteneur11">
-						<a href="http://www.agrnantes.fr/" ><img class="max_taille" src="img/agr.svg" alt="logo agr"/></a>
+						<a href="http://www.agrnantes.fr/" ><img class="max_larg" src="img/agr.svg" alt="logo agr"/></a>
 					</div>
 					<div class="page9-conteneur12">
-						<a href="http://www.citizen-press.fr/" ><img class="max_taille" src="img/citizenpress.jpg" alt="logo citizenpress"/></a>
+						<a href="http://www.citizen-press.fr/" ><img class="max_larg" src="img/citizenpress.jpg" alt="logo citizenpress"/></a>
 					</div>
 					<div class="page9-conteneur13">
-						<a href="http://www.geo.fr/" ><img class="max_taille" src="img/geo.jpg" alt="logo geo"/></a>
+						<a href="http://www.geo.fr/" ><img class="max_larg" src="img/geo.jpg" alt="logo geo"/></a>
 					</div>
 					<div class="page9-conteneur14">
-						<a href="http://www.agence-api.fr/" ><img class="max_taille" src="img/api.jpg" alt="logo api"/></a>
+						<a href="http://www.agence-api.fr/" ><img class="max_larg" src="img/api.jpg" alt="logo api"/></a>
 					</div>
 					<div class="page9-conteneur15">
-						<a href="http://www.lejournalesentreprises.com/national/index.php" ><img class="max_taille" src="img/jde.jpg" alt="logo jde"/></a>
+						<a href="http://www.lejournalesentreprises.com/national/index.php" ><img class="max_larg" src="img/jde.jpg" alt="logo jde"/></a>
 					</div>
 					<div class="page9-conteneur16">
-						<a href="http://www.lexpress.fr/" ><img class="max_taille" src="img/express.png" alt="logo lexpress"/></a>
+						<a href="http://www.lexpress.fr/" ><img class="max_larg" src="img/express.png" alt="logo lexpress"/></a>
 					</div>
 					<div class="page9-conteneur17">
-						<a href="http://www.nantes.fr/home.html" ><img class="max_taille" src="img/nantesfr.jpg" alt="logo nantes.fr"/></a>
+						<a href="http://www.nantes.fr/home.html" ><img class="max_larg" src="img/nantesfr.jpg" alt="logo nantes.fr"/></a>
 					</div>
 					<div class="page9-conteneur18">
-						<a href="http://www.ouest-france.fr/" ><img class="max_taille" src="img/ouestfrance.png" alt="logo ouestfrance"/></a>
+						<a href="http://www.ouest-france.fr/" ><img class="max_larg" src="img/ouestfrance.png" alt="logo ouestfrance"/></a>
 					</div>
 					<div class="page9-conteneur19">
-						<a href="http://www.placetobio.fr/" ><img class="max_taille" src="img/theplacetobio.png" alt="logo theplacetobio"/></a>
+						<a href="http://www.placetobio.fr/" ><img class="max_larg" src="img/theplacetobio.png" alt="logo theplacetobio"/></a>
 					</div>
 					<div class="page9-conteneur20">
-						<a href="http://www.paysdelaloire.fr/" ><img class="max_taille" src="img/pdl.png" alt="logo pdl"/></a>
+						<a href="http://www.paysdelaloire.fr/" ><img class="max_larg" src="img/pdl.png" alt="logo pdl"/></a>
 					</div>
 					<div class="page9-conteneur21">
-						<a href="http://www.territoires-innovation.paysdelaloire.fr/" ><img class="max_taille" src="img/territoireinnovation.png" alt="logo territoireinnovation"/></a>
+						<a href="http://www.territoires-innovation.paysdelaloire.fr/" ><img class="max_larg" src="img/territoireinnovation.png" alt="logo territoireinnovation"/></a>
 					</div>
 					<div class="page9-conteneur22">
-						<a href="http://www.nantesmetropole.fr/" ><img class="max_taille" src="img/nantes-metro.png" alt="logo nantesmetro"/></a>
+						<a href="http://www.nantesmetropole.fr/" ><img class="max_larg" src="img/nantes-metro.png" alt="logo nantesmetro"/></a>
 					</div>
 					<div class="page9-conteneur23">
-						<a href="http://www.orange.fr/" ><img class="max_taille" src="img/orange.jpg" alt="logo orange"/></a>
+						<a href="http://www.orange.fr/" ><img class="max_larg" src="img/orange.jpg" alt="logo orange"/></a>
 					</div>
 					<div class="page9-conteneur24">
-						<a href="https://www.etalab.gouv.fr/" ><img class="max_taille" src="img/etalab_gouv.png" alt="logo etalab"/></a>
+						<a href="https://www.etalab.gouv.fr/" ><img class="max_larg" src="img/etalab_gouv.png" alt="logo etalab"/></a>
 					</div>
 					<div class="page9-conteneur25">
-						<a href="http://www.stereolux.org/" ><img class="max_taille" src="img/stereolux.jpg" alt="logo stereolux"/></a>
+						<a href="http://www.stereolux.org/" ><img class="max_larg" src="img/stereolux.jpg" alt="logo stereolux"/></a>
 					</div>
 					<div class="page9-conteneur26">
-						<a href="https://www.globaleditorsnetwork.org/french/" ><img class="max_taille" src="img/gen.jpg" alt="logo gen"/></a>
+						<a href="https://www.globaleditorsnetwork.org/french/" ><img class="max_larg" src="img/gen.jpg" alt="logo gen"/></a>
 					</div>
 					<div class="page9-conteneur27">
-						<a href="http://rue89.nouvelobs.com/" ><img class="max_taille" src="img/rue89.png" alt="logo rue 89"/></a>
+						<a href="http://rue89.nouvelobs.com/" ><img class="max_larg" src="img/rue89.png" alt="logo rue 89"/></a>
 					</div>
 					<div class="page9-conteneur28">
-						<a href="http://www.univ-nantes.fr/" ><img class="max_taille" src="img/universite_nantes.jpg" alt="logo universitenantes"/></a>
+						<a href="http://www.univ-nantes.fr/" ><img class="max_larg" src="img/universite_nantes.jpg" alt="logo universitenantes"/></a>
 					</div>
 					<div class="page9-conteneur29">
-						<a href="http://www.ademe.fr/particuliers-eco-citoyens/bureau/economiser-lelectricite" ><img class="max_taille" src="img/ademe.svg" alt="logo ademe"/></a>
+						<a href="http://www.ademe.fr/particuliers-eco-citoyens/bureau/economiser-lelectricite" ><img class="max_larg" src="img/ademe.svg" alt="logo ademe"/></a>
 					</div>
 					<div class="page9-conteneur30">
-						<a href=http://www.adnouest.org/conso-it/ ><img class="max_taille" src="img/adnouest.jpg" alt="logo adnouest"/></a>
+						<a href=http://www.adnouest.org/conso-it/ ><img class="max_larg" src="img/adnouest.jpg" alt="logo adnouest"/></a>
 					</div>
-					
-					
-					
 				</div>  
 		  </section>
 	    
@@ -542,19 +495,32 @@ Selon vos habitudes de consommation, éteignez ou laissez les appareils électri
   </div>
 </body>
 
-<script>
 
-	/*
-	Code pour rendre les div dynamique
+<script type="text/javascript">
+
+	//On lance le loader
+    $(document).ready(function(){
+        $(".fakeloader").fakeLoader({
+            timeToHide:2500,
+            bgColor:"#152435",
+            spinner:"spinner1" //1 3 4 5 6
+        });
+    });
+	        
+    
+
+	//Code pour rendre les div dynamique
 	var divC = document.querySelectorAll('.conteneur_global');//On récupère les images du jeux
 	for (var i = 0 ; i < divC.length ; i++) 
 	{
-		alert("test");
 		divC[i].style=text_taille(2.125);
-	}*/
+	}
 	
+	//On initialise le Jeux
 	initialiseJeux();
+	//On initialise la première dataviz
 	$(function(){ o.init(dwidth,dheight); });
+	//On initialise les autres dataviz
 	dashboard('#datavizFE',DatavizFixeEcran,1,dwidth,dheight);
 	dashboard('#datavizIC',DatavizImpCop,2,dwidth,dheight);
 	dashboard('#datavizPV',DatavizPortaVideo,3,dwidth,dheight);

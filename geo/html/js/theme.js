@@ -15,7 +15,7 @@ Highcharts.theme = {
    colors: ["#2b908f", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
       "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
    chart: {
-      backgroundColor: '#002333',
+      backgroundColor: 'rgba(255, 255, 255, 0)',
       style: {
          fontFamily: "'Unica One', sans-serif"
       },
@@ -35,10 +35,10 @@ Highcharts.theme = {
       }
    },
    xAxis: {
-      gridLineColor: '#163a48',
+      gridLineColor: '#f8d5bd',
       labels: {
          style: {
-            color: '#E0E0E3'
+            color: '#86958b'
          }
       },
       lineColor: '#707073',
@@ -55,7 +55,7 @@ Highcharts.theme = {
       gridLineColor: '#707073',
       labels: {
          style: {
-            color: '#E0E0E3'
+            color: '#3f4742'
          }
       },
       lineColor: '#707073',
@@ -69,9 +69,9 @@ Highcharts.theme = {
       }
    },
    tooltip: {
-      backgroundColor: 'rgba(0, 0, 0, 0.85)',
+      backgroundColor: 'rgba(255, 243, 210, 0.85)',
       style: {
-         color: '#F0F0F0'
+         color: '#5d6860'
       }
    },
    plotOptions: {

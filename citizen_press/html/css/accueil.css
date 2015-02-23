@@ -1,0 +1,49 @@
+#homeContainer {
+	text-align: center;
+	height: 100%;
+}
+#homeTitleContainer {
+    height: 40%;
+    display: table;
+    width: 100%;
+}
+#homeTitleContent {
+	display: table-cell;
+	vertical-align: middle;
+}
+#homeTitle {
+	margin: auto;
+}
+#problematiqueAccueil{
+	font-family: fontTitreTexte;  
+ 	color: #14A589;
+ 	height: 20%;
+}
+#problematiqueAccueil div,#problematiqueAccueil img {
+    height:50%;
+}
+#titreChoixTransport{
+	font-size: 150%;
+	color: #E95260;
+	font-family: fontTitreTexte;  
+	height: 20%;
+}
+#listeTransportAccueil {
+    position: absolute;
+    bottom: 0;
+	width: 100%;
+	height: 20%;
+}
+#transportsAccueil {
+    position: absolute;
+    bottom: 0;
+}
+.transportAccueil {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+    vertical-align: bottom;
+}
+.transportAccueil:hover {
+	cursor: pointer;
+}

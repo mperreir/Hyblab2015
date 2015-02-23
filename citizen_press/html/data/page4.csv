@@ -1,0 +1,151 @@
+CITY,COUNTRY,ZIPCCOUNTRY,typeTransport,donnee
+London,United Kingdom,GB,autre,1.7
+London,United Kingdom,GB,deux roues,2.2
+London,United Kingdom,GB,marche,10
+London,United Kingdom,GB,transports publics,59.6
+London,United Kingdom,GB,voiture,17.1
+London,United Kingdom,GB,velo,9.1
+Stockholm,Sweden,SE,autre,2.3
+Stockholm,Sweden,SE,deux roues,0.3
+Stockholm,Sweden,SE,marche,16.3
+Stockholm,Sweden,SE,transports publics,47.6
+Stockholm,Sweden,SE,voiture,14.4
+Stockholm,Sweden,SE,velo,18.7
+Barcelone,Spain,ES,autre,1.3
+Barcelone,Spain,ES,deux roues,13
+Barcelone,Spain,ES,marche,15.9
+Barcelone,Spain,ES,transports publics,54.3
+Barcelone,Spain,ES,voiture,15.2
+Barcelone,Spain,ES,velo,0.3
+Ljubljana,Slovenia,SI,autre,0
+Ljubljana,Slovenia,SI,deux roues,0.9
+Ljubljana,Slovenia,SI,marche,11
+Ljubljana,Slovenia,SI,transports publics,29.2
+Ljubljana,Slovenia,SI,voiture,43.2
+Ljubljana,Slovenia,SI,velo,15.4
+Bratislava,Slovakia,SK,autre,0.2
+Bratislava,Slovakia,SK,deux roues,0
+Bratislava,Slovakia,SK,marche,11.4
+Bratislava,Slovakia,SK,transports publics,56.1
+Bratislava,Slovakia,SK,voiture,31.1
+Bratislava,Slovakia,SK,velo,1.2
+Bucarest,Romania,RO,autre,2.3
+Bucarest,Romania,RO,deux roues,0
+Bucarest,Romania,RO,marche,8.1
+Bucarest,Romania,RO,transports publics,58.6
+Bucarest,Romania,RO,voiture,29.8
+Bucarest,Romania,RO,velo,0.7
+Lisbonne,Portugal,PT,autre,0.5
+Lisbonne,Portugal,PT,deux roues,0
+Lisbonne,Portugal,PT,marche,10.1
+Lisbonne,Portugal,PT,transports publics,47.6
+Lisbonne,Portugal,PT,voiture,41
+Lisbonne,Portugal,PT,velo,0.8
+Varsovie,Poland,PL,autre,0.2
+Varsovie,Poland,PL,deux roues,0.6
+Varsovie,Poland,PL,marche,5
+Varsovie,Poland,PL,transports publics,60
+Varsovie,Poland,PL,voiture,33.5
+Varsovie,Poland,PL,velo,0.6
+Amsterdam,Netherlands,NL,autre,3.3
+Amsterdam,Netherlands,NL,deux roues,2.8
+Amsterdam,Netherlands,NL,marche,2.7
+Amsterdam,Netherlands,NL,transports publics,22
+Amsterdam,Netherlands,NL,voiture,23.6
+Amsterdam,Netherlands,NL,velo,45.6
+Vilnius,Lithuania,LT,autre,0
+Vilnius,Lithuania,LT,deux roues,0
+Vilnius,Lithuania,LT,marche,11.6
+Vilnius,Lithuania,LT,transports publics,36.1
+Vilnius,Lithuania,LT,voiture,51.3
+Vilnius,Lithuania,LT,velo,0.8
+Riga,Latvia,LV,autre,0.8
+Riga,Latvia,LV,deux roues,0
+Riga,Latvia,LV,marche,14.5
+Riga,Latvia,LV,transports publics,59.7
+Riga,Latvia,LV,voiture,24.2
+Riga,Latvia,LV,velo,0.9
+Rome,Italy,IT,autre,1.9
+Rome,Italy,IT,deux roues,8.4
+Rome,Italy,IT,marche,7.2
+Rome,Italy,IT,transports publics,31.6
+Rome,Italy,IT,voiture,49.9
+Rome,Italy,IT,velo,1
+Dublin,Ireland,IE,autre,0.9
+Dublin,Ireland,IE,deux roues,0.6
+Dublin,Ireland,IE,marche,13.5
+Dublin,Ireland,IE,transports publics,28.9
+Dublin,Ireland,IE,voiture,51.4
+Dublin,Ireland,IE,velo,4.8
+Budapest,Hungary,HU,autre,1.6
+Budapest,Hungary,HU,deux roues,0.7
+Budapest,Hungary,HU,marche,6.4
+Budapest,Hungary,HU,transports publics,58.9
+Budapest,Hungary,HU,voiture,26.7
+Budapest,Hungary,HU,velo,5.7
+Athenes,Greece,GR,autre,2.2
+Athenes,Greece,GR,deux roues,6.7
+Athenes,Greece,GR,marche,12.4
+Athenes,Greece,GR,transports publics,30.8
+Athenes,Greece,GR,voiture,46.2
+Athenes,Greece,GR,velo,1.6
+Berlin,Germany,DE,autre,0
+Berlin,Germany,DE,deux roues,0.8
+Berlin,Germany,DE,marche,5.5
+Berlin,Germany,DE,transports publics,42.9
+Berlin,Germany,DE,voiture,32.2
+Berlin,Germany,DE,velo,17.2
+Paris,France,FR,autre,2.7
+Paris,France,FR,deux roues,2.7
+Paris,France,FR,marche,11.7
+Paris,France,FR,transports publics,67
+Paris,France,FR,voiture,10.7
+Paris,France,FR,velo,5.3
+Helsinki,Finland,FI,autre,1.8
+Helsinki,Finland,FI,deux roues,0
+Helsinki,Finland,FI,marche,11.9
+Helsinki,Finland,FI,transports publics,50.1
+Helsinki,Finland,FI,voiture,25.9
+Helsinki,Finland,FI,velo,10
+Tallinn,Estonia,EE,autre,1.9
+Tallinn,Estonia,EE,deux roues,0
+Tallinn,Estonia,EE,marche,5.6
+Tallinn,Estonia,EE,transports publics,52.2
+Tallinn,Estonia,EE,voiture,38.8
+Tallinn,Estonia,EE,velo,0.6
+Copenhague,Denmark,DK,autre,1.5
+Copenhague,Denmark,DK,deux roues,0
+Copenhague,Denmark,DK,marche,5.2
+Copenhague,Denmark,DK,transports publics,15.4
+Copenhague,Denmark,DK,voiture,18.4
+Copenhague,Denmark,DK,velo,59.5
+Prague,Czech Republic,CZ,autre,1.6
+Prague,Czech Republic,CZ,deux roues,0.3
+Prague,Czech Republic,CZ,marche,5.4
+Prague,Czech Republic,CZ,transports publics,65.9
+Prague,Czech Republic,CZ,voiture,26.4
+Prague,Czech Republic,CZ,velo,0.1
+Zagreb,Croatia,HR,autre,1.5
+Zagreb,Croatia,HR,deux roues,0.2
+Zagreb,Croatia,HR,marche,12.4
+Zagreb,Croatia,HR,transports publics,48.7
+Zagreb,Croatia,HR,voiture,34
+Zagreb,Croatia,HR,velo,3.1
+Sofia,Bulgaria,BG,autre,3
+Sofia,Bulgaria,BG,deux roues,0
+Sofia,Bulgaria,BG,marche,12
+Sofia,Bulgaria,BG,transports publics,52
+Sofia,Bulgaria,BG,voiture,33
+Sofia,Bulgaria,BG,velo,0
+Bruxelles/Brussel,Belgium,BE,autre,2.2
+Bruxelles/Brussel,Belgium,BE,deux roues,0.6
+Bruxelles/Brussel,Belgium,BE,marche,8.9
+Bruxelles/Brussel,Belgium,BE,transports publics,45.9
+Bruxelles/Brussel,Belgium,BE,voiture,38.6
+Bruxelles/Brussel,Belgium,BE,velo,3.9
+Vienne,Austria,AT,autre,0
+Vienne,Austria,AT,deux roues,1.2
+Vienne,Austria,AT,marche,9
+Vienne,Austria,AT,transports publics,53
+Vienne,Austria,AT,voiture,32.6
+Vienne,Austria,AT,velo,3.7

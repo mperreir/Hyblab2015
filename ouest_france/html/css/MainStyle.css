@@ -1,0 +1,347 @@
+#imageCover{
+    display: block;
+    margin: 0 auto; 
+    width:1080px;
+    height:600px;
+}
+
+#imgFirstPage{
+    width: 85vh;
+    margin-top: 10px;
+}
+
+#fhaut{
+    opacity:0.2;
+}
+
+
+#imgPracticiens{
+    width: 10vh;
+}
+
+#stop{
+    width: 20vh;
+}
+
+.pictoChoix{
+    width: 10vh;
+}
+
+#imageCarte {
+  width: 116vh;
+}
+
+.legende{
+   width: 2vh; 
+}
+
+@font-face {
+    font-family: SixCaps;
+    src: url("../fonts/SixCaps.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-CondLight;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+@font-face {
+    font-family: Oswald-Light;
+    src: url("../fonts/Oswald-Light.ttf");
+}
+
+.page{
+    background-color:#121f32;
+}
+
+
+#mainTitle{
+color: #f9a21c;
+font-family: SixCaps;
+font-size: 5.3vw;
+}
+
+.subTitle{
+color: #127eb6;
+font-family: OpenSans-CondLight;
+font-size: 2vw;
+}
+
+.mainText{
+margin: 0 auto;
+color: #c8cccd;
+font-family: Oswald-Light;
+text-align:justify;
+font-size: 1.1vw;
+}
+
+
+#jeTrouveMaVille{
+    margin-top: 2vh;
+    width: 25vh;
+}
+
+.ligneChoix{
+    margin-top: 8vh;
+}
+
+.villea{
+color: #127eb6;
+font-family: Oswald-Light;
+font-size: 4vw;
+}
+
+.comparer{
+color: #f9a21c;
+font-family: OpenSans-CondLight;
+font-size: 4vw;
+}
+
+.cityTitle{
+color: #c8cccd;
+font-family: OpenSans-CondLight;
+font-size: 5vw;
+overflow: hidden;
+}
+
+.cityTitle5{
+color: #c8cccd;
+font-family: OpenSans-CondLight;
+font-size: 3vw;
+overflow: hidden;
+}
+
+.population{
+color: #127eb6;
+font-family: OpenSans-CondLight;
+font-size: 3vw;
+}
+
+.population5{
+color: #127eb6;
+font-family: OpenSans-CondLight;
+font-size: 1.5vw;
+}
+
+.superficie{
+color: #f9a21c;
+font-family: OpenSans-CondLight;
+font-size: 3vw;
+}
+
+.superficie5{
+color: #f9a21c;
+font-family: OpenSans-CondLight;
+font-size: 1.5vw;
+}
+
+#trouver{
+ margin-top:10%;
+}
+
+#barreblanche{
+    height: 60vh;
+    margin-left: 10vh;
+    opacity: 0.5;
+}
+
+#rechercheauto{
+    background-color:#121f32;
+    width: 20vw;
+    border: 1px solid ;
+    border-color: #127eb6;
+    color: white;
+    font-family: OpenSans-CondLight;
+    font-size: 2vw;
+}
+
+
+#rechercheauto1{
+    background-color:#121f32;
+    width: 20vw;
+    border: 1px solid ;
+    border-color: #127eb6;
+    color: white;
+    margin-top:30vh;
+    font-size: 2vw;
+    font-family: OpenSans-CondLight;
+}
+#premiereVille{
+    margin-top:2vh;
+}
+#rechercheauto2{
+    background-color:#121f32;
+    width: 20vw;
+    border: 1px solid ;
+    border-color: #127eb6;
+    color: white;
+    margin-top:30vh;
+    font-size: 2vw;
+    font-family: OpenSans-CondLight;
+}
+#deuxiemeVille{
+    margin-top:2vh;
+}
+/*Datavizversus*/
+
+#myCanvas{
+    width:400px; 
+    height:250px;
+    padding:10%;
+}
+
+#myCanvasBar{
+    margin-top:300px;
+    margin-left:300px;
+    width:250px; 
+    height:250px;
+}
+
+.villebar{
+    height: 50vh;
+}
+
+.divDataviz {
+  height: 60vh;
+}
+
+#barre{
+  border-right: solid 1px #c8cccd;
+}
+
+
+
+
+/***************************** Le Saviez vous *****************************************/
+#leSaviezVous {
+    color: #f9a21c;
+    font-family: SixCaps;
+    font-size: 5vw;
+    margin-top: 6vh;
+}
+
+.choixPicto {
+    width: 10vh;
+}
+
+
+/*****************************  Dernière Page *****************************************/
+
+#bonhomme{
+    height: 40vh;
+}
+
+#concerne {
+    color: #f9a21c;
+    font-family: Oswald-Light;
+    font-size: 4vw;
+    margin-top: 5vh ;
+}
+
+.ecole {
+    color: #127eb6;
+    font-family: Oswald-Light;
+    font-size: 2vw;
+
+}
+
+.nomprenom {
+   color: #bbbdc0;
+   font-family: Oswald-Light;
+   font-size: 1.5vw;
+}
+
+#bandeauBlanc {
+  background-color:white;
+  height: 15vh;
+}
+
+.imgB {
+    margin-top:1vh;
+    margin-left:2.5vw;
+    width: 5.5vw;
+}
+
+.imgC {
+    margin-top:2vh;
+    margin-left:2.5vw;
+    width: 2vw;
+}
+
+#hyblab{
+    margin-top:2vh;
+}
+
+#texthyblab{ 
+    color:#bbbdc0;
+    font-family: Oswald-Light;    
+    font-size: 1,5vw;
+    margin-top: 2vh;
+}
+
+.ressource{
+    color:#bbbdc0;
+    font-family: OpenSans-CondLight;    
+    font-size: 1vw;
+    margin-top: 2vh;
+}
+
+#ligne {
+    margin-top: 8vh;
+}
+
+#texthyblab {
+    /*font-family: Aldrich, sans-serif; */
+    font-family: Oswald-Light;
+}
+
+
+
+/*DataVizLoadingBar*/
+
+#skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    margin-top:100px;
+    height: 20px;
+    width: 300px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}
+
+#bar {
+  margin-top: 15px;
+  height: 90vh;
+  height: 60vw;
+  border: 0;
+}
+
+
+#divPraticien3 {
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+
+#divEtablissement3 {
+    margin-left: 10vh;
+    margin-top:3vh;
+}

@@ -1,36 +1,32 @@
 
+
+	"use strict";
+	
+	//Variable global utilisé dans tout les fichiers JS
 	var larg,haut ;
 	
 	function taille()
 	{
-		// JavaScript pris sur le site: "http://www.java.scripts-fr.com"
 		if (document.body)
 		{
 			larg = (document.body.clientWidth);
 			haut = (document.body.clientHeight);
 		}
-	
 		/*
 		Ici une version DOM (le script est entre les balises <body> et </body>) qui devrait fonctionner sur tous les navigateurs.
 		On commence donc par détecter la présence de l'objet body dans le DOM.
 		Si il est présent, on va mettre dans 2 variables larg et haut la largeur et la hauteur de la fenêtre pris avec les propriétés clientWidth et clientHeight de l'objet body.
 		*/
-	
 		else
 		{
 			larg = (window.innerWidth);
 			haut = (window.innerHeight);
 		}
 	}
-	/*
-	Cette version est purement javascript et ne fonctionne pas sous IE (les propriétés innerWidth et innerHeight de l'objet window n'ayant pas été intégrée dans ce navigateur).
-	Si l'objet n'existe pas, on met dans nos variables la hauteur et la largeur de la page. Seulement on utilisera ici les propriété innerWidth et innerHeight de l'objet window.
-	*/
 		
 	//On met à jour la taille 
 	taille();
 	
-	//window.onresize = window.location.reload();
 
 	//document.write("Cette fenêtre fait " + larg + " de large et "+haut+" de haut");
 	
@@ -64,13 +60,29 @@
 	}
 	//document.write("Cette fenêtre fait " + larg + " de large et "+haut+" de haut");
 	
-	// masque l'image
 	function afficheText(id) 
-	{
-		document.getElementById(id).style.visibility = "hidden";
-	}
-	function cacheText(id) 
 	{
 		document.getElementById(id).style.visibility = "visible";
 	}
+	function cacheText(id) 
+	{
+		document.getElementById(id).style.visibility = "hidden";
+	}
 	
+	//Quand la taille change, on recharge la page pour qu'elle soit responsive
+	window.onresize=rechargement;
+	function rechargement()
+	{
+		window.location.reload();
+	}
+	
+	//Lancement du one scrool page
+	 $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+	
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="330"
+   height="60"
+   id="svg3623"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Nouveau document 2">
+  <defs
+     id="defs3625" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="309.161"
+     inkscape:cy="164.10307"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="854"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3628">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-992.3621)">
+    <g
+       transform="translate(-295.4143,913.4694)"
+       style="opacity:0.6"
+       id="g352-3">
+      <rect
+         style="fill:none"
+         x="305.10001"
+         y="90.099998"
+         width="339.20001"
+         height="55.299999"
+         id="rect354-3" />
+      <text
+         style="font-size:24px;letter-spacing:2;fill:#b21b4a;font-family:HelveticaLTStd-Bold"
+         transform="translate(305.0841,107.295)"
+         font-size="24"
+         letter-spacing="2"
+         id="text356-3">Au-delà des frontières</text>
+    </g>
+    <line
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       x1="193.3857"
+       y1="1040.0695"
+       x2="12.485702"
+       y2="1040.0695"
+       id="line358" />
+  </g>
+</svg>

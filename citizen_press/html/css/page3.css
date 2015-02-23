@@ -1,0 +1,86 @@
+#containerPage3 {
+	height: 100%;
+}
+#contentPage3 {
+	height: 60%;
+}
+#listeBouttonPartie3 {
+    text-align: center;
+}
+@media screen and (min-width: 767px) {
+	#listeBouttonPartie3 {
+    	height: 100%;
+	}
+}
+#descriptionBouttonPartie3 {
+	font-family: fontTitreTexte;
+	color: #E95260;
+}
+.bouttonPartie3 {
+	margin: auto;
+	border: 2px solid #E95260;
+	text-align: center;
+	font-family: fontTitreTexte;
+	color: #E95260;
+	max-height: 7%;
+	margin-bottom: 3%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.bouttonPartie3.selected {
+	border-color: #25606C;
+	color: #25606C;
+}
+#graphPage3 {
+	height:100%;
+}
+#chartPage3 {
+	height: 80%;
+	padding-bottom: 45px;
+
+}
+.section1-percentage{
+	font-family: fontPourcentageChiffre;
+    font-size: 400%;
+    fill : #14A589;	
+}
+.bouttonPartie3:hover {
+	border-color: #25606C;
+	color: #25606C;
+	cursor: pointer;
+}
+#voiturePage3{
+	fill: #01A58C;
+}
+#transportsPublicPage3{
+	fill: #57D6C1;
+}
+#veloPage3{
+	fill: #9D3844;
+}
+#apiedPage3{
+	fill: #FE5768;
+}
+#autresPage3{
+	fill: #7D5071;
+}
+.arcPage3.selected {
+  	fill: #FCCE19;
+} 
+#containerImageDataPage3{
+	background-size: 100%;
+	margin: auto;
+	height: 20%;
+	width: 100%;
+}
+#imageDataPage3 {
+	background-size: 100%;
+	background-position: 50% 50%;
+	margin: 0 auto;
+}
+#explication{
+	font-size:100%;
+	font-family: fontTitreTexte;
+	fill : #14A589;
+}
