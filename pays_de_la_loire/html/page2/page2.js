@@ -37,4 +37,7 @@ $(document).ready(function(){
       });
     }
   });
+  $(".page2micro").click(function () {
+    $(".itw2").fadeToggle();
+  });
 });

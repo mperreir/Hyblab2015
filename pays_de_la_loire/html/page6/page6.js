@@ -175,7 +175,6 @@ $(document).ready(function() {
         }
     });
     
-    //modifierCourbe("Pays de la Loire");
     updateChart([16,3,6,6], "Alsace");
     
     $('.clicRegion').hover(function () {
@@ -192,4 +191,6 @@ $(document).ready(function() {
         $(".imgFrance").fadeToggle();
         $(".infoP6_2").toggleClass("infoP6_2Active");
     });
+    
+    $("#jqvmap1_Alsace").attr("fill", "#bc4572");
 });

@@ -8,18 +8,6 @@ var app = express();
 
 app.use(express.static(path.join(__dirname, 'html')));
 
-app.get('/data', function(req,res){
-  
-  // read the file (asynchronously, aka the nodejs way)
-  fs.readFile('data/classement_national.csv', function (error, data) {
-    if (!error) {
-      res.send(data);
-    } 
-    else
-      console.log(error);
-  });
-})
-
 // launch the server
 /*var server = app.listen(process.env.PORT, function () {
   var host = server.address().address;

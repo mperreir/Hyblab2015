@@ -2,7 +2,7 @@ body {
     font-family: "Roboto";
     font-size: 14px;
     background: #82AEAC;
-    color:#fefefe;
+    color: #fefefe;
     margin: 0px;
     padding: 0px;
 }
@@ -13,7 +13,6 @@ p {
     margin: 0px;
     padding: 0px;
 }
-
 .scrollClic {
     position: absolute;
     height: 75px;
@@ -22,11 +21,9 @@ p {
     bottom: 0px;
     cursor: pointer;
 }
-
 .page10 div {
     position: absolute;
 }
-
 .edito {
     margin-top: 58px;
     margin-left: 614px;
@@ -35,8 +32,8 @@ p {
     text-align: justify;
     width: 270px;
 }
-
-.page3, .page7 {
+.page3,
+.page7 {
     background-color: #1c556d;
 }
 .titre {
@@ -74,6 +71,10 @@ p {
     position: relative;
     list-style: none;
 }
+.titreItw2 {
+    margin-top: 64px;
+    margin-left: 67px;
+}
 .categories a {
     display: block;
 }
@@ -89,9 +90,10 @@ p {
     width: 200px;
     position: absolute;
     /*border-left: dotted 3px white;*/
+    
     font-size: 12px;
     z-index: 998;
-    background: rgba(130,174,172,0.9);
+    background: rgba(130, 174, 172, 0.9);
     -webkit-transition: all 0s;
     /* For Safari 3.1 to 6.0 */
     
@@ -106,33 +108,29 @@ p {
 .categories li:hover > ul {
     display: block;
 }
-
 .menuActif ul {
     display: block;
     z-index: 990;
-    height:353px;
+    height: 353px;
 }
-
 p.menuSelectionne {
     position: relative;
     top: 320px;
     left: 58px;
-    z-index:991;
+    z-index: 991;
 }
-
 p.menuSelectionnet {
     position: relative;
     top: 314px;
     left: 58px;
     font-size: 26px;
-    z-index:991;
+    z-index: 991;
     width: 240px;
     height: 20px;
     background: #82AEAC;
-    padding-left:10px;
+    padding-left: 10px;
     color: #2A7B77;
 }
-
 .categories ul li {
     float: none;
 }
@@ -146,7 +144,7 @@ p.menuSelectionnet {
 .categories {
     display: inline-block;
     margin-bottom: 20px;
-    padding:0px;
+    padding: 0px;
     list-style-type: disc;
     width: 896px;
     -webkit-transition: all 2s;
@@ -200,11 +198,9 @@ p.menuSelectionnet {
     
     transition: all 400ms;
 }
-
 .selectionAnneeBouton:hover {
     opacity: 0.8;
 }
-
 .selectionAnneeBoutonActive {
     width: 18px;
     height: 18px;
@@ -236,7 +232,6 @@ p.menuSelectionnet {
 }
 .imgsMonde img {
     right: 0px;
-    width: 550px;
     bottom: 0px;
     position: absolute;
 }
@@ -269,7 +264,6 @@ p.menuSelectionnet {
     text-align: center;
     margin-bottom: 15px;
 }
-
 .titreP6 {
     background: url('img/page6/title_inter.png');
     text-align: center;
@@ -284,22 +278,24 @@ p.menuSelectionnet {
 .titreP6 p {
     line-height: 50px;
 }
-
 .bandeauGauche {
     width: 350px;
     float: left;
 }
 .titreAnnee {
-    cursor:pointer;
+    cursor: pointer;
     width: 178px;
     height: 48px;
     border-bottom: dotted white 3px;
     -webkit-transition: all 200ms;
     /* For Safari 3.1 to 6.0 */
+    
     -moz-transition: all 200ms;
     /* For Firefox et Chrome 3.1 to 6.0 */
+    
     -o-transition: all 200ms;
     /* For Opera 3.1 to 6.0 */
+    
     transition: all 200ms;
     display: table-cell;
     vertical-align: middle;
@@ -313,9 +309,6 @@ p.menuSelectionnet {
 }
 .titreAnneeActiveBorder {
     border-top: dotted white 3px;
-}
-.imgAnnee {
-    height: 370px;
 }
 .legende {
     position: absolute;
@@ -337,7 +330,7 @@ p.menuSelectionnet {
     vertical-align: top;
     box-shadow: 1px 1px black;
 }
-.legende p.or span{
+.legende p.or span {
     background: #F6A713;
 }
 .legende p.argent span {
@@ -368,7 +361,6 @@ p.menuSelectionnet {
     top: 255px;
     left: 155px;
     z-index: 11;
-    height: 160px;
 }
 .P6_droite {
     display: inline-block;
@@ -388,6 +380,9 @@ p.menuSelectionnet {
     height: 80px;
     background-size: 80px 80px;
 }
+.infoP6_2:hover {
+    opacity: 0.65;
+}
 .infoP6_2Active {
     background: url("img/page6/+.png");
     width: 80px;
@@ -400,48 +395,6 @@ p.menuSelectionnet {
     top: 80px;
     z-index: 50;
 }
-/*
-.animated {
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    -ms-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-@-webkit-keyframes rotateIn {
-    0% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: rotate(-200deg);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: rotate(0);
-        opacity: 1;
-    }
-}
-@keyframes rotateIn {
-    0% {
-        transform-origin: center center;
-        transform: rotate(-200deg);
-        opacity: 0;
-    }
-    100% {
-        transform-origin: center center;
-        transform: rotate(0);
-        opacity: 1;
-    }
-}
-.rotateIn {
-    -webkit-animation-name: rotateIn;
-    animation-name: rotateIn;
-}
-*/
 .imgPointilles {
     margin-left: 41px;
 }
@@ -452,188 +405,169 @@ p.menuSelectionnet {
 .boutonCategorie {
     width: 100px;
 }
-
 .page1 {
-    background:url("img/accueil.png");
+    background: url("img/accueil.png");
     z-index: 998;
 }
-
 /* Pages 1 ter*/
-.page1ter{
-    background:url("img/page1ter.png");
-}
 
-.titreP1ter{
+.page1ter {
+    background: url("img/page1ter.png");
+}
+.titreP1ter {
     text-transform: uppercase;
     font-size: 25px;
     margin-top: 50px;
 }
-
-.titre1P1ter{
+.titre1P1ter {
     font-size: 17px;
-    color:#2d6862;
+    color: #2d6862;
 }
-
-.texte2P1ter{
-    position:absolute;
-    top:320px;
-    left:200px;
+.texte2P1ter {
+    position: absolute;
+    top: 320px;
+    left: 200px;
     width: 144px;
-    font-size:12px;
+    font-size: 12px;
     font-weight: bold;
 }
-
-.texte1P1ter{
-    width:150px;
-    font-size:12px;
+.texte1P1ter {
+    width: 150px;
+    font-size: 12px;
     text-align: justify;
-    margin-left:27px;
+    margin-left: 27px;
 }
-
-
-.texte3P1ter{
-    width:155px;
-    font-size:12px;
+.texte3P1ter {
+    width: 155px;
+    font-size: 12px;
     text-align: justify;
-    margin-left:27px;
+    margin-left: 27px;
 }
-
-
-.texte4P1ter{
-    width:143px;
-    font-size:12px;
+.texte4P1ter {
+    width: 143px;
+    font-size: 12px;
     text-align: justify;
-    margin-left:27px;
+    margin-left: 27px;
 }
-
-.reg{
-    position:absolute;
-    left : 250px;
+.reg {
+    position: absolute;
+    left: 250px;
     top: 140px;
 }
-.nat{
-    position:absolute;
-    left : 545px;
+.nat {
+    position: absolute;
+    left: 545px;
     top: 140px;
 }
-
-.mond{
-    position:absolute;
-    top:455px;
-    left : 397px;
+.mond {
+    position: absolute;
+    top: 455px;
+    left: 397px;
 }
-
 /*fin page 1 ter*/
 
 .page10 {
     background: url(img/lesaviezvous.png);
 }
-
 .boutonMetiers {
     margin: 0px;
-    margin-left:430px;
+    margin-left: 430px;
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
 }
-
-.bonhommes{
-    height:205px;
+.bonhommes {
+    height: 205px;
     width: 200px;
     background-repeat: no-repeat;
-    display:inline-block;
-    position:relative;
-    z-index:1;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
 }
-
-.bonhomme0{
-    left:180px;
+.bonhomme0 {
+    left: 180px;
 }
-
-.bonhomme1{
-    left:-170px;
-    top:60px;
+.bonhomme1 {
+    left: -170px;
+    top: 60px;
 }
-
-.bonhomme2{
+.bonhomme2 {
     left: -70px;
     bottom: -110px;
 }
-
 .drapeau0.droit0 {
     position: relative;
     left: 40px;
     top: 11px;
     transform: rotate(-3deg);
 }
-
 .drapeau2.droit2 {
-    position: relative;     
-    left: 5px;     
-    top: 21px;     
-    -ms-transform: rotate(8deg); /* IE 9 */           
-    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */           
+    position: relative;
+    left: 5px;
+    top: 21px;
+    -ms-transform: rotate(8deg);
+    /* IE 9 */
+    
+    -webkit-transform: rotate(8deg);
+    /* Chrome, Safari, Opera */
+    
     transform: rotate(8deg);
 }
-
-.drapeaux{
+.drapeaux {
     position: relative;
-    height:50px;
-    width:50px;
-    visibility:hidden;
+    height: 50px;
+    width: 50px;
+    visibility: hidden;
 }
-
-.drapeau0{
+.drapeau0 {
     left: 1px;
     top: -19px;
-    -ms-transform: rotate(-14deg); /* IE 9 */      
-    -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */      
+    -ms-transform: rotate(-14deg);
+    /* IE 9 */
+    
+    -webkit-transform: rotate(-14deg);
+    /* Chrome, Safari, Opera */
+    
     transform: rotate(-14deg);
 }
-
-.drapeau1{
-    left: -10px;     
-    top: 23px;     
-    -ms-transform: rotate(17deg); /* IE 9 */           
-    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */           
+.drapeau1 {
+    left: -10px;
+    top: 23px;
+    -ms-transform: rotate(17deg);
+    /* IE 9 */
+    
+    -webkit-transform: rotate(17deg);
+    /* Chrome, Safari, Opera */
+    
     transform: rotate(17deg);
 }
-
-.drapeau2{
-    left: -22px; 
+.drapeau2 {
+    left: -22px;
     top: -20px;
     transform: rotate(-13deg);
 }
-
-.drapeau3{
-    left: -33px; 
+.drapeau3 {
+    left: -33px;
     top: 22px;
     transform: rotate(17deg);
 }
-
-.drapeau4{
+.drapeau4 {
     left: 115px;
     top: 7px;
     transform: rotate(40deg);
 }
-
-.plie0{
+.plie0 {
     left: 19px;
     top: -18px;
 }
-
-.plie1{
-    left: 8px;   
+.plie1 {
+    left: 8px;
     top: 22px;
 }
-
-.lePodium{
-    position:relative;
-    top:-40px;
+.lePodium {
+    position: relative;
+    top: -40px;
 }
-
 .podium {
-    padding-top:20px;
+    padding-top: 20px;
     display: none;
     position: absolute;
     width: 600px;
@@ -651,92 +585,111 @@ p.menuSelectionnet {
     
     transition: all 4000ms;
 }
-
-
 .preloaded-images {
-   position: absolute;
-   overflow: hidden;
-   left: -9999px; 
-   top: -9999px;
-   height: 1px;
-   width: 1px;
-}
-
-.selectionsAnnees{
-    position:relative;
-    top:-40px;
-    left: 155px;
-    cursor:pointer;
-}
-
-.zonesNomsDrapeaux{
-    height:350px;
-    width:145px;
-}
-
-.zone{
     position: absolute;
-    z-index:991;
+    overflow: hidden;
+    left: -9999px;
+    top: -9999px;
+    height: 1px;
+    width: 1px;
 }
-
-.nom{
-    position:absolute;
-    background : rgba(42,123,119,0.8);
-    display:none;
+.selectionsAnnees {
+    position: relative;
+    top: -40px;
+    left: 155px;
+    cursor: pointer;
 }
-
-.margeNom{
-    padding:7px;
+.zonesNomsDrapeaux {
+    height: 350px;
+    width: 145px;
 }
-
-.nom0{
+.zone {
+    position: absolute;
+    z-index: 991;
+}
+.nom {
+    position: absolute;
+    background: rgba(42, 123, 119, 0.8);
+    display: none;
+}
+.margeNom {
+    padding: 7px;
+}
+.nom0 {
     bottom: 300px;
     left: 160px;
     width: 180px;
 }
-
-.nom1{
+.nom1 {
     bottom: 230px;
     left: -190px;
     width: 180px;
 }
-
-.nom2{
+.nom2 {
     bottom: 250px;
     left: 140px;
     width: 180px;
 }
-
-.zone0{
-    left:460px;
+.zone0 {
+    left: 460px;
 }
-
-.zone1{
-    left:310px;
+.zone1 {
+    left: 310px;
 }
-
-.zone2{
-    left:610px;
+.zone2 {
+    left: 610px;
 }
-
-section{
-    width:960px;
+section {
+    width: 960px;
+}
+.page2micro {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    width: 40px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background: url("img/page2/micro.png");
+    cursor: pointer;
+    z-index: 12;
+}
+.page2micro:hover {
+    opacity: 0.8;
+}
+.itw2 {
+    position: absolute;
+    background: url('img/page2/fond-romain.png');
+    background-repeat: no-repeat;
+    width: 894px;
+    height: 550px;
+    left: 20px;
+    bottom: 5px;
+    z-index: 10;
+}
+.itw2text {
+    margin: 35px 47px 48px 172px;
+    font-size: 13px;
+}
+.quest{
+    font-weight:bold;
+    margin: 10px 0px 10px 0px;
+}
+.rep{
+    margin : 0 10px 0 10px;
 }
 .page8micro {
     position: absolute;
-    top: 40px;
-    left: 70px;
-    width:50px;
-    height:50px;
-    background-repeat:no-repeat;
-    background:url("img/page8/play2.png");
+    top: 30px;
+    right: 70px;
+    width: 100px;
+    height: 59px;
+    background-repeat: no-repeat;
+    background: url("img/page8bis/play.png");
     cursor: pointer;
 }
-
 .page8micro:hover {
-    background:url("img/page8/playvide.png");
+    opacity: 0.75;
 }
-
 .quedevenus {
     position: absolute;
     width: 168px;
@@ -785,37 +738,30 @@ section{
 .quedevenusNom3 {
     left: 679px;
 }
-
-.photoParticipant{
-    position : absolute;
+.photoParticipant {
+    position: absolute;
     height: 145px;
     width: 152px;
     top: 125px;
 }
-
-.photo1{
-    left:105px;
+.photo1 {
+    left: 105px;
 }
-
-.photo2{
-    left:406px;
-    top:122px;
+.photo2 {
+    left: 406px;
+    top: 122px;
 }
-
-.photo3{
-    left:703px;
+.photo3 {
+    left: 703px;
 }
-
-.photo1:hover{
-    background : url("img/page9/photo1.png");
+.photo1:hover {
+    background: url("img/page9/photo1.png");
 }
-
-.photo2:hover{
-    background : url("img/page9/photo2.png");
+.photo2:hover {
+    background: url("img/page9/photo2.png");
 }
-
-.photo3:hover{
-    background : url("img/page9/photo3.png");
+.photo3:hover {
+    background: url("img/page9/photo3.png");
 }
 .itwElisabeth {
     margin-left: 80px;
@@ -824,22 +770,18 @@ section{
     font-size: 13px;
     /*text-align: justify;*/
 }
-
 .itwElisabeth .div {
     display: inline-block;
     padding: 10px 18px 0px 18px;
     width: 240px;
     vertical-align: top;
 }
-
 .itwElisabeth .div3 {
     padding-right: 0px;
 }
-
 .itwElisabeth .div1 {
     padding-left: 0px;
 }
-
 .titreP8bis {
     margin-top: 65px;
     font-size: 32px;
@@ -847,157 +789,129 @@ section{
     margin-bottom: 10px;
     margin-right: 105px;
 }
-
 .sousTitreP8bis {
     font-size: 16px;
     margin-left: 170px;
     opacity: 0.8;
     margin-right: 105px;
 }
-
 .itwElisabeth .subtitle {
     margin: 14px 0px 10px 0px;
     font-size: 18px;
     text-indent: 0px;
-    
 }
 .video {
-    position:absolute;
+    position: absolute;
     width: 889px;
     height: 500px;
     left: 35px;
     bottom: 10px;
     z-index: 10;
 }
-
-.pageCredits{
-    background:url("img/Page_credits.png");
+.pageCredits {
+    background: url("img/Page_credits.png");
 }
-
-.authorUrl, .authorUrl:visited {
+.authorUrl,
+.authorUrl:visited {
     color: white;
     /*text-decoration: none;*/
 }
-
-.titreCredits{
-    margin-top:43px;
+.titreCredits {
+    margin-top: 43px;
     font-family: "roboto";
     font-size: 35px;
     text-transform: uppercase;
     font-weight: normal;
 }
-
-.polytech{
+.polytech {
     left: 266px;
 }
-
-.agr{
+.agr {
     left: 188px;
 }
-
-.sciencescom{
+.sciencescom {
     left: 113px;
 }
-
-.lecole{
-    display:block;
-    height:100px;
-    width:160px;
+.lecole {
+    display: block;
+    height: 100px;
+    width: 160px;
 }
-
-.ecole{
-    position:relative;
+.ecole {
+    position: relative;
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 }
-
-.role{
-    text-align:center;
-    font-weight:bold;
-    margin-top:10px;
+.role {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
 }
-
-.camarade{
-    height:100px;
-    margin-top:13px;
-    margin-left:-15px;
+.camarade {
+    height: 100px;
+    margin-top: 13px;
+    margin-left: -15px;
 }
-
-.src{
-    position:relative;
-    left:157px;
-    top:78px;
+.src {
+    position: relative;
+    left: 157px;
+    top: 78px;
 }
-
 .src a {
     color: #75a9a7;
 }
 .src a:visited {
     color: white;
 }
-
-#lesPartenaires{
-    position:relative;
-    top:96px;
-    left:113px;
+#lesPartenaires {
+    position: relative;
+    top: 96px;
+    left: 113px;
 }
-
-#lesPartenaires2{
-    position:relative;
-    top:97px;
-    left:466px;
+#lesPartenaires2 {
+    position: relative;
+    top: 97px;
+    left: 466px;
 }
-
-.lpart{
-    display:inline-block;
-    vertical-align:top;
-    height:71px;
+.lpart {
+    display: inline-block;
+    vertical-align: top;
+    height: 71px;
 }
-
-#part1{
-    width:162px;
+#part1 {
+    width: 162px;
 }
-
-#part2{
-    width:124px;
+#part2 {
+    width: 124px;
 }
-
-#part3{
-    width:66px;
+#part3 {
+    width: 66px;
 }
-
-#part4{
-    width:90px;
+#part4 {
+    width: 90px;
 }
-
-#part5{
-    width:132px;
+#part5 {
+    width: 132px;
 }
-
-#part6{
-    width:67px;
+#part6 {
+    width: 67px;
 }
-
-#part7{
-    width:52px;
+#part7 {
+    width: 52px;
 }
-
-#part8{
-    width:100px;
+#part8 {
+    width: 100px;
 }
-
-#part9{
-    width:127px;
+#part9 {
+    width: 127px;
 }
-
-.toucan{
+.toucan {
     height: 133px;
     width: 176px;
-    position:absolute;
-    top:10px;
+    position: absolute;
+    top: 10px;
     left: 530px;
 }
-
-.toucan:hover{
-    background:#83adab url("img/page8/Toucan.png");
+.toucan:hover {
+    background: #83adab url("img/page8/Toucan.png");
 }
