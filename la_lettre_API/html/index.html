@@ -19,8 +19,8 @@
         <title>API | Pôles de compétitivité</title>           
     </head>
     <body>
+        <div class="loader"></div>
         <div id="fullpage" >
-
             <div id="pageIntro" class="section active">
                 <p id="title_pageIntro">P<span id="accent"><span>O</span><img src="img/accent.svg"/></span>LES </br>DE COMPÉTITIVITÉ</p>
                 <p id="subtitle_pageIntro">7 STRUCTURES QUI BOOSTENT L'INNOVATION DANS L'OUEST</p>
@@ -1033,6 +1033,7 @@
                 			</text>
                 	 </g>
                 </svg>
+                <img id="next" src="img/next.svg" class="img-responsive" alt="Responsive image"/>
             </div>
             
             <div id="pageChoixPole" class="section" >
@@ -1040,37 +1041,37 @@
                     <div class="choix_pole col-md-1 col-sm-1"  onclick="loadData('atlanticbio_datas.json',true,1);">
                         <img src="img/atlanticbio/atlanticbio_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p class="text_choixPole">Atlanpôle Biothérapies</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                     </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('emc2_datas.json',true,3)">
                         <img src="img/emc2/emc2_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>EMC2</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                    </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('idforcar_datas.json',true,5)">
-                        <img src="img/idforcar/idforcar_icon.svg"class="icon_choix_pole img-responsive" alt="Responsive image">
+                        <img src="img/idforcar/idforcar_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>IDforCar</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                     </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('imagereseaux_datas.json',true,7)">
-                        <img src="img/imagereseaux/imagereseaux_icon.svg"class="icon_choix_pole img-responsive" alt="Responsive image">
+                        <img src="img/imagereseaux/imagereseaux_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>Images et réseaux</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                     </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('merbretagne_datas.json',true,9)">
                         <img src="img/merbretagne/merbretagne_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>Mer Bretagne Atlantique</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                     </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('valorial_datas.json',true,11)">
                         <img src="img/valorial/valorial_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>Valorial</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image"> 
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image"> 
                     </div>
                     <div class="choix_pole col-md-1 col-sm-1" onclick="loadData('vegepolys_datas.json',true,13)">
                         <img src="img/vegepolys/vegepolys_icon.svg" class="icon_choix_pole img-responsive" alt="Responsive image">
                         <p>Végépolys</p>
-                        <img src="img/fleche_choix_pole.svg"class="fleche_choix_pole" alt="Responsive image">
+                        <img src="img/fleche_choix_pole.svg" class="fleche_choix_pole" alt="Responsive image">
                     </div>
                 </div>
             </div>
@@ -1112,7 +1113,7 @@
 						<p id="description_poleID" class="text"></p>
 					    <div id="info_poleID">
     					    <div id="president_poleID">
-    					        <img id="image_president_poleID" class="img-circle" src="" data-toggle="modal" data-target="#modal_biographie"/>
+    					        <img id="image_president_poleID" class="img-circle" src="" data-toggle="modal" data-target="#modal_biographie" onclick="console.log('coucou');"/>
     					        <p id="name_president_poleID">Prénom NOM</p>
     					    </div>
     					    <div id="articles_poleID">
@@ -1144,7 +1145,7 @@
     				        <div class="row">
     				            <div class="col-xs-12 col-md-6" >
     				                <div id="cylindres_activites" style="display:relative; width: 100%">
-    				                    <h4>Quels sont les premiers secteurs d'activités des adhérents ?</h4>
+    				                    <h4>Quels sont les premiers secteurs d'activités </br> des adhérents ?</h4>
 		                                <img id="cylindres_activites_img" src="img/vegepolys/vegepolys_activites.svg"/>
 	                                    <img id="activite_loupe" src="img/loupe.svg" data-toggle="modal" data-target="#modal"/>
 	                                </div>
@@ -1170,14 +1171,14 @@
     				        <div class="row">
     				            <div id="resultats_intelectuels">
         				            <div class="col-xs-12 col-md-6">
-        				                <h4>Résultats intellectuels pour l'année 2011</h4>
+        				                <h4>Résultats intellectuels </br> pour l'année 2011</h4>
             				            <img id="resultats_intelectuels_img" src="img/vegepolys/vegepolys_brevets.svg"/>
             				            <img id="intelectuels_loupe" src="img/loupe.svg" data-toggle="modal" data-target="#modal"/>
             				        </div>
         				        </div>
         				        <div id="resultats_operationnel">
             				        <div class="col-xs-12 col-md-6">
-            				            <h4>Résultats opérationnels des projets aboutis à fin 2011</h4>
+            				            <h4>Résultats opérationnels</br> des projets aboutis à fin 2011</h4>
             				            <img id="resultats_operationnel_img" src="img/vegepolys/vegepolys_RD.svg"/>
             				            <img id="operationnel_loupe" src="img/loupe.svg" data-toggle="modal" data-target="#modal"/>
             				        </div>
@@ -1256,21 +1257,21 @@
             </div>
             <div id="groups">
             	<div id="firstLine">
-                	<a href="http://www.agence-api.fr/" target="_blank"><img class="img_remerciement" src="./img/logo/API.png" alt="Logo API"></img></a>
-            		<a href="http://www.ouestmedialab.fr" target="_blank"><img class="img_remerciement" src="./img/logo/ouest-medialab.png" alt="Logo Ouest Media Lab"></img></a>
-            		<a href="http://www.agrnantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/agr.png" alt="Logo AGR"></img></a>
-            		<a href="http://web.polytech.univ-nantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/polytech-nantes.png" alt="Logo Polytech Nantes"></img></a>
-            		<a href="http://www.sciencescom.org" target="_blank"><img class="img_remerciement" src="./img/logo/SciencesCom.png" alt="Logo SciencesCom"></img></a>
-            		<a href="http://www.univ-nantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/univ-nantes.png" alt="Logo Univ-nantes"></img></a>
+                	<a href="http://www.agence-api.fr/" target="_blank"><img class="img_remerciement" src="./img/logo/API.png" alt="Logo API"/></a>
+            		<a href="http://www.ouestmedialab.fr" target="_blank"><img class="img_remerciement" src="./img/logo/ouest-medialab.png" alt="Logo Ouest Media Lab"/></a>
+            		<a href="http://www.agrnantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/agr.png" alt="Logo AGR"/></a>
+            		<a href="http://web.polytech.univ-nantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/polytech-nantes.png" alt="Logo Polytech Nantes"/></a>
+            		<a href="http://www.sciencescom.org" target="_blank"><img class="img_remerciement" src="./img/logo/SciencesCom.png" alt="Logo SciencesCom"/></a>
+            		<a href="http://www.univ-nantes.fr" target="_blank"><img class="img_remerciement" src="./img/logo/univ-nantes.png" alt="Logo Univ-nantes"/></a>
             	</div>
             	<div id="secondLine">
-            		<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/" target="_blank"><img class="img_remerciement" src="./img/logo/Creative-Commons.png" alt="Logo CC"></img></a>
-            		<a href="http://opensource.org/" target="_blank"><img class="img_remerciement" src="./img/logo/open-source-initiative.png" alt="Logo Open Source"></img></a>
+            		<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/" target="_blank"><img class="img_remerciement" src="./img/logo/Creative-Commons.png" alt="Logo CC"/></a>
+            		<a href="http://opensource.org/" target="_blank"><img class="img_remerciement" src="./img/logo/open-source-initiative.png" alt="Logo Open Source"/></a>
             		<div class="lets_text"><p>un projet issu des ateliers du </p><a href="http://www.hyblab.fr" target="_blank"><img class="img_remerciement" src="./img/logo/hyblab.png" alt="Hyblab - Data Journalisme"></a></div>
                 </div>
                 <div id="thirdLine">
 					<div class="lets_text">
-						<p>Données provenant de <a href="https://www.data.gouv.fr/fr/" target="_blank"><img class="img_remerciement" src="./img/logo/data-gouv.png" alt="Logo data.gouv.fr"></img></a> : </p>
+						<p>Données provenant de <a href="https://www.data.gouv.fr/fr/" target="_blank"><img class="img_remerciement" src="./img/logo/data-gouv.png" alt="Logo data.gouv.fr"/></a> : </p>
 						<a href="https://www.data.gouv.fr/fr/datasets/poles-de-competitivite-donnees-issues-des-tableaux-de-bord/" target="_blank"><p>tableau de bord</p></a>
 						<p>et </p>
 						<a href="https://www.data.gouv.fr/fr/datasets/poles-de-competitivite-le-financement-des-projets-de-r-d-soutenus-par-le-fonds-unique-interministeri/" target="_blank"><p>financement des projets</p></a>
@@ -1294,7 +1295,7 @@
         <script type="text/javascript" src="highcharts/highcharts-3d.js"></script>
         <script type="text/javascript" src="highcharts/modules/exporting.js"></script>
         
-        <script type="text/javascript" src="zoomooz/jquery.zoomooz.min.js"></script>
+        <script type="text/javascript" src="jquery-touchswipe/jquery.touchSwipe.min.js"></script>
 
 
         <script type="text/javascript" src="js/loadData.js"></script>
@@ -1311,8 +1312,22 @@
             	
             	Highcharts.setOptions(Highcharts.theme);
             	       
+            	       
+        	       $("#poleID").swipe( {
+                        //Generic swipe handler for all directions
+                        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+                            if( direction == "left" ) closeSidepage();
+                            else if( direction == "right") openSidepage();
+                        },
+                        //Default is 75px, set to 0 for demo so any distance triggers swipe
+                        threshold:0
+                    });
+            });
+            
+            $(window).load(function() {
+            	$(".loader").fadeOut("slow");
             });
         </script>
-        <script type="text/javascript" src="js/pins.js"></script>
+        <script type="text/javascript" src="js/intro.js"></script>
     </body>
 </html>

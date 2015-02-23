@@ -16,7 +16,7 @@ app.use('/bootstrap',express.static(path.join(__dirname, 'bower_components/boots
 app.use('/fullpage',express.static(path.join(__dirname, 'bower_components/fullpage.js')));
 app.use('/jquery',express.static(path.join(__dirname, 'bower_components/jquery')));
 app.use('/jquery-ui',express.static(path.join(__dirname, 'bower_components/jquery-ui')));
-app.use('/zoomooz',express.static(path.join(__dirname, 'bower_components/zoomooz')));
+app.use('/jquery-touchswipe',express.static(path.join(__dirname, 'bower_components/jquery-touchswipe')));
 
 
 

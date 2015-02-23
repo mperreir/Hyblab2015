@@ -49,7 +49,14 @@ function getJoursInf6(nomVille) {
     
 }
 
-//Fonction qui récupère le nombre de jours potable
+//Fonction qui récupère les jours supérieur a 6
+function getJoursSup6(nomVille) {
+    
+    return infoVille[nomVille].atmoSup6;
+    
+}
+
+//Fonction qui récupère le nombre de jours inférieur a 6
 function getNbrPotable(nomVille) {
     
     return infoVille[nomVille].atmoInf6;

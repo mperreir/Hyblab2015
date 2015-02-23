@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <style>
+            body{
+                background: #333;
+            }
+        </style>
+        <script src= "dist/snap.svg-min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="dataviz.js"></script>
+    </head>
+    <body>
+        <div id=a>
+           <svg id = 'bu'></svg>
+        </div>
+        
+        
+        <script>
+        
+            $( document ).ready(function() {
+           
+    
+                $.getJSON('test.json', function(data) {
+                    var pourcent1 = data.test.pourcent1;
+                    var pourcent2 = data.test.pourcent2;
+                    pyramide(pourcent1,pourcent2,'%');
+                    colonne(pourcent1,pourcent2,'€');
+                    bulle(pourcent1,pourcent2,'%');
+                    glaconHomme(pourcent1);
+                    glaconFemme(pourcent1);
+                }); 
+  
+            })
+        </script>
+            
+       
+
+    </body>
+</html>

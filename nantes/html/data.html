@@ -63,8 +63,8 @@
 					</div>
 					<div class="dataviz_legend">
 						<div id="bouton_slide6">
-							 <img id="slide6_h" src="img/img13/bouton_h.png"/> 
-							 <img id="slide6_f" src="img/img13/bouton_f.png"/> 
+							 <img id="slide6_h" src="img/misc/bouton_h.png"/> 
+							 <img id="slide6_f" src="img/misc/bouton_f.png"/> 
 							
 						</div>
 						<div class="source">Source : Insee - recensement 2010</div>
@@ -122,8 +122,8 @@
 						</div>
 						<div class="dataviz_legend">
 						<div id="bouton_slide8">
-							 <img id="slide8_h" src="img/img13/bouton_h.png"/> 
-							 <img id="slide8_f" src="img/img13/bouton_f.png"/> 
+							 <img id="slide8_h" src="img/misc/bouton_h.png"/> 
+							 <img id="slide8_f" src="img/misc/bouton_f.png"/> 
 							
 						</div>
 						<div class="source">Source :  Insee, Dads, Fichier Salariés au lieu de résidence 2010.</div>
@@ -252,8 +252,8 @@
 					</div>
 					<div class="dataviz_legend">
 						<div id="bouton_slide14">
-							 <img id="slide14_h" src="img/img13/bouton_h.png"/> 
-							 <img id="slide14_f" src="img/img13/bouton_f.png"/> 
+							 <img id="slide14_h" src="img/misc/bouton_h.png"/> 
+							 <img id="slide14_f" src="img/misc/bouton_f.png"/> 
 							
 						</div>
 						<div class="source">Source : Ville de Nantes</div>
@@ -266,15 +266,15 @@
 		</div>
 		
 		<div id="retour_accueil">
-			<a href="index.html"><img src="imgs/png/rond-home.png"/></a>
+			<a href="index.html"><img src="img/misc/rond-home.png"/></a>
 		</div>
 		<!--Javascripts -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!-- JQuery -->
 		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script> <!-- Scrolling -->
     		<script type="text/javascript" src="js/jquery.fittext.js"></script> <!-- Text Adjust -->
     		<script type="text/javascript" src="js/jquery.fancybox.js"></script> <!-- FancyBox -->
-    		<script type="text/javascript" src="snap_svg/dist/snap.svg-min.js"></script> <!-- Graphs -->
-    		<script type="text/javascript" src="snap_svg/dataviz.js"></script> <!-- Dataviz's -->
+    		<script type="text/javascript" src="datas/dist/snap.svg-min.js"></script> <!-- Graphs -->
+    		<script type="text/javascript" src="datas/dataviz.js"></script> <!-- Dataviz's -->
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('.main').onepage_scroll();
@@ -284,7 +284,7 @@
 				$('#pourcent12bis').fitText(1, {maxFontSize: '80px', minFontSize: '2px'});
 				$('.synopsis').fitText(1, {maxFontSize: '20px', minFontSize: '2px'});
 				$('.source').fitText(1, {maxFontSize: '15px', minFontSize: '2px'});
-				$.getJSON('snap_svg/hyblab.json', function(data) {
+				$.getJSON('datas/hyblab.json', function(data) {
                    			glaconHomme(data.sansDiplome.homme,'#sans_diplome');
                    			glaconHomme(data.bepCap.homme,'#bep_cap');
                    			glaconHomme(data.bacTechno.homme,'#bac_techno');
@@ -307,7 +307,7 @@
                			 
                			 $('.fancybox').fancybox();
                			 $('#slide6_h').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			glaconHomme(data.sansDiplome.homme,'#sans_diplome');
                    			glaconHomme(data.bepCap.homme,'#bep_cap');
                    			glaconHomme(data.bacTechno.homme,'#bac_techno');
@@ -318,7 +318,7 @@
                			 });
                			 
                			 $('#slide6_f').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			glaconFemme(data.sansDiplome.femme,'#sans_diplome');
                    			glaconFemme(data.bepCap.femme,'#bep_cap');
                    			glaconFemme(data.bacTechno.femme,'#bac_techno');
@@ -330,7 +330,7 @@
                			
                			
                			$('#slide8_h').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			colonneHomme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
                    			colonneHomme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
                    			colonneHomme(data.employe.homme,data.employe.femme,'€','#employes');
@@ -341,7 +341,7 @@
                			} );
                			
                			$('#slide8_f').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			colonneFemme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
                    			colonneFemme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
                    			colonneFemme(data.employe.homme,data.employe.femme,'€','#employes');
@@ -352,7 +352,7 @@
                			} );
                			
                			$('#slide14_h').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			pyramideHomme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
                    			pyramideHomme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
                    			pyramideHomme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
@@ -362,7 +362,7 @@
                			} );
                			
                			$('#slide14_f').click(function() {
-               			 	$.getJSON('snap_svg/hyblab.json', function(data) {
+               			 	$.getJSON('datas/hyblab.json', function(data) {
                    			pyramideFemme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
                    			pyramideFemme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
                    			pyramideFemme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');

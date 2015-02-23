@@ -30,3 +30,7 @@ pole4.setAttribute("transform","matrix(1 0 0 1 541.0977 -216.377)");
 pole5.setAttribute("transform","matrix(1 0 0 1 736.3203 -314.7612)");
 pole6.setAttribute("transform","matrix(1 0 0 1 594.3457 -400.5151)");
 pole7.setAttribute("transform","matrix(1 0 0 1 670.6777 -218.5156)");
+
+$('#next').click(function(){
+    $.fn.fullpage.moveSectionDown();
+});

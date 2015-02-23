@@ -1,5 +1,8 @@
 var loadData = function(dataPath,move,index){
     
+    
+	$(".loader").fadeIn("fast");
+    
 	$.ajax({
 	    url: dataPath,
 	    contentType:"json",
@@ -33,18 +36,17 @@ var loadData = function(dataPath,move,index){
 	        
        		var options3=loadAdherents(dataPath);
             $('#nouveaux_adherents').highcharts(options3,function (chart) {
-                $.fn.fullpage.reBuild();
             });
             
             var options4=loadRepartitionEtablissement(dataPath);
             $('#repartition').highcharts(options4,function (chart) {
-                $.fn.fullpage.reBuild();
             });
             
             var options5=loadProjetLabellise(dataPath);
             
             $('#graphique_courbe').highcharts(options5,function (chart) {
                 $.fn.fullpage.reBuild();
+    	        $(".loader").fadeOut("slow","swing");
             });
 	        
 	    }
@@ -54,7 +56,6 @@ var loadData = function(dataPath,move,index){
 var activeMenu = function(elem){
     var childs = document.getElementById("menu_pagePole").childNodes;
     for(i=1;i<childs.length;i=i+2){
-        console.log(i+":"+childs[i].classList);
         childs[i].classList.remove("selected");
     }
     elem.classList.add("selected");
@@ -179,7 +180,7 @@ var loadAdherents = function(dataPath){
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
-                        enabled: false
+                        format: '{point.y}'
                     },
                     showInLegend: true,
                     innerSize: '50%',
@@ -217,7 +218,7 @@ var loadRepartitionEtablissement = function(dataPath){
                 plotBorderWidth: null,
             },
             title: {
-                text: 'Qui sont les entreprises adhérentes aux pôles ?'
+                text: 'Qui sont les entreprises adhérentes au pôle ?'
             },
             tooltip: {
                 pointFormat: '<b>{point.percentage:.1f}%</b>'
@@ -292,11 +293,14 @@ var loadProjetLabellise = function(dataPath){
                     }
                 },
                 labels: {
-                    format: '{value} €',
+                    formatter: function(){
+                        return this.value / 1000000 + 'M €';
+                    },
                     style: {
                         color: Highcharts.getOptions().colors[1]
                     }
                 },
+                min: 0,
                 opposite: true
             },
             { // Axe du nombre de projets

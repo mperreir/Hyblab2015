@@ -51,7 +51,8 @@
 #legendes4{
   font-family:proximanova-regular;
   color:white;
-  size:80%;
+  font-size: 85%;
+  margin-left: -2%;
 }
 
 #texte_bus{
@@ -124,18 +125,20 @@
 #picto_pluie{
   float: left;
   margin-right: 5%;
+  transform:scale(0.7);
 }
 
 #picto_soleil{
   float: left;
   margin-right: 5%;
+  transform:scale(0.7);
 }
 
 #posvilles4{
   font-size: 24px;
   font-family: proximanova-light,sans serif;
   display: block;
-  margin-top: -5%;
+  margin-top: -4%;
 }
 
 #legendegraphe{

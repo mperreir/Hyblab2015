@@ -21,6 +21,7 @@
 #modal_biographie_title,#modal_title{
     font-size: 2vw;
     font-weight: bold;
+    font-family: 'RobotoRegular',Arial,sans-serif;
 }
 
 #modal_biographie_body,#modal_body{

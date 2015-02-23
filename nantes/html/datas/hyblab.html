@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hyblab</title>
+        <style>
+            body{
+                background: #333;
+            }
+        </style>
+        <script src= "dist/snap.svg-min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="dataviz.js"></script>
+    </head>
+    <body>
+        
+        
+        <script>
+            $( document ).ready(function() {
+   
+    
+                $.getJSON('hyblab.json', function(data) {
+                    var pourcentHomme = data.bac.homme;
+                    var pourcentFemme = data.bac.femme;
+                    pyramide(pourcentHomme,pourcentFemme,'%');
+                    colonne(pourcentHomme,pourcentFemme,'€');
+                    bulle(pourcentHomme,pourcentFemme,'%');
+                }); 
+  
+            });
+        </script>
+            
+       
+
+    </body>
+</html>

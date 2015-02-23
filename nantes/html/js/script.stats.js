@@ -38,7 +38,7 @@ $(document).ready(function() {
 							$('#img2').attr('src', 'img/stats/tranche_age/femme-age2.png');
 							$('#img3').attr('src', 'img/stats/tranche_age/femme-age3.png');
 							$('#img4').attr('src', 'img/stats/tranche_age/femme-age4.png');
-							$('#img5').attr('src', 'img/stats/tranche_age/curcueiljosie.png');
+							$('#img5').attr('src', 'img/stats/tranche_age/cercueiljosie.png');
 							break;
 						}
 					}
@@ -108,14 +108,14 @@ $(document).ready(function() {
 		{
 			if(index == '8')
 			{
-				$.getJSON('snap_svg/hyblab.json', function(data) {
+				$.getJSON('datas/hyblab.json', function(data) {
    					bulle(data.taux_emploi.homme,data.taux_emploi.femme,'%','#graph_slide10');
 				});
 			}
 						
 			if(index == '10')
 			{
-				$.getJSON('snap_svg/hyblab.json', function(data) {
+				$.getJSON('datas/hyblab.json', function(data) {
    					compteurHomme(data.tempsPartiel.homme/100,'#compteur12','pourcent12');
    					compteurFemme(data.tempsPartiel.femme/100,'#compteur12bis','pourcent12bis');
 			    });
@@ -186,8 +186,8 @@ $(document).ready(function() {
 	$('.fancybox').fancybox();
 	
 /* appel des differents dataviz's */
-
-	$.getJSON('snap_svg/hyblab.json', function(data) {
+		
+	$.getJSON('datas/hyblab.json', function(data) {
  		glaconFemme(data.sansDiplome.femme,'#sans_diplome');
    		glaconFemme(data.bepCap.femme,'#bep_cap');
    		glaconFemme(data.bacTechno.femme,'#bac_techno');
@@ -208,7 +208,7 @@ $(document).ready(function() {
     });
     
     $('#slide6_h').click(function() {
-        $.getJSON('snap_svg/hyblab.json', function(data) {
+        $.getJSON('../datas/hyblab.json', function(data) {
             glaconHomme(data.sansDiplome.homme,'#sans_diplome');
             glaconHomme(data.bepCap.homme,'#bep_cap');
             glaconHomme(data.bacTechno.homme,'#bac_techno');
@@ -219,7 +219,7 @@ $(document).ready(function() {
     });
     
     $('#slide6_f').click(function() {
-	 	$.getJSON('snap_svg/hyblab.json', function(data) {
+	 	$.getJSON('datas/hyblab.json', function(data) {
    			glaconFemme(data.sansDiplome.femme,'#sans_diplome');
    			glaconFemme(data.bepCap.femme,'#bep_cap');
    			glaconFemme(data.bacTechno.femme,'#bac_techno');
@@ -230,7 +230,7 @@ $(document).ready(function() {
     });
     
     $('#slide8_h').click(function() {
-     	$.getJSON('snap_svg/hyblab.json', function(data) {
+     	$.getJSON('datas/hyblab.json', function(data) {
     		colonneHomme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
         	colonneHomme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
        		colonneHomme(data.employe.homme,data.employe.femme,'€','#employes');
@@ -241,7 +241,7 @@ $(document).ready(function() {
     });
     
     $('#slide8_f').click(function() {
-     	$.getJSON('snap_svg/hyblab.json', function(data) {
+     	$.getJSON('datas/hyblab.json', function(data) {
     		colonneFemme(data.ouvrierNonQual.homme,data.ouvrierNonQual.femme,'€','#non_qualif');
     		colonneFemme(data.ouvrierQual.homme,data.ouvrierQual.femme,'€','#qualif');
     		colonneFemme(data.employe.homme,data.employe.femme,'€','#employes');
@@ -252,7 +252,7 @@ $(document).ready(function() {
     });
 
     $('#slide14_h').click(function() {
-     	$.getJSON('snap_svg/hyblab.json', function(data) {
+     	$.getJSON('datas/hyblab.json', function(data) {
         	pyramideHomme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
         	pyramideHomme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
         	pyramideHomme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
@@ -262,7 +262,7 @@ $(document).ready(function() {
     });
     
     $('#slide14_f').click(function() {
-     	$.getJSON('snap_svg/hyblab.json', function(data) {
+     	$.getJSON('datas/hyblab.json', function(data) {
     		pyramideFemme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
     		pyramideFemme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
     		pyramideFemme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');

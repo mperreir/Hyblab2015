@@ -64,6 +64,10 @@
 	max-height: 2vw;
 }
 
+#poleContent .row{
+	margin-top: 6vw;
+}
+
 #nouveaux_adherents, #repartition,#graphique_courbe,#resultats_intelectuels,#resultats_operationnel{
 	width: 100%;
 	text-align: center;
@@ -80,49 +84,40 @@
 
 #podium_bassin h4,#cylindres_activites h4,#resultats_operationnel h4,#resultats_intelectuels h4{
 	text-align: center;
-	font-size: 1.5vw;
-	font-weight: bold;
+	color: black;
+	font: bold 1.5vw "RobotoRegular";
 }
 
-#podium_bassin_img{
+#podium_bassin_img,#cylindres_activites_img{
 	height: 400px;
 	max-width: 100%;
 }
 
-#cylindres_activites_img{
+#resultats_intelectuels img, #resultats_operationnel img  {
 	max-height: 400px;
 	max-width: 100%;
 }
 
-#resultats_intelectuels img {
-	max-height: 400px;
-	max-width: 100%;
+#projets_pole,#adherents_pole{
+	margin-top: 6vw;
 }
 
-#resultats_operationnel img {
-	max-height: 400px;
-	max-width: 100%;
-}
-
-#projets_pole{
-	margin-top: 2vw;
+#bassin_loupe,#activite_loupe,#intelectuels_loupe,#operationnel_loupe,#adherents_loupe,#repartition_loupe,#labellise_loupe{
+	position: absolute;
+	width: 15%;
+	cursor: pointer;
+	cursor: pointer;
 }
 
 #bassin_loupe,#activite_loupe,#intelectuels_loupe,#operationnel_loupe{
-	position: absolute;
-	width: 15%;
 	top: 5vw;
 	right: 5vw;
-	cursor: pointer;
 }
 
 #adherents_loupe,#repartition_loupe,#labellise_loupe{
-	position: absolute;
 	top: 0;
-	width: 15%;
 	right: 0;
 	z-index: 3;
-	cursor: pointer;
 }
 
 #labellise_loupe{

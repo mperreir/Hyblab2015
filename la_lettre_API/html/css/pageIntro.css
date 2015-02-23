@@ -23,7 +23,7 @@
 #title_pageIntro{
     z-index: 1000;
     position: absolute;
-    bottom: 0;
+    bottom: 1.5vw;
     color: #F07565;
     font-weight: bold;
     margin-left: 3vw;
@@ -48,11 +48,23 @@
 #subtitle_pageIntro{
     z-index: 1001;
     position: absolute;
-    bottom: 19%;
+    bottom: 20%;
     left: 33%;
     color: #6DBBBF;
     font-size: 2vw;
     font-family: 'CodeBold', Arial, serif;
+}
+
+#next {
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    bottom: 0.5vw;
+    left: 50vw;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    cursor:pointer;
 }
 
 /*------ PINS -------*/

@@ -13,7 +13,7 @@
 
 #move_poleID{
     position: absolute;
-    right: -4.47vw;
+    right: -4vw;
     top: 46%;
     width: 5vw;
     cursor: pointer;
@@ -45,9 +45,11 @@
 
 #description_poleID{
     text-align: justify;
-    margin: 10px 10%;
-    font-size: 1vw;
+    overflow: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
     font-family: 'RobotoRegular', Arial, serif;
+    font-size: 0.95vw;
 }
 
 #info_poleID{
