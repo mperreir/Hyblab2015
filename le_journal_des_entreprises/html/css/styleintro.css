@@ -3,11 +3,11 @@
  ***************/
 @font-face {
     font-family: 'bebasregular';
-    src: url('../fonts/BEBAS___-webfont.eot');
-    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/BEBAS___-webfont.woff') format('woff'),
-    url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
-    url('../fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/BEBAS___-webfont.woff') format('woff'),
+    url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+    url('fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,6 +21,7 @@ html, body
  
  font-size:11px;
  font-family: 'Helvetica', sans-serif;
+ overflow:hidden;
 }
 
 .contenaireMaison {
@@ -34,7 +35,6 @@ h1
 
 
 body{
- /*overflow:hidden;*/
 
     position: absolute;
     top: 0;
