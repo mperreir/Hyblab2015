@@ -1,5 +1,10 @@
 var express = require('express')
+var basicAuth = require('basic-auth-connect');
 var app = express()
+
+
+// password protection
+app.use(basicAuth('ddj2015', 'datascientist'));
 
 // create sub apps
 //var test_file = require('./test-file/server'); // test
@@ -31,6 +36,7 @@ app.use('/we_demain',we_demain);
 app.use(/\/$/,function(req, res, next){
 	res.redirect('http://www.hyblab.fr/evenements/hyblab-datajournalisme/');
 });
+
 
 // launch app
 var server = app.listen(8080, function () {
