@@ -220,7 +220,7 @@ function loadData(id) {
             //var id = this.textContent || this.innerText;
             $('#myModal').modal();
             $('#hiddenName').html(id);
-            var year = "20" + $('#ca3').text() + $('#ca4').text();
+            var year = "20" + $('.ca3').text() + $('.ca4').text();
             $.getJSON('townInfo?nom=' + id, function(data) {
                 if(data) {
                     $('#DV2Description').html(data.desc);
