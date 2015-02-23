@@ -15,6 +15,77 @@
     text-align : center;
 }
 
+#teamName {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: bebasregular;
+}
+
+.nameSC {
+    text-transform: uppercase;
+    color: #886924;
+    font-family: bebasregular;
+}
+
+.teamPrez {
+    color: #5985A6;
+    font-size: 10pt;
+}
+
+.outro p {
+    margin: 0px;
+    margin-top: 3px;
+}
+
+#teamDescription {
+    text-align: justify;
+    font-family: 'helvetica';
+    font-size: 10pt;
+    color: #5985A6;
+}
+
+#modalCoulisse {
+    color : #5985A6;
+    font-size: 10pt;
+    font-family: 'helvetica';
+    text-align: justify;
+}
+
+#modalCoulisse h3 {
+    color: black;
+}
+
+#modalCoulisse ul {
+    margin-left: 10px;
+}
+
+#modalMerci {
+    padding : 20px;
+}
+
+#modalMerci img {
+    margin-top: 20px;
+}
+
+#modalMerci p {
+    text-align: justify;
+    color : #5985A6;
+    font-size: 10pt;
+    font-family: 'helvetica';
+}
+
+.nameAGR {
+    text-transform: uppercase;
+    color: #886924;
+    font-family: bebasregular;
+}
+
+.namePolytech {
+    text-transform: uppercase;
+    color: #5985A6;
+    font-family: bebasregular;
+}
+
 @media screen and (max-width: 1200px) {
     .vestiaires {
         width: 100%;
