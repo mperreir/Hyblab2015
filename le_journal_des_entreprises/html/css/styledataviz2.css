@@ -79,17 +79,18 @@ html
     color:#9FC0C7;
     text-align:center;
     padding-bottom: 10px;
-    margin-left: 44%;
+    margin-left: -3%;
     width: 600px !important;
+    margin-bottom: -3%;
 }
 
 #modalDataviz2 {
     border-radius: 0px;
-    background: transparent;
+   /* background: transparent;*/
 }
 
 .modal-body {
-    background-color : transparent !important;
+    /*background-color : transparent !important;*/
 }
 
 #subcol1
@@ -125,6 +126,8 @@ html
     position:relative;
     margin-left:5%;
     text-align:justify;
+    overflow-x: auto;
+    height: 300px;
 }
 
 #DV2big {

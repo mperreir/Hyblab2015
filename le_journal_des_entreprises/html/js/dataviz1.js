@@ -253,10 +253,6 @@ function loadDataviz(id) {
                 keyboard: true
             }).css({
                 width: 'auto',
-                height: 'auto',
-                'margin-left': function() {
-                    return -(($(this).width() / 2) + 50);
-                }
             });
             $('#hiddenName').html(id);
             //var year = "20" + $('.ca3').text() + $('.ca4').text();
