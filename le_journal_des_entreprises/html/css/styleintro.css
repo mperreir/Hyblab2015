@@ -24,7 +24,7 @@ html, body
 }
 
 .container {
-    width: 920px;
+    min-width: 920px;
 }
 
 h1
