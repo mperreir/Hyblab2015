@@ -37,6 +37,7 @@
 	<script type="text/javascript" src="script/counter2.js"></script>
 	<script type="text/javascript" src="script/counter.js"></script>
 	<script type="text/javascript" src="script/jauge.js"></script>
+	<script type="text/javascript" src="script/tooltip.js"></script>
 	<script type="text/javascript" src="script/libs/snapsvg.js"></script>
 	<script type="text/javascript">
 	var dts;
@@ -151,7 +152,10 @@
 	</div>
 </div>
 <div class="timeline" id="timeline">
-	<div class="title"><span>Le bio</span> au menu des français</div>
+	<div class="title">
+		<a style="text-decoration:none;cursor:pointer;" onClick='dts.changeProduct(10);dts.changeSlide(1); return false;' >
+			<span>Le bio</span> au menu des français
+		</a></div>
 	<div>
 	<div class="backline"> </div>
 	<div class="bg2"> </div>
@@ -166,14 +170,17 @@
 	<img src="images/surgeles.png" id="icon8" alt="Surgeles" onClick='dts.changeProduct(8); return false;'/>
 	<img src="images/legumes.png" id="icon9" alt="Legumes" onClick='dts.changeProduct(9); return false;'/>
 	<img src="images/france.png" id="icon10" class="active" alt="France" onClick='dts.changeProduct(10); return false;'/>
+	<div id="tooltips"></div>
 	</div>
 </div>
 <div id="donnees_credits">
 	<table>
 		<tr>
-			<td id="source_donnees"><a href="#modalSourceDonnees"><img src="images/source_donnees.png" height="35" id="icon_source_donnees" alt=""/> <span>D'où viennent nos données</span></a></td>
+			<td id="source_donnees"><a href="#modalSourceDonnees"><img src="images/source_donnees.png" height="35" id="icon_source_donnees" alt=""/></a></td>
+			<td><a href="#modalCredits"><span>D'où viennent<br/>nos données</span></td>
 			<td><div id="separateur_colonnes_haut"></div></td>
-			<td id="credits"><a href="#modalCredits"><img src="images/credits.png" height="35" id="icon_credits" alt=""/> <span>Crédits</span></a></td>
+			<td id="credits"><a href="#modalCredits"><img src="images/credits.png" height="35" id="icon_credits" alt=""/></a></td>
+			<td><a href="#modalCredits"><span>Crédits</span></a></td>
 		</tr>
 	</table>
 </div>
@@ -299,7 +306,7 @@
 	               </tr>
 	            </table>
 				<div id="compteur_region"></div>
-				<div id="infos_region"><span id="spearateur_compteur_donnees">-</span><span id="compteur_type_valeur">Hectars</span></div> <!-- Hectars / Têtes / Ruches -->
+				<div id="infos_region"><span id="compteur_type_valeur">hectars</span></div>
 				<div id="texte_pourcentage_region">Soit <span id="pourcentage_bio_region_selectionnee"><span id="valeur_pourcentage_bio_region_selectionnee">XX</span>%</span> de la production régionale en bio.</div>
 	         </div>
 	         <div id="carte"></div>

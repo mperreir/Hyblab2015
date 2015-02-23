@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Aldrich);
 #lets_partenaires {
     clear:both;
     margin-top: 3em;
@@ -50,7 +49,7 @@
 }
 #lets_partenaires_hyb div.lets_text  p{
     float:left;
-    font-family: 'Aldrich', sans-serif;
+    font-family: sans-serif;
 }
 #lets_partenaires_hyb div.lets_text a{
 }

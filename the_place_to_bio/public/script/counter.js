@@ -11,7 +11,7 @@ function Counter(application, div, options){
     
     //Options
     this.options = $.extend({
-        digits:6,
+        digits:7,
         animation: Math.easeOutCubic
         
     }, options);

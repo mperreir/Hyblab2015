@@ -11,6 +11,7 @@ function DataStrophe(div){
 	};
 	
 	this.slide1 = {};
+	this.tooltips = [];
 	this.current_slide = 1;
 	
 	this.dataset = null;
@@ -144,6 +145,8 @@ DataStrophe.prototype = {
 		});
 		
 		
+		this.initIcons();
+		
 		this.slide1.slider_distrib = new Slider(this, $("#slider1")[0], {onChange: function(id){ self.updateDistrib(id) }});
 		this.slide1.slider_import = new Slider(this, $("#slider2")[0], {onChange: function(id){ self.updateImport(id)}});
 		this.slide1.slider_bio = new Slider(this, $("#slider3")[0], {onChange: function(id){ self.updateBIO(id)}});
@@ -166,7 +169,7 @@ DataStrophe.prototype = {
 			self.updateDataSet();
 		}
 		
-		this.slide1.prix = new Counter2(this, $("#pc_prix")[0],{suffix:"%"});
+		this.slide1.prix = new Counter2(this, $("#pc_prix")[0],{suffix:"%", decimal: false});
 		this.slide1.prix_ok = true;
 		
 		this.slidemap = {};
@@ -288,10 +291,12 @@ DataStrophe.prototype = {
 	updateDataSet: function(){
 		var data = this.dataset[this.selected];
 		var self = this;
+		
 		$("#title").fadeOut(500,function(){ $(this).html(data.name); $(this).fadeIn(); });
 		$("#le_saviez_vous").fadeOut(500,function(){ $(this).html(data.le_saviez_vous); $(this).fadeIn(); });
 	
 		
+			this.tooltips.show($("#icon"+this.selected)[0], this.dataset[this.selected].name);
 		if(data.prix){
 			this.slide1.prix.setValue(data.prix);
 			if(!this.slide1.prix_ok){
@@ -399,5 +404,8 @@ DataStrophe.prototype = {
 		var data = this.dataset[this.selected];
 		this.slide1.bio.setValue(data.bio.values[id]);
 		this.slide1.bio_counter.setValue(data.bio.values[id]);
+	},
+	initIcons: function(){
+		this.tooltips = new Tooltip(this, $("#tooltips")[0]);
 	}
 };

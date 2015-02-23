@@ -237,7 +237,7 @@
 		},
 
 			3:{
-			name:"Épicerie Sucrée)",
+			name:"Épicerie Sucrée",
 			le_saviez_vous:"Plus de 50% des produits de l’épicerie sucrée sont importés de l’étranger. Mais selon <a href=\"http://www.agencebio.org/\">l’Agence Bio</a>, « la majorité des importations concerne des denrées qui ne peuvent être produites en France », telle que le thé, le sucre, le caco et le café ; produits appartenant à cette filière. ",
 			distribution:{
 				annees:[2008,2009,2010,2011,2012],
