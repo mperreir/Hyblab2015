@@ -19,12 +19,12 @@
 
 #cadreS
 {
- width: 80%;
  height: 85%;
  margin-left: 10%;
  border-style: solid;
  border-width: 2px;
  border-color: #E9AE28;
+ margin: 0 auto;
 }
 
 #ylabelS
@@ -52,11 +52,6 @@ margin-top: 30%;
  border-style: solid;
  border-width: 1px;
  border-color: #E9AE28;
-}
-
-#cadreS
-{
- padding-left: 13px;
 }
 
 #cadreCo1
@@ -100,9 +95,29 @@ background-color:#CBDADD;
  height: 99%;
  width: 10%;
  background-image: url('../images/Sac-de-frappe-1.png');
- background-size: 100%;
+ background-size: 95% 80%;
  background-repeat: no-repeat;
  margin-left: 5px;
+ position:relative;
+ text-align: left;
+}
+@media screen and (max-height: 680px) {
+   .punch {
+    background-size: 95% 95%;
+   }
+}
+
+.punch p
+{
+ position: absolute;
+ top: 55%;
+ left: 10%;
+ font-size: 20pt;
+}
+.punch p span
+{
+  font-size: 18pt;
+  display: inline-block;
 }
 
 .cliquezIciD2 {
@@ -114,4 +129,27 @@ background-color:#CBDADD;
 
 .titleD1 {
  text-align : left;
+ float: left;
+ display: inline-block;
+}
+
+@media screen and (max-width: 1230px) {
+   .headD1 {
+     margin-top: 0px;
+   }
+}
+
+#affichS
+{
+ margin-top:40px;
+}
+
+@media screen and (max-height: 700px) {
+   #affichS {
+    margin-top: 20px;
+   }
+   .cliquezIciD1 p
+   {
+    font-size: 12pt;
+   }
 }
