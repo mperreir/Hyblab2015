@@ -25,10 +25,14 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  
  #dataviz1
 { 
- background-color: #213146;  
- text-align:center;
+ background-color: #213146;
  color: white;   
  overflow-x : hidden;
+}
+
+.insideD1
+{
+ text-align:center;
 }
 
 
@@ -53,9 +57,8 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  text-align: left;
 }
 
-.selectionAnneeD1
+.selectionAnneeD1, .selectionAnneePopup
 {
- float:right;
  font-family: Bebas Neue, sans-serif;
  color: #EBAC44;  
  font-size:19pt;
@@ -64,6 +67,21 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  margin-top: 22px;
  padding-right: 0px !important;
  overflow:hidden;
+ position: relative;
+}
+
+.selectionAnneeD1
+{
+float:right;
+}
+
+.selectionAnneePopup .chiffreAnnee
+{
+    width:24px;
+    height:35px;
+    background-color: #13253B;
+    position: absolute; 
+    display: inline-block;
 }
 
 .selectionAnneeD1 .chiffreAnnee
@@ -75,24 +93,24 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
     position: absolute; 
     display: inline-block;
 }
-.selectionAnneeD1 .ca1
+.ca1
 {
  left : 40px;
 }
-.selectionAnneeD1 .ca2
+.ca2
 {
  left : 66px;
 }
-.selectionAnneeD1 .ca3
+.ca3
 {
  left : 92px;
 }
-.selectionAnneeD1 .ca4
+.ca4
 {
  left : 118px;
 }
 
-.selectionAnneeD1 .plusmoins
+.plusmoins
 {
  display: inline-block;
  font-size: 16pt;
@@ -108,27 +126,27 @@ src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
  transition: font-size 0.2s, top 0.2s;
 }
 
-.selectionAnneeD1 .plusmoins:hover
+.plusmoins:hover
 {
   font-size: 20pt;
   cursor: pointer;
 
 }
-.selectionAnneeD1 .yearless:hover
+.yearless:hover
 {
    top:-4px;
 }
-.selectionAnneeD1 .yearplus:hover
+.yearplus:hover
 {
    top:-2px;
 }
 
-.selectionAnneeD1 .yearless
+.yearless
 {
     left: 13px;
     top: 1px;
 }
-.selectionAnneeD1 .yearplus
+.yearplus
 {
  left: 142px;
  top: 2px;

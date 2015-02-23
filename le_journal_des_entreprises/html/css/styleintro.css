@@ -63,7 +63,6 @@ body{
 #slide1
 { 
  background-color: #213146;  
- text-align:center;
 }
  
 #slide2
@@ -77,7 +76,8 @@ body{
  background-image: url("../images/ring.png");   
  background-repeat: no-repeat;
  background-attachment: fixed;
- background-position: center;  
+ background-position: center; 
+ text-align:center;
 }
 
 #inside2 h1
@@ -92,7 +92,6 @@ body{
  max-width : 650px;
  color: white;
  margin-top: 235px;
- padding-left: 30px;
  text-align: justify;
 }
 
@@ -116,6 +115,7 @@ body{
  background-attachment: fixed;
  background-position: center; 
  color: #213146;
+ text-align:center;
 }
 
 #question
@@ -129,6 +129,6 @@ body{
 {
  bottom: 20px;
  position:absolute;
- text-align : center;
+ text-align:center;
 }
 

@@ -1,13 +1,14 @@
  #salariesNum
 { 
  background-color: #213146;  
- text-align:center;
+
  color: white;   
 }
 
 .insideS1
 {
  height: 90%;
+ text-align:center;
 }
 
 #affichS
