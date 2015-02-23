@@ -236,7 +236,6 @@ p.menuSelectionnet {
 }
 .imgsMonde img {
     right: 0px;
-    width: 550px;
     bottom: 0px;
     position: absolute;
 }
@@ -314,9 +313,7 @@ p.menuSelectionnet {
 .titreAnneeActiveBorder {
     border-top: dotted white 3px;
 }
-.imgAnnee {
-    height: 370px;
-}
+
 .legende {
     position: absolute;
     bottom: 0px;
@@ -368,7 +365,6 @@ p.menuSelectionnet {
     top: 255px;
     left: 155px;
     z-index: 11;
-    height: 160px;
 }
 .P6_droite {
     display: inline-block;
@@ -533,8 +529,6 @@ p.menuSelectionnet {
     margin: 0px;
     margin-left:430px;
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
 }
 
 .bonhommes{

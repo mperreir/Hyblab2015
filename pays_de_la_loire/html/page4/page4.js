@@ -1,7 +1,7 @@
+"use strict";
+
 $(document).ready(function() {
 	//Chargement du menu
-	// $(".headerP4").load('page4/categories.html');
-	// $("#menuGauche").load('page4/menuGauche.html');
 	$(".headerP4").click(function() {
 		$(this).css("margin-top", "-330px");
 		$(".categories").css("margin-top", "40px");
@@ -218,7 +218,7 @@ function changerPodium() {
 				}
 				else if (pays.length == 3)
 					$(".bonhomme" + index + " .drapeau2").addClass("droit2");
-				//console.log(pays);
+
 				pays.forEach(
 					function(e, j, a) {
 						nomPays += "<img src='img/page4/drapeaux/" + e + ".png' height='15px' align='top'> "+e+"<br>"; 
