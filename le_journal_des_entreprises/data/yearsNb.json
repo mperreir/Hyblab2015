@@ -1,0 +1,486 @@
+[{
+    "nom" : "Lyon",
+    "annee" : "2008",
+    "chiffre1" : "3439",
+    "chiffre2" : "7.71%",
+    "chiffre3" : "46802",
+    "chiffre4" : "8.84%"
+},
+
+{
+    "nom" : "Lyon",
+    "annee" : "2009",
+    "chiffre1" : "3461",
+    "chiffre2" : "7.75%",
+    "chiffre3" : "45810",
+    "chiffre4" : "8.82%"
+},
+
+{
+    "nom" : "Lyon",
+    "annee" : "2010",
+    "chiffre1" : "3538",
+    "chiffre2" : "7.83%",
+    "chiffre3" : "46841",
+    "chiffre4" : "8.87%"
+},
+
+{
+    "nom" : "Lyon",
+    "annee" : "2011",
+    "chiffre1" : "3601",
+    "chiffre2" : "7.90%",
+    "chiffre3" : "48424",
+    "chiffre4" : "9.02%"
+},
+
+{
+    "nom" : "Lyon",
+    "annee" : "2012",
+    "chiffre1" : "3680",
+    "chiffre2" : "7.98%",
+    "chiffre3" : "49518",
+    "chiffre4" : "9.19%"
+},
+
+{
+    "nom" : "Lyon",
+    "annee" : "2013",
+    "chiffre1" : "3741",
+    "chiffre2" : "8.10%",
+    "chiffre3" : "50048",
+    "chiffre4" : "9.26%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2008",
+    "chiffre1" : "2564",
+    "chiffre2" : "5.94%",
+    "chiffre3" : "34781",
+    "chiffre4" : "7.97%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2009",
+    "chiffre1" : "2538",
+    "chiffre2" : "5.88%",
+    "chiffre3" : "32640",
+    "chiffre4" : "7.55%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2010",
+    "chiffre1" : "2547",
+    "chiffre2" : "5.84%",
+    "chiffre3" : "31918",
+    "chiffre4" : "7.33%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2011",
+    "chiffre1" : "2633",
+    "chiffre2" : "6.00%",
+    "chiffre3" : "33076",
+    "chiffre4" : "7.54%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2012",
+    "chiffre1" : "2638",
+    "chiffre2" : "6.01%",
+    "chiffre3" : "33365",
+    "chiffre4" : "7.59%"
+},
+
+{
+    "nom" : "Aix-Marseille",
+    "annee" : "2013",
+    "chiffre1" : "2677",
+    "chiffre2" : "6.08%",
+    "chiffre3" : "31673",
+    "chiffre4" : "7.19%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2008",
+    "chiffre1" : "1883",
+    "chiffre2" : "6.56%",
+    "chiffre3" : "27339",
+    "chiffre4" : "7.12%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2009",
+    "chiffre1" : "1878",
+    "chiffre2" : "6.61%",
+    "chiffre3" : "26603",
+    "chiffre4" : "7.04%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2010",
+    "chiffre1" : "1980",
+    "chiffre2" : "6.87%",
+    "chiffre3" : "27129",
+    "chiffre4" : "7.10%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2011",
+    "chiffre1" : "2030",
+    "chiffre2" : "6.99%",
+    "chiffre3" : "28388",
+    "chiffre4" : "7.41%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2012",
+    "chiffre1" : "2108",
+    "chiffre2" : "7.26%",
+    "chiffre3" : "28909",
+    "chiffre4" : "7.56%"
+},
+
+{
+    "nom" : "Lille",
+    "annee" : "2013",
+    "chiffre1" : "2161",
+    "chiffre2" : "7.48%",
+    "chiffre3" : "28807",
+    "chiffre4" : "7.59%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2008",
+    "chiffre1" : "1538",
+    "chiffre2" : "6.46%",
+    "chiffre3" : "27597",
+    "chiffre4" : "9.30%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2009",
+    "chiffre1" : "1548",
+    "chiffre2" : "6.46%",
+    "chiffre3" : "26179",
+    "chiffre4" : "8.84%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2010",
+    "chiffre1" : "1594",
+    "chiffre2" : "6.57%",
+    "chiffre3" : "26833",
+    "chiffre4" : "8.89%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2011",
+    "chiffre1" : "1615",
+    "chiffre2" : "6.62%",
+    "chiffre3" : "28151",
+    "chiffre4" : "9.07%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2012",
+    "chiffre1" : "1633",
+    "chiffre2" : "6.66%",
+    "chiffre3" : "29108",
+    "chiffre4" : "9.20%"
+},
+
+{
+    "nom" : "Toulouse",
+    "annee" : "2013",
+    "chiffre1" : "1692",
+    "chiffre2" : "6.89%",
+    "chiffre3" : "28953",
+    "chiffre4" : "9.05%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2008",
+    "chiffre1" : "1373",
+    "chiffre2" : "7.76%",
+    "chiffre3" : "23805",
+    "chiffre4" : "10.08%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2009",
+    "chiffre1" : "1376",
+    "chiffre2" : "7.75%",
+    "chiffre3" : "22603",
+    "chiffre4" : "9.70%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2010",
+    "chiffre1" : "1429",
+    "chiffre2" : "7.90%",
+    "chiffre3" : "23684",
+    "chiffre4" : "9.91%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2011",
+    "chiffre1" : "1445",
+    "chiffre2" : "7.98%",
+    "chiffre3" : "24802",
+    "chiffre4" : "10.14%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2012",
+    "chiffre1" : "1502",
+    "chiffre2" : "8.14%",
+    "chiffre3" : "26979",
+    "chiffre4" : "10.94%"
+},
+
+{
+    "nom" : "Nantes",
+    "annee" : "2013",
+    "chiffre1" : "1560",
+    "chiffre2" : "8.39%",
+    "chiffre3" : "27941",
+    "chiffre4" : "11.29%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2008",
+    "chiffre1" : "1412",
+    "chiffre2" : "5.98%",
+    "chiffre3" : "19797",
+    "chiffre4" : "7.29%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2009",
+    "chiffre1" : "1429",
+    "chiffre2" : "6.02%",
+    "chiffre3" : "19258",
+    "chiffre4" : "7.13%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2010",
+    "chiffre1" : "1441",
+    "chiffre2" : "6.03%",
+    "chiffre3" : "19707",
+    "chiffre4" : "7.20%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2011",
+    "chiffre1" : "1474",
+    "chiffre2" : "6.05%",
+    "chiffre3" : "20308",
+    "chiffre4" : "7.32%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2012",
+    "chiffre1" : "1516",
+    "chiffre2" : "6.17%",
+    "chiffre3" : "20362",
+    "chiffre4" : "7.28%"
+},
+
+{
+    "nom" : "Bordeaux",
+    "annee" : "2013",
+    "chiffre1" : "1552",
+    "chiffre2" : "6.24%",
+    "chiffre3" : "20247",
+    "chiffre4" : "7.20%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2008",
+    "chiffre1" : "887",
+    "chiffre2" : "6.42%",
+    "chiffre3" : "11538",
+    "chiffre4" : "8.49%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2009",
+    "chiffre1" : "884",
+    "chiffre2" : "6.40%",
+    "chiffre3" : "11221",
+    "chiffre4" : "8.30%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2010",
+    "chiffre1" : "925",
+    "chiffre2" : "6.50%",
+    "chiffre3" : "11500",
+    "chiffre4" : "8.36%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2011",
+    "chiffre1" : "930",
+    "chiffre2" : "6.43%",
+    "chiffre3" : "11785",
+    "chiffre4" : "8.47%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2012",
+    "chiffre1" : "931",
+    "chiffre2" : "6.45%",
+    "chiffre3" : "11826",
+    "chiffre4" : "8.54%"
+},
+
+{
+    "nom" : "Montpellier",
+    "annee" : "2013",
+    "chiffre1" : "981",
+    "chiffre2" : "6.69%",
+    "chiffre3" : "12088",
+    "chiffre4" : "8.77%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2008",
+    "chiffre1" : "820",
+    "chiffre2" : "6.49%",
+    "chiffre3" : "17564",
+    "chiffre4" : "10.59%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2009",
+    "chiffre1" : "832",
+    "chiffre2" : "6.53%",
+    "chiffre3" : "17354",
+    "chiffre4" : "10.74%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2010",
+    "chiffre1" : "849",
+    "chiffre2" : "6.61%",
+    "chiffre3" : "17499",
+    "chiffre4" : "10.81%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2011",
+    "chiffre1" : "862",
+    "chiffre2" : "6.56%",
+    "chiffre3" : "18093",
+    "chiffre4" : "11.00%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2012",
+    "chiffre1" : "893",
+    "chiffre2" : "6.78%",
+    "chiffre3" : "18487",
+    "chiffre4" : "11.26%"
+},
+
+{
+    "nom" : "Rennes",
+    "annee" : "2013",
+    "chiffre1" : "897",
+    "chiffre2" : "6.77%",
+    "chiffre3" : "18588",
+    "chiffre4" : "11.30%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2008",
+    "chiffre1" : "807",
+    "chiffre2" : "6.11%",
+    "chiffre3" : "16376",
+    "chiffre4" : "10.45%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2009",
+    "chiffre1" : "792",
+    "chiffre2" : "6.08%",
+    "chiffre3" : "15910",
+    "chiffre4" : "10.46%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2010",
+    "chiffre1" : "814",
+    "chiffre2" : "6.15%",
+    "chiffre3" : "15854",
+    "chiffre4" : "10.27%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2011",
+    "chiffre1" : "855",
+    "chiffre2" : "6.36%",
+    "chiffre3" : "15904",
+    "chiffre4" : "10.25%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2012",
+    "chiffre1" : "865",
+    "chiffre2" : "6.48%",
+    "chiffre3" : "16200",
+    "chiffre4" : "10.51%"
+},
+
+{
+    "nom" : "Grenoble",
+    "annee" : "2013",
+    "chiffre1" : "871",
+    "chiffre2" : "6.51%",
+    "chiffre3" : "15764",
+    "chiffre4" : "10.23%"
+}]
+
