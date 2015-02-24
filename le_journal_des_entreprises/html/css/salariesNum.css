@@ -77,21 +77,8 @@ background-color:#89B1D9;
 background-color:#CBDADD;
 }
 
-#xlabelS{
- margin-top: 5px;
-}
-#xlabelS p
-{
- display: inline-block;
- color: #E9AE28;
- font-size: 11pt;
- width: 10%;
- margin-left: 5px;
-}
-#xlabelS p:hover
-{
- cursor: pointer;
-}
+
+
 .punch
 {
  display: inline-block;
@@ -119,7 +106,7 @@ background-color:#CBDADD;
 }
 
 
-.punch p
+.punch p:first-child
 {
  position: absolute;
  top: 45%;
@@ -132,17 +119,30 @@ background-color:#CBDADD;
    .punch {
     background-size: 95% 95%;
    }
-   .punch p
+   .punch p:first-child
    {
     top: 50%;
    }
 }
 
-
 .punch p span
 {
   font-size: 18pt;
   display: inline-block;
+}
+.villeS
+{
+ position:absolute;
+ top: 101%;
+ color: #E9AE28;
+ font-size: 11pt;
+ width: 100%;
+ text-align: center;
+}
+
+.villeS:hover
+{
+ cursor: pointer;
 }
 
 .cliquezIciD2 {

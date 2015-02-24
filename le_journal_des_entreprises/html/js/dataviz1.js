@@ -9,7 +9,7 @@ function whichYear(year) {
     console.log(year);
     if (year === 2008) {
         $('.ca3').html('0');
-        $('.ca4').html('8');
+        $('.ca4').html('8');/*
         $('#ville4').html('Toulouse');
         $('#ville5').html('Montpellier');
         $('#ville8').html('Lille');
@@ -22,11 +22,11 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,51<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,30<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,46<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,59<span>%</span></p>');
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,59<span>%</span></p>');*/
     }
     else if (year === 2009) {
         $('.ca3').html('0');
-        $('.ca4').html('9');
+        $('.ca4').html('9');/*
         $('#ville4').html('Montpellier');
         $('#ville5').html('Toulouse');
         $('#ville7').html('Marseille');
@@ -40,11 +40,11 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,18<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,96<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,62<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,25<span>%</span></p>');
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,25<span>%</span></p>');*/
     }
     else if (year === 2010) {
         $('.ca3').html('1');
-        $('.ca4').html('0');
+        $('.ca4').html('0');/*
         $('#ville5').html('Montpellier');
         $('#ville4').html('Toulouse');
         $('#ville9').html('Marseille');
@@ -58,11 +58,11 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,27<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,14<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,69<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');*/
     }
     else if (year === 2011) {
         $('.ca3').html('1');
-        $('.ca4').html('1');
+        $('.ca4').html('1');/*
         $('#ville7').html('Lille');
         $('#ville8').html('Lyon');
         $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>7,09<span>%</span></p>');
@@ -73,11 +73,11 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,51<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,34<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,89<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,63<span>%</span></p>');
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,63<span>%</span></p>');*/
     }
     else if (year === 2012) {
         $('.ca3').html('1');
-        $('.ca4').html('2');
+        $('.ca4').html('2');/*
         $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>7,18<span>%</span></p>');
         $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,40<span>%</span></p>');
         $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,51<span>%</span></p>');
@@ -86,11 +86,11 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,69<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,07<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,15<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,62<span>%</span></p>');
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,62<span>%</span></p>');*/
     }
     if (year === 2013) {
         $('.ca3').html('1');
-        $('.ca4').html('3');
+        $('.ca4').html('3');/*
         $('#sac9').css('background-image', 'url(images/Sac-de-frappe-1.png)').html('<p>6,75<span>%</span></p>');
         $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,46<span>%</span></p>');
         $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,54<span>%</span></p>');
@@ -99,7 +99,7 @@ function whichYear(year) {
         $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,69<span>%</span></p>');
         $('#sac3').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,33<span>%</span></p>');
         $('#sac2').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,19<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');    
+        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');   */ 
     }
 }
 
