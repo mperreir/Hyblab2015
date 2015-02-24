@@ -46,7 +46,7 @@ function DataStrophe(div){
 	this.resources.load("bouteille2","images/bouteille2.png",{width:36,height:130});
 	this.resources.load("bouteille3","images/bouteille3.png",{width:36,height:130});
 	this.resources.load("sceptre","images/sceptre.png",{width:41,height:135});
-	this.resources.load("miel","images/miel.png",{width:107,height:108});
+	this.resources.load("miel","images/miel.1.png",{width:107,height:108});
 	this.resources.load("pomme1","images/pomme1.png",{width:107,height:100});
 	this.resources.load("pomme2","images/pomme2.png",{width:95,height:100});
 	this.resources.load("pomme3","images/pomme3.png",{width:81,height:100});
