@@ -1,16 +1,126 @@
 <div id="slideoutro" class="page">
-    <div id="titleoutro">
-        <img src="images/TitleVestiaire.png">
-    </div>
-    <div id="pics">
-        <div id="casierl" class="Centerer Centered">
-            <a href="images/PopMerci.png" rel="shadowbox;width=540;height=371"><img src="images/CasierLeft.png"></a>
-        </div>
-        <div id="coatrack" class="Centerer Centered">
-            <a href="images/PopEquipe.png" rel="shadowbox;width=540;height=371"><img src="images/CoatRack.png"></a>
-        </div>
-        <div id="casierr" class="Centerer Centered">
-            <a href="images/PopCoulisses.png" rel="shadowbox;width=540;height=371"><img src="images/CasierRight.png"></a>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-12" id="titleOutro">
+		        <img src="images/TitleVestiaire.png">
+		    </div>
+	    </div>
+	    <div id="pics">
+	    	<div class="imgVest">
+		        <img class="vestiaires" id="casierG" src="images/CasierLeft.png" alt="casierGauche"/>
+		        <div class=" modal fade outro" id="modalMerci" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class=" modal-body">
+								<div class="row">
+									<img src="images/logohyblab.png" alt="logo hyblab"/>
+								</div>
+								<div class="row">
+									<div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+										<p>
+											Toute l'équipe tient à remercier Armelle Gegaden pour son implication et son aide,
+											nos écoles : Sciencescom, AGR et Polytech ainsi que nos professeurs pour leurs conseils.
+											Merci aussi à Ouestmedia-lab d'avoir crée ce projet et d'avoir fait le lien entre les écoles et les médias.
+										</p>
+									</div>
+								</div>
+								<div class="row">
+									<img src="images/logojde.png" alt="logo JDE"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="imgVest coatRack">
+		        <img class="vestiaires" id="coatRack" src="images/CoatRack.png" alt="coatrack" />
+		        <div class=" modal fade outro" id="modalEquipe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content" >
+							<div class=" modal-body">
+								<div class="row teamPrez">
+									<span>Nous sommes 8 étudiants et nous sommmes les</span>
+									<p id="teamName">Breaking Blab</p>
+								</div>
+								<div class="row">
+									<div class="col-xs-4 col-md-4 col-lg-4">
+										<img src="images/gantssciencescom.png" alt="gants SC"/>
+										<p class="nameSC">Capucine</p>
+										<p class="nameSC">Amaury</p>
+										<img src="images/logosciencescom.png" alt="sciences com"/>
+									</div>
+									<div class="col-xs-4 col-md-4 col-lg-4">
+										<img src="images/gantsagr.png" alt="gants AGR"/>
+										<p class="nameAGR">Marion</p>
+										<p class="nameAGR">Zoe</p>
+										<p class="nameAGR">Yohann</p>
+										<img src="images/logoagr.png" alt="logo agr"/>
+									</div>
+									<div class="col-xs-4 col-md-4 col-lg-4">
+										<img src="images/gantspolytech.png" alt="gants Polytech"/>
+										<p class="namePolytech">Claire</p>
+										<p class="namePolytech">Quentin</p>
+										<p class="namePolytech">Benjamin</p>
+										<img src="images/logopolytech.png" alt="logo polytech"/>
+									</div>
+								</div>
+								<div class="row" id="teamDescription">
+									<div class="col-xs-6 col-md-6 col-lg-6">
+										<p>Passons à l'aspect moins technique des coulisses, l'histoire de notre groupe de travail.
+											Nous sommes 8 étudiants nantais de 3 écoles différentes : Polytech, AGR et Sciencescom. 
+											Nous ne nous connaissions pas avant le projet et avons appris à travailler ensemble.
+											Nous étions encadrés par Armelle Gegaden, journaliste au journal des entreprises.
+										</p>
+									</div>
+									<div class="col-xs-6 col-md-6 col-lg-6">
+										<p>
+											Ce projet s'est déroulé sur deux semaines, pendant lesquelles nous nous sommes vus 5 jours en tout. 
+											Grâce à ce projet, nous avons mis en commun nos compétences et avons découvert d'autres méthodes de travail. 
+											Nous avons mené ce projet de A à Z avec l'aide d'Armelle, de la récolte des données au développement en passant par la création de la charte graphique.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="imgVest">
+		        <img class="vestiaires" id="casierD" src="images/CasierRight.png" alt="casier droite"/>
+		        <div class=" modal fade outro" id="modalCoulisse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content" >
+							<div class=" modal-body">
+								<div>
+									<p>
+										Nous savons que notre projet fera réagir certaines villes, voire certaines entreprises. Chaque territoire peut avoir sa propre définition de l’économie numérique. Nous nous sommes appuyés sur les chiffres de l’Urssaf en triant par métropole et par codes NAF, détaillés ci-dessous. 
+									</p>
+									<h3>Méthodologie des codes NAF : </h3>
+									<p>
+										Selon l’Insee, le secteur des technologies de l’information et de la communication (TIC) est défini par l’OCDE (Organisation de coopération et de développement économiques) comme le regroupement des secteurs : 
+										<ul class="list-unstyled">
+											<li>Information et communication (section J de la NAF rév. 2)</li>
+											<li>Des secteurs producteurs de TIC de l’industrie (division 26 hors postes 26.5, 26.6 et 26.7 de la NAF rév. 2)</li>
+											<li>Réparation d’ordinateurs et d’équipements de communication » (groupe 95.1 de la NAF rév. 2)</li>
+											<li>Et d’un secteur du commerce de gros (poste 46.5 de la NAF rév. 2). Il exclut certains postes de la section J (poste 58.1, divisions 59 et 60, poste 63.9 de la NAF rév. 2)</li>
+										</ul>
+									</p>
+									<p>
+										Nous nous sommes appuyés sur cette classification pour dresser notre classement. 
+										Nous avons ajouté quelques codes: 7311 Z, 7312 Z, 7021 Z, 7022 Z, 4618Z, 4742Z, 7739Z.
+										En ce qui concerne les villes sélectionnées, nous avons choisi les neuf premières métropoles labellisées par la French Tech. Nous nous sommes appuyés sur la loi du 27 janvier 2014 de modernisation des métropoles pour délimiter la taille des territoires. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div>
+	</div>
+    <div class="baspage col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+		<a id="nav1" rel="relativeanchor" href="#slide1">
+			<img class="img-circle img-responsive inline-block" src="images/backSlide.png" alt="page suivante"></img>
+		</a>
+	</div>
 </div>

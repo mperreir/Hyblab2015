@@ -108,13 +108,10 @@ app.get('/dataviz1', function(req, res) {
 app.get('/matchfinal', function(req, res) {
     var paramsD3 = req.query;
     var datasD3 = require("./data/matchfinal.json");
-    console.log(paramsD3);
     if ('methode' in paramsD3) {
-        
         var methodResults = [];
-        
         for (var podium in datasD3) {
-            if (datasD3[podium].method === paramsD3.method) {
+            if (datasD3[podium].methode === paramsD3['methode']) {
                 methodResults.push(datasD3[podium]);
             }
         }
@@ -172,11 +169,10 @@ app.get('/townNumbers', function(req, res) {
 });
 
 // launch the server
-/*var server = app.listen(process.env.PORT, function() {
+var server = app.listen(process.env.PORT, function() {
     var host = server.address().address;
     var port = server.address().port;
 
     console.log('JDEHyblab app listening at http://%s:%s', host, port)
-});*/
-
+});
 module.exports = app;

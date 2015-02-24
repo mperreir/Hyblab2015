@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/salariesNum.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/styleoutro.css" />
     <link rel="stylesheet" type="text/css" href="css/stylematchfinal.css" />
-    <link rel="stylesheet" type="text/css" href="js/shadowbox/shadowbox.css">
     <link rel="stylesheet" type="text/css" href="css/styledataviz2.css" />
     <script type="text/javascript" src="js/shadowbox/shadowbox.js"></script>
     <script type="text/javascript">
@@ -20,6 +19,7 @@
         
 </head>
 <body>
+
 
         {% include "./intro.html" %}
         {% include "./dataviz1.html" %}
@@ -33,8 +33,12 @@
             scrolling="auto"
             frameborder="0" >
             </iframe>
+            <div class="baspage col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+		  		<a id="nav1" rel="relativeanchor" href="#slidematchfinal">
+        			<img class="img-circle img-responsive inline-block" src="images/nextSlide.png" alt="page suivante"></img>
+        		</a>
+        	</div>
         </div>
-        
         {% include "./matchfinal.html" %}
         {% include "./outro.html" %}
 
@@ -44,6 +48,7 @@
     <script type="text/javascript" src="js/scroll.js"></script>
     <script type="text/javascript" src="js/highcharts-min.js"></script>
     <script type="text/javascript" src="js/dataviz1.js"></script>
-
+    <script type="text/javascript" src="js/outro.js"></script>
+    <script type="text/javascript" src="js/matchfinal.js"></script>
 </body>
 </html>

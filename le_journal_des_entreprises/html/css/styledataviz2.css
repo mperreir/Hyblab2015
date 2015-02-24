@@ -2,30 +2,21 @@
  * Dataviz2 Panel *
  ***************/
 
-.cell1
-{
-    width:60%;
-    margin-top:40%;
-    margin-left:20%;
-    text-align:center;
+.cell1, .cell2, .cell3 {
+    margin-top : 30px;
+    padding : 1%;
+    background-color: #213146;
+    height : 110px;
+    width : 110px;
 }
 
-.cell2
-{
-    width:60%;
-    margin-top:50%;
-    margin-left:20%;
-    text-align:center;
+.cell3 {
+    width : 120px;
 }
 
-.cell3
-{
-    margin-left:20%;
-    width:60%;
-    margin-top:50%;
-    text-align:center;
+body {
+    width : 100%;
 }
-
 .nopad
 {
     padding:0px;
@@ -41,14 +32,6 @@ html
 {
     height:100%;    
     width:100%; 
-}
-
-.undertitle
-{
-    font-family:Helvetica, sans-serif;
-    font-size:7pt;
-    color:#9FC0C7;
-    text-align:center;
 }
 
 .titlecell
@@ -69,27 +52,46 @@ html
 	cursor:pointer;
 }
 
-#dataviz2
+#firstRow {
+    margin-top : 40px;
+}
+
+#med1 {
+    margin-right : 0px;
+}
+
+#med2 {
+    margin-left : 0px;
+}
+
+#lastrow {
+    margin-top : 20px;
+    border-top : solid 2px #EBB003;
+}
+
+#dataviz1Identite
 {
-	background-color : #213146;
- 	width:100%;
+	background-color : #33425F;
  	height:100%;
  	margin-right:0px;
- 	margin-left:0px; 
+ 	font-family:Helvetica, sans-serif;
+    font-size:7pt;
+    color:#9FC0C7;
+    text-align:center;
+    padding-bottom: 10px;
+    margin-left: -3%;
+    width: 600px !important;
+    margin-bottom: -3%;
+    margin-top: -3%;
 }
 
-#col1
-{
-    float:left;
-    width:45%;
-    position:relative;
+#modalDataviz2 {
+    border-radius: 0px;
+   /* background: transparent;*/
 }
 
-#col2
-{
-    float:right;
-    width:50%;
-    position:relative;
+.modal-body {
+    /*background-color : transparent !important;*/
 }
 
 #subcol1
@@ -125,6 +127,9 @@ html
     position:relative;
     margin-left:5%;
     text-align:justify;
+    overflow-x: auto;
+    height: 300px;
+    padding-right: 5px;
 }
 
 #DV2big {

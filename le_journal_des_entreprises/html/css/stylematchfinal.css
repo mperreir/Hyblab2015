@@ -5,29 +5,64 @@
  #slidematchfinal
  {
     position:relative;
+    background-color : #BDDAD8;
  }
- 
- #bandeaupodium
- {
-    position:absolute;
-    top:0px;
-    left:20%;
-    background-image: url("../images/BlueBanner.png");
-    background-repeat: no-repeat;
-	background-position: absolute; 
- }
- 
- #podium
- {
-    position:relative;
-    text-align:center;
-    background-image: url("../images/Podium.png");   
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;  
- }
- 
- #stars
- {
-     margin-right:5%;
- }
+
+#podium {
+ text-align: center;
+ margin-top: 10px;
+}
+
+#podiumBoutons {
+ margin-top: 10px;
+ text-align: center;
+}
+
+.boutonPodium {
+    line-height: 40px;
+    color: white;
+    background-color: rgb(31, 40, 59);
+    text-transform: uppercase;
+    height: 20%;
+    font-family: "helvetica";
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+    
+#slidematchfinal h1 {
+    font: bebasregular;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    width: 122px;
+    margin-left: 4px;
+    top: 18px;
+}
+#slidematchfinal h1 span{
+ font-size: 12px;
+}
+
+.boutonPodium:hover {
+    cursor: pointer;
+}
+
+#villesPodium {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bebasregular;
+    font-size: 15pt;
+}
+
+span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+@media screen and (max-width: 990px) {
+    .row1 .boutonPodium {
+        margin-right: 20px;
+    }
+}
