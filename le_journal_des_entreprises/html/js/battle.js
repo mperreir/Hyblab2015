@@ -155,3 +155,9 @@ $('#sl1').on('slideStop', function(e){
     loadData(1);
     $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
+
+$(document).on('mousewheel DOMMouseScroll',function(event){
+     $('html, body').animate({
+	        scrollTop: $('#coucou').offset().top
+	    }, 1000);
+});
