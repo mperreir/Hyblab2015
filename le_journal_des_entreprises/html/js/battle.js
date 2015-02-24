@@ -4,6 +4,7 @@
  * js file for the interactive tab
  */
 
+
 /**
  * Sidebar
  */

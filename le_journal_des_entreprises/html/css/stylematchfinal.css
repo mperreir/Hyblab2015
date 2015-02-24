@@ -29,7 +29,7 @@
     margin-bottom: 10px;
     text-align: center;
 }
-    
+
 #slidematchfinal h1 {
     font: bebasregular;
     text-transform: uppercase;
@@ -53,6 +53,15 @@
     text-transform: uppercase;
     font-family: bebasregular;
     font-size: 15pt;
+    margin-top: -53px;
+}
+
+#selectionPodium {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bebasregular;
+    font-size: 15pt;
+    margin-top: 10px;
 }
 
 span {
