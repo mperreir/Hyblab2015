@@ -172,6 +172,7 @@ function datasD1(year) {
                             fontWeight: 'bold'
                         }
                     },
+                    cursor: 'pointer',
                     color: '#EBAC44',
                     pointPadding: 0.45,
                     pointWidth: 5,
@@ -202,6 +203,8 @@ function datasD1(year) {
             
             
         });
+        
+        
         
         $('.highcharts-axis-labels text ').on('click', function(e) {
             loadDataviz(this.textContent ||this.innerText);
