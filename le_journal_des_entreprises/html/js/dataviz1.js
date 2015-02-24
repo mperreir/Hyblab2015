@@ -28,7 +28,7 @@ function whichYear(year) {
         $('.ca4').html('9');
         $('#ville4').html('Montpellier');
         $('#ville5').html('Toulouse');
-        $('#ville7').html('Marseille');
+        $('#ville7').html('Aix-Marseille');
         $('#ville8').html('Lyon');
         $('#ville9').html('Lille');
         $('#sac9').css('background-image', 'url(images/Sac-de-frappe-1.png)').html('<p>6,97<span>%</span></p>');
@@ -46,7 +46,7 @@ function whichYear(year) {
         $('.ca4').html('0');
         $('#ville5').html('Montpellier');
         $('#ville4').html('Toulouse');
-        $('#ville9').html('Marseille');
+        $('#ville9').html('Aix-Marseille');
         $('#ville7').html('Lyon');
         $('#ville8').html('Lille');
         $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>6,87<span>%</span></p>');
