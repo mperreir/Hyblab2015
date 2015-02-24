@@ -4,7 +4,6 @@ function parallax() {
 }
 
 
-
 function setpos(element, factor) {
     factor = factor || 2;
     
@@ -30,7 +29,6 @@ $(document).ready(function () {
 /*
 (function() {
   var delay = false;
-
   $(document).on('mousewheel DOMMouseScroll', function(event) {
     event.preventDefault();
     if(delay) return;

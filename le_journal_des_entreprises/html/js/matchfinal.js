@@ -1,5 +1,6 @@
 $('#creationPostes, #variationNbEntreprises, #nbEmployes, #variationEffectifs, #creationEntreprises').on('click', function(e) {
     var methode = $(this).attr('id');
+    $('#selectionPodium').html($(this).html());
     $.getJSON('matchfinal?methode=' + methode, function(data) {
         $('#premiereVille').text(data[0].numero1);
         $('#deuxiemeVille').text(data[0].numero2);

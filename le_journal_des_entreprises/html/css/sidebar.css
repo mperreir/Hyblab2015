@@ -45,7 +45,7 @@
 } 
 
 .panel-body .criteria label.btn-default  {
-    width : 42px !important;
+    width : 49px !important;
     margin : 10px !important;
     padding : 2px !important;
 } 
@@ -197,3 +197,4 @@
         margin-right: 0;
     }
 }
+

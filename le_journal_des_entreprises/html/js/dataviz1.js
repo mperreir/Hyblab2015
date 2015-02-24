@@ -16,11 +16,11 @@ function whichYear(year) {
     else if (year === 2010) {
         $('.ca3').html('1');
         $('.ca4').html('0');
-}
+    }
     else if (year === 2011) {
         $('.ca3').html('1');
         $('.ca4').html('1');
-}
+    }
     else if (year === 2012) {
         $('.ca3').html('1');
         $('.ca4').html('2');
@@ -101,6 +101,7 @@ function datasD1(year) {
                             fontWeight: 'bold'
                         }
                     },
+                    cursor: 'pointer',
                     color: '#EBAC44',
                     pointPadding: 0.45,
                     pointWidth: 5,
@@ -131,6 +132,8 @@ function datasD1(year) {
             
             
         });
+        
+        
         
         $('.highcharts-axis-labels text ').on('click', function(e) {
             loadDataviz(this.textContent ||this.innerText);
