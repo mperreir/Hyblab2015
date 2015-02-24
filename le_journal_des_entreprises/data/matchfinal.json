@@ -1,28 +1,28 @@
-	"methode" : "Creation postes sur 6 ans",
+[{	"methode" : "creationPostes",
 	"numero1" : "NANTES",
 	"numero2" : "LYON",
 	"numero3" : "LILLE"
 },
 {
-	"methode" : "Ratio entreprises",
+	"methode" : "ratioEntreprises",
 	"numero1" : "NANTES",
 	"numero2" : "LYON",
 	"numero3" : "LILLE"
 },
 {
-	"methode" : "Nombre employes 2013",
+	"methode" : "nbEmployes",
 	"numero1" : "LYON",
-	"numero2" : "AIX-MARSEILLES",
+	"numero2" : "AIX-MARSEILLE",
 	"numero3" : "TOULOUSE"
 },
 {
-	"methode" : "Variation sur 5 ans effectifs",
+	"methode" : "variationEffectifs",
 	"numero1" : "NANTES",
 	"numero2" : "LYON",
 	"numero3" : "LILLE"
 },
 {
-	"methode" : "Ratio des effectifs",
+	"methode" : "ratioEffectiffs",
 	"numero1" : "RENNES",
 	"numero2" : "NANTES",
 	"numero3" : "GRENOBLE"
