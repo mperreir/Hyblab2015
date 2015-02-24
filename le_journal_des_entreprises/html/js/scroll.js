@@ -27,7 +27,7 @@ $(document).ready(function () {
 }).scroll(function () {
     parallax();
 });
-
+/*
 (function() {
   var delay = false;
 
@@ -57,4 +57,4 @@ $(document).ready(function () {
       scrollTop: a[i].offsetTop
     },1000);
   });
-})();
+})();*/
