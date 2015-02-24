@@ -338,7 +338,16 @@ section
 	margin: 10% auto auto 10%;
 }
 
-
+.phraseReponse
+{
+	width: 17.5%;
+	position: absolute;
+	top: 27.5%;
+	left: 2.5%;
+	text-align: left;
+	font-family: 'Sofia';
+	color: white;
+}
 
 .s1 p
 {

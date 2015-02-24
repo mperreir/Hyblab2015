@@ -28,6 +28,7 @@ $(document).ready(function() {
 			$(".nuage").cloud_animation($(".nuage").width());
 			if(valider)
 			{
+				if(index == '1') {}
 				if(index == '2')
 				{
 					switch(sexe)
@@ -152,30 +153,35 @@ $(document).ready(function() {
 	$('.question1').click(function() {
 		question1 = true;
 		rep1 = $(this).attr('alt');
+		$("#rep1").text(rep1+" ");
 		$('.main').moveDown();
 	});
 
 	$('.question3').click(function() {
 		question3 = true;
 		rep3 = $(this).attr('alt');
+			$("#rep3").text(rep3+" ");
 		$('.main').moveDown();
 	});
 
 	$('.question4').click(function() {
 		question4 = true;
 		rep4 = $(this).attr('alt');
+		$("#rep4").text(rep4+" ");
 		$('.main').moveDown();
 	});
 
     $('.question5').click(function() {
 		question5 = true;
 		rep5 = $(this).attr('alt');
+		$("#rep5").text(rep5+" ");
 		$('.main').moveDown();
 	});
 	
 	$('.question6').click(function() {
 		question6 = true;
 		rep6 = $(this).attr('alt');
+		$("#rep6").text(rep6+" ");
 		$('.main').moveDown();
 	});
 	
@@ -192,6 +198,7 @@ $(document).ready(function() {
 	$('.source').fitText(1, {maxFontSize: '15px', minFontSize: '2px'});
 	$('.question').fitText(3, {maxFontSize: '32px', minFontSize: '2px'});
 	$('.selonvous').fitText(0.8, {maxFontSize: '50px', minFontSize: '2px'});
+	$('.phraseReponse').fitText(0.8, {maxFontSize: '50px', minFontSize: '2px'});
 	$('#slider_1').slider(
 	{
 		min:'0',
@@ -203,6 +210,7 @@ $(document).ready(function() {
 			$('#current_value').text(ui.value + '€');
 			rep2 = ui.value;
 			question2 = true;
+			$("#rep2").text(rep2+"€ ");
 		}
 	});
 	
