@@ -41,7 +41,6 @@ app.get('/', function(req, res) {
 app.get('/tableau', function(req, res) {
     var params = req.query;
     var datas = require("./data/data.json");
-    console.log(params);
     if ('nom' in params && 'annee' in params && 'codeNAF' in params) {
     
         var nafParams = params.codeNAF.replace(/_/g, '.');
