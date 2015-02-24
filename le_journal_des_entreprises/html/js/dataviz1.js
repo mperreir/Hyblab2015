@@ -6,7 +6,6 @@
 var chart1 = '';
 
 function whichYear(year) {
-    console.log(year);
     if (year === 2008) {
         $('.ca3').html('0');
         $('.ca4').html('8');/*
@@ -116,7 +115,6 @@ function datasD1(year) {
                 dataArray.push(point);
         }
 
-        //console.log(villesD1);
 
         chart1 = new Highcharts.Chart({
 
@@ -212,37 +210,14 @@ function datasD1(year) {
             loadDataviz(this.textContent ||this.innerText);
         });
 
-        $('#sac1').on('click', function(e) {
-            loadDataviz($('#ville1').innerText);
+        $('#sac1, #sac2, #sac3, #sac4, #sac5, #sac6, #sac7, #sac8, #sac9').on('click', function(e) {
+            var id = $(this).attr('id').split('');
+            var number = id[id.length-1];
+            loadDataviz($('#ville' + number).html());
         });
-        $('#sac2').on('click', function(e) {
-            loadDataviz($('#ville2').innerText);
-        });
-        $('#sac3').on('click', function(e) {
-            loadDataviz($('#ville3').innerText);
-        });
-        $('#sac4').on('click', function(e) {
-            loadDataviz($('#ville4').innerText);
-        });
-        $('#sac5').on('click', function(e) {
-            loadDataviz($('#ville5').innerText);
-        });
-        $('#sac6').on('click', function(e) {
-            loadDataviz($('#ville6').innerText);
-        });
-        $('#sac7').on('click', function(e) {
-            loadDataviz($('#ville7').innerText);
-        });
-        $('#sac8').on('click', function(e) {
-            loadDataviz($('#ville8').innerText);
-        });
-        $('#sac9').on('click', function(e) {
-            loadDataviz($('#ville9').innerText);
-        });
+        
     
         $('.highcharts-axis > path').attr('opacity','0');
-        
-       
     });
 }
 
@@ -315,7 +290,6 @@ var year = 2013;
         
         //changement de données
         datasD1(year);
-        console.log($('#hiddenName').text());
         changeNumbers(year, $('#hiddenName').text());
         
         if (year > 2012) {

@@ -4,10 +4,10 @@
 	"numero3" : "LILLE"
 },
 {
-	"methode" : "ratioEntreprises",
-	"numero1" : "NANTES",
-	"numero2" : "LYON",
-	"numero3" : "LILLE"
+	"methode" : "variationNbEntreprises",
+	"numero1" : "LILLE",
+	"numero2" : "NANTES",
+	"numero3" : "MONTPELLIER"
 },
 {
 	"methode" : "nbEmployes",
@@ -22,9 +22,9 @@
 	"numero3" : "LILLE"
 },
 {
-	"methode" : "ratioEffectiffs",
-	"numero1" : "RENNES",
-	"numero2" : "NANTES",
-	"numero3" : "GRENOBLE"
+	"methode" : "creationEntreprises",
+	"numero1" : "LYON",
+	"numero2" : "LILLE",
+	"numero3" : "NANTES"
 }
 ]

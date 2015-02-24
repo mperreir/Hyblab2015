@@ -1,4 +1,4 @@
-$('#creationPostes, #ratioEntreprises, #nbEmployes, #variationEffectifs, #ratioEffectiffs').on('click', function(e) {
+$('#creationPostes, #variationNbEntreprises, #nbEmployes, #variationEffectifs, #creationEntreprises').on('click', function(e) {
     var methode = $(this).attr('id');
     $.getJSON('matchfinal?methode=' + methode, function(data) {
         $('#premiereVille').text(data[0].numero1);
