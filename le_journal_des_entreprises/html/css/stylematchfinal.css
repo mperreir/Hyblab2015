@@ -53,6 +53,30 @@
     text-transform: uppercase;
     font-family: bebasregular;
     font-size: 15pt;
+    width: 345px;
+    margin: 0px auto;
+}
+.villePod
+{
+    position:absolute;
+}
+.firstTown
+{
+    margin: -30px auto;
+    width: 345px;
+}
+.secondTown
+{
+    text-align: right;
+    width: 300px;
+    margin-left: -185px;
+    margin-top: 10px;
+}
+.thirdTown
+{
+    margin-left: 225px;
+    margin-top: 30px;
+    text-align: left;
 }
 
 span {
