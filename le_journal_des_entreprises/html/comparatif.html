@@ -4,9 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>comparatif</title>
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/sidebar.css" type="text/css" />
     <link rel="stylesheet" href="css/slider.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/interactiveTab.css" />
+    <link rel="stylesheet" href="css/sidebar.css" type="text/css" />
 </head>
 <body>
 <div id="comparison" class="page">
@@ -279,7 +279,7 @@
 								</div>
 								<div id="collapseOperateur" class="panel-collase collapsing" role="tabpanel"  aria-labelledby="collapseOperateur">
 									<div class="panel-body criteria" data-toggle="buttons">
-										<label id="46_18Z" class="btn btn-default active" title="Intermédiaires spécialisés dans le commerce d'autres produits spécifiques">
+										<label id="46_18Z" class="btn btn-default" title="Intermédiaires spécialisés dans le commerce d'autres produits spécifiques">
 											<input class="NAF" type="checkbox" autocomplete="off"> 46.18Z
 										</label>
 										
@@ -292,7 +292,20 @@
 									</div>
 								</div>
 							</div>
-							
+							<div class="panel panel-default ">
+								<div class="panel-heading" role="tab" id="headingTIC">
+									<a data-toggle="collapse" data-parent="#accordionCriteria" href="#collapseCartesElectroniques" aria-expanded="true" aria-controls="collapseCartesElectroniques">
+									Cartes électroniques
+									</a>
+								</div>
+								<div id="collapseCartesElectroniques" class="panel-collase collapsing" role="tabpanel"  aria-labelledby="collapseCartesElectroniques">
+									<div class="panel-body criteria" data-toggle="buttons">
+										<label id="26_11Z" class="btn btn-default" title="Fabrication de composants électroniques (et assemblées) : 26.11Z & 26.12Z">
+											<input class="NAF largeNAF" type="checkbox" autocomplete="off">26.1xZ
+										</label>
+									</div>
+								</div>
+							</div>
 						</div>
 						</div>
 					</div>
@@ -332,12 +345,11 @@
 	</div>
 	<!-- #wrapper -->
 </div>
-	
+<div id="coucou"></div>
 		
     <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-slider.js"></script>
-
 
   <script type="text/javascript" src="js/battle.js"></script>
 </body>

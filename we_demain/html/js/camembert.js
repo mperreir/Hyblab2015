@@ -110,7 +110,7 @@ function dashboard(id, fData,idCam,tlarg,thaut){
         // create function to update the bars. This will be used by pie-chart.
         hG.update = function(nD, color){
             // update the domain of the y-axis map to reflect change in frequencies.
-            y.domain([0, d3.max(nD, function(d) { return d[1]; })]);
+            //y.domain([0, d3.max(nD, function(d) { return d[1]; })]);
             
             // Attach the new data to the bars.
             var bars = hGsvg.selectAll(".bar").data(nD);

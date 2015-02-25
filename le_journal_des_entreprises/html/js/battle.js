@@ -4,6 +4,7 @@
  * js file for the interactive tab
  */
 
+
 /**
  * Sidebar
  */
@@ -52,19 +53,19 @@ function makeId(string) {
 var clicks = ['Aix-Marseille','Nantes'];
 
 $('.towns > label').on('click', function(e){
-    if(clicks.indexOf(makeId($(e.target).text())) === -1) {
+    if(clicks.indexOf($(e.target).attr('id')) === -1) {
         if(clicks.length < 2) {
-            clicks.push(makeId($(e.target).text()));
+            clicks.push($(e.target).attr('id'));
         } else {
             $('#'+clicks[0]).toggleClass('active',false);
             clicks.shift();
-            clicks.push(makeId($(e.target).text()));
+            clicks.push($(e.target).attr('id'));
             
         }
         $('#city1').html(clicks[0]);
         $('#city2').html(clicks[1]);
     }else{
-        $('#'+makeId($(e.target).text())).toggleClass('active');
+        $('#' + $(e.target).attr('id')).toggleClass('active');
     }
    
    
@@ -81,8 +82,7 @@ var requestedNAF, id, yearSliderValue;
 //Build naf codes tab on each click
 $('.criteria > label').on('click', function(e){
     //e.preventDefault();
-    id = makeId($(e.target).text()).replace(/\./, '_');
-  
+    id = $(e.target).attr('id');
     if( (nafCodes.indexOf(id) >= 0)) {
         nafCodes.splice(nafCodes.indexOf(id), 1);
     } else if( (nafCodes.indexOf(id) === -1) && (nafCodes.length >= 6)) {
@@ -154,4 +154,10 @@ $('#sl1').on('slideStop', function(e){
     loadData(0);
     loadData(1);
     $('#yearHeader').text($('#sl1').data('slider').getValue());
+});
+
+$(document).on('mousewheel DOMMouseScroll',function(event){
+     $('html, body').animate({
+	        scrollTop: $('#coucou').offset().top
+	    }, 1000);
 });

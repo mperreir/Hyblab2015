@@ -18,7 +18,7 @@ function Page3(){
     this.lastOver;
     this.lastD;
     this.tableauImage = ["media/picto/Voiture02_BD.png","media/picto/Bus02_BD.png","media/picto/Velo02_BD.png","media/picto/Pieton02_BD.png","media/picto/TransportsAutres02_BD.png"];
-    this.tableauExplication = ["en voiture", "en bus", "à vélo", "à pied", "autrement"]
+    this.tableauExplication = ["en voiture", "en transports en commun", "à vélo", "à pied", "autrement"]
     this.scale;
     this.percentages = [];
     this.percentage;

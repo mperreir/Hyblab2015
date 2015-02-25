@@ -28,7 +28,7 @@ Page4.prototype = {
 			}
 		);
 		this.tableauTexteCarte = new Object();
-		this.tableauTexteCarte["deux roues"] = "Les deux roues motorisés sont le moyen de transport le plus utilisé par les Européens (1,7%). Malgré tout, à Barcelone, les deux roues motorisés restent assez prisés (13%). Mais pour des villes comme Lisbonne, Riga ou Bucarest, ce moyen de transport n’est pas du tout adopté.";
+		this.tableauTexteCarte["deux roues"] = "Les deux roues motorisés sont le moyen de transport le moins utilisé par les Européens (1,7%). Malgré tout, à Barcelone, les deux roues motorisés restent assez prisés (13%). Mais pour des villes comme Lisbonne, Riga ou Bucarest, ce moyen de transport n’est pas du tout adopté.";
 		this.tableauTexteCarte["marche"] = "En moyenne, 9,7% des Européens se rendent au travail à pied. Véritable modèle, Stockholm se démarque des autres villes (16,3%). Au contraire, à Amsterdam, peu d’habitants effectuent le trajet domicile-travail à pied (2,7%).";
 		this.tableauTexteCarte["transports publics"] = "Près d’un Européen sur deux (46,9%) utilise les transports publics. Les Parisiens sont les citoyens qui empruntent le plus ce moyen de transport (67%). A l’inverse, Copenhague est la ville qui les fréquente le moins (15,4%).";
 		this.tableauTexteCarte["voiture"] = "Pour se rendre au travail, 31,5% des Européens se servent de leur voiture. C'est à Dublin qu’elle y est la plus empruntée (51,4%). Les Parisiens, quant à eux, sont ceux qui délaissent le plus la voiture pour aller au travail (10,7%).";

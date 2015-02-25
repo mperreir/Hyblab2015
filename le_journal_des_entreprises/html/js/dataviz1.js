@@ -6,100 +6,28 @@
 var chart1 = '';
 
 function whichYear(year) {
-    console.log(year);
     if (year === 2008) {
         $('.ca3').html('0');
         $('.ca4').html('8');
-        $('#ville4').html('Toulouse');
-        $('#ville5').html('Montpellier');
-        $('#ville8').html('Lille');
-        $('#ville9').html('Lyon');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>7,03<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,05<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,52<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,05<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,36<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,51<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,30<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,46<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,59<span>%</span></p>');
     }
     else if (year === 2009) {
         $('.ca3').html('0');
-        $('.ca4').html('9');
-        $('#ville4').html('Montpellier');
-        $('#ville5').html('Toulouse');
-        $('#ville7').html('Marseille');
-        $('#ville8').html('Lyon');
-        $('#ville9').html('Lille');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-1.png)').html('<p>6,97<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,04<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,09<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,17<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,18<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,96<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,62<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,25<span>%</span></p>');
-    }
+        $('.ca4').html('9');   }
     else if (year === 2010) {
         $('.ca3').html('1');
         $('.ca4').html('0');
-        $('#ville5').html('Montpellier');
-        $('#ville4').html('Toulouse');
-        $('#ville9').html('Marseille');
-        $('#ville7').html('Lyon');
-        $('#ville8').html('Lille');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>6,87<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,04<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,09<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,85<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,23<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,27<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,14<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,69<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');
     }
     else if (year === 2011) {
         $('.ca3').html('1');
         $('.ca4').html('1');
-        $('#ville7').html('Lille');
-        $('#ville8').html('Lyon');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>7,09<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,24<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,35<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,87<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,37<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,51<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-4.png)").html('<p>9,34<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,89<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,63<span>%</span></p>');
     }
     else if (year === 2012) {
         $('.ca3').html('1');
         $('.ca4').html('2');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-2.png)').html('<p>7,18<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,40<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,51<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,03<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,44<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,69<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,07<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,15<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,62<span>%</span></p>');
     }
     if (year === 2013) {
         $('.ca3').html('1');
         $('.ca4').html('3');
-        $('#sac9').css('background-image', 'url(images/Sac-de-frappe-1.png)').html('<p>6,75<span>%</span></p>');
-        $('#sac8').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,46<span>%</span></p>');
-        $('#sac7').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,54<span>%</span></p>');
-        $('#sac6').css('background-image', "url(images/Sac-de-frappe-2.png)").html('<p>7,79<span>%</span></p>');
-        $('#sac5').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,65<span>%</span></p>');
-        $('#sac4').css('background-image', "url(images/Sac-de-frappe-3.png)").html('<p>8,69<span>%</span></p>');
-        $('#sac3').css('background-image', "url(images/Sac-de-frappe-5.png)").html('<p>10,33<span>%</span></p>');
-        $('#sac2').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,19<span>%</span></p>');
-        $('#sac1').css('background-image', "url(images/Sac-de-frappe-6.png)").html('<p>11,51<span>%</span></p>');    
     }
 }
 
@@ -112,11 +40,10 @@ function datasD1(year) {
             var point = {};
                 villesD1.push(data[i].nom); 
                 point.name = data[i].nom;
-                point.y = parseInt(data[i].nb);
+                point.y = data[i].nb;
                 dataArray.push(point);
         }
 
-        //console.log(villesD1);
 
         chart1 = new Highcharts.Chart({
 
@@ -174,6 +101,7 @@ function datasD1(year) {
                             fontWeight: 'bold'
                         }
                     },
+                    cursor: 'pointer',
                     color: '#EBAC44',
                     pointPadding: 0.45,
                     pointWidth: 5,
@@ -205,6 +133,8 @@ function datasD1(year) {
             
         });
         
+        
+        
         $('.highcharts-axis-labels text ').on('click', function(e) {
             loadDataviz(this.textContent ||this.innerText);
         });
@@ -212,37 +142,74 @@ function datasD1(year) {
             loadDataviz(this.textContent ||this.innerText);
         });
 
-        $('#sac1').on('click', function(e) {
-            loadDataviz($('#ville1').innerText);
+        $('#sac1, #sac2, #sac3, #sac4, #sac5, #sac6, #sac7, #sac8, #sac9').on('click', function(e) {
+            var id = $(this).attr('id').split('');
+            var number = id[id.length-1];
+            loadDataviz($('#ville' + number).html());
         });
-        $('#sac2').on('click', function(e) {
-            loadDataviz($('#ville2').innerText);
-        });
-        $('#sac3').on('click', function(e) {
-            loadDataviz($('#ville3').innerText);
-        });
-        $('#sac4').on('click', function(e) {
-            loadDataviz($('#ville4').innerText);
-        });
-        $('#sac5').on('click', function(e) {
-            loadDataviz($('#ville5').innerText);
-        });
-        $('#sac6').on('click', function(e) {
-            loadDataviz($('#ville6').innerText);
-        });
-        $('#sac7').on('click', function(e) {
-            loadDataviz($('#ville7').innerText);
-        });
-        $('#sac8').on('click', function(e) {
-            loadDataviz($('#ville8').innerText);
-        });
-        $('#sac9').on('click', function(e) {
-            loadDataviz($('#ville9').innerText);
-        });
-    
-        $('.highcharts-axis > path').attr('opacity','0');
         
-       
+        $('.villeS').on('click', function(e) {
+            loadDataviz($(this).html());
+        });
+          
+        $('.highcharts-axis > path').attr('opacity','0');
+    });
+}
+
+var villesPr=['Nantes', 'Lyon', 'Lille', 'Toulouse', 'Rennes', 'Montpellier', 'Grenoble', 'Bordeaux', 'Aix-Marseille'];
+function datasD2(year) {
+    $.getJSON('dataviz2?annee=' + year, function(data) {
+        var sac=['#sac1', '#sac2', '#sac3', '#sac4', '#sac5', '#sac6', '#sac7', '#sac8', '#sac9'];
+        var sacV = '';
+        var sacP = '';
+         
+        for(var i = 0; i < villesPr.length; i++){       
+            if( (villesPr[i] != data[i].nom)){ 
+                console.log(sac[i]);
+                
+                $(sac[i]).animate({
+                    opacity : 0,
+                    top : 20
+                }).animate({
+                    opacity : 1, 
+                    top : 0
+                },500);
+                villesPr[i] = data[i].nom;
+            }          
+        }
+        
+        $('.valS').animate({
+            opacity : 0
+        }).animate({
+            opacity : 1    
+        });
+        
+        setTimeout(function(){
+        for (var i = 0; i < sac.length; i++) {
+            sacV = ' #ville'+(i+1);
+            sacP = sac[i] + ' .valS';
+            $(sacP).html(data[i].nb+"<span>%</span>");
+            $(sacV).html(data[i].nom);
+            
+            var j = parseFloat(data[i].nb.replace(",", "."));
+
+            /*les chiffres ont changés et on a 6 sacs: différences max : 8,39 - 5,84 = 2,55
+            2,55/6 = 0.425: on change de sac tout les 0.42%*/
+            if(j<6.26)
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-1.png)");
+            else if(j<6.68)
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-2.png)");
+            else if(j<7.10)
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-3.png)");
+            else if(j<7.52)
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-4.png)");
+            else if(j<7.94)
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-5.png)");
+            else
+                $(sac[i]).css('background-image', "url(images/Sac-de-frappe-6.png)");
+        }
+        }, 500);
+          
     });
 }
 
@@ -289,6 +256,7 @@ var year = 2013;
     var currentlyAnimating = false;
     whichYear(year);
     datasD1(year);
+    datasD2(year);
     
     $('.yearplus').hide();  
 
@@ -315,7 +283,7 @@ var year = 2013;
         
         //changement de données
         datasD1(year);
-        console.log($('#hiddenName').text());
+        datasD2(year);
         changeNumbers(year, $('#hiddenName').text());
         
         if (year > 2012) {
@@ -374,6 +342,7 @@ var year = 2013;
         
         //changement de données
         datasD1(year);
+        datasD2(year);
         changeNumbers(year, $('#hiddenName').text());
        
         if (year < 2009) {

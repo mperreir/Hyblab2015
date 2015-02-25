@@ -1,6 +1,10 @@
+//var booléennes permettant de détecter si l'utilisateur a répondu à la question ou pas.
+//il sera bloqué tant qu'il n'a pas répondu à la question.
 var valider = false, question1 = false, question2 = false, question3 = false, question4 = false, question5 = false , question6 = false;
-var rep = "";
-sexe = 'femme';
+//Variables statistiques.
+var rep1 = "", rep2 = "-1", rep3 = "", rep4 = "", rep5 = "", rep6 = "", age ="1";
+//le sexe est par défaut sur femme car l'image affichée en premier est celle de la femme.
+sexe = 'femme'; 
 var img_age = 'img/stats/tranche_age/' + sexe + '-age1.png';
 $('.selonvous').attr('src', img_age);
 
@@ -9,7 +13,12 @@ $(document).ready(function() {
 	$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
 	
 	var slider = $('#age').bxSlider({
-		hideControlOnEnd: true	
+		hideControlOnEnd: true,
+		startSlide: 0,
+		infiniteLoop: false,
+		pager: false,
+		onSlideNext: function() { age++; },
+		onSlidePrev: function() { age--; }
 	});
 				
 	$('.main').onepage_scroll({
@@ -19,6 +28,7 @@ $(document).ready(function() {
 			$(".nuage").cloud_animation($(".nuage").width());
 			if(valider)
 			{
+				if(index == '1') {}
 				if(index == '2')
 				{
 					switch(sexe)
@@ -73,7 +83,10 @@ $(document).ready(function() {
 			{
 				$('.selonvous').attr('src', img_age);
 				if(question2) {}
-				else $('.main').moveTo(5);
+				else {
+					$('.main').moveTo(5);
+					alert("vous devez sélectionner une valeur avant de continuer");
+				}
 			}
 						
 			if(index == '8')
@@ -109,16 +122,25 @@ $(document).ready(function() {
 			if(index == '8')
 			{
 				$.getJSON('datas/hyblab.json', function(data) {
-   					bulle(data.taux_emploi.homme,data.taux_emploi.femme,'%','#graph_slide10');
+   					bulle(data.taux_emploi.femme, data.taux_emploi.homme,'%','#graph_slide10');
 				});
 			}
 						
 			if(index == '10')
 			{
 				$.getJSON('datas/hyblab.json', function(data) {
-   					compteurHomme(data.tempsPartiel.homme/100,'#compteur12','pourcent12');
-   					compteurFemme(data.tempsPartiel.femme/100,'#compteur12bis','pourcent12bis');
+   					compteurFemme(data.tempsPartiel.femme/100,'#compteur12','pourcent12');
+   					compteurHomme(data.tempsPartiel.homme/100,'#compteur12bis','pourcent12bis');
 			    });
+			}
+			if(index == '14')
+			{
+				$.getJSON('datas/hyblab.json', function(data) {
+			   		compteurFemme(data.president.femme/100,'#compteur16_1','pourcent16_1');
+			   		compteurFemme(data.secretaire.femme/100,'#compteur16_2','pourcent16_2');
+					compteurFemme(data.tresorier.femme/100,'#compteur16_3','pourcent16_3');
+			   		compteurFemme(data.ensemble.femme/100,'#compteur16_4','pourcent16_4');
+				});
 			}
 		}
 	});
@@ -130,31 +152,36 @@ $(document).ready(function() {
 
 	$('.question1').click(function() {
 		question1 = true;
-		rep = $(this).attr('alt');
+		rep1 = $(this).attr('alt');
+		$("#rep1").text(rep1+" ");
 		$('.main').moveDown();
 	});
 
 	$('.question3').click(function() {
 		question3 = true;
-		rep = $(this).attr('alt');
+		rep3 = $(this).attr('alt');
+			$("#rep3").text(rep3+" ");
 		$('.main').moveDown();
 	});
 
 	$('.question4').click(function() {
 		question4 = true;
-		rep = $(this).attr('alt');
+		rep4 = $(this).attr('alt');
+		$("#rep4").text(rep4+" ");
 		$('.main').moveDown();
 	});
 
     $('.question5').click(function() {
 		question5 = true;
-		rep = $(this).attr('alt');
+		rep5 = $(this).attr('alt');
+		$("#rep5").text(rep5+" ");
 		$('.main').moveDown();
 	});
 	
 	$('.question6').click(function() {
 		question6 = true;
-		rep = $(this).attr('alt');
+		rep6 = $(this).attr('alt');
+		$("#rep6").text(rep6+" ");
 		$('.main').moveDown();
 	});
 	
@@ -162,6 +189,7 @@ $(document).ready(function() {
 	$('.question_slide1').fitText(1, {maxFontSize: '32px', minFontSize: '2px'});
 	$('.legend_sexe').fitText(1, {maxFontSize: '32px', minFontSize: '2px'});
 	$('.sexe').fitText(1, {maxFontSize: '32px', minFontSize: '2px'});
+	$('.pourcent').fitText(1, {maxFontSize: '32px', minFontSize: '2px'});
 	$('.tranche_age').fitText(1, {maxFontSize: '20px', minFontSize: '2px'});
 	$('.box_titre').fitText(1, {maxFontSize: '20px', minFontSize: '2px'});
 	$('#pourcent12').fitText(1, {maxFontSize: '80px', minFontSize: '2px'});
@@ -170,6 +198,7 @@ $(document).ready(function() {
 	$('.source').fitText(1, {maxFontSize: '15px', minFontSize: '2px'});
 	$('.question').fitText(3, {maxFontSize: '32px', minFontSize: '2px'});
 	$('.selonvous').fitText(0.8, {maxFontSize: '50px', minFontSize: '2px'});
+	$('.phraseReponse').fitText(0.8, {maxFontSize: '50px', minFontSize: '2px'});
 	$('#slider_1').slider(
 	{
 		min:'0',
@@ -179,7 +208,9 @@ $(document).ready(function() {
 		slide: function(event, ui)
 		{
 			$('#current_value').text(ui.value + '€');
+			rep2 = ui.value;
 			question2 = true;
+			$("#rep2").text(rep2+"€ ");
 		}
 	});
 	
@@ -200,15 +231,15 @@ $(document).ready(function() {
    		colonneFemme(data.professionInter.homme,data.professionInter.femme,'€','#prof_inter');
    		colonneFemme(data.cadre.homme,data.cadre.femme,'€','#cadres');
        	colonneFemme(data.moyen.homme,data.moyen.femme,'€','#moyenne');
-        pyramideHomme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
-        pyramideHomme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
-        pyramideHomme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
-        pyramideHomme(data.conseilEcole.homme,data.conseilHandicap.femme,'%','#conseil_ecoles');
-        pyramideHomme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
+        pyramideFemme(data.conseilJeune.homme,data.conseilJeune.femme,'%','#conseil_jeunes');
+    	pyramideFemme(data.conseilEtranger.homme,data.conseilEtranger.femme,'%','#conseil_etrangers');
+    	pyramideFemme(data.conseilHandicap.homme,data.conseilJeune.femme,'%','#conseil_handi');
+    	pyramideFemme(data.conseilEcole.homme,data.conseilHandicap.femme,'%','#conseil_ecoles');
+    	pyramideFemme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
     });
     
     $('#slide6_h').click(function() {
-        $.getJSON('../datas/hyblab.json', function(data) {
+        $.getJSON('datas/hyblab.json', function(data) {
             glaconHomme(data.sansDiplome.homme,'#sans_diplome');
             glaconHomme(data.bepCap.homme,'#bep_cap');
             glaconHomme(data.bacTechno.homme,'#bac_techno');
@@ -270,4 +301,21 @@ $(document).ready(function() {
     		pyramideFemme(data.conseilCreche.homme,data.conseilCreche.femme,'%','#conseil_creches');
         });
     });
+    $('#slide16_h').click(function() {
+		$.getJSON('datas/hyblab.json', function(data) {
+			compteurHomme(data.president.homme/100,'#compteur16_1','pourcent16_1');
+			compteurHomme(data.secretaire.homme/100,'#compteur16_2','pourcent16_2');
+			compteurHomme(data.tresorier.homme/100,'#compteur16_3','pourcent16_3');
+			compteurHomme(data.ensemble.homme/100,'#compteur16_4','pourcent16_4');
+		});
+	});
+				    
+	$('#slide16_f').click(function() {
+	  	$.getJSON('datas/hyblab.json', function(data) {
+	  		compteurFemme(data.president.femme/100,'#compteur16_1','pourcent16_1');
+			compteurFemme(data.secretaire.femme/100,'#compteur16_2','pourcent16_2');
+			compteurFemme(data.tresorier.femme/100,'#compteur16_3','pourcent16_3');
+			compteurFemme(data.ensemble.femme/100,'#compteur16_4','pourcent16_4');
+	    });
+	});
 });

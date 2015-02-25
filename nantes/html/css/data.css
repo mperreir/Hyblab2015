@@ -21,20 +21,63 @@
 }
 
 /*Options de style de base*/
-p
-{
-    font-family: 'Sofia';
+
+p{
+	font-family: 'Sofia';
 	padding: 0px;
 	margin: 0px;
 }
 
-#slide1, #slide2, #slide3, #slide4, #slide5, #slide6
+
+html
 {
-    width: 100%;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
 	height: 100%;
-    background-color: #393535;
 }
 
+body
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.main
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+img, object, embed, canvas, video, audio, picture {
+       max-width: 100%;
+       height: auto;
+}
+
+section
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.source
+{
+	position:absolute;
+	width:15%;
+	height:3%;
+	right:0%;
+	bottom:0%;
+	font-family: 'Sofia';
+	font-size:1em;
+	color:white;
+}
+
+/*CSS concernant le cinquième slide ***Dataviz*** */
 .datavizs
 {
 	width: 100%;
@@ -53,77 +96,31 @@ p
 .box_titre
 {
 	font-family: Sofia;
-	color:white;
-	padding-bottom:3%;
-}
-
-.div_stats
-{
-	padding: 0px;
-	margin: 0px;
-	width: 25%;
-	height: 100%;
-	float: left;
-}
-
-.s1
-{
-	width: 100%;
-	height: 50%;
-	background: url('../img/img5/carré_orange_haut.png') repeat bottom;
-	background-size: 100%;
-	margin-bottom: 4%;
-}
-
-.s2
-{
-	width: 100%;
-	height: 50%;
-	background: url('../img/img5/carré_orange_bas.png') repeat top;
-	background-size: cover;
-	margin-top: 4%;
-	overflow: hidden;
-}
-
-.s2 img
-{
-	position: absolute;
-	width: 12.5%;
-	top: 60%;
-	left: 1%;
-}
-
-.s2 p
-{
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Sofia';
-	font-weight: bolder;
 	color: white;
-	position: absolute;
-	width: 20%;
-	top: 60%;
-	left: 14.5%;
 }
 
-.s2 span
-{
-	border-bottom: 4px dotted white;
-}
 .dataviz
 {
 	padding: 0px;
-	margin: 0px;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 	width: 75%;
 	height: 100%;
 }
-
 .dataviz_text
 {
-	width: 100%;
-	height: 30%;
+	width: 75%;
+	margin: 7.5% auto 2.5% auto;
+}
+.dataviz_text p
+{
+	text-align: center;
+	color: white;
+}
 
+.dataviz_text b
+{
+	font-size: 1.5em;
 }
 
 .dataviz_graph
@@ -133,8 +130,401 @@ p
 
 }
 
+.box_slide6 {
+	width:25%;
+	height:100%;
+	display:inline-block;
+
+}
+
+
+.graph_slide6
+{
+	text-align:center;
+	height:35%;
+	max-height:70%;
+	margin-bottom:5%;
+}
+
+.graph_slide6bis
+{
+	text-align:center;
+	height:35%;
+	max-height:70%;
+}
+
+#sans_diplome
+{
+	
+	width:100%;
+	height:100%;
+}
+
+#bep_cap
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bac_techno
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bac_general
+{
+	width:100%;
+	height:100%;
+}
+
+#cycle1
+{
+
+	width:100%;
+	height:100%;
+}
+
+#cycle2
+{
+
+	width:100%;
+	height:100%;
+}
+
 .dataviz_legend
 {
 	width: 100%;
 	height: 20%;
+}
+
+#bouton_slide6
+{
+	width: 25%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slide6_h
+{
+	width: 25%;
+	float: right;
+}
+
+#slide6_f
+{
+	width: 25%;
+	float: left;
+}
+
+/*CSS Concernant le 8ème slide  */
+
+#non_qualif
+{
+	
+	width:100%;
+	height:100%;
+}
+
+#qualif
+{
+
+	width:100%;
+	height:100%;
+}
+
+#employes
+{
+
+	width:100%;
+	height:100%;
+}
+
+#prof_inter
+{
+	width:100%;
+	height:100%;
+}
+
+#cadres
+{
+
+	width:100%;
+	height:100%;
+}
+
+#moyenne
+{
+
+	width:100%;
+	height:100%;
+}
+
+#bouton_slide8
+{
+	width: 25%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slide8_h
+{
+	float: right;
+	width: 25%;
+}
+
+#slide8_f
+{
+	float: left;
+	width: 25%;
+}
+
+/*CSS Concernant le 10ème slide */
+#graph_slide10
+{
+	width:100%;
+	height:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dataviz_graph10
+{
+	margin-top: 10%;
+	text-align:center;
+}
+
+/*CSS Concernant le 12ème slide  */
+
+#dataviz_graph12
+{
+	width: 75%;
+	height: 80%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box12
+{
+	width:40%;
+	text-align:center;
+	float: left;
+}
+
+#box12bis
+{
+	width:40%;
+	text-align:center;
+	float: right;
+}
+
+.compteur
+{
+	width: 75%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+.pourcent
+{
+	height: 15%;
+	font-family: 'Sofia';
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/*CSS Concernant le 14ème slide ***Questions ASSOCIATIONS*** */
+
+#dataviz_graph14
+{
+	width:100%;
+	text-align: center;
+}
+
+.box14
+{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 12%;
+	height: 75%;
+	display: inline-block;
+}
+.box14bis
+{
+	width: 100%;
+	height: 25%;
+	display: inline-block;
+}
+
+.box_titreBis
+{
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	vertical-align: middle;
+	width: 12%;
+}
+
+/*CSS Slide 16 ***dataviz associations*** */
+
+.box16
+{
+	display: inline-block;
+	width: 24.5%;
+}
+
+.box16 .compteur
+{
+	width: 100%;	
+}
+
+.box16 .pourcent
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bouton_sexe
+{
+	width: 20%;
+	margin: 5% auto 0 auto;
+}
+
+
+.bouton_f
+{
+	width:25%;
+	height:25%;
+	float: left;
+}
+.bouton_h
+{
+	width:25%;
+	height:25%;
+	float: right;
+}
+
+/*CSS lien retour accueil*/
+#retour_accueil
+{
+	width: 3%;
+	height: 3%;
+	position: fixed;
+	top: 3%;
+	right: 3%;
+}
+
+.enSavoirPlus
+{
+	position: absolute;
+	left: 48.5%;
+	width: 3%;
+	height: auto;
+	margin-top: 1%;
+}
+/*CSS concernant le slide "crédits"*/
+#credits
+{
+	width: 100%;
+	height: 100%;
+	background: url('../img/credits/credits_1.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#creditsBis
+{
+	width: 100%;
+	height: 100%;
+	background: url('../img/credits/credits2_bis.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+.logo_container
+{
+	position: absolute;
+	width: 50%;
+	height: 15%;
+	top: 30%;
+	left: 25%;
+}
+
+.logos
+{
+	position: absolute;
+	width: 20%;
+	top: 30%;
+	height: 100%;
+}
+
+.logo_container_bis
+{
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	width: 15%;
+	height: 15%;
+
+}
+
+.logosBis
+{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+}
+
+#nantesfr
+{
+	background: url('../img/credits/NANTESFR.png') no-repeat center;
+	background-size: contain;
+	left: 5%;
+}
+
+#AGR
+{
+	background: url('../img/credits/AGR.png') no-repeat center;
+	background-size: contain;
+	left: 30%;
+}
+
+#Polytech
+{
+	background: url('../img/credits/POLYTECH.png') no-repeat center;
+	background-size: contain;
+	left: 55%;
+}
+
+#SciencesCom
+{
+	background: url('../img/credits/logo-sciencecom.png') no-repeat center;
+	background-size: contain;
+	left: 80%;
+}
+
+#facebook
+{
+	background: url('../img/credits/facebook.png') no-repeat center;
+	background-size: contain;
+	left: 0;
+}
+
+#twitter
+{
+	background: url('../img/credits/twitter.png') no-repeat center;
+	background-size: contain;
+	left: 30%;
+}
+
+#behance
+{
+	background:  url('../img/credits/behance.png') no-repeat center;
+	background-size: contain;
+	left: 60%;
 }
