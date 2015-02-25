@@ -170,7 +170,7 @@ $(function() {
                                         document.getElementById('VilleNomChx1').innerHTML="<p>"+ui.item.label+"</p>";
                                     } 
                   $.ajax({ // requete ajax pour récupérer les données sur la première ville à comparer
-                              url: "/data",
+                              url: "data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},
@@ -242,7 +242,7 @@ $(function() {
                   } 
                  
                           $.ajax({ // requete ajx pour récuprér les données de la seconde ville sélectionnée
-                              url: "/data",
+                              url: "data",
                               type: "get",
                               dataType: "json",
                               data: {'commune':commune},

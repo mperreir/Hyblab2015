@@ -1,7 +1,7 @@
 {
 	"name": "Atlanpôle Biothérapies",
 	"icon": "img/atlanticbio/atlanticbio_icon_id.svg",
-	"desc": "Basé à Nantes, Atlanpôle Biotherapies se spécialise sur les biothérapies et la production de biomédicaments. A vocation nationale, le pôle fédère les compétences des laboratoires, plateformes et entreprises afin d’articuler pour une offre public-privé sur la chaîne de valeur du biomédicament depuis la découverte de cibles jusqu’à l’évaluation clinique.",
+	"desc": "Basé à Nantes, Atlanpôle Biotherapies se spécialise sur les biothérapies et la production de biomédicaments. A vocation nationale, le pôle fédère les compétences des laboratoires, plateformes et entreprises afin d’articuler une offre public-privé sur la chaîne de valeur du biomédicament depuis la découverte de cibles jusqu’à l’évaluation clinique.",
 	"city": "Nantes",
 	"president": {
 	    "image": "img/atlanticbio/atlanticbio_president.png",

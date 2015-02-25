@@ -72,9 +72,9 @@
     margin: auto;
     background-size: 100% 100%;
 }
-.creditPhoto:hover {
+/*.creditPhoto:hover {
     cursor: pointer;
-}
+}*/
 #charlesCentofantiPhotoCredit {
     background-image: url('../media/credit/charles.jpg');
 }
