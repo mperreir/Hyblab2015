@@ -21,7 +21,7 @@
 {
 	height: 80px;
 	width: 600px;
-	background: url("bg_titres_slide_carte.png") no-repeat center bottom;
+	/*background: url("../images/bg_titres_slide_carte.png") no-repeat center bottom;*/
 	font-family: 'Montserrat', sans-serif;
 }
 
