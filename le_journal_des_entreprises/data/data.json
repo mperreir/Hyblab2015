@@ -431,473 +431,6 @@
 },
 
 {
-    "nom" : "Bordeaux",
-    "codeNAF" : "26.20Z",
-    "libelleNAF" : "Fabrication d'ordinateurs et d'équipements périphériques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "26.30Z",
-    "libelleNAF" : "Fabrication d'équipements de communication",
-    "2008" : 10,
-    "2009" : 9,
-    "2010" : 8,
-    "2011" : 7,
-    "2012" : 7,
-    "2013" : 6
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "46.18Z",
-    "libelleNAF" : "Intermédiaires spécialisés dans le commerce d'autres produits spécifiques",
-    "2008" : 53,
-    "2009" : 49,
-    "2010" : 52,
-    "2011" : 53,
-    "2012" : 40,
-    "2013" : 38
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "46.51Z",
-    "libelleNAF" : "Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels",
-    "2008" : 44,
-    "2009" : 44,
-    "2010" : 42,
-    "2011" : 40,
-    "2012" : 42,
-    "2013" : 39
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "46.52Z",
-    "libelleNAF" : "Commerce de gros de composants et d'équipements électroniques et de télécommunication",
-    "2008" : 34,
-    "2009" : 34,
-    "2010" : 34,
-    "2011" : 35,
-    "2012" : 33,
-    "2013" : 34
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "47.42Z",
-    "libelleNAF" : "Commerce de détail de matériels de télécommunication en magasin spécialisé",
-    "2008" : 23,
-    "2009" : 32,
-    "2010" : 30,
-    "2011" : 35,
-    "2012" : 29,
-    "2013" : 35
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.11Z",
-    "libelleNAF" : "Édition de livres",
-    "2008" : 13,
-    "2009" : 13,
-    "2010" : 13,
-    "2011" : 13,
-    "2012" : 14,
-    "2013" : 13
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.14Z",
-    "libelleNAF" : "Édition de revues et périodiques",
-    "2008" : 28,
-    "2009" : 29,
-    "2010" : 28,
-    "2011" : 31,
-    "2012" : 27,
-    "2013" : 26
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.19Z",
-    "libelleNAF" : "autres activités d'édition",
-    "2008" : 6,
-    "2009" : 6,
-    "2010" : 5,
-    "2011" : 6,
-    "2012" : 5,
-    "2013" : 6
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.21Z",
-    "libelleNAF" : "Édition de jeux électroniques",
-    "2008" : 1,
-    "2009" : 1,
-    "2010" : 1,
-    "2011" : 1,
-    "2012" : 2,
-    "2013" : 3
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.29A",
-    "libelleNAF" : "Édition de logiciels système et de réseau",
-    "2008" : 7,
-    "2009" : 6,
-    "2010" : 7,
-    "2011" : 8,
-    "2012" : 7,
-    "2013" : 8
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.29B",
-    "libelleNAF" : "Edition de logiciels outils de développement et de langages",
-    "2008" : 1,
-    "2009" : 1,
-    "2010" : 3,
-    "2011" : 3,
-    "2012" : 2,
-    "2013" : 2
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "58.29C",
-    "libelleNAF" : "Edition de logiciels applicatifs",
-    "2008" : 53,
-    "2009" : 52,
-    "2010" : 50,
-    "2011" : 45,
-    "2012" : 45,
-    "2013" : 41
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "59.11A",
-    "libelleNAF" : "Production de films et de programmes pour la télévision",
-    "2008" : 14,
-    "2009" : 14,
-    "2010" : 18,
-    "2011" : 17,
-    "2012" : 18,
-    "2013" : 19
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "59.11B",
-    "libelleNAF" : "Production de films institutionnels et publicitaires",
-    "2008" : 19,
-    "2009" : 22,
-    "2010" : 22,
-    "2011" : 22,
-    "2012" : 22,
-    "2013" : 23
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "59.11C",
-    "libelleNAF" : "Production de films pour le cinéma",
-    "2008" : 12,
-    "2009" : 18,
-    "2010" : 14,
-    "2011" : 18,
-    "2012" : 21,
-    "2013" : 19
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "59.12Z",
-    "libelleNAF" : "Postproduction de films cinématographiques, de vidéo et de programmes de télévision",
-    "2008" : 8,
-    "2009" : 6,
-    "2010" : 8,
-    "2011" : 8,
-    "2012" : 8,
-    "2013" : 8
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "59.20Z",
-    "libelleNAF" : "Enregistrement sonore et édition musicale",
-    "2008" : 7,
-    "2009" : 9,
-    "2010" : 11,
-    "2011" : 12,
-    "2012" : 14,
-    "2013" : 11
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "61.10Z",
-    "libelleNAF" : "Télécommunications filaires",
-    "2008" : 42,
-    "2009" : 39,
-    "2010" : 39,
-    "2011" : 41,
-    "2012" : 41,
-    "2013" : 41
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "61.20Z",
-    "libelleNAF" : "Télécommunications sans fil",
-    "2008" : 16,
-    "2009" : 17,
-    "2010" : 16,
-    "2011" : 15,
-    "2012" : 15,
-    "2013" : 16
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "61.30Z",
-    "libelleNAF" : "Télécommunications par satellite",
-    "2008" : 1,
-    "2009" : 1,
-    "2010" : 1,
-    "2011" : 1,
-    "2012" : 1,
-    "2013" : 1
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "61.90Z",
-    "libelleNAF" : "autres activités de télécommunication",
-    "2008" : 21,
-    "2009" : 21,
-    "2010" : 23,
-    "2011" : 28,
-    "2012" : 27,
-    "2013" : 22
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "62.01Z",
-    "libelleNAF" : "Programmation informatique",
-    "2008" : 110,
-    "2009" : 112,
-    "2010" : 112,
-    "2011" : 121,
-    "2012" : 130,
-    "2013" : 134
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "62.02A",
-    "libelleNAF" : "Conseil en systèmes et logiciels informatiques",
-    "2008" : 187,
-    "2009" : 187,
-    "2010" : 188,
-    "2011" : 191,
-    "2012" : 201,
-    "2013" : 208
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "62.02B",
-    "libelleNAF" : "Tierce maintenance de systèmes et d'applications informatiques",
-    "2008" : 9,
-    "2009" : 9,
-    "2010" : 10,
-    "2011" : 10,
-    "2012" : 10,
-    "2013" : 12
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "62.03Z",
-    "libelleNAF" : "Gestion d'installations informatiques",
-    "2008" : 3,
-    "2009" : 4,
-    "2010" : 4,
-    "2011" : 4,
-    "2012" : 6,
-    "2013" : 6
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "62.09Z",
-    "libelleNAF" : "autres activités informatiques",
-    "2008" : 14,
-    "2009" : 14,
-    "2010" : 15,
-    "2011" : 16,
-    "2012" : 18,
-    "2013" : 16
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "63.11Z",
-    "libelleNAF" : "Traitement de données, hébergement et activités connexes",
-    "2008" : 59,
-    "2009" : 53,
-    "2010" : 48,
-    "2011" : 49,
-    "2012" : 52,
-    "2013" : 52
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "63.12Z",
-    "libelleNAF" : "Portails internet",
-    "2008" : 2,
-    "2009" : 3,
-    "2010" : 3,
-    "2011" : 3,
-    "2012" : 5,
-    "2013" : 7
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "70.21Z",
-    "libelleNAF" : "Conseil en relations publiques et communication",
-    "2008" : 21,
-    "2009" : 27,
-    "2010" : 30,
-    "2011" : 38,
-    "2012" : 40,
-    "2013" : 45
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "70.22Z",
-    "libelleNAF" : "Conseil pour les affaires et autres conseils de gestion",
-    "2008" : 343,
-    "2009" : 367,
-    "2010" : 382,
-    "2011" : 376,
-    "2012" : 407,
-    "2013" : 428
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "73.11Z",
-    "libelleNAF" : "Activités des agences de publicité",
-    "2008" : 136,
-    "2009" : 125,
-    "2010" : 127,
-    "2011" : 125,
-    "2012" : 127,
-    "2013" : 134
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "73.12Z",
-    "libelleNAF" : "Régie publicitaire de médias",
-    "2008" : 41,
-    "2009" : 34,
-    "2010" : 31,
-    "2011" : 35,
-    "2012" : 30,
-    "2013" : 33
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "77.39Z",
-    "libelleNAF" : "Location et locationbail d'autres machines, équipements et biens matériels n.c.a.",
-    "2008" : 23,
-    "2009" : 24,
-    "2010" : 23,
-    "2011" : 24,
-    "2012" : 26,
-    "2013" : 27
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "95.11Z",
-    "libelleNAF" : "Réparation d'ordinateurs et d'équipements périphériques",
-    "2008" : 33,
-    "2009" : 30,
-    "2010" : 26,
-    "2011" : 26,
-    "2012" : 27,
-    "2013" : 23
-
-},
-
-{
-    "nom" : "Bordeaux",
-    "codeNAF" : "95.12Z",
-    "libelleNAF" : "Réparation d'équipements de communication",
-    "2008" : 2,
-    "2009" : 2,
-    "2010" : 2,
-    "2011" : 2,
-    "2012" : 3,
-    "2013" : 2
-
-},
-
-{
     "nom" : "Grenoble",
     "codeNAF" : "26.20Z",
     "libelleNAF" : "Fabrication d'ordinateurs et d'équipements périphériques",
@@ -2663,240 +2196,260 @@
     "nom" : "Nantes",
     "codeNAF" : "26.20Z",
     "libelleNAF" : "Fabrication d'ordinateurs et d'équipements périphériques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 3,
+    "2009" : 2,
+    "2010" : 2,
+    "2011" : 2,
+    "2012" : 3,
+    "2013" : 3
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "26.30Z",
     "libelleNAF" : "Fabrication d'équipements de communication",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 3,
+    "2009" : 2,
+    "2010" : 2,
+    "2011" : 2,
+    "2012" : 1,
+    "2013" : 1
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "46.18Z",
     "libelleNAF" : "Intermédiaires spécialisés dans le commerce d'autres produits spécifiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 30,
+    "2009" : 32,
+    "2010" : 35,
+    "2011" : 29,
+    "2012" : 27,
+    "2013" : 32
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "46.51Z",
     "libelleNAF" : "Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 82,
+    "2009" : 76,
+    "2010" : 72,
+    "2011" : 66,
+    "2012" : 63,
+    "2013" : 65
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "46.52Z",
     "libelleNAF" : "Commerce de gros de composants et d'équipements électroniques et de télécommunication",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 45,
+    "2009" : 47,
+    "2010" : 48,
+    "2011" : 51,
+    "2012" : 55,
+    "2013" : 55
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "47.42Z",
     "libelleNAF" : "Commerce de détail de matériels de télécommunication en magasin spécialisé",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 17,
+    "2009" : 20,
+    "2010" : 25,
+    "2011" : 25,
+    "2012" : 26,
+    "2013" : 28
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.11Z",
     "libelleNAF" : "Édition de livres",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 13,
+    "2009" : 13,
+    "2010" : 14,
+    "2011" : 11,
+    "2012" : 14,
+    "2013" : 14
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.14Z",
     "libelleNAF" : "Édition de revues et périodiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 18,
+    "2009" : 14,
+    "2010" : 15,
+    "2011" : 16,
+    "2012" : 16,
+    "2013" : 14
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.19Z",
     "libelleNAF" : "autres activités d'édition",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 6,
+    "2009" : 5,
+    "2010" : 5,
+    "2011" : 4,
+    "2012" : 6,
+    "2013" : 7
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.21Z",
     "libelleNAF" : "Édition de jeux électroniques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 0,
+    "2009" : 0,
+    "2010" : 1,
+    "2011" : 1,
+    "2012" : 1,
+    "2013" : 0
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.29A",
     "libelleNAF" : "Édition de logiciels système et de réseau",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 5,
+    "2009" : 6,
+    "2010" : 8,
+    "2011" : 7,
+    "2012" : 9,
+    "2013" : 11
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.29B",
     "libelleNAF" : "Edition de logiciels outils de développement et de langages",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 3,
+    "2009" : 3,
+    "2010" : 3,
+    "2011" : 2,
+    "2012" : 2,
+    "2013" : 2
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "58.29C",
     "libelleNAF" : "Edition de logiciels applicatifs",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 47,
+    "2009" : 51,
+    "2010" : 54,
+    "2011" : 55,
+    "2012" : 56,
+    "2013" : 59
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "59.11A",
     "libelleNAF" : "Production de films et de programmes pour la télévision",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 13,
+    "2009" : 16,
+    "2010" : 20,
+    "2011" : 16,
+    "2012" : 19,
+    "2013" : 20
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "59.11B",
     "libelleNAF" : "Production de films institutionnels et publicitaires",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 26,
+    "2009" : 26,
+    "2010" : 30,
+    "2011" : 35,
+    "2012" : 35,
+    "2013" : 39
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "59.11C",
     "libelleNAF" : "Production de films pour le cinéma",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 6,
+    "2009" : 10,
+    "2010" : 10,
+    "2011" : 7,
+    "2012" : 9,
+    "2013" : 11
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "59.12Z",
     "libelleNAF" : "Postproduction de films cinématographiques, de vidéo et de programmes de télévision",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 3,
+    "2009" : 4,
+    "2010" : 5,
+    "2011" : 4,
+    "2012" : 3,
+    "2013" : 4
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "59.20Z",
     "libelleNAF" : "Enregistrement sonore et édition musicale",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 7,
+    "2009" : 9,
+    "2010" : 4,
+    "2011" : 6,
+    "2012" : 5,
+    "2013" : 9
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "61.10Z",
-    "libelleNAF" : "T��lécommunications filaires",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "libelleNAF" : "Télécommunications filaires",
+    "2008" : 30,
+    "2009" : 27,
+    "2010" : 27,
+    "2011" : 26,
+    "2012" : 23,
+    "2013" : 18
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "61.20Z",
     "libelleNAF" : "Télécommunications sans fil",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 13,
+    "2009" : 12,
+    "2010" : 12,
+    "2011" : 9,
+    "2012" : 9,
+    "2013" : 9
+
 },
 
 {
@@ -2915,180 +2468,195 @@
     "nom" : "Nantes",
     "codeNAF" : "61.90Z",
     "libelleNAF" : "autres activités de télécommunication",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 14,
+    "2009" : 16,
+    "2010" : 21,
+    "2011" : 18,
+    "2012" : 19,
+    "2013" : 16
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "62.01Z",
     "libelleNAF" : "Programmation informatique",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 89,
+    "2009" : 85,
+    "2010" : 95,
+    "2011" : 108,
+    "2012" : 130,
+    "2013" : 134
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "62.02A",
     "libelleNAF" : "Conseil en systèmes et logiciels informatiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 216,
+    "2009" : 230,
+    "2010" : 233,
+    "2011" : 237,
+    "2012" : 255,
+    "2013" : 264
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "62.02B",
     "libelleNAF" : "Tierce maintenance de systèmes et d'applications informatiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 19,
+    "2009" : 19,
+    "2010" : 17,
+    "2011" : 19,
+    "2012" : 21,
+    "2013" : 21
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "62.03Z",
     "libelleNAF" : "Gestion d'installations informatiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 8,
+    "2009" : 8,
+    "2010" : 7,
+    "2011" : 8,
+    "2012" : 12,
+    "2013" : 12
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "62.09Z",
     "libelleNAF" : "autres activités informatiques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 21,
+    "2009" : 17,
+    "2010" : 21,
+    "2011" : 19,
+    "2012" : 18,
+    "2013" : 20
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "63.11Z",
     "libelleNAF" : "Traitement de données, hébergement et activités connexes",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 34,
+    "2009" : 31,
+    "2010" : 32,
+    "2011" : 37,
+    "2012" : 35,
+    "2013" : 38
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "63.12Z",
     "libelleNAF" : "Portails internet",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 2,
+    "2009" : 3,
+    "2010" : 2,
+    "2011" : 2,
+    "2012" : 4,
+    "2013" : 4
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "70.21Z",
     "libelleNAF" : "Conseil en relations publiques et communication",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 14,
+    "2009" : 21,
+    "2010" : 19,
+    "2011" : 21,
+    "2012" : 26,
+    "2013" : 24
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "70.22Z",
     "libelleNAF" : "Conseil pour les affaires et autres conseils de gestion",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 370,
+    "2009" : 369,
+    "2010" : 389,
+    "2011" : 405,
+    "2012" : 408,
+    "2013" : 424
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "73.11Z",
     "libelleNAF" : "Activités des agences de publicité",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 136,
+    "2009" : 122,
+    "2010" : 125,
+    "2011" : 124,
+    "2012" : 128,
+    "2013" : 136
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "73.12Z",
     "libelleNAF" : "Régie publicitaire de médias",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 28,
+    "2009" : 26,
+    "2010" : 25,
+    "2011" : 24,
+    "2012" : 21,
+    "2013" : 24
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "77.39Z",
     "libelleNAF" : "Location et locationbail d'autres machines, équipements et biens matériels n.c.a.",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 19,
+    "2009" : 20,
+    "2010" : 21,
+    "2011" : 19,
+    "2012" : 19,
+    "2013" : 19
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "95.11Z",
     "libelleNAF" : "Réparation d'ordinateurs et d'équipements périphériques",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 28,
+    "2009" : 28,
+    "2010" : 23,
+    "2011" : 22,
+    "2012" : 18,
+    "2013" : 16
+
 },
 
 {
     "nom" : "Nantes",
     "codeNAF" : "95.12Z",
     "libelleNAF" : "Réparation d'équipements de communication",
-    "2008" : "NA",
-    "2009" : "NA",
-    "2010" : "NA",
-    "2011" : "NA",
-    "2012" : "NA",
-    "2013" : "NA"
+    "2008" : 1,
+    "2009" : 2,
+    "2010" : 3,
+    "2011" : 4,
+    "2012" : 3,
+    "2013" : 3
+
 },
 
 {
@@ -4026,6 +3594,437 @@
 
 },
 
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "26.20Z",
+    "libelleNAF" : "Fabrication d'ordinateurs et d'équipements périphériques",
+    "2008" : 6,
+    "2009" : 6,
+    "2010" : 6,
+    "2011" : 5,
+    "2012" : 5,
+    "2013" : 6
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "26.30Z",
+    "libelleNAF" : "Fabrication d'équipements de communication",
+    "2008" : 10,
+    "2009" : 9,
+    "2010" : 8,
+    "2011" : 7,
+    "2012" : 7,
+    "2013" : 6
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "46.18Z",
+    "libelleNAF" : "Intermédiaires spécialisés dans le commerce d'autres produits spécifiques",
+    "2008" : 46,
+    "2009" : 45,
+    "2010" : 46,
+    "2011" : 47,
+    "2012" : 36,
+    "2013" : 35
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "46.51Z",
+    "libelleNAF" : "Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels",
+    "2008" : 43,
+    "2009" : 43,
+    "2010" : 41,
+    "2011" : 39,
+    "2012" : 42,
+    "2013" : 39
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "46.52Z",
+    "libelleNAF" : "Commerce de gros de composants et d'équipements électroniques et de télécommunication",
+    "2008" : 31,
+    "2009" : 31,
+    "2010" : 31,
+    "2011" : 30,
+    "2012" : 30,
+    "2013" : 31
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "47.42Z",
+    "libelleNAF" : "Commerce de détail de matériels de télécommunication en magasin spécialisé",
+    "2008" : 20,
+    "2009" : 28,
+    "2010" : 27,
+    "2011" : 32,
+    "2012" : 27,
+    "2013" : 33
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.11Z",
+    "libelleNAF" : "Édition de livres",
+    "2008" : 12,
+    "2009" : 12,
+    "2010" : 12,
+    "2011" : 12,
+    "2012" : 13,
+    "2013" : 12
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.14Z",
+    "libelleNAF" : "Édition de revues et périodiques",
+    "2008" : 27,
+    "2009" : 28,
+    "2010" : 27,
+    "2011" : 30,
+    "2012" : 27,
+    "2013" : 26
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.19Z",
+    "libelleNAF" : "autres activités d'édition",
+    "2008" : 6,
+    "2009" : 6,
+    "2010" : 5,
+    "2011" : 6,
+    "2012" : 5,
+    "2013" : 6
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.21Z",
+    "libelleNAF" : "Édition de jeux électroniques",
+    "2008" : 1,
+    "2009" : 1,
+    "2010" : 1,
+    "2011" : 1,
+    "2012" : 2,
+    "2013" : 3
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.29A",
+    "libelleNAF" : "Édition de logiciels système et de réseau",
+    "2008": 6,
+    "2009": 6,
+    "2010": 7,
+    "2011": 8,
+    "2012": 7,
+    "2013": 8
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.29B",
+    "libelleNAF" : "Edition de logiciels outils de développement et de langages",
+    "2008": 1,
+    "2009": 1,
+    "2010": 3,
+    "2011": 3,
+    "2012": 2,
+    "2013": 2
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "58.29C",
+    "libelleNAF" : "Edition de logiciels applicatifs",
+    "2008": 48,
+    "2009": 47,
+    "2010": 45,
+    "2011": 41,
+    "2012": 41,
+    "2013": 37
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "59.11A",
+    "libelleNAF" : "Production de films et de programmes pour la télévision",
+    "2008": 14,
+    "2009": 14,
+    "2010": 18,
+    "2011": 17,
+    "2012": 18,
+    "2013": 19
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "59.11B",
+    "libelleNAF" : "Production de films institutionnels et publicitaires",
+    "2008": 19,
+    "2009": 22,
+    "2010": 20,
+    "2011": 21,
+    "2012": 21,
+    "2013": 22
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "59.11C",
+    "libelleNAF" : "Production de films pour le cinéma",
+    "2008": 12,
+    "2009": 18,
+    "2010": 14,
+    "2011": 18,
+    "2012": 21,
+    "2013": 19
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "59.12Z",
+    "libelleNAF" : "Postproduction de films cinématographiques, de vidéo et de programmes de télévision",
+    "2008": 8,
+    "2009": 6,
+    "2010": 8,
+    "2011": 8,
+    "2012": 8,
+    "2013": 8
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "59.20Z",
+    "libelleNAF" : "Enregistrement sonore et édition musicale",
+    "2008": 7,
+    "2009": 8,
+    "2010": 10,
+    "2011": 11,
+    "2012": 13,
+    "2013": 10
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "61.10Z",
+    "libelleNAF" : "Télécommunications filaires",
+    "2008": 40,
+    "2009": 35,
+    "2010": 35,
+    "2011": 37,
+    "2012": 37,
+    "2013": 37
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "61.20Z",
+    "libelleNAF" : "Télécommunications sans fil",
+    "2008": 14,
+    "2009": 15,
+    "2010": 14,
+    "2011": 14,
+    "2012": 14,
+    "2013": 15
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "61.30Z",
+    "libelleNAF" : "Télécommunications par satellite",
+    "2008": 1,
+    "2009": 1,
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2013": 1
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "61.90Z",
+    "libelleNAF" : "autres activités de télécommunication",
+    "2008": 21,
+    "2009": 21,
+    "2010": 22,
+    "2011": 27,
+    "2012": 26,
+    "2013": 21
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "62.01Z",
+    "libelleNAF" : "Programmation informatique",
+    "2008": 103,
+    "2009": 107,
+    "2010": 107,
+    "2011": 115,
+    "2012": 123,
+    "2013": 129
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "62.02A",
+    "libelleNAF" : "Conseil en systèmes et logiciels informatiques",
+    "2008": 180,
+    "2009": 180,
+    "2010": 180,
+    "2011": 182,
+    "2012": 189,
+    "2013": 196
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "62.02B",
+    "libelleNAF" : "Tierce maintenance de systèmes et d'applications informatiques",
+    "2008": 8,
+    "2009": 8,
+    "2010": 9,
+    "2011": 9,
+    "2012": 9,
+    "2013": 11
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "62.03Z",
+    "libelleNAF" : "Gestion d'installations informatiques",
+    "2008": 3,
+    "2009": 4,
+    "2010": 4,
+    "2011": 4,
+    "2012": 5,
+    "2013": 5
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "62.09Z",
+    "libelleNAF" : "autres activités informatiques",
+    "2008": 12,
+    "2009": 12,
+    "2010": 14,
+    "2011": 15,
+    "2012": 16,
+    "2013": 14
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "63.11Z",
+    "libelleNAF" : "Traitement de données, hébergement et activités connexes",
+    "2008": 56,
+    "2009": 52,
+    "2010": 47,
+    "2011": 48,
+    "2012": 51,
+    "2013": 51
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "63.12Z",
+    "libelleNAF" : "Portails internet",
+    "2008": 2,
+    "2009": 3,
+    "2010": 3,
+    "2011": 3,
+    "2012": 5,
+    "2013": 7
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "70.21Z",
+    "libelleNAF" : "Conseil en relations publiques et communication",
+    "2008": 21,
+    "2009": 27,
+    "2010": 30,
+    "2011": 38,
+    "2012": 40,
+    "2013": 45
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "70.22Z",
+    "libelleNAF" : "Conseil pour les affaires et autres conseils de gestion",
+    "2008": 326,
+    "2009": 347,
+    "2010": 367,
+    "2011": 360,
+    "2012": 393,
+    "2013": 414
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "73.11Z",
+    "libelleNAF" : "Activités des agences de publicité",
+    "2008": 127,
+    "2009": 118,
+    "2010": 120,
+    "2011": 117,
+    "2012": 118,
+    "2013": 126
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "73.12Z",
+    "libelleNAF" : "Régie publicitaire de médias",
+    "2008": 38,
+    "2009": 31,
+    "2010": 28,
+    "2011": 32,
+    "2012": 28,
+    "2013": 30
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "77.39Z",
+    "libelleNAF" : "Location et locationbail d'autres machines, équipements et biens matériels n.c.a.",
+    "2008": 21,
+    "2009": 22,
+    "2010": 22,
+    "2011": 23,
+    "2012": 25,
+    "2013": 26
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "95.11Z",
+    "libelleNAF" : "Réparation d'ordinateurs et d'équipements périphériques",
+    "2008": 31,
+    "2009": 28,
+    "2010": 24,
+    "2011": 24,
+    "2012": 25,
+    "2013": 21
+},
+
+{
+    "nom" : "Bordeaux",
+    "codeNAF" : "95.12Z",
+    "libelleNAF" : "Réparation d'équipements de communication",
+    "2008": 2,
+    "2009": 2,
+    "2010": 2,
+    "2011": 2,
+    "2012": 3,
+    "2013": 2
+},
 {
     "nom" : "Toulouse",
     "codeNAF" : "26.11Z",
