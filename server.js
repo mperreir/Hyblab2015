@@ -1,10 +1,10 @@
 var express = require('express')
-var basicAuth = require('basic-auth-connect');
+//var basicAuth = require('basic-auth-connect');
 var app = express()
 
 
 // password protection
-app.use(basicAuth('ddj2015', 'datascientist'));
+//app.use(basicAuth('ddj2015', 'datascientist'));
 
 // create sub apps
 //var test_file = require('./test-file/server'); // test
