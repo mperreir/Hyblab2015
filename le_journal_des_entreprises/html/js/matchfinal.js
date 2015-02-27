@@ -2,8 +2,10 @@ $('#creationPostes, #variationNbEntreprises, #nbEmployes, #variationEffectifs, #
     var methode = $(this).attr('id');
     $('#selectionPodium').html($(this).html());
     $.getJSON('matchfinal?methode=' + methode, function(data) {
-        $('#premiereVille').text(data[0].numero1);
-        $('#deuxiemeVille').text(data[0].numero2);
-        $('#troisiemeVille').text(data[0].numero3);
+        if(data) {
+            $('#premiereVille').text(data[0].numero1);
+            $('#deuxiemeVille').text(data[0].numero2);
+            $('#troisiemeVille').text(data[0].numero3);
+        }
     });
 });
