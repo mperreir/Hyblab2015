@@ -19,14 +19,12 @@
  * Slider functions
  */
 (function sliderF(){
-
-    $(function(){
+    $(function sliderF(){
         $('#sl1').slider({
           	formater: function(value) {
             return value;
           }
         });
-        
         $('#eg input').slider();
     });
 })();
@@ -37,15 +35,6 @@
 $('.criteria label').tooltip({
     placement: 'top'
 });
-
-/**
- * Trims spaces and line breaks from a string
- * @param string : the string to be stripped
- * @return the word seeked
- */
-function makeId(string) {
-    return $.trim(string.replace(/(\r\n|\n|\r)/gm,""));
-}
 
 /**
  * Town Selection
