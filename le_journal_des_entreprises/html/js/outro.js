@@ -1,3 +1,8 @@
+/**
+ * @author Claire REMY
+ * 
+ * Loads the different modals
+ */
 $('#casierG').on('click', function() {
     $('#modalMerci').modal();
 });

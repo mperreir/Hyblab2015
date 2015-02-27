@@ -67,7 +67,6 @@ app.get('/tableau', function(req, res) {
                         selectedData.codeNAF = townData[nafObject].codeNAF;
                         selectedData.libelleNAF = townData[nafObject].libelleNAF;
                         selectedData.nb = townData[nafObject][params.annee];
-                    
                     selectedNafArray.push(selectedData);
                 }
             }
@@ -88,7 +87,6 @@ app.get('/dataviz1', function(req, res) {
     if ('annee' in paramsD1) {
     
         var selectedDataD1 = [];
-        
         for (var city in datasD1) {  
             var tmpJson = {};
             tmpJson.nom = datasD1[city].nom;
@@ -105,7 +103,6 @@ app.get('/dataviz1', function(req, res) {
  * returns the data for the second dataviz 
  */
 app.get('/dataviz2', function(req, res) {
-    
     // first call
     var paramsD2 = req.query;
     var datasD2 = require("./data/salariesnum.json");
@@ -142,8 +139,10 @@ app.get('/dataviz2', function(req, res) {
 });
 
 /**
- * @author Quentin GROS
+ * @author Quentin GROS 
+ * @author Claire REMY
  * 
+ * @param methode : the classification method used
  * returns the data needed to display the podiums
  */
 app.get('/matchfinal', function(req, res) {

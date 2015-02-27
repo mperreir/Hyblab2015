@@ -1,18 +1,16 @@
 function parallax() {
-	    setpos("#inside2");
-        setpos("#inside1");
+    setpos("#inside2");
+    setpos("#inside1");
 }
 
 
 function setpos(element, factor) {
     factor = factor || 2;
-    
     var offset = $(element).offset();
     var w = $(window);
-    
     var posy = (offset.top - w.scrollTop()) / factor;
     
-    $(element).css('background-position', '50% '+posy+'px');
+    $(element).css('background-position', '50% ' + posy + 'px');
 }
 
 $(document).ready(function () {
@@ -26,18 +24,17 @@ $(document).ready(function () {
 }).scroll(function () {
     parallax();
 });
+
 /*
 (function() {
   var delay = false;
   $(document).on('mousewheel DOMMouseScroll', function(event) {
     event.preventDefault();
     if(delay) return;
-
     delay = true;
     setTimeout(function(){delay = false},200)
 
     var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
-
     var a= $('.page');
     if(wd < 0) {
       for(var i = 0 ; i < a.length ; i++) {
