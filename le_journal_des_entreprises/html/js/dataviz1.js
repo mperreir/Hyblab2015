@@ -93,7 +93,13 @@ function datasD1(year) {
                         enabled: true,
                         useHTML: true,
                         formatter: function() {
-                            return "&nbsp;"+this.y+'<br/><img class="graphLabel" id="' + this.point.name + '" src="images/ballonTop.png" width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"/>&nbsp;'  
+                            var townName = "'" + this.point.name + "'";
+                            console.log(townName);
+                            return "&nbsp;"+this.y+'<br/><img class="graphLabel" id="' + this.point.name 
+                            + '" src="images/ballonTop.png" onclick="loadDataviz(' + townName + ')" '
+                            + 'onmouseover="this.style.width = \'49.152px\'; this.style.height = \'73.92px\'; this.style.marginLeft = \'-5px\'" '
+                            + 'onmouseout="this.style.width = \'40.96px\'; this.style.height = \'61.6px\'; this.style.marginLeft = \'-0.5px\'" '
+                            + ' width="40.96" style="margin-bottom: -5px; padding-left: 3px;" height="61.6"; />&nbsp;'  
                         },
                         style: {
                             color: '#E9AE28',
@@ -124,16 +130,11 @@ function datasD1(year) {
             credits: {
               enabled: false
             },
-
             series: [{
                 id: 'series-1',
                 data: dataArray
             }]
-            
-            
         });
-        
-        
         
         $('.highcharts-axis-labels text ').on('click', function(e) {
             loadDataviz(this.textContent ||this.innerText);
@@ -216,13 +217,13 @@ function animateYear(mode, currentlyAnimating) {
     var varMarginTop, firstYearTest, secondYearTest;
     //Set parameters according to mode
     if(mode === 'plus') {
-        varMarginTop = "35";
-        firstYearTest = 2009;
-        secondYearTest = 2010;
+        varMarginTop    = "35";
+        firstYearTest   = 2009;
+        secondYearTest  = 2010;
     } else if(mode === 'less') {
-        varMarginTop = "-35";
-        firstYearTest = 2010;
-        secondYearTest = 2009;
+        varMarginTop    = "-35";
+        firstYearTest   = 2010;
+        secondYearTest  = 2009;
     }
     
     //contre les clicks intempestifs
@@ -234,12 +235,18 @@ function animateYear(mode, currentlyAnimating) {
     //animation
     $('.ca4').animate({
         marginTop: varMarginTop
-    },{ duration : 800 , queue: false });  
+    },{ 
+        duration : 800,
+        queue: false 
+    });  
     
     if(year === firstYearTest){
         $('.ca3').animate({
             marginTop: varMarginTop
-        },{ duration : 800 , queue: false });
+        },{ 
+            duration : 800,
+            queue: false 
+        });
     }
     
     year = year + ((mode == 'plus') ? 1 : -1);
@@ -272,14 +279,20 @@ function animateYear(mode, currentlyAnimating) {
             marginTop: varMarginTop
         },0).animate({
             marginTop: "0"
-        },{ duration : 800 , queue: false });
+        },{ 
+            duration : 800,
+            queue: false
+        });
         
         if(year == secondYearTest){
             $('.ca3').animate({
                 marginTop: varMarginTop
             },0).animate({
                 marginTop: "0"
-            },{ duration : 800 , queue: false });
+            },{ 
+                duration : 800,
+                queue: false
+            });
         }
     }, 800);
     
