@@ -49,15 +49,12 @@ $('.towns > label').on('click', function(e){
             $('#'+clicks[0]).toggleClass('active',false);
             clicks.shift();
             clicks.push($(e.target).attr('id'));
-            
         }
         $('#city1').html(clicks[0]);
         $('#city2').html(clicks[1]);
     }else{
         $('#' + $(e.target).attr('id')).toggleClass('active');
     }
-   
-   
 });
 
 
@@ -96,7 +93,6 @@ function loadData(indexOfTown) {
             var tabCell = "";
             var tabNoRow;
             
-            
             tabCell = "<div class=\"row\">";
             for(var i in data) {
                 if(i==0) {
@@ -104,7 +100,7 @@ function loadData(indexOfTown) {
                 }else{
                     tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
                 }
-                if(  ((i+1)%2 === 0 ) && ( i !== 0 ) ) {
+                if( ((i+1)%2 === 0 ) && ( i !== 0 ) ) {
                     tabCell += tabNoRow;
                     tabCell += "</div><div class=\"row\">";
                 }else{
@@ -115,13 +111,13 @@ function loadData(indexOfTown) {
             $('.city .tab' + indexOfTown).html(
                 tabCell
                 );
-            
         });
     }
 }
 
 /**
- * loads data on each triggering event
+ * load data on each triggering event
+ * 
  * @event on new town selection
  * @event on new year selection
  * @event on add or removing search criterias
@@ -145,8 +141,3 @@ $('#sl1').on('slideStop', function(e){
     $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
 
-$(document).on('mousewheel DOMMouseScroll',function(event){
-     $('html, body').animate({
-	        scrollTop: $('#coucou').offset().top
-	    }, 1000);
-});
