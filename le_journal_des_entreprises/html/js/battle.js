@@ -141,3 +141,16 @@ $('#sl1').on('slideStop', function(e){
     $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
 
+/**
+ * @author Claire REMY
+ * 
+ * refresh naf codes on click on refresh button
+ */
+$('#refreshButton span').on('click', function(e) {
+    for(var i in nafCodes) {
+        $('#' + nafCodes[i]).toggleClass('active');
+    }
+    nafCodes = [];
+    loadData(0);
+    loadData(1);
+});
