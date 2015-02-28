@@ -60,7 +60,7 @@ function datasD1(year) {
                 categories: villesD1,
                 labels: {
                      style: {
-                        fontSize: '14px',
+                        fontSize: '17px',
                         color: '#E9AE28'
                     }
                 }
@@ -73,7 +73,8 @@ function datasD1(year) {
                         return this.value;
                     },
                     style: {
-                        color: 'white'
+                        color: 'white',
+                        fontSize: '17px'
                     }
                 },
                 title: {
