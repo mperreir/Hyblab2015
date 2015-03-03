@@ -67,7 +67,7 @@ function datasD1(year) {
             },
             yAxis: {
                 gridLineWidth: 0,
-                max: 4200,
+                max: 5200,
                 labels: {
                     formatter: function() {
                         return this.value;
