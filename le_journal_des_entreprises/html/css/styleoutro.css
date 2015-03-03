@@ -122,3 +122,17 @@
 {
     margin-top : 6%;
 }
+
+iframe#twitter-widget-0[style] {
+    width: 120px !important;
+}
+
+div.fb-share-button {
+    position: relative;
+    top: -7px;
+}
+
+span.IN-widget {
+    position: relative;
+    top: -3px;
+}
