@@ -159,6 +159,10 @@ float:right;
  font-size: 18pt;
 }
 
+.modal-content {
+    background-color: transparent !important;
+}
+
 #graph {
  margin-top: 40px;
 }
