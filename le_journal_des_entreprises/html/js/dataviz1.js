@@ -205,11 +205,12 @@ var year = 2013;
     $('.yearplus').hide();  
 
     $('.yearplus').on('click', function(e) {
-        animateYear('plus', currentlyAnimating);
+        animateYear('plus', currentlyAnimating);        
     });
 
     $('.yearless').on('click', function(e) {
         animateYear('less', currentlyAnimating);
+        $('.indicAnnee').hide();
     });
 })();
 
