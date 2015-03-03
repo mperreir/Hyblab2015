@@ -60,7 +60,7 @@ function datasD1(year) {
                 categories: villesD1,
                 labels: {
                      style: {
-                        fontSize: '17px',
+                        fontSize: '14px',
                         color: '#E9AE28'
                     }
                 }

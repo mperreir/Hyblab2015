@@ -153,7 +153,7 @@ float:right;
  font-size: 18pt;
 }
 
-.modal-content {
+#dataviz1.modal-content {
     background-color: transparent !important;
 }
 
