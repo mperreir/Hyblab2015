@@ -96,7 +96,7 @@ function loadData(indexOfTown) {
             tabCell = "<div class=\"row\">";
             for(var i in data) {
                 if(i==0) {
-                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number bebas col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
+                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
                 }else{
                     tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
                 }
