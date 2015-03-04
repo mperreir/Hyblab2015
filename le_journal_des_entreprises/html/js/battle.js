@@ -19,14 +19,12 @@
  * Slider functions
  */
 (function sliderF(){
-
-    $(function(){
+    $(function sliderF(){
         $('#sl1').slider({
           	formater: function(value) {
             return value;
           }
         });
-        
         $('#eg input').slider();
     });
 })();
@@ -37,15 +35,6 @@
 $('.criteria label').tooltip({
     placement: 'top'
 });
-
-/**
- * Trims spaces and line breaks from a string
- * @param string : the string to be stripped
- * @return the word seeked
- */
-function makeId(string) {
-    return $.trim(string.replace(/(\r\n|\n|\r)/gm,""));
-}
 
 /**
  * Town Selection
@@ -60,15 +49,12 @@ $('.towns > label').on('click', function(e){
             $('#'+clicks[0]).toggleClass('active',false);
             clicks.shift();
             clicks.push($(e.target).attr('id'));
-            
         }
         $('#city1').html(clicks[0]);
         $('#city2').html(clicks[1]);
     }else{
         $('#' + $(e.target).attr('id')).toggleClass('active');
     }
-   
-   
 });
 
 
@@ -107,15 +93,18 @@ function loadData(indexOfTown) {
             var tabCell = "";
             var tabNoRow;
             
-            
             tabCell = "<div class=\"row\">";
             for(var i in data) {
-                if(i==0) {
-                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number bebas col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";
-                }else{
-                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\">"+data[i].libelleNAF+"</div></div>";   
+                var style= "";
+                if(data[i].libelleNAF.length >= 50) {
+                    style = "font-size: 10px;";
                 }
-                if(  ((i+1)%2 === 0 ) && ( i !== 0 ) ) {
+                if(i==0) {
+                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\" style=\"" + style + "\">"+data[i].libelleNAF+"</div></div>";
+                }else{
+                    tabNoRow = "<div class=\" col-xs-6 col-md-6 col-lg-6\"><div class=\"number col-xs-12 col-md-offset-4 col-md-3 col-lg-offset-4 col-lg-3\">"+data[i].nb+"</div><div class=\"libelle\" style=\"" + style + "\">"+data[i].libelleNAF+"</div></div>";   
+                }
+                if( ((i+1)%2 === 0 ) && ( i !== 0 ) ) {
                     tabCell += tabNoRow;
                     tabCell += "</div><div class=\"row\">";
                 }else{
@@ -126,13 +115,13 @@ function loadData(indexOfTown) {
             $('.city .tab' + indexOfTown).html(
                 tabCell
                 );
-            
         });
     }
 }
 
 /**
- * loads data on each triggering event
+ * load data on each triggering event
+ * 
  * @event on new town selection
  * @event on new year selection
  * @event on add or removing search criterias
@@ -156,8 +145,16 @@ $('#sl1').on('slideStop', function(e){
     $('#yearHeader').text($('#sl1').data('slider').getValue());
 });
 
-$(document).on('mousewheel DOMMouseScroll',function(event){
-     $('html, body').animate({
-	        scrollTop: $('#coucou').offset().top
-	    }, 1000);
+/**
+ * @author Claire REMY
+ * 
+ * refresh naf codes on click on refresh button
+ */
+$('#refreshButton span').on('click', function(e) {
+    for(var i in nafCodes) {
+        $('#' + nafCodes[i]).toggleClass('active');
+    }
+    nafCodes = [];
+    loadData(0);
+    loadData(1);
 });

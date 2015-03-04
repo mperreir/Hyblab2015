@@ -14,13 +14,17 @@ body, html, #comparison {
     height : 100% ;
 }
 
+#comparison {
+    overflow: hidden;
+}
+
 .tab0 .row div.number, .tab1 .row div.number {
-    height : 50px;
+    height : 40px;
     font-size : 200%;
     width : 100%;
     text-align : center;
     margin : 0px;
-    padding-top : 10px;
+    padding-top : 1px;
 }
 
 .tab0 div div.libelle, .tab1 div div.libelle{
@@ -29,7 +33,7 @@ body, html, #comparison {
     font-size: 60%;
     width: 100%;
     margin-top: 44px; /*44représente !!*/
-    padding: 15px 0px 0px 0px;
+    padding: 0px;
     text-align: center;
     margin-left: 0px;
     height: 40%;
@@ -40,7 +44,7 @@ body, html, #comparison {
     width : 47%;
     padding : 4px;
     margin : 1.2%;
-    height: 130px;
+    height: 112px;
     border-radius: 0px;
     background-color: rgb(80, 80, 81);
     border: medium none;
@@ -140,4 +144,21 @@ h5 {
 .modal-dialog {
     width: 940px !important;
     margin-left: -470px !important;
+}
+
+#refreshButton span {
+    border-radius: 50%;
+    background-color: #BDDAD8;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#refreshButton span:hover {
+    cursor: pointer;
+}
+
+#subtitleComparison {
+    font-size: 14pt;
+    color: white;
 }
