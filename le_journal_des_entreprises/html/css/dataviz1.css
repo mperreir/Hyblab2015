@@ -59,13 +59,23 @@ src: local('Myriad Pro Condensed Italic'), url('../fonts/MYRIADPRO-CONDIT.woff')
  height:35px;
  margin-top: 22px;
  padding-right: 0px !important;
- overflow:hidden;
  position: relative;
 }
 
+.overflowHidden
+{
+ width: 100%;
+ height: 100%;
+ overflow:hidden;
+ position: relative;
+}
 .selectionAnneeD1
 {
 float:right;
+}
+
+.changezAn {
+    text-align: left;
 }
 
 .selectionAnneePopup .chiffreAnnee
@@ -165,4 +175,21 @@ float:right;
    #graph {
     margin-top: 20px;
    }
+}
+
+.indicAnnee
+{
+ position: absolute;
+ top:40px;
+ font-size:14px;
+ color:white;
+ margin-left: 40px;
+}
+
+.indicMoin
+{
+ left: -20px;
+ top:-15px;
+ position: absolute;
+ font-size: 24px;
 }

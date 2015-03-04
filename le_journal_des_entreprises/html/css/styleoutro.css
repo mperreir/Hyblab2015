@@ -136,3 +136,8 @@ span.IN-widget {
     position: relative;
     top: -3px;
 }
+
+.fb-share-button
+{
+    top: -5px;
+}
