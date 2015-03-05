@@ -238,7 +238,7 @@
 
 			3:{
 			name:"Épicerie Sucrée",
-			le_saviez_vous:"Plus de 50% des produits de l’épicerie sucrée sont importés. Mais selon <a href=\"http://www.agencebio.org/\">l’Agence Bio</a>, « la majorité des importations concerne des denrées qui ne peuvent être produites en France », telle que le thé, le sucre, le caco et le café.",
+			le_saviez_vous:"Plus de 50% des produits de l’épicerie sucrée sont importés. Mais selon <a href=\"http://www.agencebio.org/\">l’Agence Bio</a>, « la majorité des importations concerne des denrées qui ne peuvent être produites en France », telles que le thé, le sucre, le cacao et le café.",
 			distribution:{
 				annees:[2008,2009,2010,2011,2012],
 				values:[
@@ -264,7 +264,7 @@
 
 			10:{
 			name:"La France du Bio",
-			texte_prod:"La région Paca domine avec 15,21 % de ses surfaces agricoles en bio, loin devant le Languedoc-Roussillon (11,14 %) et les Rhône-Alpes (6,70 %).",
+			texte_prod:"Avec plus de 130 000 hectares, la région Midi-Pyrénées est la plus riche en surfaces agricoles bio. Mais en proportion, c'est la région Paca qui domine avec 15,21 % de ses surfaces agricoles en bio, loin devant le Languedoc-Roussillon (11,14 %) et Rhône-Alpes (6,70 %).",
 			le_saviez_vous:"Le marché bio hexagonal est en plein boom, avec une progression des ventes de près de 15% par an depuis 2008 (en valeur). Mais la production biologique végétale ne suit pas, avec une croissance d’à peine 3 % dans notre pays entre 2012 et 2013. Quelles sont les régions championnes du bio ? Dans quels magasins les consommateurs achètent-ils bio ? Découvrez, produit par produit, la France du bio.",
 			production:{
 				fichier:"ProdTtesSurf.json",

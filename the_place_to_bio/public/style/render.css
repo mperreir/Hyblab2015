@@ -191,7 +191,7 @@ body{
     font-size:120%;
     text-align:center;
     margin-top:1%;
-    height:20%;
+    /*height:20%;*/
     line-height:115%;
 }
 .homepage .visualisations #prix{
