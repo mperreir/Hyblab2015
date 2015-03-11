@@ -22,7 +22,7 @@
     font-family: bebasregular;
 }
 
-.nameSC {
+.nameSC, .nameSC a {
     text-transform: uppercase;
     color: #886924;
     font-family: bebasregular;
