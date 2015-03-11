@@ -15,7 +15,8 @@ function Jauge(application, div, options){
         animation: Math.easeOutCubic,
 		image: null,
 		min:0.02,
-		max:0.981
+		max:0.981,
+		pc_max:100
 	}, options);
 	
 	this.canvas = document.createElement("canvas");
@@ -40,7 +41,7 @@ function Jauge(application, div, options){
 
 Jauge.prototype = {
     setValue: function(value){
-        if(value > 100) value = 100;
+        if(value > this.options.pc_max) value = this.options.pc_max;
         if(value < 0) value = 0;
         this.start_value = this.value;
         this.end_value = value;
@@ -75,9 +76,9 @@ Jauge.prototype = {
         } 
     },
 	resize: function(){
-		var taille =  Math.min($(this.div).width(),this.application.height()*0.4);
+		var taille =  Math.min($(this.div).width(),this.application.height()*0.5);
 		
-		if(taille > 400) taille = 400;
+		if(taille > 500) taille = 500;
 		this.margin = ($(this.div).width()-taille)/2;
 		this.taille = taille;
 		this.height = this.options.image.height/this.options.image.width*taille;
@@ -98,7 +99,7 @@ Jauge.prototype = {
 		    this.ctx.fillRect(this.margin+this.taille*0.65, this.height*0.01, this.taille*0.35-5, this.height*0.98);
 		}
 		this.ctx.fillStyle="#C5581E";
-		this.ctx.fillRect(this.margin+5,this.height*(this.options.min + (this.options.max-this.options.min)*(1 - (this.value/100))), this.taille-10, this.height*(this.options.min + (this.options.max-this.options.min)*(this.value/100)));
+		this.ctx.fillRect(this.margin+5,this.height*(this.options.min + (this.options.max-this.options.min)*(1 - (this.value/ this.options.pc_max))), this.taille-10, this.height*(this.options.min + (this.options.max-this.options.min)*(this.value/ this.options.pc_max)));
 		this.ctx.drawImage(this.options.image, this.margin, 0, this.taille, this.height);
 	}
 };

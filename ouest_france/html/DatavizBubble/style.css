@@ -1,0 +1,32 @@
+.dataVizbarText{
+  color:#FFFFFF;
+  font-family: Oswald-Light;
+  font-size: 1.1vw;
+}
+
+.dataVizbarTextSpeB{
+  color:#FFFFFF;
+  margin-left:20px;
+  margin-bottom:17px;
+  font-family: Oswald-Light;
+  font-size: 1.1vw;
+}
+
+#dataVizbarEtabB1{
+  margin-left:20px;
+  width:0px;
+  height:20px;
+  background-color:#ed5c49;
+}
+#dataVizbarEtabB2{
+  margin-left:20px;
+  width:0px;
+  height:20px;
+  background-color:#f9a21c;
+}
+#dataVizbarEtabB3{
+  margin-left:20px;
+  width:0px;
+  height:20px;
+  background-color:#127eb6;
+}

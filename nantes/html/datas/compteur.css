@@ -1,0 +1,39 @@
+
+
+.container {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  font-family: 'Share Tech', sans-serif;
+  color: #444;
+}
+
+#percent, #svg {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#percent {
+  line-height: 20px;
+  height: 20px;
+  top: 90px;
+  font-size: 43px;
+  text-align: center;
+  color: #28914b;
+  opacity: 0.8
+}
+
+
+p {
+  position: relative;
+  left: 220px;
+  width: 200px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  top: 30px;
+}

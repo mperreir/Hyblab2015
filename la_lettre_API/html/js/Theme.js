@@ -5,7 +5,7 @@ Highcharts.theme = {
     title: {
         style: {
             color: '#000',
-            font: 'bold 1.5vw "CodeBold"'
+            font: 'bold 1.5vw "RobotoRegular"'
         }
     },
     subtitle: {
@@ -17,7 +17,7 @@ Highcharts.theme = {
 
     legend: {
         itemStyle: {
-            font: '9pt bold "Roboto"',
+            font: '12pt bold "Roboto"',
             color: 'black'
         },
         itemHoverStyle:{

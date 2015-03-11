@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="220"
+   height="100"
+   id="svg3707"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Nouveau document 6">
+  <defs
+     id="defs3709" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="303.39317"
+     inkscape:cy="111.42456"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="854"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3712">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36209)">
+    <path
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       stroke-miterlimit="10"
+       d="m 179.44924,1027.0906 c 0,6.6 -5.4,12.3 -12,12.3 H 27.449233 c -6.6,0 -12.499999,-5.9 -12.499999,-12.5 v -47.29997 c 0,-6.6 5.899999,-12.2 12.499999,-12.2 H 180.74924"
+       id="path360" />
+    <path
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       stroke-miterlimit="10"
+       d="m 179.44924,1023.3906 c 0,-6.6 5.4,-12 12,-12"
+       id="path362" />
+    <g
+       transform="translate(-73.550767,336.89063)"
+       style="opacity:0.5"
+       id="g364">
+      <text
+         transform="translate(112.2501,651.4996)"
+         id="text366">
+        <tspan
+           style="font-size:12px;fill:#1d1d1b;font-family:HelveticaLTStd-Roman"
+           x="0"
+           y="0"
+           font-size="12"
+           id="tspan368">Cliquez, et observez les</tspan>
+        <tspan
+           style="font-size:12px;fill:#1d1d1b;font-family:HelveticaLTStd-Roman"
+           x="0"
+           y="18"
+           font-size="12"
+           id="tspan370">conséquences sur la</tspan>
+        <tspan
+           style="font-size:12px;fill:#1d1d1b;font-family:HelveticaLTStd-Roman"
+           x="0"
+           y="36"
+           font-size="12"
+           id="tspan372">consommation finale.</tspan>
+      </text>
+    </g>
+    <line
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       x1="179.44923"
+       y1="1027.1906"
+       x2="179.44923"
+       y2="1023.3907"
+       id="line374" />
+    <line
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       x1="191.44923"
+       y1="1011.3907"
+       x2="203.44923"
+       y2="1011.3907"
+       id="line376" />
+    <polyline
+       transform="translate(-72.747823,336.89554)"
+       style="fill:none;stroke:#b21b4a;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       points="276.5,675 276.5,660 276.5,660 286.5,675.3 276.5,690.5    276.5,682  "
+       id="polyline16" />
+  </g>
+</svg>

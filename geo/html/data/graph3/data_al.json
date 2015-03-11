@@ -1,8 +1,8 @@
 [    
-            {"energie":"Nucléaire","valeur":20},
+             {"energie":"Hydraulique","valeur":18},
             {"energie":"Géothermique","valeur":0},
             {"energie":"Biomasse","valeur":10},
             {"energie":"Solaire","valeur":0},
             {"energie":"Eolien","valeur":51},
-            {"energie":"Hydraulique","valeur":18}
+            {"energie":"Nucléaire","valeur":20}
 ]

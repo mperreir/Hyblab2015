@@ -1,11 +1,11 @@
 {
 	"name": "IDforCar",
 	"icon": "img/idforcar/idforcar_icon_id.svg",
-	"desc": "Renforcer la compétitivité de la filière véhicules et mobilité durable l’Ouest par le biais de l’innovation est la mission du pôle. IdforCar couvre la Bretagne, les Pays de la Loire et le Poitou-Charentes. À Bouguenais, il s’intéresse aux matériaux et à l’architecture des véhicules, à l’intelligence des systèmes embarqués, aux usages et services innovantes et à la mobilité durable.",
+	"desc": "Renforcer la compétitivité de la filière véhicules et mobilité durable l’Ouest par le biais de l’innovation est la mission du pôle. IdforCar couvre la Bretagne, les Pays de la Loire et le Poitou-Charentes. À Bouguenais, il s’intéresse aux matériaux et à l’architecture des véhicules, à l’intelligence des systèmes embarqués, aux usages et services innovants et à la mobilité durable.",
 	"city": "Bouguenais",
 	"president": {
 	    "image": "img/idforcar/idforcar_president.png",
-	    "name": "Yvon PEUROU",
+	    "name": "Yvon Peurou - Président",
 	    "biographie": "A la tête du pole de compétitivité depuis 2012, Yvon Peurou a dirigé le groupe Gruau pendant près de 15 ans. Il siège toujours au conseil de surveillance du groupe, leader européen de la carrosserie sur véhicule utilitaire. Le groupe familial est l’un des adhérents historique du pôle IDforCar. Membre du Conseil d’administration avant d’en prendre la présidence, Yvon Peurou a œuvré depuis les débuts du pôle à l’évolution de sa stratégie et à sa réorientation en direction du véhicule spécifique."
 	},
 	"link": "http://agence-api.fr/societes/idforcar-30149.html",

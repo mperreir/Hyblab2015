@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="55"
+   id="svg3794"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="fleche_production_frontieres.svg">
+  <defs
+     id="defs3796" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-241.2126"
+     inkscape:cy="333.01186"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="854"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3799">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-997.3622)">
+    <g
+       transform="translate(-300.80641,326.48327)"
+       style="opacity:0.6"
+       id="g441">
+      <text
+         style="font-size:14px;letter-spacing:1;font-family:HelveticaLTStd-Bold"
+         transform="translate(1238.351,719.9749)"
+         font-size="14"
+         letter-spacing="1"
+         id="text443">100%</text>
+    </g>
+    <g
+       transform="translate(-301.0653,325.78879)"
+       style="opacity:0.6"
+       id="g445-6">
+      <text
+         style="font-size:14px;letter-spacing:1;font-family:HelveticaLTStd-Bold"
+         transform="translate(308.3366,719.9744)"
+         font-size="14"
+         letter-spacing="1"
+         id="text447">0%</text>
+    </g>
+    <line
+       style="fill:none;stroke:#fac768;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       x1="986.8186"
+       y1="1014.9832"
+       x2="7.8185911"
+       y2="1014.9832"
+       id="line449" />
+    <polyline
+       transform="translate(-300.18141,326.48327)"
+       style="fill:none;stroke:#b11b4a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       stroke-miterlimit="10"
+       points="   1287.3,688.4 1287.3,673.2 1287.3,673.2 1297.3,688.6 1287.3,703.8 1287.3,695.4  "
+       id="polyline451" />
+  </g>
+</svg>

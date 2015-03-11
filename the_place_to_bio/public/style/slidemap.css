@@ -21,7 +21,7 @@
 {
 	height: 80px;
 	width: 600px;
-	background: url("bg_titres_slide_carte.png") no-repeat center bottom;
+	/*background: url("../images/bg_titres_slide_carte.png") no-repeat center bottom;*/
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,7 +44,6 @@
 {
 	width: 100%;
 	margin-top: 35px;
-	font-family: 'Slabo 27px', serif;
 	font-size: 1.1em;
 	text-align: justify;
 	color: #CC8F46;
@@ -116,15 +115,14 @@
 
 #infos_region
 {
-	margin: -35px 0 0 225px;
+	margin: -35px 0 0 250px;
 	font-size: 1.3em;
 	color: #BD9A5A;
 }
 
-#spearateur_compteur_donnees
+#compteur_type_valeur
 {
-	margin: 0 20px 0 20px;
-	color: #C5581E;
+	margin-left:20px;
 }
 
 #texte_pourcentage_region

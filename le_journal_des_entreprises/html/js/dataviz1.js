@@ -171,13 +171,14 @@ function loadDataviz(id) {
         if(data) {
             $('#DV2Description').html(data.desc);
             $('#DV2TownName').html(id);
-            $('#DV2pic').html("<img src=\"/images/"+data.image+"\">");
+            
+            $('#DV2pic').html("<img src=\"images/"+data.image+"\">");
             
             if(data.medaille1) {
-                $('#med1').html("<img src=\"/images/"+data.medaille1+"\">");
+                $('#med1').html("<img src=\"images/"+data.medaille1+"\">");
             }
             if(data.medaille2) {
-                 $('#med2').html("<img src=\"/images/"+data.medaille2+"\">");
+                 $('#med2').html("<img src=\"images/"+data.medaille2+"\">");
             }
         }
     });

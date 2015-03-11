@@ -99,6 +99,7 @@ app.get('/dataviz1', function(req, res) {
 
 /**
  * @author Benjamin MOUDEN
+<<<<<<< HEAD
  * 
  * returns the data for the second dataviz 
  */
@@ -142,6 +143,51 @@ app.get('/dataviz2', function(req, res) {
  * @author Quentin GROS 
  * @author Claire REMY
  * 
+=======
+ * 
+ * returns the data for the second dataviz 
+ */
+app.get('/dataviz2', function(req, res) {
+    // first call
+    var paramsD2 = req.query;
+    var datasD2 = require("./data/salariesnum.json");
+    
+    if ('annee' in paramsD2) {
+    
+        var valeurs = [];
+        var selectedDataD2= [];
+      
+        for (var city in datasD2) {  
+            var tmpJson = {};
+            tmpJson = datasD2[city][paramsD2.annee];
+            valeurs.push(tmpJson);
+        }
+        
+        valeurs.sort();
+        valeurs.reverse();
+        
+        var tmp = '';
+        for(var i in valeurs) {    
+            for (var city in datasD2) {     
+                if( (valeurs[i] == datasD2[city][paramsD2.annee]) &&(tmp!=datasD2[city].nom)){
+                    var tmpJson2 = {};
+                    tmpJson2.nom = datasD2[city].nom;
+                    tmpJson2.nb = datasD2[city][paramsD2.annee];
+                    selectedDataD2.push(tmpJson2);
+                    tmp = datasD2[city].nom;
+                    break;
+                }
+            }
+        }      
+    }
+    res.json(selectedDataD2);
+});
+
+/**
+ * @author Quentin GROS 
+ * @author Claire REMY
+ * 
+>>>>>>> upstream/master
  * @param methode : the classification method used
  * returns the data needed to display the podiums
  */
@@ -213,6 +259,6 @@ var server = app.listen(process.env.PORT, function() {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('JDEHyblab app listening at http://%s:%s', host, port)
+    console.log('JDEHyblab app listening at http://%s:%s', host, port);
 });
 module.exports = app;

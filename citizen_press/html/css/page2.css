@@ -1,0 +1,54 @@
+#containerPage2 {
+  height: 100%;
+}
+#containerGraphePage2 {
+	height: 55%;
+}
+#fondEssence {
+	content: "";
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #A5D7CE;
+	z-index: -1;
+}
+.texteVert {
+	color :	#14A589;
+}
+.texteRouge {
+	color: #E95260;
+}
+#egalitePage2 {
+	margin: auto;
+}
+.contentVerticalAlign{
+	word-break: break-word;	
+}
+.textePourcentage {
+	font-family: fontPourcentageChiffre;
+}
+.texteNormal {
+	font-family: fontTitreTexte;
+}
+#listetransportsPage2{
+  	width: 100%;
+  	height:10%;
+}
+.boutonPage2:hover circle, .boutonPage2:hover g g path, .boutonPage2.selected circle, .boutonPage2.selected g g path  {
+	stroke: #FC5965;
+}
+.boutonPage2:hover {
+	cursor: pointer;
+}
+.containerVerticalAlign {
+	display: table;
+	height: 100%;
+}
+.contentVerticalAlign {
+	display: table-cell;
+	vertical-align:middle;
+}
+#contentBaril {
+	position: relative;
+}

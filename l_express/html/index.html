@@ -64,25 +64,27 @@
                         <div class="col-sm-6" style="font-size:130%">
                             <div>
                                 <form id="tfnewsearch">
-		                              <input type="text" id="textField-s3" class="tftextinput" name="q" size="21" maxlength="120" value="Saissisez votre Ville" style="color: white;">
+		                              <input type="text" id="textField-s3" class="tftextinput" name="q" size="21" maxlength="120" placeholder="Saisissez votre ville" style="color: white;"
+		                              onfocus="if(this.value=='Saisissez votre ville'){this.value=''};" onblur="if(this.value==''){this.value='Saisissez votre ville'};">
 		                              <input type="image" value="search" id="tfbutton1s3" class="tfbutton" src="ressource/svg/slide5/pictoloupe.svg">
 	                           </form>
                                 <form>
                                     <br>
                                     <input type="radio" id="radio01" name="radio" value="croissant" class="css-checkbox" checked/>
-                                    <label for="radio01" class="css-label radGroup1"><span></span>De la ville moins polluée vers la plus polluée</label>
+                                    <label for="radio01" class="css-label radGroup1"><span></span>De la ville la moins polluée vers la plus polluée</label>
                                     <br>
                                     <input type="radio" id="radio02" name="radio" value="decroissant" class="css-checkbox"/>
-                                    <label for="radio02" class="css-label radGroup1"><span></span>De la ville plus polluée vers la moins polluée</label>
+                                    <label for="radio02" class="css-label radGroup1"><span></span>De la ville la plus polluée vers la moins polluée</label>
                                 </form>
                             </div>
                             <div class="scroll" id="classementVille">
-                                <table id="tabVilles">
+                                <table id="tabVilles" style="width: 100%;">
                                   <!-- Fonction Javascript qui ajoute des éléments au tableau--> 
                                 </table>
                             </div>
-                            <p id="textindices3">L'indice atmo caractérise quotidiennement la qualité de l'air extérieur des grandes villes et varie sur une échelle graduée de 1 (excellente qualité) à 10 (très mauvaise qualité).</p>
-                            <input type="image" id="tfbutton2" class="tfbutton" src="ressource/svg/slide3/boutonensavoirplus.svg" onclick="location.href='http://www.atmo-france.org/fr/'">
+                            <p id="textindices3">L'indice ATMO donne quotidiennement une valeur à la qualité de l'air des zones d'habitations de plus de 100 000 habitants. Complété par un indice IQA pour les zones restantes, les deux indices donnent une valeur située sur une échelle graduée de 1 (air d'excellente qualité) à 10 (air extrêmement pollué).</p>
+                                
+                                <input type="image" id="tfbutton2" class="tfbutton" src="ressource/svg/slide3/boutonensavoirplus.svg" onclick="window.open('http://www.atmoauvergne.asso.fr/fr/indice-qualite-air/indice-atmo/mode-calcul')">
                         </div>
                         
                         <!--Partie Droite de la slide -->
@@ -142,11 +144,11 @@
                                   </div>
                              </div>
                              
-                             <!-- Graphe du nombre de jours inférieur a 6 par mois-->
+                             <!-- Graphe du nombre de jours inférieur à 6 par mois-->
                              <div class="row" id="4-graphe">
                                  <div id="legendegraphe">
                                      <img src="ressource/svg/slide4/titregraphique.svg" id="titregraphique"></img>
-                                     <div id="legendes4">Nombre</br>de jours</div>
+                                     <div id="legendes4">Nombre de<br/>jours<br/> ou l'indice<br/>ATMO est <br/>inférieur à 6</div>
                                  </div>
                                   <div class="col-lg-12" id="graphe">
                                      <div class="ct-chart ct-perfect-fourth"></div>
@@ -163,7 +165,8 @@
                               <div class="col-sm-6"><p class="villeCompare" id="ville-g-s5" ></p></div>
                               <div class="col-sm-6"><p id="ville-d-s5" class="villeCompare"></p>
 	                               <form id="tfnewsearch2">
-		                                <input type="text" id="textField-s5" class="tftextinput" name="q" size="21" maxlength="120" value="Saissisez votre Ville" >
+		                                <input type="text" id="textField-s5" class="tftextinput" name="q" size="21" maxlength="120" placeholder="Saisissez votre Ville"
+		                                onfocus="if(this.value=='Saisissez votre ville'){this.value=''};" onblur="if(this.value==''){this.value='Saisissez votre ville'};">
 		                                    <input type="image" value="search" class="tfbutton" id="tfbutton1s5" src="ressource/svg/slide5/pictoloupe.svg" >
 	                                	</form>
 	                               <div class="tfclear"></div>
@@ -297,7 +300,7 @@
                                                         personnes asthmatiques) et les populations sensibles 
                                                         (personnes se reconnaissant comme sensibles lors des 
                                                         pics de pollution et/ou dont les symptômes apparaissent 
-                                                        ou sont amplifiés lors des pics de pollution. 
+                                                        ou sont amplifiés lors des pics de pollution). 
                                 </div>
                             </div>
                             <div class="col-sm-2" id="divPerso">
@@ -323,7 +326,7 @@
                             </div>
                             
                             <div>
-                                <img src="ressource/svg/slide7/boutonensavoirplus.svg" id="savoirpluss7" class="tfbutton" alt="savoirplus" onclick="location.href='http://www.atmoauvergne.asso.fr/fr/reglementation/alertes/recommandations'">
+                                <img src="ressource/svg/slide7/boutonensavoirplus.svg" id="savoirpluss7" class="tfbutton" alt="savoirplus" onclick="window.open('http://www.atmoauvergne.asso.fr/fr/reglementation/alertes/recommandations')">
                             </div>
                         </div>
                     </div>
@@ -344,10 +347,10 @@
                             <div class="eleve">FALGA Pierre, METTOUT Eric</div>
                         </div>
                         <div class="titre" id="sources">Sources</div>
-                        <div class="source">INSEE</div>
-                        <div class="source">AASQA</div>
+                        <div><a class="source" href="http://www.insee.fr/fr/" target="_blank">INSEE</a></div>
+                        <div><a class="source" href="http://www.atmo-france.org/fr/" target="_blank">Atmo-France, le réseau des AASQA</a></div>
                         <div class="expli">(Associations Agrées de Surveillance de la Qualité de l'air)</div>
-                        <div class="source">LCSQA</div>
+                        <div><a class="source" href="http://www.lcsqa.org/" target="_blank">LCSQA</a></div>
                         <div class="expli" id="bas">(Laboratoire Central de Surveillance de la Qualité de l'Air)</div>
                             
                         <div id="lets_partenaires">

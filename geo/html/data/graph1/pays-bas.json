@@ -1,11 +1,11 @@
 [
     {
-        "color": "#b00a57", 
+        "color": "#6cc4cb", 
         "marker": {
             "symbol": "circle", 
-            "lineWidth": 3, 
-            "fillColor": "#002330", 
-            "lineColor": "#b00a57"
+            "lineWidth": 2, 
+            "fillColor": "#fff3d2", 
+            "lineColor": "#6cc4cb"
         }, 
         "data": [
             [
@@ -104,12 +104,12 @@
         "name": "Production d'\u00e9nergies renouvelables"
     }, 
     {
-        "color": "#e08806", 
+        "color": "#e63259", 
         "marker": {
             "symbol": "circle", 
-            "lineWidth": 3, 
-            "fillColor": "#002330", 
-            "lineColor": "#e08806"
+            "lineWidth": 2, 
+            "fillColor": "#fff3d2", 
+            "lineColor": "#e63259"
         }, 
         "data": [
             [

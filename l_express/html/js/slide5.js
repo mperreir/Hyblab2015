@@ -147,3 +147,7 @@ function PostitionIcone() {
     $("#pluie-g-chiffre").css("margin-top","4.8%");
     $("#pluie-d-chiffre").css("margin-top","4.8%");
 }
+
+function resetTextField() {
+    $("textField-s3").value = "";
+}

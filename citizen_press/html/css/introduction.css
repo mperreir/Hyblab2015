@@ -1,0 +1,24 @@
+#introduction {
+	background: url('../media/background-introduction.png') no-repeat center center;
+	height: 100%;
+	background-size: 100% auto;
+	background-position: bottom; 
+	background-color: #1A0D2B;
+}
+#headerIntro {
+	height: 20%;
+}
+#introContainer {
+	font-family: fontTitreTexte;  
+	color: #63D2BD;
+	height: 100%;
+}
+#containerTitreIntro {
+	display: table;
+	height: 100%;
+}
+#textIntro {
+	padding-top:115px;
+	display: table-cell;
+	vertical-align: middle;
+}

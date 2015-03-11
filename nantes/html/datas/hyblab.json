@@ -1,0 +1,147 @@
+{
+    "bac":
+        {
+            "homme":9,
+            "femme":8
+            
+        },
+    "CycleUniv1":
+        {
+            "homme":23,
+            "femme":27
+            
+        },
+    "CycleUniv2":
+        {
+            "homme":35,
+            "femme":41
+            
+        },    
+    "sansDiplome":
+        {
+            "homme":9,
+            "femme":6
+            
+        },
+    "bepCap":
+        {
+            "homme":5,
+            "femme":3
+            
+        },
+    "bacTechno":
+        {
+            "homme":11,
+            "femme":9
+            
+        },
+    "professionInter":
+        {
+            "homme":14.1,
+            "femme":13
+            
+        },
+    "cadre":
+        {
+            "homme":23.4,
+            "femme":18.8
+            
+        },
+    "moyen":
+        {
+            "homme":15.4,
+            "femme":12.4
+            
+        },
+    "ouvrierNonQual":
+        {
+            "homme":9,
+            "femme":8.2
+            
+        },
+    "ouvrierQual":
+        {
+            "homme":10.5,
+            "femme":9.6
+            
+        },
+    "employe":
+        {
+            "homme":11.1,
+            "femme":9.2
+            
+        },
+    "tempsPartiel":
+        {
+            "homme":12,
+            "femme":32
+            
+        },
+    "tempsPartielEnfant":
+        {
+            "homme":7,
+            "femme":30
+            
+        },
+    "conseilJeune":
+        {
+            "homme":26,
+            "femme":74
+            
+        },
+    "conseilEtranger":
+        {
+            "homme":55,
+            "femme":45
+            
+        },
+    "conseilHandicap":
+        {
+            "homme":51,
+            "femme":49
+            
+        },
+    "conseilEcole":
+        {
+            "homme":31,
+            "femme":69
+            
+        },
+    "conseilCreche":
+        {
+            "homme":29,
+            "femme":71
+            
+        },
+    "president":
+        {
+            "homme":64,
+            "femme":36
+            
+        },
+    "secretaire":
+        {
+            "homme":47,
+            "femme":53
+            
+        },
+    "tresorier":
+        {
+            "homme":58,
+            "femme":42
+            
+        },
+    "ensemble":
+        {
+            "homme":57,
+            "femme":43
+            
+        },
+        
+        "taux_emploi":
+        {
+            "homme":63,
+            "femme":58
+            
+        }
+}  

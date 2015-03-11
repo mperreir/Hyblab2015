@@ -5,8 +5,9 @@
 
 #textindices3{
     color:white;
-    font-size:100%;
-    padding:5%;
+    font-size:90%;
+    padding-top:5%;
+    padding-right: 5%;
     font-family:proximanova-regular;
 }
 
@@ -15,6 +16,7 @@
 }
 
 .numClassement{
+   font-family:proximanova-semibold;
    color:white; 
 }
 
@@ -23,6 +25,7 @@
 }
 
 .villeClassement{
+    font-family:proximanova-bold;
     padding-left:5%;
     color:white;
 }
@@ -52,7 +55,7 @@ input[type=radio].css-checkbox + label.css-label {
 	line-height:22px;
 	background-repeat:no-repeat;
 	background-position: 0 0;
-	font-size:75%;
+	font-size:15px;
 	font-family:proximaNova-regular;
 	color:white;
 	vertical-align:middle;
@@ -65,7 +68,7 @@ input[type=radio].css-checkbox:checked + label.css-label {
 }
 
 label.css-label {
-	background-image:url(/ressource/svg/slide3/rad.png);
+	background-image:url(../ressource/svg/slide3/rad.png);
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -141,7 +144,7 @@ label.css-label {
 
 
 .classementNbrJour{
-    font-family:proximanova-bold, sans-serif;
+    font-family:proximanova-regular, sans-serif;
     font-size:14px;
     color:white;
 }

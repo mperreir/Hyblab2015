@@ -1,0 +1,126 @@
+#containerPage1 {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+#containerCharPage1 {
+  padding-bottom: 100px;
+  width : 100%;
+}
+/* header Page1 */
+#aidepage1{
+	font-family: fontTitreTexte;
+	font-size: 120%;
+	color : #E95260;
+	position: absolute;
+  z-index: 1;
+}
+#aidepage1:after {
+	content: ' ';
+	position:absolute;
+	width: 0;
+	height: 0;
+	left: 70px;
+	bottom:-30px;
+	border-style: solid;
+	border-top: 10px;
+	border-bottom: 10px; 
+	
+	border-right:10px; 
+	border-color: #E95260 transparent transparent transparent;
+}
+
+@media screen and (min-width: 767px) {
+  #dataPage1, #chartPage1 {
+    height: 100%;
+  }
+}
+#indicationPage1 {
+  font-size: 20px;
+}
+#page1-annee {
+    font-family: fontPourcentageChiffre;
+    font-size: 500%;
+    fill: #14A589;
+}
+#timeline {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:73px;
+}
+#timeline #timelineLine {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 5px;
+	background-color: #14A589;
+	top: 50%;
+	margin-left: -2.5px;
+}
+#timeline #timelineLineProgression {
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 0%;
+	height: 5px;
+	background-color: #E95260;;
+	top: 50%;
+	margin-left: -2.5px;
+}
+#timeline .timelineBlock {
+	position: relative;
+	display: inline-block;
+	width: 20%;
+}
+#timeline .timelineBlock .timeline-panel {
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+#timeline .timelineBlock .tl-circ {
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  text-align: center;
+  background: #14A589;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+  line-height: 20px;
+  margin-left: -10px;
+  border: 4px solid #90acc7;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  z-index: 100;
+  cursor: pointer;
+}
+#timeline .timelineBlock .tl-circ.selected {
+  background: #E95260;;
+}
+#timeline  .timelineBlock .timeline-panel {
+	left: 50%;
+  top: -36px;
+  font-family: fontPourcentageChiffre;
+  font-size: 150%;
+  color: #14A589;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.5); 
+	-ms-transform: rotate(-45deg);
+}
+#numberDataPage1{
+    font-family: fontPourcentageChiffre;
+    color: #14A589;
+}
+#dataPage1{
+    font-family: fontTitreTexte;
+    color: #14A589;
+}

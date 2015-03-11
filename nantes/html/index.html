@@ -15,12 +15,19 @@
 
 			<!-- écran Accueil -->
 			<section id="slide1">
-				<div id="getDown>"
+				<div class="logo_container_bis">
+					<a href="https://www.facebook.com/nantes.fr?fref=ts"><div class="logosBis" id="facebook"></div></a>
+					<a href="https://twitter.com/nantesfr?lang=fr"><div class="logosBis" id="twitter"></div></a>
+					<a href="https://www.behance.net/gallery/23551071/HYBLAB-2015-Egalit-Femmes-Hommes"><div class="logosBis" id="behance"></div></a>
+				</div>
+				<div id="getDown">
 					<img src="img/index/fleche_accueil.png"></img>
 				</div>
 			</section>
 			<!-- écran choix -->
 			<section id="slide2">
+			<img class="nuage_index" alt="nuage" src="img/index/nuages1_small.png" />
+			<img class="nuage_index" alt="nuage" src="img/index/nuages2_small.png" />
 				<p id="text_choix">Faites Votre Choix !</p>
 				<div id="div_bouton">
 					<div id="bouton1">
@@ -39,9 +46,21 @@
 					<a href="http://web.polytech.univ-nantes.fr"><div class="logos" id="Polytech"></div></a>
 					<a href="http://www.sciencescom.org"><div class="logos" id="SciencesCom"></div></a>
 				</div>
+				
+				<div class="logo_container_bis">
+					<a href="https://www.facebook.com/nantes.fr?fref=ts"><div class="logosBis" id="facebook"></div></a>
+					<a href="https://twitter.com/nantesfr?lang=fr"><div class="logosBis" id="twitter"></div></a>
+					<a href="https://www.behance.net/gallery/23551071/HYBLAB-2015-Egalit-Femmes-Hommes"><div class="logosBis" id="behance"></div></a>
+				</div>
 			</section>
 			
-			<section id="creditsBis"></section>
+			<section id="creditsBis">
+				<div class="logo_container_bis">
+					<a href="https://www.facebook.com/nantes.fr?fref=ts"><div class="logosBis" id="facebook"></div></a>
+					<a href="https://twitter.com/nantesfr?lang=fr"><div class="logosBis" id="twitter"></div></a>
+					<a href="https://www.behance.net/gallery/23551071/HYBLAB-2015-Egalit-Femmes-Hommes"><div class="logosBis" id="behance"></div></a>
+				</div>
+			</section>
 
 		</div>
 
@@ -49,9 +68,15 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
     	<script type="text/javascript" src="js/jquery.fittext.js"></script>
+    	<script type="text/javascript" src="js/animations.js"></script> <!-- animations -->
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('.main').onepage_scroll();
+				$('.main').onepage_scroll({
+					beforeMove: function(index)
+					{
+						if(index == '2') $(".nuage_index").cloud_animation($("#slide2").width());
+					}
+				});
 				$('p').fitText(1.2, {maxFontSize: '32px', minFontSize: '2px'});
 				$('#getDown').click(function() {
 					$('.main').moveDown();	

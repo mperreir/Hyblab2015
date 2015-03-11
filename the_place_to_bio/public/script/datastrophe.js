@@ -11,6 +11,7 @@ function DataStrophe(div){
 	};
 	
 	this.slide1 = {};
+	this.tooltips = [];
 	this.current_slide = 1;
 	
 	this.dataset = null;
@@ -45,7 +46,7 @@ function DataStrophe(div){
 	this.resources.load("bouteille2","images/bouteille2.png",{width:36,height:130});
 	this.resources.load("bouteille3","images/bouteille3.png",{width:36,height:130});
 	this.resources.load("sceptre","images/sceptre.png",{width:41,height:135});
-	this.resources.load("miel","images/miel.png",{width:107,height:108});
+	this.resources.load("miel","images/miel.1.png",{width:107,height:108});
 	this.resources.load("pomme1","images/pomme1.png",{width:107,height:100});
 	this.resources.load("pomme2","images/pomme2.png",{width:95,height:100});
 	this.resources.load("pomme3","images/pomme3.png",{width:81,height:100});
@@ -126,7 +127,7 @@ DataStrophe.prototype = {
 		this.slide1.conveyorbelt = new ConveyorBelt(this, $("#coveyorbelt")[0]);
 		
 		this.map_data = {};
-		
+		this.first = true;
 		//On lance fullpage
 		this.fullpage = $('#fullpage').fullpage({
 		 anchors: ['homepage','visualisations','production'],
@@ -136,13 +137,21 @@ DataStrophe.prototype = {
 			afterLoad: function(anchorLink, index){
 				//self.slideChanged(index);
 			},
-			afterRender: function(){ self.slide1.conveyorbelt.resize(); },
+			afterRender: function(){ self.slide1.conveyorbelt.resize();
+				
+				if(self.first){
+					self.first = false;
+					$("#main_page").fadeIn(function(){$(".loader").hide();});
+				}
+			},
 			onLeave: function(index, nextIndex, direction){
 				self.changeIcon(nextIndex)
 				self.slideChanged(nextIndex);
 			}
 		});
 		
+		
+		this.initIcons();
 		
 		this.slide1.slider_distrib = new Slider(this, $("#slider1")[0], {onChange: function(id){ self.updateDistrib(id) }});
 		this.slide1.slider_import = new Slider(this, $("#slider2")[0], {onChange: function(id){ self.updateImport(id)}});
@@ -156,7 +165,7 @@ DataStrophe.prototype = {
 		this.slide1.france = new Jauge(this, $("#jauge_france")[0], {image:this.res("jauge_france"), back:this.res("jauge_patriote"), min:0.1, max:0.9});
 		this.slide1.france_counter = new Counter2(this, $("#counter_france")[0], {suffix:"%"});
 		
-		this.slide1.bio = new Jauge(this, $("#jauge_bio")[0], {image:this.res("jauge_bio"), min:0.1, max:0.85});
+		this.slide1.bio = new Jauge(this, $("#jauge_bio")[0], {image:this.res("jauge_bio"), min:0.1, max:0.85, pc_max:35});
 		this.slide1.bio_counter = new Counter2(this, $("#counter_bio")[0], {suffix:"%"});
 		
 		
@@ -166,7 +175,7 @@ DataStrophe.prototype = {
 			self.updateDataSet();
 		}
 		
-		this.slide1.prix = new Counter2(this, $("#pc_prix")[0],{suffix:"%"});
+		this.slide1.prix = new Counter2(this, $("#pc_prix")[0],{suffix:"%", decimal: false});
 		this.slide1.prix_ok = true;
 		
 		this.slidemap = {};
@@ -215,7 +224,10 @@ DataStrophe.prototype = {
 				$("#section2").removeClass("fp-section");
 				$("#section2").removeClass("active");
 				$("#bouton_top_distribution").fadeOut();
-				if(this.current_slide == 2) this.changeSlide(1);
+				if(this.current_slide == 2){
+					this.changeSlide(1);
+					this.tooltips.hide();
+				}
 				$("#menu2").fadeOut();
 				changed = true;
 			}
@@ -236,7 +248,10 @@ DataStrophe.prototype = {
 				$("#section3").hide();
 				$("#section3").removeClass("fp-section");
 				$("#section3").removeClass("active");
-				if(this.current_slide == 3) this.changeSlide(1);
+				if(this.current_slide == 3){
+					this.tooltips.hide();
+					this.changeSlide(1);
+				}
 				$("#bouton_top_production").fadeOut();
 				$("#menu3").fadeOut();
 				changed = true;
@@ -268,6 +283,12 @@ DataStrophe.prototype = {
 	slideChanged: function(id){
 		if(this.cs2 == false && id == 2) id = 3;
 		this.current_slide = id;
+		if(this.current_slide == 1){
+			this.tooltips.hide();
+		}
+		else{
+			this.tooltips.show();
+		}
 	},
 	leftConveyor: function(){
 		if(this.current_slide==1) this.slide1.conveyorbelt.moveLeft();
@@ -288,10 +309,11 @@ DataStrophe.prototype = {
 	updateDataSet: function(){
 		var data = this.dataset[this.selected];
 		var self = this;
+		
 		$("#title").fadeOut(500,function(){ $(this).html(data.name); $(this).fadeIn(); });
 		$("#le_saviez_vous").fadeOut(500,function(){ $(this).html(data.le_saviez_vous); $(this).fadeIn(); });
 	
-		
+			
 		if(data.prix){
 			this.slide1.prix.setValue(data.prix);
 			if(!this.slide1.prix_ok){
@@ -349,6 +371,7 @@ DataStrophe.prototype = {
 			//
 		}
 		this.toggleSections(s2, s3);
+		this.tooltips.change($("#icon"+this.selected)[0], this.dataset[this.selected].name);
 		
 	},
 	updateDistrib: function(id){
@@ -399,5 +422,8 @@ DataStrophe.prototype = {
 		var data = this.dataset[this.selected];
 		this.slide1.bio.setValue(data.bio.values[id]);
 		this.slide1.bio_counter.setValue(data.bio.values[id]);
+	},
+	initIcons: function(){
+		this.tooltips = new Tooltip(this, $("#tooltips")[0]);
 	}
 };

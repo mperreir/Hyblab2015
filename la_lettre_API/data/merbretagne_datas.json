@@ -5,7 +5,7 @@
 	"city": "Brest",
 	"president": {
 	    "image": "img/merbretagne/merbretagne_president.png",
-	    "name": "Dominique Sennedot",
+	    "name": "Dominique Sennedot - Président",
 	    "biographie": "Directeur général du site DCNS de Brest, Dominique Sennedot préside le pôle Mer Bretagne Atlantique depuis 2013. Ingénieur de formation, il est diplômé de l’Ensta Bretagne. Dominique Sennedot a débuté sa carrière au sein de DCNS Brest en 1982 comme responsable de la maintenance des systèmes de navigation des sous-marins nucléaires lanceurs d'engins (SNLE). Il a occupé depuis plusieurs postes au sein de DCNS: chef de projet des systèmes de combat du porte-avions Charles-de-Gaulle,  responsable de la coordination armes et équipements navals. Avant de prendre la direction du site de Brest, Dominique Sennedot était, depuis 2007, responsable du programme d'adaptation des sous-marins nucléaires lanceurs d'engins au nouveau missile M51, l’un des chantiers importants de DCNS."
 	},
 	"link": "http://agence-api.fr/societes/pole-mer-bretagne-atlantique-24941.html",
@@ -37,7 +37,7 @@
 		"nombre": 	[5,2,10,7,5,5,2],
 		"montant":	[5841404,3623060.17,6432339.36,4980796.4,3824050.03,2498582.27,1037641],
 		"more": {
-			"title": "Asemar innove dans les drones marins",
+			"title": "Asemar innove </br> dans les drones marins",
 			"icon": "img/merbretagne/merbretagne_icon_id.svg",
 			"content": "Asemar a été l'un des premiers projets labélisés par le pôle Mer Bretagne Atlantique en 2005. Aujourd'hui terminé, Asemar a permis de développer un drone autonome et intelligent destiné à la surveillance de zones maritimes et à la recherche d’objets immergés. Porté par Thales underwater systems à Brest, le projet a été doté d'un budget de 15 M€. Et financé dans le cadre du 3ème appel à projets du Fonds Unique Interministériel. Autour de Thales, Asemar associe Eca robotics, l’Ensta Bretagne, l’Institut de recherche de l’Ecole navale, l’Isen de Brest et le laboratoire Amure de l’Université de Bretagne occidentale.</br></br><h4>Des process innovants</h4>Le drone dispose de moyens embarqués qui lui permettent lors de la mission d’avoir des réactions automatiques. Les systèmes traditionnels se contentent en effet de cartographier et d’enregistrer des données, qu’il est ensuite nécessaire de traiter à posteriori. Par sa capacité d'autonomie et de réaction, Asemar permet donc aux partenaires de se démarquer de la concurrence. Le marché actuel ne propose aucun système de ce genre. Le projet a conduit à la publication de 13 articles scientifiques. Les premières prises de commandes pour ce drone sont attendues à court-terme, avec un chiffre d’affaires potentiel de 30 M€ par an et la création de 22 emplois."
 		}

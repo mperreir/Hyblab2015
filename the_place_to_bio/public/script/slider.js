@@ -107,7 +107,7 @@ Slider.prototype = {
         
         this.ctx.textAlign = 'center';
         if(selected )this.ctx.font = "17pt sans-serif";
-		else this.ctx.font = "12pt sans-serif"
+		else this.ctx.font = "10pt sans-serif"
         this.ctx.fillText(value, x, y+width*2.5);
         
       

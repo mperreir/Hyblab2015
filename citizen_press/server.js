@@ -4,6 +4,6 @@ var app = express();
 
 //console.log("Page demandée :" + path.join(__dirname, '/public'));
 // serve static content from the html directory
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/html')));
 
 module.exports = app;

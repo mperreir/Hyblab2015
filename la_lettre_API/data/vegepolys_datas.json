@@ -1,11 +1,11 @@
 {
 	"name": "Végépolys",
 	"icon": "img/vegepolys/vegepolys_icon_id.svg",
-	"desc": "Implanté à Angers, Végépolys regroupe les entreprises du végétal spécialisé sur des projets d'innovation. Le pôle s’intéresse à l’horticulture ornementale, le maraîchage, l’arboriculture, les semences, la viticulture, les plantes médicinales et aromatiques, les champignons, la cidriculture et l’agrofourniture. À vocation mondiale, il a ouvert une antenne à Saint Pol de Léon (29).",
+	"desc": "Implanté à Angers, Végépolys regroupe les entreprises du végétal spécialisées sur des projets d'innovation. Le pôle s’intéresse à l’horticulture ornementale, le maraîchage, l’arboriculture, les semences, la viticulture, les plantes médicinales et aromatiques, les champignons, la cidriculture et l’agrofourniture. À vocation mondiale, il a ouvert une antenne à Saint Pol de Léon (29).",
 	"city": "Angers",
 	"president": {
 	    "image": "img/vegepolys/vegepolys_president.png",
-	    "name": "Jacques-Antoine Cesbron",
+	    "name": "Jacques-Antoine Cesbron - Président",
 	    "biographie": "Président de Végépolys depuis 2011, Jacques-Antoine Cesbron n’est autre que le petit-fils du fondateur de Cesbron, qu’il dirige depuis 1982. Basé à Saint-Sylvain d’Anjou (49), Cesbron (700 salariés - 95 M€) est spécialisé dans la conception et l’installation de process industriels frigorifiques, thermiques et énergétiques. Entré dans l’entreprise familiale en 1974, Jacques-Antoine Cesbron a continué le développement entrepris par ses ainés. Aujourd'hui, l'activité s'articule autour du froid industriel et commercial, du génie climatique et des équipements de fournils de boulangerie industrielle. Mais au delà de son entreprise, ses engagements sont multiples. Il fut notamment le premier président d’Envie Anjou en 1993, entreprise d'insertion par l'économie que permet la réparation et la vente d'électroménager d'occasion."
 	},
 	"link": "http://agence-api.fr/societes/pole-vegepolys-24812.html",
@@ -27,16 +27,16 @@
 			["PME",275],
 			["Entreprises de taille intermédiaire",23],
 			["Grandes entreprises",11]
-		],
-		"more": {
-			"title": "Petaal lutte contre le tigre du platane",
-			"icon": "img/vegepolys/vegepolys_icon_id.svg",
-			"content": "Ce ne sont pas moins de quatre traitements pour protéger biologiquement le platane d’un insecte qu’a permis de développer le projet collaboratif Petaal, labélisé par le pôle Végépolys en 2008. Le programme de recherche s’est déroulé sur 43 mois.  Les travaux ont porté tout d’abord sur la mise au point d'une méthode pour quantifier les niveaux de dégâts et de nuisances, à partir d'un système d'acquisition et d'analyse d'images. L’efficacité et les modes d'utilisation des nématodes, du champignon et du prédateur ont été étudiés pour définir une stratégie de contrôle biologique des populations du tigre du platane. Et une étude du consentement à payer des utilisateurs a été réalisée afin d’élaborer une stratégie combinant efficacité et coûts de mise en œuvre.</br></br><h4>Une envergure internationale</h4></br>Porté par le groupe néerlandais Kopper, dont l’une des filiales est à Pont-Saint-Martin (44), le projet Petaal (615 k€ de budget) regroupait entre autres If Tech, société angevine qui conçoit des produits biologiques innovants, Agrocampus ouest Angers et l’université d’Angers. Les produits sont commercialisés depuis 2012 par Kopper et If Tech. Le projet a généré le dépôt d’un brevet, de trois publications, dont deux scientifiques à comité de lecture, de quatre conférences à l’international et d’un congrès national. Trois emplois dont deux CDD ont été créé au cours du projet chez les membres du consortium."
-		}
+		]
 	},
 	"projetLabellise":{
 		"nombre":	[1,3,2,0,2,0,3],
-		"montant": 	[560000,1254037.91,805760.47,0,1358581.52,0,2808317]
+		"montant": 	[560000,1254037.91,805760.47,0,1358581.52,0,2808317],
+		"more": {
+			"title": "Petaal lutte </br> contre le tigre du platane",
+			"icon": "img/vegepolys/vegepolys_icon_id.svg",
+			"content": "Ce ne sont pas moins de quatre traitements pour protéger biologiquement le platane d’un insecte qu’a permis de développer le projet collaboratif Petaal, labélisé par le pôle Végépolys en 2008. Le programme de recherche s’est déroulé sur 43 mois.  Les travaux ont porté tout d’abord sur la mise au point d'une méthode pour quantifier les niveaux de dégâts et de nuisances, à partir d'un système d'acquisition et d'analyse d'images. L’efficacité et les modes d'utilisation des nématodes, du champignon et du prédateur ont été étudiés pour définir une stratégie de contrôle biologique des populations du tigre du platane. Et une étude du consentement à payer des utilisateurs a été réalisée afin d’élaborer une stratégie combinant efficacité et coûts de mise en œuvre.</br></br><h4>Une envergure internationale</h4></br>Porté par le groupe néerlandais Kopper, dont l’une des filiales est à Pont-Saint-Martin (44), le projet Petaal (615 k€ de budget) regroupait entre autres If Tech, société angevine qui conçoit des produits biologiques innovants, Agrocampus ouest Angers et l’université d’Angers. Les produits sont commercialisés depuis 2012 par Kopper et If Tech. Le projet a généré le dépôt d’un brevet, de trois publications, dont deux scientifiques à comité de lecture, de quatre conférences à l’international et d’un congrès national. Trois emplois dont deux CDD ont été créé au cours du projet chez les membres du consortium."
+		}
 	},
 	"resultats_intelectuels":{
 		"img": "img/vegepolys/vegepolys_brevets.svg"

@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function($){
     
     // Evènement pour suivi du scroll

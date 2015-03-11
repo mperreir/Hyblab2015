@@ -31,8 +31,8 @@ function remplirTabCroissant() {
 
 	$('#tabVilles').empty();
 	for (i = listeVille.length; i > 0; i--) { 
-		$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length+1)-i)+'</td><td class="villeClassement">'+nomAffichage(listeVille[i-1])+'</td><td class="classementNbrJour">'+getNbrPotable(listeVille[i-1])+' jours d\'air de bonne qualité</td></tr>');
-		//$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length+1)-i)+'</td><td class="villeClassement">'+nomAffichage(listeVille[i-1])+'</td><td><img src="ressource/svg/slide5/barre3.png" class="barreClassement" id="barre'+listeVille[i-1]+'" style="width: 0px;height:15px;"></td></tr>');
+		$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length+1)-i)+'</td><td class="villeClassement">'+nomAffichage(listeVille[i-1])+'</td></tr>');
+		//$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length+1)-i)+'</td><td class="villeClassement">'+nomAffichage(listeVille[i-1])+'</td><td><img src="/ressource/svg/slide5/barre3.png" class="barreClassement" id="barre'+listeVille[i-1]+'" style="width: 0px;height:15px;"></td></tr>');
 	}
 	for (i = 0; i < listeVille.length; i++) { 
 		var id = "#barre"+listeVille[i];
@@ -62,7 +62,10 @@ function remplirTabDecroissant() {
 	$('#tabVilles').empty();
 	for (i = 0; i < listeVille.length; i++) { 
 		
-		$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length-i))+'</td><td class="villeClassement">'+listeVille[i]+'</td><td class="barresClassement"><img src="ressource/svg/slide5/barre3.png" id="barre'+listeVille[i]+'" style="width: 0px;height:15px;"></td></tr>');
+		//$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length-i))+'</td><td class="villeClassement">'+listeVille[i]+'</td><td class="barresClassement"><img src="/ressource/svg/slide5/barre3.png" id="barre'+listeVille[i]+'" style="width: 0px;height:15px;"></td></tr>');
+		$('#tabVilles').append('<tr><td class="numClassement">'+((listeVille.length-i))+'</td><td class="villeClassement">'+nomAffichage(listeVille[i])+'</td></tr>');
+
+		
 	}
 	for (i = 0; i < listeVille.length; i++) { 
 		var id = "#barre"+listeVille[i];
@@ -82,21 +85,21 @@ function croissantTab() {
 	var nbrB;
 	
 	for (i = 0; i < listeVille.length; i++) { 
-		nbrA = getNbrPotable(listeVille[i]);
+		nbrA = getJoursSup6(listeVille[i]);
 		if(listeCroissant.length == 0){
 			listeCroissant[0] = listeVille[i];
-			nbrJours[0] = getNbrPotable(listeVille[i]);
+			nbrJours[0] = getJoursSup6(listeVille[i]);
 		}
 		else{
 			for (j = listeCroissant.length; j > 0; j--) { 
-				nbrB = getNbrPotable(listeCroissant[(j-1)]);
-				if(nbrB > nbrA){
+				nbrB = getJoursSup6(listeCroissant[(j-1)]);
+				if(nbrB < nbrA){
 					listeCroissant[j] = listeCroissant[(j-1)];
 					nbrJours[j] = nbrJours[(j-1)];
 				}
 				else{
 					listeCroissant[j] = listeVille[i];
-					nbrJours[j] = getNbrPotable(listeVille[i]);
+					nbrJours[j] = getJoursSup6(listeVille[i]);
 					break;
 				}
 			}

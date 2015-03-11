@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <style>
+            body{
+                background: #333;
+            }
+        </style>
+        <script src= "dist/snap.svg-min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="dataviz.js"></script>
+        <link rel="stylesheet" href="compteur.css" />
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <div id="percent"></div>
+            <svg id="svg"></svg>
+        </div>
+        
+        <script>
+        
+            $( document ).ready(function() {
+   
+    
+                $.getJSON('hyblab.json', function(data) {
+                    var pourcent1 = data.tempsPartiel.homme;
+                    var pourcent2 = data.tempsPartiel.femme;
+                   
+              
+        
+            var canvasSize = 200,
+            centre = canvasSize/2,
+            radius = canvasSize*0.8/2,
+            s = Snap('#svg'),
+            path = "",
+            arc = s.path(path),    
+            startY = centre-radius,
+            percDiv = document.getElementById('percent');
+  
+
+
+
+        function run(percent) {
+            s.circle(centre,centre,radius).attr({
+                fill: "none",
+                stroke: 'white',
+                strokeWidth: 12,
+                });
+                   
+            var endpoint = percent*360;
+            Snap.animate(0, endpoint,   function (val) {
+                arc.remove();
+
+                var d = val,
+                dr = d-90;
+                radians = Math.PI*(dr)/180,
+                endx = centre + radius*Math.cos(radians),
+                endy = centre + radius * Math.sin(radians),
+                largeArc = d>180 ? 1 : 0;  
+                path = "M"+centre+","+startY+" A"+radius+","+radius+" 0 "+largeArc+",1 "+endx+","+endy;
+  
+                arc = s.path(path);
+                arc.attr({
+                    stroke: '#28914b',
+                    fill: 'none',
+                    strokeWidth: 12
+                });
+                percDiv.innerHTML =    Math.round(val/360*100) +'%';
+
+            }, 2000, mina.easeinout);  
+        }
+
+        run(50);
+
+        }); 
+  
+    });        
+
+        </script>
+            
+       
+
+    </body>
+</html>

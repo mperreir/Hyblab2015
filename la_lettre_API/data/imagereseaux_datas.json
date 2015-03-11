@@ -1,11 +1,12 @@
 {
 	"name": "Images et réseaux",
 	"icon": "img/imagereseaux/imagereseaux_icon_id.svg",
-	"desc": "À vocation mondiale, Images et réseaux couvre la Bretagne et les Pays de la Loire. Le pôle a rassemble les forces régionales dans les domaines des télécoms, de l’internet, de la télévision et des images. Son ambition ? Innover dans les services et technologies associés aux nouveaux usages des contenus numériques et des médias. Basé à Lannion, le pôle a ouvert une antenne à Rennes.",
+	"desc": "À vocation mondiale, Images et réseaux couvre la Bretagne et les Pays de la Loire. Le pôle rassemble les forces régionales dans les domaines des télécoms, de l’internet, de la télévision et des images. Son ambition ? Innover dans les services et technologies associés aux nouveaux usages des contenus numériques et des médias. Basé à Lannion, le pôle a ouvert une antenne à Rennes.",
 	"city": "Lannion",
 	"president": {
 	    "image": "img/imagereseaux/imagereseaux_president.png",
-	    "name": "Vincent Marcatté",
+	    "name": "Vincent Marcatté - Président",
+	    "fonction": "Président",
 	    "biographie": "Vincent Marcatté est un homme de réseaux. A la tête d’Images et réseaux depuis 2008, il est également à l’origine de l’institut de recherche technologique B-com, qu’il préside. Vincent Marcatté a aussi présidé la Fondation de l'Université Rennes 1 entre 2010 et 2012. Depuis ses débuts professionnels, il montre de l'intérêt pour tout ce qui touche au potentiel du numérique. Et exercé plusieurs fonctions de management au sein des cellules de R&D de La Poste, France Télécom, d’Orange notamment. Depuis 2010, il assure la direction des partenariats et de l'open Innovation d'Orange Labs à Rennes. Vincent Marcatté est également chef du plan Réalité Augmentée de la Nouvelle France Industrielle."
 	},
 	"link": "http://agence-api.fr/societes/pole-images-et-reseaux-25412.html",
