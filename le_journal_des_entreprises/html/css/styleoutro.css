@@ -87,10 +87,6 @@
     font-family: bebasregular;
 }
 
-.vestiaires {
-    width: 100%;
-}
-
 .imgVest
 {
     width: 25.5%;
@@ -118,9 +114,22 @@
     margin-top: 55px;   
 }
 
-#pics
-{
-    margin-top : 6%;
+@media (max-width: 1000px) {
+    img.vestiaires
+    {
+        width: 98%;
+    }
+    
+    div.imgVest {
+        margin-left: 0px;
+    }
+}
+
+@media (max-height: 790px) {
+    img.vestiaires
+    {
+        height: 80%;
+    }
 }
 
 iframe#twitter-widget-0[style] {
@@ -141,3 +150,4 @@ span.IN-widget {
 {
     top: -5px;
 }
+
