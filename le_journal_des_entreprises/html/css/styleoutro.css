@@ -22,7 +22,7 @@
     font-family: bebasregular;
 }
 
-.nameSC, .nameSC a {
+.nameSC {
     text-transform: uppercase;
     color: #886924;
     font-family: bebasregular;
@@ -87,6 +87,10 @@
     font-family: bebasregular;
 }
 
+.vestiaires {
+    width: 100%;
+}
+
 .imgVest
 {
     width: 25.5%;
@@ -114,22 +118,9 @@
     margin-top: 55px;   
 }
 
-@media (max-width: 1000px) {
-    img.vestiaires
-    {
-        width: 98%;
-    }
-    
-    div.imgVest {
-        margin-left: 0px;
-    }
-}
-
-@media (max-height: 790px) {
-    img.vestiaires
-    {
-        height: 80%;
-    }
+#pics
+{
+    margin-top : 6%;
 }
 
 iframe#twitter-widget-0[style] {
@@ -150,4 +141,3 @@ span.IN-widget {
 {
     top: -5px;
 }
-

@@ -171,7 +171,6 @@ function loadDataviz(id) {
         if(data) {
             $('#DV2Description').html(data.desc);
             $('#DV2TownName').html(id);
-            
             $('#DV2pic').html("<img src=\"images/"+data.image+"\">");
             
             if(data.medaille1) {
